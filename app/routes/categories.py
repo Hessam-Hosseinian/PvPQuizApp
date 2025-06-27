@@ -4,7 +4,7 @@ from flask import Blueprint, request, jsonify, abort
 
 from app.db import query_db, modify_db
 
-questions_bp = Blueprint('questions_bp', __name__, url_prefix='/questions')
+categories_bp = Blueprint('categories_bp', __name__, url_prefix='/categories')
 
 
 def _convert_decimal(row: Dict[str, Any]) -> Dict[str, Any]:
@@ -28,8 +28,8 @@ def _build_update_clause(fields: Dict[str, Any], table: str, key: str) -> (str, 
     return sql, params
 
 
-@questions_bp.route('', methods=['GET'])
-def list_questions() -> Any:
+@categories_bp.route('', methods=['GET'])
+def list_categories() -> Any:
     """
     List questions with optional filters: verified, difficulty, category_id.
     Query params:
@@ -60,8 +60,8 @@ def list_questions() -> Any:
     return jsonify([_convert_decimal(q) for q in questions]), 200
 
 
-@questions_bp.route('', methods=['POST'])
-def create_question() -> Any:
+@categories_bp.route('', methods=['POST'])
+def create_category() -> Any:
     """
     Create a new unverified question.
     JSON body must include: text (str), category_id (int), difficulty (str).
@@ -91,8 +91,8 @@ def create_question() -> Any:
     return jsonify(_convert_decimal(new_q)), 201
 
 
-@questions_bp.route('/<int:q_id>', methods=['GET'])
-def get_question(q_id: int) -> Any:
+@categories_bp.route('/<int:c_id>', methods=['GET'])
+def get_category(c_id: int) -> Any:
     """
     Retrieve a question and its choices by question ID.
     """
@@ -115,8 +115,8 @@ def get_question(q_id: int) -> Any:
     return jsonify(question), 200
 
 
-@questions_bp.route('/<int:q_id>', methods=['PUT'])
-def update_question(q_id: int) -> Any:
+@categories_bp.route('/<int:c_id>', methods=['PUT'])
+def update_category(c_id: int) -> Any:
     """
     Update fields of a question.
     Allowed JSON fields: text, category_id, difficulty, is_verified, created_by.
@@ -146,8 +146,8 @@ def update_question(q_id: int) -> Any:
     return jsonify(_convert_decimal(updated)), 200
 
 
-@questions_bp.route('/<int:q_id>', methods=['DELETE'])
-def delete_question(q_id: int) -> Any:
+@categories_bp.route('/<int:c_id>', methods=['DELETE'])
+def delete_category(c_id: int) -> Any:
     """
     Delete a question by ID.
     Returns the deleted question ID.
