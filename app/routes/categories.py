@@ -1,127 +1,164 @@
-from flask import Blueprint, request, jsonify, abort, url_for
+from decimal import Decimal
+from typing import Any, Dict, List, Optional
+from flask import Blueprint, request, jsonify, abort
+
 from app.db import query_db, modify_db
-# from decorators import requires_admin
 
-categories_bp = Blueprint('categories_bp', __name__, url_prefix='/categories')
+questions_bp = Blueprint('questions_bp', __name__, url_prefix='/questions')
 
-@categories_bp.route('', methods=['GET'])
-def list_categories():
-    """
-    Return list of all categories
-    """
-    # Only read necessary columns
-    sql = "SELECT id, name, description, created_at FROM categories ORDER BY name"
-    categories = query_db(sql)
-    return jsonify(categories), 200
 
-@categories_bp.route('/<int:category_id>', methods=['GET'])
-def get_category(category_id):
+def _convert_decimal(row: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Return a category by ID
+    Convert Decimal values in a dict to floats for JSON serialization.
     """
-    sql = "SELECT id, name, description, created_at FROM categories WHERE id = %s"
-    category = query_db(sql, (category_id,), one=True)
-    if not category:
-        # If category not found, return 404
-        abort(404, description="Category not found")
-    return jsonify(category), 200
+    return {k: (float(v) if isinstance(v, Decimal) else v) for k, v in row.items()}
 
-@categories_bp.route('', methods=['POST'])
-# @requires_admin
-def create_category():
+
+def _build_update_clause(fields: Dict[str, Any], table: str, key: str) -> (str, List[Any]):
     """
-    Create a new category
+    Build dynamic SQL UPDATE clause and parameters.
+    Returns SQL string (without RETURNING) and parameters.
     """
-    # 1) Ensure request is JSON
+    parts: List[str] = []
+    params: List[Any] = []
+    for col, val in fields.items():
+        parts.append(f"{col} = %s")
+        params.append(val)
+    sql = f"UPDATE {table} SET {', '.join(parts)} WHERE {key} = %s"
+    return sql, params
+
+
+@questions_bp.route('', methods=['GET'])
+def list_questions() -> Any:
+    """
+    List questions with optional filters: verified, difficulty, category_id.
+    Query params:
+      - verified=true
+      - difficulty=<easy|medium|hard>
+      - category_id=<int>
+    """
+    args = request.args
+    conditions: List[str] = []
+    params: List[Any] = []
+
+    if args.get('verified') == 'true':
+        conditions.append('is_verified = TRUE')
+    if difficulty := args.get('difficulty'):
+        conditions.append('difficulty = %s')
+        params.append(difficulty)
+    if cat := args.get('category_id'):
+        conditions.append('category_id = %s')
+        params.append(int(cat))
+
+    where = f"WHERE {' AND '.join(conditions)}" if conditions else ''
+    sql = (
+        "SELECT id, text, category_id, difficulty, is_verified, created_at, created_by "
+        f"FROM questions {where};"
+    )
+    questions = query_db(sql, tuple(params))
+    # Convert any Decimal fields
+    return jsonify([_convert_decimal(q) for q in questions]), 200
+
+
+@questions_bp.route('', methods=['POST'])
+def create_question() -> Any:
+    """
+    Create a new unverified question.
+    JSON body must include: text (str), category_id (int), difficulty (str).
+    Optional: created_by (int).
+    Returns the created question record.
+    """
     if not request.is_json:
-        abort(400, description="Request must be in JSON format")
-
+        abort(400, description='Request must be JSON')
     data = request.get_json()
-    name = data.get('name')
-    description = data.get('description')
+    required = {'text', 'category_id', 'difficulty'}
+    if not required.issubset(data):
+        abort(400, description='Missing required fields: text, category_id, difficulty')
 
-    # 2) Validate required fields
-    if not name or not description:
-        abort(400, description="Missing required fields: name and description")
-
-    # 3) Insert into database with RETURNING id
+    sql = (
+        "INSERT INTO questions(text, category_id, difficulty, is_verified, created_by) "
+        "VALUES(%s, %s, %s, FALSE, %s) "
+        "RETURNING id, text, category_id, difficulty, is_verified, created_at, created_by"
+    )
+    params = (
+        data['text'], data['category_id'], data['difficulty'], data.get('created_by')
+    )
     try:
-        sql_insert = """
-            INSERT INTO categories (name, description)
-            VALUES (%s, %s)
-            RETURNING id
-        """
-        result = query_db(sql_insert, (name, description), one=True)
-        new_id = result.get('id')
+        new_q = query_db(sql, params, one=True)
+    except Exception as e:
+        abort(400, description=str(e))
 
-        # 4) Create resource URL (for Location header)
-        location = url_for('categories_bp.get_category', category_id=new_id)
+    return jsonify(_convert_decimal(new_q)), 201
 
-        return (
-            jsonify({"id": new_id, "message": "Category created"}),
-            201,
-            {"Location": location}
+
+@questions_bp.route('/<int:q_id>', methods=['GET'])
+def get_question(q_id: int) -> Any:
+    """
+    Retrieve a question and its choices by question ID.
+    """
+    sql_q = (
+        "SELECT id, text, category_id, difficulty, is_verified, created_at, created_by "
+        "FROM questions WHERE id = %s"
+    )
+    question = query_db(sql_q, (q_id,), one=True)
+    if not question:
+        abort(404, description=f'Question {q_id} not found')
+
+    sql_c = (
+        "SELECT id, choice_text, is_correct, position "
+        "FROM question_choices WHERE question_id = %s ORDER BY position"
+    )
+    choices = query_db(sql_c, (q_id,))
+
+    question = _convert_decimal(question)
+    question['choices'] = choices
+    return jsonify(question), 200
+
+
+@questions_bp.route('/<int:q_id>', methods=['PUT'])
+def update_question(q_id: int) -> Any:
+    """
+    Update fields of a question.
+    Allowed JSON fields: text, category_id, difficulty, is_verified, created_by.
+    Returns the updated question record.
+    """
+    if not request.is_json:
+        abort(400, description='Request must be JSON')
+    data = request.get_json()
+    allowed = {'text', 'category_id', 'difficulty', 'is_verified', 'created_by'}
+    fields = {k: data[k] for k in data if k in allowed}
+    if not fields:
+        abort(400, description='No valid fields to update')
+
+    sql, params = _build_update_clause(fields, 'questions', 'id')
+    params.append(q_id)
+    try:
+        updated = query_db(
+            sql + ' RETURNING id, text, category_id, difficulty, is_verified, created_at, created_by',
+            tuple(params),
+            one=True
         )
+        if not updated:
+            abort(404, description=f'Question {q_id} not found')
     except Exception as e:
-        # If name is duplicate or any other error occurs
-        return jsonify({"error": str(e)}), 400
+        abort(400, description=str(e))
 
-@categories_bp.route('/<int:category_id>', methods=['PUT'])
-# @requires_admin
-def update_category(category_id):
+    return jsonify(_convert_decimal(updated)), 200
+
+
+@questions_bp.route('/<int:q_id>', methods=['DELETE'])
+def delete_question(q_id: int) -> Any:
     """
-    Update an existing category
+    Delete a question by ID.
+    Returns the deleted question ID.
     """
-    if not request.is_json:
-        return jsonify({"error": "Request must be in JSON format"}), 400
-
-    data = request.get_json()
-    name = data.get('name')
-    description = data.get('description')
-
-    # At least one field must be provided
-    if name is None and description is None:
-        return jsonify({"error": "At least one of 'name' or 'description' must be provided"}), 400
-
-    # Check if category exists
-    existing = query_db("SELECT id FROM categories WHERE id = %s", (category_id,), one=True)
-    if not existing:
-        return jsonify({"error": "Category not found"}), 404
-
-    # Build dynamic UPDATE based on provided fields
+    sql = 'DELETE FROM questions WHERE id = %s RETURNING id'
     try:
-        parts = []
-        params = []
-
-        if name is not None:
-            parts.append("name = %s")
-            params.append(name)
-        if description is not None:
-            parts.append("description = %s")
-            params.append(description)
-
-        sql_update = f"UPDATE categories SET {', '.join(parts)} WHERE id = %s"
-        params.append(category_id)
-        print(sql_update, tuple(params))
-        modify_db(sql_update, tuple(params))
-        return jsonify({"message": "Category updated"}), 200
-
+        deleted = query_db(sql, (q_id,), one=True)
     except Exception as e:
-        return jsonify({"error": str(e)}), 400
+        abort(400, description=str(e))
 
-@categories_bp.route('/<int:category_id>', methods=['DELETE'])
-#   @requires_admin
-def delete_category(category_id):
-    """
-    Delete a category
-    """
-    # Check if category exists
-    existing = query_db("SELECT id FROM categories WHERE id = %s", (category_id,), one=True)
-    if not existing:
-        return jsonify({"error": "Category not found"}), 404
+    if not deleted:
+        abort(404, description=f'Question {q_id} not found')
 
-    try:
-        modify_db("DELETE FROM categories WHERE id = %s", (category_id,))
-        return jsonify({"message": "Category deleted"}), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
+    return jsonify({'deleted_id': deleted['id']}), 200
