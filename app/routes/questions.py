@@ -1,210 +1,164 @@
-import time
-from flask import Blueprint, request, jsonify
-import psycopg2
-from app.db import get_db
+from decimal import Decimal
+from typing import Any, Dict, List, Optional
+from flask import Blueprint, request, jsonify, abort
+
 from app.db import query_db, modify_db
-# from decorators import requires_admin
 
-# All question-related endpoints live under /questions
-questions_bp = Blueprint("questions_bp", __name__, url_prefix="/questions")
+questions_bp = Blueprint('questions_bp', __name__, url_prefix='/questions')
 
 
-@questions_bp.route("/", methods=["GET"])
-# @requires_admin
-def list_questions():
+def _convert_decimal(row: Dict[str, Any]) -> Dict[str, Any]:
     """
-    List all questions (preferably only verified ones).
-    Optional query-string parameters:
-      - ?verified=true
-      - ?difficulty=easy
-      - ?category_id=3
+    Convert Decimal values in a dict to floats for JSON serialization.
+    """
+    return {k: (float(v) if isinstance(v, Decimal) else v) for k, v in row.items()}
+
+
+def _build_update_clause(fields: Dict[str, Any], table: str, key: str) -> (str, List[Any]):
+    """
+    Build dynamic SQL UPDATE clause and parameters.
+    Returns SQL string (without RETURNING) and parameters.
+    """
+    parts: List[str] = []
+    params: List[Any] = []
+    for col, val in fields.items():
+        parts.append(f"{col} = %s")
+        params.append(val)
+    sql = f"UPDATE {table} SET {', '.join(parts)} WHERE {key} = %s"
+    return sql, params
+
+
+@questions_bp.route('', methods=['GET'])
+def list_questions() -> Any:
+    """
+    List questions with optional filters: verified, difficulty, category_id.
+    Query params:
+      - verified=true
+      - difficulty=<easy|medium|hard>
+      - category_id=<int>
     """
     args = request.args
-    conditions = []
-    params = []
+    conditions: List[str] = []
+    params: List[Any] = []
 
-    # If "verified=true" is passed, only return verified questions
-    if args.get("verified") == "true":
-        conditions.append("is_verified = TRUE")
-    # Filter by difficulty if provided
-    if args.get("difficulty"):
-        conditions.append("difficulty = %s")
-        params.append(args["difficulty"])
-    # Filter by category_id if provided
-    if args.get("category_id"):
-        conditions.append("category_id = %s")
-        params.append(int(args["category_id"]))
+    if args.get('verified') == 'true':
+        conditions.append('is_verified = TRUE')
+    if difficulty := args.get('difficulty'):
+        conditions.append('difficulty = %s')
+        params.append(difficulty)
+    if cat := args.get('category_id'):
+        conditions.append('category_id = %s')
+        params.append(int(cat))
 
-    where_clause = f"WHERE {' AND '.join(conditions)}" if conditions else ""
+    where = f"WHERE {' AND '.join(conditions)}" if conditions else ''
     sql = (
         "SELECT id, text, category_id, difficulty, is_verified, created_at, created_by "
-        f"FROM questions {where_clause};"
+        f"FROM questions {where};"
     )
-
-    conn = get_db()
-    cur = conn.cursor()
-    cur.execute(sql, tuple(params))
-    qs = cur.fetchall()
-    cur.close()
-    return jsonify(qs), 200
+    questions = query_db(sql, tuple(params))
+    # Convert any Decimal fields
+    return jsonify([_convert_decimal(q) for q in questions]), 200
 
 
-@questions_bp.route("/", methods=["POST"])
-# @requires_admin
-def create_question():
+@questions_bp.route('', methods=['POST'])
+def create_question() -> Any:
     """
-    Create a new question (unverified by default).
-    Expected JSON body:
-    {
-      "text": "...",
-      "category_id": 1,
-      "difficulty": "medium",
-      "created_by": 4
-    }
+    Create a new unverified question.
+    JSON body must include: text (str), category_id (int), difficulty (str).
+    Optional: created_by (int).
+    Returns the created question record.
     """
-    data = request.get_json() or {}
-    required = ["text", "category_id", "difficulty"]
-    if not all(field in data for field in required):
-        return jsonify({"error": "Missing required fields."}), 400
-    conn = get_db()
-    cur = conn.cursor()
+    if not request.is_json:
+        abort(400, description='Request must be JSON')
+    data = request.get_json()
+    required = {'text', 'category_id', 'difficulty'}
+    if not required.issubset(data):
+        abort(400, description='Missing required fields: text, category_id, difficulty')
+
+    sql = (
+        "INSERT INTO questions(text, category_id, difficulty, is_verified, created_by) "
+        "VALUES(%s, %s, %s, FALSE, %s) "
+        "RETURNING id, text, category_id, difficulty, is_verified, created_at, created_by"
+    )
+    params = (
+        data['text'], data['category_id'], data['difficulty'], data.get('created_by')
+    )
     try:
-        cur.execute(
-            """
-            INSERT INTO questions (text, category_id, difficulty, is_verified, created_by)
-            VALUES (%s, %s, %s, FALSE, %s)
-            RETURNING id, text, category_id, difficulty, is_verified, created_at, created_by;
-            """,
-            (data["text"], data["category_id"], data["difficulty"], data.get("created_by"))
-        )
-        new_q = cur.fetchone()
-        conn.commit()
-    except psycopg2.IntegrityError as e:
-        conn.rollback()
-        return jsonify({"error": f"Integrity error: {e}"}), 400
-    finally:
-        cur.close()
+        new_q = query_db(sql, params, one=True)
+    except Exception as e:
+        abort(400, description=str(e))
 
-    return jsonify(new_q), 201
+    return jsonify(_convert_decimal(new_q)), 201
 
 
-@questions_bp.route("/<int:q_id>", methods=["GET"])
-def get_question(q_id):
+@questions_bp.route('/<int:q_id>', methods=['GET'])
+def get_question(q_id: int) -> Any:
     """
-    Retrieve details of a specific question along with its choices.
+    Retrieve a question and its choices by question ID.
     """
-    conn = get_db()
-    cur = conn.cursor()
-    # First, fetch the question itself
-    cur.execute(
+    sql_q = (
         "SELECT id, text, category_id, difficulty, is_verified, created_at, created_by "
-        "FROM questions WHERE id = %s;",
-        (q_id,)
+        "FROM questions WHERE id = %s"
     )
-    question = cur.fetchone()
-    
+    question = query_db(sql_q, (q_id,), one=True)
     if not question:
-        cur.close()
-        return jsonify({"error": f"Question {q_id} not found."}), 404
+        abort(404, description=f'Question {q_id} not found')
 
-    # Then fetch its choices
-    cur.execute(
+    sql_c = (
         "SELECT id, choice_text, is_correct, position "
-        "FROM question_choices "
-        "WHERE question_id = %s ORDER BY position;",
-        (q_id,)
+        "FROM question_choices WHERE question_id = %s ORDER BY position"
     )
-    choices = cur.fetchall()
-   
-    cur.close()
-    
-    # Build a response dict (depending on how your DB driver returns rows;
-    # you may need to manually map tuple → dict keys).
-    # Here I'll assume 'question' is a tuple; adjust accordingly.
-    question_dict = {
-        "id": question["id"],
-        "text": question["text"],
-        "category_id": question["category_id"],
-        "difficulty": question["difficulty"],
-        "is_verified": question["is_verified"],
-        "created_at": question["created_at"],
-        "created_by": question["created_by"],
-        "choices": [
-            {
-                "id": choice["id"],
-                "choice_text": choice["choice_text"],
-                "is_correct": choice["is_correct"],
-                "position": choice["position"]
-            } for choice in choices
-        ]
-    }
+    choices = query_db(sql_c, (q_id,))
 
-    return jsonify(question_dict), 200
+    question = _convert_decimal(question)
+    question['choices'] = choices
+    return jsonify(question), 200
 
 
-@questions_bp.route("/<int:q_id>", methods=["PUT"])
-# @requires_admin
-def update_question(q_id):
+@questions_bp.route('/<int:q_id>', methods=['PUT'])
+def update_question(q_id: int) -> Any:
     """
-    Update a question (e.g., mark as verified or change text).
-    JSON body may include any of:
-      - text
-      - category_id
-      - difficulty
-      - is_verified
-      - created_by
+    Update fields of a question.
+    Allowed JSON fields: text, category_id, difficulty, is_verified, created_by.
+    Returns the updated question record.
     """
-    data = request.get_json() or {}
-    allowed_fields = {"text", "category_id", "difficulty", "is_verified", "created_by"}
-    fields_to_update = {k: data[k] for k in data if k in allowed_fields}
+    if not request.is_json:
+        abort(400, description='Request must be JSON')
+    data = request.get_json()
+    allowed = {'text', 'category_id', 'difficulty', 'is_verified', 'created_by'}
+    fields = {k: data[k] for k in data if k in allowed}
+    if not fields:
+        abort(400, description='No valid fields to update')
 
-    if not fields_to_update:
-        return jsonify({"error": "No valid fields to update."}), 400
-
-    set_clause = ", ".join(f"{k} = %s" for k in fields_to_update)
-    params = list(fields_to_update.values()) + [q_id]
-
-    conn = get_db()
-    cur = conn.cursor()
+    sql, params = _build_update_clause(fields, 'questions', 'id')
+    params.append(q_id)
     try:
-        cur.execute(
-            f"""
-            UPDATE questions
-            SET {set_clause}
-            WHERE id = %s
-            RETURNING id, text, category_id, difficulty, is_verified, created_at, created_by;
-            """,
-            params
+        updated = query_db(
+            sql + ' RETURNING id, text, category_id, difficulty, is_verified, created_at, created_by',
+            tuple(params),
+            one=True
         )
-        updated = cur.fetchone()
         if not updated:
-            conn.rollback()
-            return jsonify({"error": f"Question {q_id} not found."}), 404
-        conn.commit()
-    except psycopg2.IntegrityError as e:
-        conn.rollback()
-        return jsonify({"error": f"Integrity error: {e}"}), 400
-    finally:
-        cur.close()
+            abort(404, description=f'Question {q_id} not found')
+    except Exception as e:
+        abort(400, description=str(e))
 
-    return jsonify(updated), 200
+    return jsonify(_convert_decimal(updated)), 200
 
 
-@questions_bp.route("/<int:q_id>", methods=["DELETE"])
-#   @requires_admin
-def delete_question(q_id):
+@questions_bp.route('/<int:q_id>', methods=['DELETE'])
+def delete_question(q_id: int) -> Any:
     """
-    Delete a question by its ID.
+    Delete a question by ID.
+    Returns the deleted question ID.
     """
-    conn = get_db()
-    cur = conn.cursor()
-    cur.execute("DELETE FROM questions CASCADE WHERE id = %s RETURNING id;", (q_id,))
-    deleted = cur.fetchone()
-    print(deleted)
+    sql = 'DELETE FROM questions WHERE id = %s RETURNING id'
+    try:
+        deleted = query_db(sql, (q_id,), one=True)
+    except Exception as e:
+        abort(400, description=str(e))
+
     if not deleted:
-        conn.rollback()
-        cur.close()
-        return jsonify({"error": f"Question {q_id} not found."}), 404
-    conn.commit()
-    cur.close()
-    return jsonify({"deleted_id": deleted["id"]}), 200
+        abort(404, description=f'Question {q_id} not found')
+
+    return jsonify({'deleted_id': deleted['id']}), 200
