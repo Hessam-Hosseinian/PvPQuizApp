@@ -36,14 +36,14 @@ def create_app(config_class=Config):
 
     # # Register blueprints
     from .routes import (
-        users
+        users, stats
         # questions, stats, notifications,
         # chat, games, game_types, tags, categories, leaderboards
     )
     
     app.register_blueprint(users.users_bp)
     # app.register_blueprint(questions.questions_bp)
-    # app.register_blueprint(stats.stats_bp)
+    app.register_blueprint(stats.stats_bp)
     # app.register_blueprint(notifications.notifications_bp)
     # app.register_blueprint(chat.chat_bp)
     # app.register_blueprint(games.games_bp)
