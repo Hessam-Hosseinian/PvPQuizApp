@@ -3,7 +3,7 @@ from flask_cors import CORS
 from config import Config
 from . import db
 from flask_login import LoginManager
-from app.models.user import User
+# from app.models.user import User
 
 login_manager = LoginManager()
 

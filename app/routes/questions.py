@@ -3,14 +3,14 @@ from flask import Blueprint, request, jsonify
 import psycopg2
 from ..db import get_db
 from app.db import query_db, modify_db
-from decorators import requires_admin
+# from decorators import requires_admin
 
 # All question-related endpoints live under /questions
 questions_bp = Blueprint("questions_bp", __name__, url_prefix="/questions")
 
 
 @questions_bp.route("/", methods=["GET"])
-@requires_admin
+# @requires_admin
 def list_questions():
     """
     List all questions (preferably only verified ones).
@@ -50,7 +50,7 @@ def list_questions():
 
 
 @questions_bp.route("/", methods=["POST"])
-@requires_admin
+# @requires_admin
 def create_question():
     """
     Create a new question (unverified by default).
@@ -143,7 +143,7 @@ def get_question(q_id):
 
 
 @questions_bp.route("/<int:q_id>", methods=["PUT"])
-@requires_admin
+# @requires_admin
 def update_question(q_id):
     """
     Update a question (e.g., mark as verified or change text).
@@ -191,7 +191,7 @@ def update_question(q_id):
 
 
 @questions_bp.route("/<int:q_id>", methods=["DELETE"])
-@requires_admin
+#   @requires_admin
 def delete_question(q_id):
     """
     Delete a question by its ID.
