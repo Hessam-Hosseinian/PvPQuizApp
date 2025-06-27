@@ -24,17 +24,24 @@ def create_app(config_class=Config):
     # Initialize database
     db.init_app(app)
    
+    # Always initialize schema on app start
+    with app.app_context():
+        try:
+            db.init_db()
+        except Exception as e:
+            print(f"Schema initialization error: {e}")
 
-    # login_manager.init_app(app)
-    # login_manager.login_view = "users.login_user"
+    login_manager.init_app(app)
+    login_manager.login_view = "users.login_user"
 
     # # Register blueprints
-    # from .routes import (
-    #     users, questions, stats, notifications,
-    #     chat, games, game_types, tags, categories, leaderboards
-    # )
+    from .routes import (
+        users
+        # questions, stats, notifications,
+        # chat, games, game_types, tags, categories, leaderboards
+    )
     
-    # app.register_blueprint(users.users_bp)
+    app.register_blueprint(users.users_bp)
     # app.register_blueprint(questions.questions_bp)
     # app.register_blueprint(stats.stats_bp)
     # app.register_blueprint(notifications.notifications_bp)
