@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS users (
     email VARCHAR(120) UNIQUE NOT NULL
         CHECK (email ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'),
     password_hash VARCHAR(255) NOT NULL,
+    avatar VARCHAR(255),
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     last_login TIMESTAMP,
     is_active BOOLEAN NOT NULL DEFAULT TRUE,
@@ -569,7 +570,7 @@ INSERT INTO notification_types (name, template, importance) VALUES
    'Match found! Join your game with {opponent} now.',
    'high'),
   ('password_reset',
-   'A request to reset your password was received. If this wasn’t you, ignore this message.',
+   'A request to reset your password was received. If this wasn''t you, ignore this message.',
    'high'),
   ('email_verified',
    'Your email address has been successfully verified.',

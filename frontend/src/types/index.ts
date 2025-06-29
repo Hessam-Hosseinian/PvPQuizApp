@@ -8,6 +8,21 @@ export interface User {
   role: 'user' | 'admin' | 'moderator';
   current_level: number;
   total_xp: number;
+  bio?: string;
+  location?: string;
+  website?: string;
+  twitter?: string;
+  instagram?: string;
+  linkedin?: string;
+  avatar?: string;
+  preferences?: {
+    notifications?: boolean;
+    soundEffects?: boolean;
+    darkMode?: boolean;
+    publicProfile?: boolean;
+    emailUpdates?: boolean;
+    gameReminders?: boolean;
+  };
 }
 
 export interface Category {
@@ -15,6 +30,31 @@ export interface Category {
   name: string;
   description?: string;
   created_at: string;
+}
+
+export interface CategoryStats {
+  total_questions: number;
+  verified_questions: number;
+  easy_questions: number;
+  medium_questions: number;
+  hard_questions: number;
+  total_players: number;
+  active_players: number;
+  average_score: number;
+  best_score: number;
+  total_games: number;
+  average_completion_time: number;
+  last_played_at?: string;
+}
+
+export interface CategoryPlayer {
+  user_id: number;
+  username: string;
+  games_played: number;
+  best_score: number;
+  average_score: number;
+  last_played_at: string;
+  rank: number;
 }
 
 export interface Question {
@@ -33,6 +73,13 @@ export interface QuestionChoice {
   choice_text: string;
   is_correct: boolean;
   position: 'A' | 'B' | 'C' | 'D';
+}
+
+export interface DifficultyStats {
+  easy: number;
+  medium: number;
+  hard: number;
+  total: number;
 }
 
 export interface Game {

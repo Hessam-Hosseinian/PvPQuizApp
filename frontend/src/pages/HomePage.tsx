@@ -691,7 +691,7 @@ const HomePage: React.FC = () => {
                 Categories become popular as more players choose them for their games. Start playing to see which categories are trending!
               </p>
               {user ? (
-                <Link to="/play" aria-label="Explore quiz categories">
+                <Link to="/categories" aria-label="Explore quiz categories">
                   <Button className="transform hover:scale-105 transition-transform bg-gradient-to-r from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700">
                     <PlayIcon className="w-5 h-5 mr-2" aria-hidden="true" />
                     Explore Categories

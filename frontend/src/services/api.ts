@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { User, Category, Question, Game, GameType, LeaderboardEntry, UserStats, Notification } from '../types';
 
-const API_BASE_URL = 'http://127.0.0.1:5000';
+const API_BASE_URL = 'http://192.168.1.110:5000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -25,6 +25,23 @@ export const authAPI = {
   
   updateProfile: (userId: number, data: Partial<User>) =>
     api.put(`/users/${userId}`, data),
+  
+  changePassword: (userId: number, data: { currentPassword: string; newPassword: string }) =>
+    api.post(`/users/${userId}/change-password`, data),
+  
+  deleteAccount: (userId: number) => api.delete(`/users/${userId}`),
+  
+  uploadAvatar: (file: File) => {
+    const formData = new FormData();
+    formData.append('avatar', file);
+    return api.post('/users/avatar', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+  },
+  
+  deleteAvatar: () => api.delete('/users/avatar'),
 };
 
 // Users API
@@ -43,6 +60,9 @@ export const categoriesAPI = {
   updateCategory: (id: number, data: Partial<Category>) =>
     api.put(`/categories/${id}`, data),
   deleteCategory: (id: number) => api.delete(`/categories/${id}`),
+  getCategoryStats: (categoryId: number) => api.get(`/categories/${categoryId}/stats`),
+  getCategoryPlayers: (categoryId: number) => api.get(`/categories/${categoryId}/players`),
+  getCategoryLeaderboard: (categoryId: number) => api.get(`/categories/${categoryId}/leaderboard`),
 };
 
 // Questions API
@@ -53,6 +73,8 @@ export const questionsAPI = {
   createQuestion: (data: Partial<Question>) => api.post('/questions', data),
   updateQuestion: (id: number, data: Partial<Question>) => api.put(`/questions/${id}`, data),
   deleteQuestion: (id: number) => api.delete(`/questions/${id}`),
+  getDifficultyStats: (params?: { category_id?: number; verified?: boolean }) =>
+    api.get('/questions/difficulty-stats', { params }),
 };
 
 // Games API

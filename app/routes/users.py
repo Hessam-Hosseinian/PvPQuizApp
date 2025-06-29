@@ -1,7 +1,10 @@
-from flask import Blueprint, request, jsonify, session
+from flask import Blueprint, request, jsonify, session, current_app, send_from_directory
 from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.utils import secure_filename
 from psycopg2 import IntegrityError
 from functools import wraps
+import os
+import uuid
 from app.db import query_db, modify_db
 
 users_bp = Blueprint('users', __name__, url_prefix='/users')
@@ -18,20 +21,44 @@ def error_response(message, code=400, **kwargs):
     return jsonify({"error": message, **kwargs}), code
 
 def login_required(f):
-    # @wraps(f)
+    @wraps(f)
     def wrapper(*args, **kwargs):
-   
         if 'user_id' not in session:
             return error_response("Login required to access this resource", 401)
         return f(*args, **kwargs)
     return wrapper
+
+def allowed_file(filename):
+    """Check if the uploaded file has an allowed extension"""
+    ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'webp'}
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+def save_avatar(file):
+    """Save uploaded avatar file and return filename"""
+    if file and allowed_file(file.filename):
+        # Generate unique filename
+        filename = secure_filename(file.filename)
+        ext = filename.rsplit('.', 1)[1].lower()
+        unique_filename = f"{uuid.uuid4().hex}.{ext}"
+        
+        # Ensure upload directory exists
+        upload_dir = os.path.join(current_app.root_path, '..', 'static', 'uploads', 'avatars')
+        os.makedirs(upload_dir, exist_ok=True)
+        
+        # Save file
+        file_path = os.path.join(upload_dir, unique_filename)
+        file.save(file_path)
+        
+        return unique_filename
+    return None
 
 # ---------------- API Routes ---------------- #
 
 @users_bp.route('', methods=['GET'])
 def list_users():
     users = query_db("""
-        SELECT id, username, email, created_at, last_login, is_active, role, current_level, total_xp 
+        SELECT id, username, email, created_at, last_login, is_active, role, current_level, total_xp, avatar
         FROM users
     """)
     return jsonify(users), 200
@@ -98,7 +125,7 @@ def create_user():
 @users_bp.route('/<int:user_id>', methods=['GET'])
 def get_user(user_id):
     user = query_db("""
-        SELECT id, username, email, created_at, last_login, is_active, role, current_level, total_xp
+        SELECT id, username, email, created_at, last_login, is_active, role, current_level, total_xp, avatar
         FROM users WHERE id = %s
     """, (user_id,), one=True)
     
@@ -119,7 +146,8 @@ def update_user(user_id):
         'role': "role = %s",
         'current_level': "current_level = %s",
         'total_xp': "total_xp = %s",
-        'password': "password_hash = %s"
+        'password': "password_hash = %s",
+        'avatar': "avatar = %s"
     }
 
     for key, clause in mapping.items():
@@ -198,10 +226,94 @@ def logout_user():
 @login_required
 def user_profile():
     user = query_db("""
-        SELECT id, username, email, created_at, last_login, current_level, total_xp ,role
+        SELECT id, username, email, created_at, last_login, current_level, total_xp, role, avatar
         FROM users WHERE id = %s
     """, (session['user_id'],), one=True)
 
     if not user:
         return error_response("User not found", 404)
     return jsonify(user), 200
+
+
+@users_bp.route('/avatar', methods=['POST'])
+@login_required
+def upload_avatar():
+    """Upload user avatar"""
+    if 'avatar' not in request.files:
+        return error_response("No avatar file provided")
+    
+    file = request.files['avatar']
+    if file.filename == '':
+        return error_response("No file selected")
+    
+    # Save the new avatar
+    filename = save_avatar(file)
+    if not filename:
+        return error_response("Invalid file type. Allowed: png, jpg, jpeg, gif, webp")
+    
+    # Get current avatar to delete old file
+    current_user = query_db("SELECT avatar FROM users WHERE id = %s", (session['user_id'],), one=True)
+    old_avatar = current_user.get('avatar') if current_user else None
+    
+    # Update database
+    try:
+        modify_db("UPDATE users SET avatar = %s WHERE id = %s", (filename, session['user_id']))
+        
+        # Delete old avatar file if it exists
+        if old_avatar:
+            old_avatar_path = os.path.join(
+                current_app.root_path, '..', 'static', 'uploads', 'avatars', old_avatar
+            )
+            if os.path.exists(old_avatar_path):
+                os.remove(old_avatar_path)
+        
+        return jsonify({
+            "message": "Avatar uploaded successfully",
+            "avatar": filename
+        }), 200
+        
+    except Exception as e:
+        # Delete the new file if database update failed
+        new_avatar_path = os.path.join(
+            current_app.root_path, '..', 'static', 'uploads', 'avatars', filename
+        )
+        if os.path.exists(new_avatar_path):
+            os.remove(new_avatar_path)
+        return error_response("Failed to update avatar", 500)
+
+
+@users_bp.route('/avatar', methods=['DELETE'])
+@login_required
+def delete_avatar():
+    """Delete user avatar"""
+    # Get current avatar
+    current_user = query_db("SELECT avatar FROM users WHERE id = %s", (session['user_id'],), one=True)
+    if not current_user or not current_user.get('avatar'):
+        return error_response("No avatar to delete", 404)
+    
+    avatar_filename = current_user['avatar']
+    
+    # Update database
+    try:
+        modify_db("UPDATE users SET avatar = NULL WHERE id = %s", (session['user_id'],))
+        
+        # Delete avatar file
+        avatar_path = os.path.join(
+            current_app.root_path, '..', 'static', 'uploads', 'avatars', avatar_filename
+        )
+        if os.path.exists(avatar_path):
+            os.remove(avatar_path)
+        
+        return jsonify({"message": "Avatar deleted successfully"}), 200
+        
+    except Exception as e:
+        return error_response("Failed to delete avatar", 500)
+
+
+@users_bp.route('/avatar/<filename>', methods=['GET'])
+def serve_avatar(filename):
+    """Serve avatar file from static/uploads/avatars directory"""
+    avatar_path = os.path.join(current_app.root_path, '..', 'static', 'uploads', 'avatars', filename)
+    if not os.path.exists(avatar_path):
+        return error_response("Avatar not found", 404)
+    return send_from_directory(os.path.dirname(avatar_path), os.path.basename(avatar_path))

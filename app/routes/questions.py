@@ -162,3 +162,52 @@ def delete_question(q_id: int) -> Any:
         abort(404, description=f'Question {q_id} not found')
 
     return jsonify({'deleted_id': deleted['id']}), 200
+
+
+@questions_bp.route('/difficulty-stats', methods=['GET'])
+def get_difficulty_stats() -> Any:
+    """
+    Get difficulty statistics for questions.
+    Query params:
+      - category_id=<int> (optional, filter by category)
+      - verified=true (optional, only verified questions)
+    Returns difficulty distribution for questions.
+    """
+    args = request.args
+    conditions: List[str] = []
+    params: List[Any] = []
+
+    if args.get('verified') == 'true':
+        conditions.append('is_verified = TRUE')
+    if cat := args.get('category_id'):
+        conditions.append('category_id = %s')
+        params.append(int(cat))
+
+    where = f"WHERE {' AND '.join(conditions)}" if conditions else ''
+    
+    sql = (
+        "SELECT difficulty, COUNT(*) as count "
+        f"FROM questions {where} "
+        "GROUP BY difficulty "
+        "ORDER BY difficulty"
+    )
+    
+    try:
+        stats = query_db(sql, tuple(params))
+        # Convert to a more convenient format
+        result = {
+            'easy': 0,
+            'medium': 0,
+            'hard': 0,
+            'total': 0
+        }
+        
+        for stat in stats:
+            difficulty = stat['difficulty']
+            count = stat['count']
+            result[difficulty] = count
+            result['total'] += count
+            
+        return jsonify(result), 200
+    except Exception as e:
+        abort(400, description=str(e))

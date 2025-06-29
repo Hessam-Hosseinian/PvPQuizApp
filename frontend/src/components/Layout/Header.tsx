@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { UserIcon, TrophyIcon, PlayIcon, TagIcon, LogOutIcon as LogoutIcon, MenuIcon, XIcon, HomeIcon } from 'lucide-react';
+import Avatar from '../UI/Avatar';
 
 const Header: React.FC = () => {
   const { user, logout } = useAuth();
@@ -55,9 +56,7 @@ const Header: React.FC = () => {
           {/* User Menu */}
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-secondary-600 rounded-full flex items-center justify-center">
-                <UserIcon className="w-4 h-4 text-white" />
-              </div>
+              <Avatar src={user.avatar} size="sm" />
               <span className="hidden sm:block text-sm font-medium text-white">
                 {user.username}
               </span>
