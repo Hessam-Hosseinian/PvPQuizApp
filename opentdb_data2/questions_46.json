@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Terry Pratchett&#039;s Discworld novel &#039;Wyrd Sisters&#039;, which of these are not one of the three main witches?",
+      "correct_answer": "Winny Hathersham",
+      "incorrect_answers": [
+        "Granny Weatherwax",
+        "Nanny Ogg",
+        "Magrat Garlick"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Who is a co-founder of music streaming service Spotify?",
+      "correct_answer": "Daniel Ek",
+      "incorrect_answers": [
+        "Sean Parker",
+        "Felix Miller",
+        "Michael Breidenbruecker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of Team Fortress 2&#039;s Heavy Weapons Guy&#039;s minigun?",
+      "correct_answer": "Sasha",
+      "incorrect_answers": [
+        "Betty",
+        "Anna",
+        "Diana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+      "correct_answer": "1729",
+      "incorrect_answers": [
+        "91",
+        "561",
+        "4104"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of the following films was NOT directed by Hayao Miyazaki?",
+      "correct_answer": "Wolf Children",
+      "incorrect_answers": [
+        "Princess Mononoke",
+        "Spirited Away",
+        "Kiki&#039;s Delivery Service"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "When was the Playstation 3 released?",
+      "correct_answer": "November 11, 2006",
+      "incorrect_answers": [
+        "January 8, 2007",
+        "December 25, 2007",
+        "July 16, 2006"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the largest country, by area, that has only one time zone?",
+      "correct_answer": "China",
+      "incorrect_answers": [
+        "Canada",
+        "India",
+        "Russia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT the name of an album released by American rapper Viper?",
+      "correct_answer": "The Life of Pablo",
+      "incorrect_answers": [
+        "Kill Urself My Man",
+        "You&#039;ll Cowards Don&#039;t Even Smoke Crack",
+        "Yo Wife Handcuffin&#039; Me"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "This movie contains the quote, &quot;I love the smell of napalm in the morning!&quot;",
+      "correct_answer": "Apocalypse Now",
+      "incorrect_answers": [
+        "Platoon",
+        "The Deer Hunter",
+        "Full Metal Jacket"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Fallout series, on which date did The Great War happen?",
+      "correct_answer": "October 23rd, 2077",
+      "incorrect_answers": [
+        "May 15th, 2058",
+        "December 14th, 2069",
+        "November 5th, 2076"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who wrote the award winning musical &quot;In The Heights&quot;?",
+      "correct_answer": "Lin-Manuel Miranda",
+      "incorrect_answers": [
+        "Steven Sondheim",
+        "Francis Scott Key",
+        "John Phillips Sousa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Green Day?",
+      "correct_answer": "Billie Joe Armstrong",
+      "incorrect_answers": [
+        "Mike Dirnt",
+        "Sean Hughes",
+        "Tr&eacute; Cool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "What is the name of the Greek god of peaceful deaths?",
+      "correct_answer": "Thanatos",
+      "incorrect_answers": [
+        "Tartarus",
+        "Hades",
+        "Moros"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who designed the album cover for True Romance, an album by Estelle?",
+      "correct_answer": "Rebecca Sugar",
+      "incorrect_answers": [
+        "Matt Burnett",
+        "Ian Jones Quartey",
+        "Ben Leven"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What alcoholic drink is mainly made from juniper berries?",
+      "correct_answer": "Gin",
+      "incorrect_answers": [
+        "Vodka",
+        "Rum",
+        "Tequila"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Rocket League is a game which features..",
+      "correct_answer": "Cars",
+      "incorrect_answers": [
+        "Helicopters",
+        "Planes",
+        "Submarines"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What was Maggie Simpson&#039;s first canonical word, not including the Tracey Ullman shorts?",
+      "correct_answer": "Daddy.",
+      "incorrect_answers": [
+        "Sequel?",
+        "Ja!",
+        "Rusty!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What national museum will you find in Cooperstown, New York?",
+      "correct_answer": "National Baseball Hall of Fame",
+      "incorrect_answers": [
+        "Metropolitan Museum of Art",
+        "National Toy Hall of Fame",
+        "Museum of Modern Art"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "The success of DC Comics&#039; Swamp Thing, Sandman, and other books in a similar style, led to the creation of what new imprint in 1993?",
+      "correct_answer": "Vertigo",
+      "incorrect_answers": [
+        "Impact",
+        "New Universe",
+        "Red Circle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the game &quot;Eliminator&quot; released?",
+      "correct_answer": "1998",
+      "incorrect_answers": [
+        "2000",
+        "1999",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?",
+      "correct_answer": "August 19",
+      "incorrect_answers": [
+        "August 21",
+        "December 26",
+        "December 24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "&quot;Some people call me the space cowboy&quot; is the first line from what song?",
+      "correct_answer": "The Joker",
+      "incorrect_answers": [
+        "Fandango",
+        "Take The Money and Run",
+        "Fly Like an Eagle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the original name of  &quot;Minecraft&quot;?",
+      "correct_answer": "Cave Game",
+      "incorrect_answers": [
+        "Minecraft: Order of the Stone",
+        "Dig And Build",
+        "Infiniminer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which letter do you need to have on a European driver license in order to ride any motorbikes?",
+      "correct_answer": "A",
+      "incorrect_answers": [
+        "X",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;The Binding of Isaac&quot;, what is the name of the final boss that you fight in The Void?",
+      "correct_answer": "Delirium",
+      "incorrect_answers": [
+        "Mega Satan",
+        "Hush",
+        "The Lamb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Which of the following Argentinian presidents was elected in 2015?",
+      "correct_answer": "Mauricio Macri",
+      "incorrect_answers": [
+        "Cristina Fernandez de Kirchner",
+        "Nestor Kirchner",
+        "Juan Domingo Peron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?",
+      "correct_answer": "Bayonetta",
+      "incorrect_answers": [
+        "Cloud",
+        "Ryu",
+        "Megaman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In Marvel Comics, Taurus is the founder and leader of which criminal organization?",
+      "correct_answer": "Zodiac",
+      "incorrect_answers": [
+        "Scorpio",
+        "Tiger Mafia",
+        "The Union"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Hel was the daughter of which Norse Mythological figure?",
+      "correct_answer": "Loki",
+      "incorrect_answers": [
+        "Thor",
+        "Odin",
+        "Balder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
+      "correct_answer": "Cognitive Dissonance",
+      "incorrect_answers": [
+        "Flip-Flop Syndrome",
+        "Split-Brain",
+        "Blind Sight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Which of the following Autobot names in Michael Bay&#039;s movies was NOT a name for a Transformer in the original 1980&#039;s cartoon?",
+      "correct_answer": "Mudflap",
+      "incorrect_answers": [
+        "Skids",
+        "Sideswipe",
+        "Ratchet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What vehicle in PUBG has the highest top speed?",
+      "correct_answer": "Motorcycle",
+      "incorrect_answers": [
+        "PG-117",
+        "Dacia",
+        "Buggy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which rapper had an album that went double platinum with no features?",
+      "correct_answer": "J. Cole",
+      "incorrect_answers": [
+        "Kendrick Lamar",
+        "Drake",
+        "Big Sean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "The song &#039;Little April Shower&#039; features in which Disney cartoon film?",
+      "correct_answer": "Bambi",
+      "incorrect_answers": [
+        "Cinderella",
+        "Pinocchio",
+        "The Jungle Book"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+      "correct_answer": "Carlos Sainz Jr.",
+      "incorrect_answers": [
+        "Daniil Kvyat",
+        "Jolyon Palmer",
+        "Rio Haryanto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What are Panama hats made out of?",
+      "correct_answer": "Straw",
+      "incorrect_answers": [
+        "Silk",
+        "Hemp",
+        "Flax"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+      "correct_answer": "Madeira",
+      "incorrect_answers": [
+        "Terceira",
+        "Santa Maria",
+        "Porto Santo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is the designation given to the Marvel Cinematic Universe?",
+      "correct_answer": "Earth-199999",
+      "incorrect_answers": [
+        "Earth-616",
+        "Earth-10005",
+        "Earth-2008"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of these is a semiconductor amplifying device?",
+      "correct_answer": "transistor",
+      "incorrect_answers": [
+        "tube",
+        "diode",
+        "P-N junction"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Medaka Kurokami from &quot;Medaka Box&quot; has what abnormality?",
+      "correct_answer": "The End",
+      "incorrect_answers": [
+        "Perfection",
+        "Sandbox",
+        "Fairness"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which element has the highest melting point?",
+      "correct_answer": "Carbon",
+      "incorrect_answers": [
+        "Tungsten",
+        "Platinum",
+        "Osmium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "The acronym &quot;RIP&quot; stands for which of these?",
+      "correct_answer": "Routing Information Protocol",
+      "incorrect_answers": [
+        "Runtime Instance Processes",
+        "Regular Interval Processes",
+        "Routine Inspection Protocol"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the main character in One Piece?",
+      "correct_answer": "Luffy",
+      "incorrect_answers": [
+        "Shanks",
+        "Zoro",
+        "Smoker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which alternative rock band released the critically-acclaimed album &quot;OK Computer&quot;?",
+      "correct_answer": "Radiohead",
+      "incorrect_answers": [
+        "R.E.M.",
+        "Nirvana",
+        "Coldplay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is Dipper&#039;s real name from &quot;Gravity Falls&quot;?",
+      "correct_answer": "Mason Pines",
+      "incorrect_answers": [
+        "Mable Pines",
+        "Jason Pines",
+        "Mark Pines"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "From what show is the character &quot;James Doakes&quot;? ",
+      "correct_answer": "Dexter",
+      "incorrect_answers": [
+        "Marvel&#039;s Daredevil",
+        "Boardwalk Empire",
+        "The Walking Dead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In Calvin and Hobbes, what is the name of the babysitter&#039;s boyfriend?",
+      "correct_answer": "Charlie",
+      "incorrect_answers": [
+        "Dave",
+        "Charles",
+        "Nathaniel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these is NOT a Disney cartoon character?",
+      "correct_answer": "Daffy Duck",
+      "incorrect_answers": [
+        "Donald Duck",
+        "Daisy Duck",
+        "Scrooge McDuck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these games came out first?",
+      "correct_answer": "Terraria",
+      "incorrect_answers": [
+        "Minecraft",
+        "Starbound",
+        "Factorio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which country, not including Japan, has the most people of Japanese descent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "South Korea",
+        "United States of America"
+      ]
+    }
+  ]
+}

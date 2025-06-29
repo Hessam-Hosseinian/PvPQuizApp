@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Which one of these paintings is not by Caspar David Friedrich?",
+      "correct_answer": "The Black Sea",
+      "incorrect_answers": [
+        "The Sea of Ice",
+        "Wanderer above the Sea of Fog",
+        "The Monk by the Sea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+      "correct_answer": "Cherry MX Blue",
+      "incorrect_answers": [
+        "Cherry MX Black",
+        "Cherry MX Red",
+        "Cherry MX Brown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which country drives on the left side of the road?",
+      "correct_answer": "Japan",
+      "incorrect_answers": [
+        "Germany",
+        "Russia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What color is Ryūko Matoi&#039;s half of the Scissor Blade in the anime Kill la KIll?",
+      "correct_answer": "Red",
+      "incorrect_answers": [
+        "Green",
+        "Blue",
+        "Purple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft lore,  how many siblings does Sylvanas Windrunner have?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "How many Hz does the video standard PAL support?",
+      "correct_answer": "50",
+      "incorrect_answers": [
+        "59",
+        "60",
+        "25"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is the name of the comic about a young boy, and a tiger who is actually a stuffed animal?",
+      "correct_answer": "Calvin and Hobbes",
+      "incorrect_answers": [
+        "Winnie the Pooh",
+        "Albert and Pogo",
+        "Peanuts"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Cook, Serve, Delicious!, which food is NOT included in the game?",
+      "correct_answer": "Pie",
+      "incorrect_answers": [
+        "Shish Kabob",
+        "Hamburger",
+        "Lasagna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What type of animal was Harambe, who was shot after a child fell into it&#039;s enclosure at the Cincinnati Zoo?",
+      "correct_answer": "Gorilla",
+      "incorrect_answers": [
+        "Tiger",
+        "Panda",
+        "Crocodile"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+      "correct_answer": "C#",
+      "incorrect_answers": [
+        "Java",
+        "C++",
+        "Objective-C"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft, which raid instance features a chess event?",
+      "correct_answer": "Karazhan",
+      "incorrect_answers": [
+        "Zul&#039;Aman",
+        "Blackwing Lair",
+        "Temple of Ahn&#039;Qiraj"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Twin Size Mattress&quot; was written by which band?",
+      "correct_answer": "The Front Bottoms",
+      "incorrect_answers": [
+        "Twenty One Pilots",
+        "The Wonder Years",
+        "The Smith Street Band"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Halo series, which era of SPARTAN is Master Chief? ",
+      "correct_answer": "SPARTAN-II",
+      "incorrect_answers": [
+        "SPARTAN-I",
+        "SPARTAN-III",
+        "SPARTAN-IV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "The theme for the popular science fiction series &quot;Doctor Who&quot; was composed by who?",
+      "correct_answer": "Ron Grainer",
+      "incorrect_answers": [
+        "Murray Gold",
+        "Delia Derbyshire",
+        "Peter Howell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the 2015 movie &quot;The Revenant&quot;?",
+      "correct_answer": "Alejandro G. I&ntilde;&aacute;rritu",
+      "incorrect_answers": [
+        "Christopher Nolan",
+        "David Fincher",
+        "Wes Anderson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
+      "correct_answer": "Binary",
+      "incorrect_answers": [
+        "JavaScript",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the atomic number of the element Strontium?",
+      "correct_answer": "38",
+      "incorrect_answers": [
+        "73",
+        "47",
+        "11"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
+      "correct_answer": "Harry Potter",
+      "incorrect_answers": [
+        "Ted",
+        "Spy Kids",
+        "Pirates of the Caribbean "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which country is hosting the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "Uganda",
+        "Vietnam",
+        "Bolivia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Belarus?",
+      "correct_answer": "Minsk",
+      "incorrect_answers": [
+        "Warsaw",
+        "Kiev",
+        "Vilnius"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Copy Abilities was only featured in &quot;Kirby &amp; The Amazing Mirror&quot;?",
+      "correct_answer": "Mini",
+      "incorrect_answers": [
+        "Magic",
+        "Smash",
+        "Missile"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the main character in &quot;The Flash&quot; TV series?",
+      "correct_answer": "Barry Allen",
+      "incorrect_answers": [
+        "Oliver Queen",
+        "Bart Allen",
+        "Bruce Wayne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+      "correct_answer": "Hideki Tojo",
+      "incorrect_answers": [
+        "Michinomiya Hirohito",
+        "Isoroku Yamamoto",
+        "Fumimaro Konoe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many partners can you obtain in Paper Mario: The Thousand-Year Door?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "6",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which chemical element has the lowest boiling point?",
+      "correct_answer": "Helium",
+      "incorrect_answers": [
+        "Hydrogen",
+        "Neon",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these video game engines was made by the company Epic Games?",
+      "correct_answer": "Unreal",
+      "incorrect_answers": [
+        "Unity",
+        "Game Maker: Studio",
+        "Cry Engine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Seychelles?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Luanda",
+        "N&#039;Djamena",
+        "Tripoli"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The name of technology company HP stands for what?",
+      "correct_answer": "Hewlett-Packard",
+      "incorrect_answers": [
+        "Howard Packmann",
+        "Husker-Pollosk",
+        "Hellman-Pohl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Where is the train station &quot;Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch&quot;?",
+      "correct_answer": "Wales",
+      "incorrect_answers": [
+        "Moldova",
+        "Czech Republic",
+        "Denmark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?",
+      "correct_answer": "Captain Jack",
+      "incorrect_answers": [
+        "Captain Jake",
+        "Captain Hector",
+        "Captain Flynn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "The Watergate Scandal occured in what year?",
+      "correct_answer": "1972",
+      "incorrect_answers": [
+        "1973",
+        "1974",
+        "1971"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which character is from &quot;Splatoon&quot;?",
+      "correct_answer": "Marie",
+      "incorrect_answers": [
+        "Cyrus",
+        "Palutena",
+        "Shulk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Fire Emblem: Shadow Dragon&quot;, what is the central protagonist&#039;s name?",
+      "correct_answer": "Marth",
+      "incorrect_answers": [
+        "Roy",
+        "Eliwood",
+        "Robin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What stage of development do the majority of eukaryotic cells remain in for most of their life?",
+      "correct_answer": "Interphase",
+      "incorrect_answers": [
+        "Prophase",
+        "Stasis",
+        "Telophase"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What micro-state is considered to have the oldest constitution still in effect?",
+      "correct_answer": "San Marino",
+      "incorrect_answers": [
+        "Andorra",
+        "Monaco",
+        "Saint Kitts and Nevis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the 9th Pokemon movie, who is the Prince of the Sea?",
+      "correct_answer": "Manaphy",
+      "incorrect_answers": [
+        "Ash",
+        "May",
+        "Phantom"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Located in Chile, El Teniente is the world&#039;s largest underground mine for what metal?",
+      "correct_answer": "Copper",
+      "incorrect_answers": [
+        "Iron",
+        "Nickel",
+        "Silver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of Team Mystic in Pok&eacute;mon Go?",
+      "correct_answer": "Blanche",
+      "incorrect_answers": [
+        "Candela",
+        "Spark",
+        "Willow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;League of Legends&quot; which character is known as &quot;The Sinister Blade&quot;?",
+      "correct_answer": "Katarina",
+      "incorrect_answers": [
+        "Shaco",
+        "Akali",
+        "Zed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mario Kart series, which game introduced the &quot;Shield Drifting&quot; mechanic?",
+      "correct_answer": "Mario Kart Arcade GP DX",
+      "incorrect_answers": [
+        "Mario Kart: Double Dash",
+        "Mario Kart Super Circuit",
+        "Mario Kart DS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Guy&#039;s Grocery Games is hosted by which presenter?",
+      "correct_answer": "Guy Fieri",
+      "incorrect_answers": [
+        "Guy Martin",
+        "Guy Ritchie",
+        "Ainsley Harriott"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In Haikyuu!!, who is not a member of Karasuno VBC?",
+      "correct_answer": "Shigeru Yahaba",
+      "incorrect_answers": [
+        "Tadashi Yamaguchi",
+        "Hisashi Kinoshita",
+        "Kazuhito Narita"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "Which of the following is not a type of computer mouse?",
+      "correct_answer": "Smoothie mouse",
+      "incorrect_answers": [
+        "Drum mouse",
+        "Trackball mouse",
+        "Optical mouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "On Twitter, what was the original character limit for a Tweet?",
+      "correct_answer": "140",
+      "incorrect_answers": [
+        "120",
+        "160",
+        "100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?",
+      "correct_answer": "Camshaft",
+      "incorrect_answers": [
+        "Piston",
+        "Drive shaft",
+        "Crankshaft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Nintendo 64 game did NOT have Luigi in it?",
+      "correct_answer": "Super Mario 64",
+      "incorrect_answers": [
+        "Mario Party 2",
+        "Paper Mario",
+        "Super Smash Bros."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+      "correct_answer": "South Park",
+      "incorrect_answers": [
+        "The Simpsons",
+        "Family Guy",
+        "Bob&#039;s Burgers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film &quot;The Fugitive&quot;?",
+      "correct_answer": "Tommy Lee Jones",
+      "incorrect_answers": [
+        "Harrison Ford",
+        "Harvey Keitel",
+        "Martin Landau"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "correct_answer": "Badminton",
+      "incorrect_answers": [
+        "Table Tennis",
+        "Rugby",
+        "Cricket"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Super Smash Bros. Ultimate, which of the following pair of characters are NOT considered &quot;Echo Fighters&quot;?",
+      "correct_answer": "Link &amp; Young Link",
+      "incorrect_answers": [
+        "Marth &amp; Lucina",
+        "Richter &amp; Simon",
+        "Peach &amp; Daisy"
+      ]
+    }
+  ]
+}

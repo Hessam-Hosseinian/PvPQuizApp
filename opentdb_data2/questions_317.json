@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the code name of Morgana the cat in Persona 5?",
+      "correct_answer": "Mona",
+      "incorrect_answers": [
+        "Panther",
+        "Nightstalker",
+        "Zorro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What are the four corner states of the US?",
+      "correct_answer": "Utah, Colorado, Arizona, New Mexico",
+      "incorrect_answers": [
+        "Oregon, Idaho, Nevada, Utah",
+        "Kansas, Oklahoma, Arkansas, Louisiana",
+        "South Dakota, Minnesota, Nebraska, Iowa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "Which company developed the Hololens?",
+      "correct_answer": "Microsoft",
+      "incorrect_answers": [
+        "HTC",
+        "Oculus",
+        "Tobii"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In addition to his career as an astrologer and &quot;prophet&quot;, Nostradamus published a 1555 treatise that included a section on what?",
+      "correct_answer": "Making jams and jellies",
+      "incorrect_answers": [
+        "Teaching parrots to talk",
+        "Cheating at card games",
+        "Digging graves"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+      "correct_answer": "Hexidecimal",
+      "incorrect_answers": [
+        "Binary",
+        "Duodecimal",
+        "Octal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The towns of Brugelette, Arlon and Ath are located in which country?",
+      "correct_answer": "Belgium",
+      "incorrect_answers": [
+        "Andorra",
+        "France",
+        "Luxembourg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these stages is not playable in &quot;Super Smash Bros. for Wii U&quot;?",
+      "correct_answer": "Fountain of Dreams",
+      "incorrect_answers": [
+        "Bridge of Eldin",
+        "75m",
+        "Miiverse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;Re:Zero&quot; manga series, which of the following Sin Archbishops eats Rem&#039;s existence?",
+      "correct_answer": "Ley Batenkaitos",
+      "incorrect_answers": [
+        "Roy Alphard",
+        "Petelgeuse Romanee-Conti",
+        "Louis Arneb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The 1952 musical composition 4&#039;33&quot;, composed by prolific American composer John Cage, is mainly comprised of what sound?",
+      "correct_answer": "Silence",
+      "incorrect_answers": [
+        "Farts",
+        "People talking",
+        "Cricket chirps"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the equation for the area of a sphere?",
+      "correct_answer": "(4/3)&pi;r^3",
+      "incorrect_answers": [
+        "4&pi;r^2",
+        "(1/3)&pi;hr^2",
+        "&pi;r^4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What causes the sound of a heartbeat?",
+      "correct_answer": "Closure of the heart valves",
+      "incorrect_answers": [
+        "Contraction of the heart chambers",
+        "Blood exiting the heart",
+        "Relaxation of the heart chambers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the capital of Mauritius?",
+      "correct_answer": "Port Louis",
+      "incorrect_answers": [
+        "Port Moresby",
+        "Port Vila",
+        "Port-au-Prince"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which of the following is NOT a quote from the 1942 film Casablanca? ",
+      "correct_answer": "&quot;Frankly, my dear, I don&#039;t give a damn.&quot;",
+      "incorrect_answers": [
+        "&quot;Here&#039;s lookin&#039; at you, kid.&quot;",
+        "&ldquo;Of all the gin joints, in all the towns, in all the world, she walks into mine&hellip;&rdquo;",
+        "&quot;Round up the usual suspects.&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "What was the date of original airing of the pilot episode of My Little Pony: Friendship is Magic?",
+      "correct_answer": "October 10th, 2010",
+      "incorrect_answers": [
+        "November 6th, 2010",
+        "April 14th, 1984",
+        "May 18th, 2015"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What major programming language does Unreal Engine 4 use?",
+      "correct_answer": "C++",
+      "incorrect_answers": [
+        "Assembly",
+        "C#",
+        "ECMAScript"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+      "correct_answer": "Shamshi-Adad III",
+      "incorrect_answers": [
+        "Shalmaneser V",
+        "Esharhaddon",
+        "Ashur-nasir-pal II"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+      "correct_answer": "Billy Loomis and Stu Macher",
+      "incorrect_answers": [
+        "Dewey Riley",
+        "Sidney Prescott",
+        "Archie Prescott and Philip Marv"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which artist released the 2012 single &quot;Harlem Shake&quot;, which was used in numerous YouTube videos in 2013?",
+      "correct_answer": "Baauer",
+      "incorrect_answers": [
+        "RL Grime",
+        "NGHTMRE",
+        "Flosstradamus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Who designed the Chupa Chups logo?",
+      "correct_answer": "Salvador Dali",
+      "incorrect_answers": [
+        "Pablo Picasso",
+        "Andy Warhol",
+        "Vincent van Gogh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "When was Hubba Bubba first introduced?",
+      "correct_answer": "1979",
+      "incorrect_answers": [
+        "1984",
+        "1972",
+        "1980"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "If you are caught &quot;Goldbricking&quot;, what are you doing wrong?",
+      "correct_answer": "Slacking",
+      "incorrect_answers": [
+        "Smoking",
+        "Stealing",
+        "Cheating"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Halo&quot; series, what is the name of the race of aliens humans refer to as &quot;Grunts&quot;?",
+      "correct_answer": "Unggoy",
+      "incorrect_answers": [
+        "Huragok",
+        "Sangheili",
+        "Yanme&#039;e"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "According to Overwatch&#039;s lore, who was once a member of the Deadlock Gang?",
+      "correct_answer": "McCree",
+      "incorrect_answers": [
+        "Roadhog",
+        "Soldier 76",
+        "Junkrat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "The element involved in making human blood red is which of the following?",
+      "correct_answer": "Iron",
+      "incorrect_answers": [
+        "Copper",
+        "Iridium",
+        "Cobalt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which member of the British pop group &quot;The Spice Girls&quot; was known as Ginger Spice?",
+      "correct_answer": "Geri Halliwell",
+      "incorrect_answers": [
+        "Melanie Brown",
+        "Emma Bunton",
+        "Victoria Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who was the first man to travel into outer space twice?",
+      "correct_answer": "Gus Grissom",
+      "incorrect_answers": [
+        "Vladimir Komarov",
+        "Charles Conrad",
+        "Yuri Gagarin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what prison was Adolf Hitler held in 1924?",
+      "correct_answer": "Landsberg Prison",
+      "incorrect_answers": [
+        "Spandau Prison",
+        "Ebrach Abbey",
+        "Hohenasperg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What was Marilyn Monroe`s character&#039;s first name in the film &quot;Some Like It Hot&quot;?",
+      "correct_answer": "Sugar",
+      "incorrect_answers": [
+        "Honey",
+        "Caramel",
+        "Candy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Half-Life series, Gordon Freeman&#039;s signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is the term for &quot;surgical complications resulting from surgical sponges left inside the patient&#039;s body?",
+      "correct_answer": "Gossypiboma",
+      "incorrect_answers": [
+        "Gongoozler",
+        "Jentacular",
+        "Meupareunia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "On which computer hardware device is the BIOS chip located?",
+      "correct_answer": "Motherboard",
+      "incorrect_answers": [
+        "Hard Disk Drive",
+        "Central Processing Unit",
+        "Graphics Processing Unit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What step in cellular respiration forms ATP?",
+      "correct_answer": "Oxidative Phosphorylation",
+      "incorrect_answers": [
+        "Glycolysis",
+        "Pyruvate Oxidation",
+        "Calvin Cycle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Adolf Hitler was born on which date?",
+      "correct_answer": "April 20, 1889",
+      "incorrect_answers": [
+        "June 12, 1889",
+        "February 6, 1889",
+        "April 16, 1889"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "How many legs do butterflies have?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "2",
+        "4",
+        "0"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who led the Communist Revolution of Russia?",
+      "correct_answer": "Vladimir Lenin",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "Vladimir Putin",
+        "Mikhail Gorbachev"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "The collapse of the Soviet Union took place in which year?",
+      "correct_answer": "1991",
+      "incorrect_answers": [
+        "1992",
+        "1891",
+        "1990"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the four empires in  Eve Online was the first to achieve faster than light travel?",
+      "correct_answer": "Amarr Empire",
+      "incorrect_answers": [
+        "Caldari State",
+        "Gallente Federation",
+        "Minmatar Republic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Whistler was the codename of this Microsoft Operating System.",
+      "correct_answer": "Windows XP",
+      "incorrect_answers": [
+        "Windows 2000",
+        "Windows 7",
+        "Windows 95"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "The 1996 film &#039;Fargo&#039; is primarily set in which US state?",
+      "correct_answer": "Minnesota",
+      "incorrect_answers": [
+        "North Dakota",
+        "South Dakota",
+        "Wisconsin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of these is NOT an Australian state or territory?",
+      "correct_answer": "Alberta",
+      "incorrect_answers": [
+        "New South Wales",
+        "Victoria",
+        "Queensland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+      "correct_answer": "John Steinbeck",
+      "incorrect_answers": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "William Faulkner"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What is the name of the famous Apache leader who died in 1909 at the age of 70?",
+      "correct_answer": "Geronimo",
+      "incorrect_answers": [
+        "Sitting Bull",
+        "Red Cloud",
+        "Crazy Horse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is Canada&#039;s smallest province?",
+      "correct_answer": "Prince Edward Island",
+      "incorrect_answers": [
+        "New Brunswick",
+        "Nova Scotia",
+        "Yukon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Panic! At the Disco&#039;s sixth album &quot;Pray For The Wicked&quot; was released on which date?",
+      "correct_answer": "June 22, 2018",
+      "incorrect_answers": [
+        "May 9, 2018",
+        "March 13, 2018",
+        "February 21, 2018"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Paul McCartney has always used his middle name. What is his real first name? ",
+      "correct_answer": "James",
+      "incorrect_answers": [
+        "John",
+        "Jack",
+        "Justin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Which Shakespeare play inspired the musical &#039;West Side Story&#039;?",
+      "correct_answer": "Romeo &amp; Juliet",
+      "incorrect_answers": [
+        "Hamlet",
+        "Macbeth",
+        "Othello"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+      "correct_answer": "Peter Cushing",
+      "incorrect_answers": [
+        "Boris Karloff",
+        "Vincent Price",
+        "Lon Chaney Jr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first emperor of Rome?",
+      "correct_answer": "Augustus ",
+      "incorrect_answers": [
+        "Julius Caesar",
+        "Pompey Magnus",
+        "Claudius"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Who was the original author of Frankenstein?",
+      "correct_answer": "Mary Shelley",
+      "incorrect_answers": [
+        "Edgar Allan Poe",
+        "Bram Stoker",
+        "H. P. Lovecraft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who voices the character &quot;Reigen&quot;  in the English dub of &quot;Mob Psycho 100&quot;?",
+      "correct_answer": "Chris Niosi",
+      "incorrect_answers": [
+        "Max Mittelman",
+        "Kyle McCarley",
+        "Casey Mongillo"
+      ]
+    }
+  ]
+}

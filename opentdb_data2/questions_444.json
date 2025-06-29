@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which mathematician refused the Fields Medal?",
+      "correct_answer": "Grigori Perelman",
+      "incorrect_answers": [
+        "Andrew Wiles",
+        "Terence Tao",
+        "Edward Witten"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Papua New Guinea",
+        "Ethiopia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these Pok&eacute;mon cannot learn Surf?",
+      "correct_answer": "Arbok",
+      "incorrect_answers": [
+        "Linoone",
+        "Tauros",
+        "Nidoking"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the 2017 Formula One World Drivers&#039; Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Max Verstappen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What is generally considered to be William Shakespeare&#039;s birth date?",
+      "correct_answer": "April 23rd, 1564",
+      "incorrect_answers": [
+        "July 4th, 1409",
+        "September 29th, 1699",
+        "December 1st, 1750"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "eBay",
+        "Overstock",
+        "Shopify"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Which issue of the &quot;Sonic the Hedgehog&quot; comic did Scourge the Hedgehog make his first appearance?",
+      "correct_answer": "Sonic the Hedgehog #11",
+      "incorrect_answers": [
+        "Sonic Universe #32",
+        "Sonic the Hedgehog #161",
+        "Sonic the Hedgehog #47"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the full title of the Prime Minister of the UK?",
+      "correct_answer": "First Lord of the Treasury",
+      "incorrect_answers": [
+        "Duke of Cambridge",
+        "Her Majesty&#039;s Loyal Opposition",
+        "Manager of the Crown Estate"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Gadgets",
+      "question": "Who built the first laser?",
+      "correct_answer": "Theodore Harold Maiman",
+      "incorrect_answers": [
+        "Nikola Tesla",
+        "Jack Kilby",
+        "Edith Clarke"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the browser game Kantai Collection heavily inspired by?",
+      "correct_answer": "Second World War",
+      "incorrect_answers": [
+        "Manga",
+        "World of Warcraft",
+        "An Anime"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Ikki Kurogane is known by what nickname at the beginning of &quot;Chivalry of a Failed Knight&quot;?",
+      "correct_answer": "Worst One",
+      "incorrect_answers": [
+        "Another One",
+        "Blazer",
+        "Princess"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which one of these is not an official development name for a Ubuntu release?",
+      "correct_answer": "Mystic Mansion",
+      "incorrect_answers": [
+        "Trusty Tahr",
+        "Utopic Unicorn",
+        "Wily Werewolf"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What year was the game Dishonored released?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2011",
+        "2008",
+        "2013"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What was William Frederick Cody better known as?",
+      "correct_answer": "Buffalo Bill",
+      "incorrect_answers": [
+        "Billy the Kid",
+        "Wild Bill Hickok",
+        "Pawnee Bill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mario series, which game introduced Mario&#039;s Backflip ability?",
+      "correct_answer": "Donkey Kong (Gameboy)",
+      "incorrect_answers": [
+        "Super Mario 64",
+        "Super Mario 3D Land",
+        "Super Mario Galaxy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?",
+      "correct_answer": "Alfa Romeo",
+      "incorrect_answers": [
+        "Auto Union",
+        "Mercedes Benz",
+        "Bentley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "A statue of Charles Darwin sits in what London museum?",
+      "correct_answer": "Natural History Museum",
+      "incorrect_answers": [
+        "Tate",
+        "British Museum",
+        "Science Museum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which chemical element has the lowest boiling point?",
+      "correct_answer": "Helium",
+      "incorrect_answers": [
+        "Hydrogen",
+        "Neon",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which Marvel superhero did Chris Evans play prior to his role as Captain America?",
+      "correct_answer": "Human Torch",
+      "incorrect_answers": [
+        "Cyclops",
+        "Iceman",
+        "Daredevil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What are the first names of the first father and son pair that were both Prime Ministers of Canada?",
+      "correct_answer": "Justin and Pierre",
+      "incorrect_answers": [
+        "John and Louis",
+        "Brian and Justin",
+        "Brian and Pierre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Hockey player Wayne Gretzky was born in what Canadian province?",
+      "correct_answer": "Ontario",
+      "incorrect_answers": [
+        "British Columbia",
+        "Quebec",
+        "Alberta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+      "correct_answer": "44.1 kHz",
+      "incorrect_answers": [
+        "32.0 kHz",
+        "1.5 MHz",
+        "20.5 kHz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first PlayStation game to require the use of the DualShock controller?",
+      "correct_answer": "Ape Escape",
+      "incorrect_answers": [
+        "Metal Gear",
+        "Tekken ",
+        "Tomba 2!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the 2016 Formula 1 World Driver&#039;s Championship?",
+      "correct_answer": "Nico Rosberg",
+      "incorrect_answers": [
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Kimi Raikkonen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "About how old is Earth?",
+      "correct_answer": "4.5 Billion Years",
+      "incorrect_answers": [
+        "3.5 Billion Years",
+        "2.5 Billion Years",
+        "5.5 Billion Years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "What nickname was given to Air Canada Flight 143 after it ran out of fuel and glided to safety in 1983?",
+      "correct_answer": "Gimli Glider",
+      "incorrect_answers": [
+        "Gimli Microlight",
+        "Gimli Chaser",
+        "Gimli Superb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?",
+      "correct_answer": "The Elder Scrolls",
+      "incorrect_answers": [
+        "Lord of the Rings",
+        "The Witcher",
+        "Neverwinter Nights"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Touhou 12: Undefined Fantastic Object, which of these was not a playable character?",
+      "correct_answer": "Izayoi Sakuya",
+      "incorrect_answers": [
+        "Hakurei Reimu",
+        "Kirisame Marisa",
+        "Kochiya Sanae"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following presidents is not on Mount Rushmore?",
+      "correct_answer": "John F. Kennedy",
+      "incorrect_answers": [
+        "Theodore Roosevelt",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was &quot;System Shock&quot; released?",
+      "correct_answer": "1994",
+      "incorrect_answers": [
+        "1995",
+        "2000",
+        "1998"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In standard Monopoly, what&#039;s the rent if you land on Park Place with no houses?",
+      "correct_answer": "$35",
+      "incorrect_answers": [
+        "$30",
+        "$50",
+        "$45"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Bridgetown is the capital of which island country in the Carribean?",
+      "correct_answer": "Barbados",
+      "incorrect_answers": [
+        "Cuba",
+        "Jamaica&lrm;",
+        "Dominica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Why was the character Trevor Philips discharged from the Air Force?",
+      "correct_answer": "Mental Health Issues",
+      "incorrect_answers": [
+        "Injuries",
+        "Disease",
+        "Danger to Others"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who had a 1983 hit with the song &#039;Africa&#039;?",
+      "correct_answer": "Toto",
+      "incorrect_answers": [
+        "Foreigner",
+        "Steely Dan",
+        "Journey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 2010 Nightmare on Elm Street reboot, who played Freddy Kruger?",
+      "correct_answer": "Jackie Earle Haley",
+      "incorrect_answers": [
+        "Tyler Mane",
+        "Derek Mears",
+        "Gunnar Hansen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many laws of thermodynamics are there?",
+      "correct_answer": "Four",
+      "incorrect_answers": [
+        "Three",
+        "Two",
+        "Five"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of these anime have over 7,500 episodes?",
+      "correct_answer": "Sazae-san",
+      "incorrect_answers": [
+        "Naruto",
+        "One Piece",
+        "Chibi Maruko-chan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which gas forms about 78% of the Earth&rsquo;s atmosphere?",
+      "correct_answer": "Nitrogen",
+      "incorrect_answers": [
+        "Oxygen",
+        "Argon",
+        "Carbon Dioxide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In Marvel comics, which of the following is not one of the infinity stones?",
+      "correct_answer": "Energy",
+      "incorrect_answers": [
+        "Time",
+        "Power",
+        "Soul"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "What&#039;s the race of Invincible&#039;s father?",
+      "correct_answer": "Viltrumite",
+      "incorrect_answers": [
+        "Kryptonian",
+        "Kree",
+        "Irken"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which popular rock band has a one-armed drummer?",
+      "correct_answer": "Def Leppard",
+      "incorrect_answers": [
+        "The Beatles",
+        "Lynyrd Skynyrd",
+        "Foreigner"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+      "correct_answer": "Vespasian",
+      "incorrect_answers": [
+        "Vitellius",
+        "Otho",
+        "Galba"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which of the following collision avoidance systems helps airplanes avoid colliding with each other?",
+      "correct_answer": "TCAS",
+      "incorrect_answers": [
+        "GPWS",
+        "OCAS",
+        "TAWS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Battleblock Theater, what was the name of the voice actor who voiced the narrator?",
+      "correct_answer": "Will Stamper",
+      "incorrect_answers": [
+        "Steve Blum",
+        "Richard Epcar",
+        "Yuri Lowenthal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "&quot;Decapods&quot; are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+      "correct_answer": "Krill",
+      "incorrect_answers": [
+        "Lobsters",
+        "Shrimp",
+        "Crabs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "How do you tame a horse in Minecraft?",
+      "correct_answer": "By continually mounting it",
+      "incorrect_answers": [
+        "By feeding it Wheat",
+        "By feeding it Sugar",
+        "By petting it"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+      "correct_answer": "ADPCM Sampler",
+      "incorrect_answers": [
+        "FM Synthesizer",
+        "Programmable Sound Generator (PSG)",
+        "PCM Sampler"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Sonic the Hedgehog 2&quot; for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
+      "correct_answer": "The Lead Programmer&#039;s birthday",
+      "incorrect_answers": [
+        "The first release date of &quot;Sonic the Hedgehog&quot;",
+        "The date Sonic Team was founded",
+        "The first release date of &quot;Sonic the Hedgehog 2&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the elemental symbol for mercury?",
+      "correct_answer": "Hg",
+      "incorrect_answers": [
+        "Me",
+        "Mc",
+        "Hy"
+      ]
+    }
+  ]
+}

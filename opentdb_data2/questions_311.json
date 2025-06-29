@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the official German name of the Swiss Federal Railways?",
+      "correct_answer": "Schweizerische Bundesbahnen",
+      "incorrect_answers": [
+        "Schweizerische Nationalbahnen",
+        "Bundesbahnen der Schweiz",
+        "Schweizerische Staatsbahnen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Star Trek: Voyager&quot;, which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+      "correct_answer": "Pathfinder",
+      "incorrect_answers": [
+        "Message In A Bottle",
+        "Someone To Watch Over Me",
+        "Counterpoint"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which NBA player has the most games played over the course of their career?",
+      "correct_answer": "Robert Parish",
+      "incorrect_answers": [
+        "Kareem Abdul-Jabbar",
+        "Kevin Garnett",
+        "Kobe Bryant"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these American cities has fewer than 1,000,000 people?",
+      "correct_answer": "San Francisco, California",
+      "incorrect_answers": [
+        "Phoenix, Arizona",
+        "San Antonio, Texas",
+        "Philadelphia, Pennsylvania"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "On the 6th of June 2006, what was the name of the infamous glitch that occurred in the MMO RuneScape?",
+      "correct_answer": "The Falador Massacre",
+      "incorrect_answers": [
+        "Noclip glitch",
+        "Party-hat Duplication Glitch",
+        "TzHaar Massacre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What&#039;s Harry Potter&#039;s dad&#039;s name?",
+      "correct_answer": "James Potter",
+      "incorrect_answers": [
+        "Joey Potter",
+        "Frank Potter",
+        "Hairy Potter Sr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Sciophobia is the fear of what?",
+      "correct_answer": "Shadows",
+      "incorrect_answers": [
+        "Eating",
+        "Bright lights",
+        "Transportation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which scientific unit is named after an Italian nobleman?",
+      "correct_answer": "Volt",
+      "incorrect_answers": [
+        "Pascal",
+        "Ohm",
+        "Hertz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft, What was the name of the spell that caused a plague that famously killed millions of players in 2005?",
+      "correct_answer": "Corrupted Blood",
+      "incorrect_answers": [
+        "Necrotic Plague",
+        "Unbound Infestation",
+        "Mutated Infection"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In Digimon, what is the Japanese name for the final evolutionary stage?",
+      "correct_answer": "Ultimate",
+      "incorrect_answers": [
+        "Mega",
+        "Adult",
+        "Champion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What was the name of the protagonist in the movie Commando (1985)?",
+      "correct_answer": "John Matrix",
+      "incorrect_answers": [
+        "Ben Richards",
+        "Douglas Quaid",
+        "Harry Tasker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
+      "correct_answer": "Renault FT",
+      "incorrect_answers": [
+        "M4 Sherman",
+        " Panzer IV",
+        "Cromwell "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What does the scientific name of the Cambrian-Period sea creature Anomalocaris mean?",
+      "correct_answer": "Abnormal Shrimp",
+      "incorrect_answers": [
+        "Deformed Fish",
+        "Strange Crab",
+        "Anomalous Clam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Where is Apple Inc. headquartered?",
+      "correct_answer": "Cupertino, California",
+      "incorrect_answers": [
+        "Redwood City, California",
+        "Redmond, Washington",
+        "Santa Monica, CA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+      "correct_answer": "Origami",
+      "incorrect_answers": [
+        "Sumi-e",
+        "Ukiyo-e",
+        "Haiku"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime Initial D, how does Takumi Fujiwara describe a drift?",
+      "correct_answer": "&#039;. . . the front tires slide so the car won&#039;t face the inside&#039;",
+      "incorrect_answers": [
+        "&#039;. . . the wheels lose traction, making the car slide sideways&#039;",
+        "&#039;. . . the car oversteers through a curve, causing it to turn faster&#039;",
+        "&#039;. . . you turn a lot&#039;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "correct_answer": "Paul Revere",
+      "incorrect_answers": [
+        "Thomas Paine",
+        "Henry Longfellow",
+        "Nathan Hale"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the elemental symbol for mercury?",
+      "correct_answer": "Hg",
+      "incorrect_answers": [
+        "Me",
+        "Mc",
+        "Hy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Apple co-founder Steve Jobs died from complications of which form of cancer?",
+      "correct_answer": "Pancreatic",
+      "incorrect_answers": [
+        "Bone",
+        "Liver",
+        "Stomach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "correct_answer": "Ma Long (China)",
+      "incorrect_answers": [
+        "Zhang Jike (China)",
+        "Jun Mizutani (Japan)",
+        "Vladimir Samsonov (Belarus)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What European country is not a part of the EU?",
+      "correct_answer": "Norway",
+      "incorrect_answers": [
+        "Lithuania",
+        "Ireland",
+        "Czechia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a faction included in the game Counter-Strike: Global Offensive?",
+      "correct_answer": "BOPE",
+      "incorrect_answers": [
+        "GSG-9",
+        "Elite Crew",
+        "Phoenix Connexion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the name of the former country that was succeeded by countries such as Serbia, Croatia and Slovenia?",
+      "correct_answer": "Yugoslavia",
+      "incorrect_answers": [
+        "Czechoslovakia",
+        "Abkhazia",
+        "South Ossetia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "&quot;Doctor Who&quot; star David Tennant performed in a rendition of which Shakespearean play?",
+      "correct_answer": "Hamlet",
+      "incorrect_answers": [
+        "The Tempest",
+        "Othello",
+        "The Taming of the Shrew"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What is former United States President Bill Clinton&#039;s full name?",
+      "correct_answer": "William Jefferson Clinton",
+      "incorrect_answers": [
+        "William Roosevelt Clinton",
+        "William Truman Clinton",
+        "William Lincoln Clinton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which animation studio animated &quot;Psycho Pass&quot;?",
+      "correct_answer": "Production I.G",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "Shaft",
+        "Trigger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "EDM record label Monstercat is based in which country?",
+      "correct_answer": "Canada",
+      "incorrect_answers": [
+        "United States",
+        "Australia",
+        "United Kingdom"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+      "correct_answer": "28%",
+      "incorrect_answers": [
+        "13%",
+        "20%",
+        "7%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+      "correct_answer": "44.1 kHz",
+      "incorrect_answers": [
+        "32.0 kHz",
+        "1.5 MHz",
+        "20.5 kHz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which actor plays the role of the main antagonist in the 2011 movie &quot;Tower Heist?&quot;",
+      "correct_answer": "Alan Alda",
+      "incorrect_answers": [
+        "Eddie Murphy",
+        "Alec Baldwin",
+        "Kevin Nealon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Australia?",
+      "correct_answer": "Canberra",
+      "incorrect_answers": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which of these Disney shows is classified as an anime?",
+      "correct_answer": "Stitch!",
+      "incorrect_answers": [
+        "Cory in the House",
+        "The Emperor&#039;s New School",
+        "Hannah Montana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the first ever London Underground line to be built?",
+      "correct_answer": "Metropolitan Line",
+      "incorrect_answers": [
+        "Circle Line",
+        "Bakerloo Line",
+        "Victoria Line"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What was the name of singer Frank Ocean&#039;s second studio album, which was released on August 20, 2016?",
+      "correct_answer": "Blonde",
+      "incorrect_answers": [
+        "Brunette",
+        "Black",
+        "Burgundy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the 2015 Formula 1 World Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Nico Rosberg",
+        "Sebastian Vettel",
+        "Jenson Button"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is &quot;Stenoma&quot;?",
+      "correct_answer": "A genus of moths",
+      "incorrect_answers": [
+        "A combat stimulant from WW2",
+        "A type of seasoning",
+        "A port city in the carribean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?",
+      "correct_answer": "Pope Leo III",
+      "incorrect_answers": [
+        "Pope Urban IV",
+        "Pope Stephen V",
+        "Pope Valentine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What was the reason for the banning of episode 35 of the &quot;Pok&eacute;mon Original Series&quot; Anime?",
+      "correct_answer": "Gun Usage",
+      "incorrect_answers": [
+        "Flashing Images",
+        "Jynx",
+        "Strong Violence"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the romanized Chinese word for &quot;airplane&quot;?",
+      "correct_answer": "Feiji",
+      "incorrect_answers": [
+        "Qiche",
+        "Zongxian",
+        "Huojian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "On a dartboard, what number is directly opposite No. 1?",
+      "correct_answer": "19",
+      "incorrect_answers": [
+        "20",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Zombies mode of &quot;Call of Duty: Black Ops&quot;, what is the &quot;Pack-A-Punched&quot; version of the &quot;Galil&quot; called?",
+      "correct_answer": "Lamentation",
+      "incorrect_answers": [
+        "Galvanized Atomic Lead Insertion Liquidator",
+        "Gabig",
+        "Predictive Death Wish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Saul Hudson (Slash) of the band Guns N&#039; Roses is known for playing what type of guitar?",
+      "correct_answer": "Les Paul Standard",
+      "incorrect_answers": [
+        "Fender Stratocaster",
+        "LsL Mongrel",
+        "Gretsch Falcon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+      "correct_answer": "Crown",
+      "incorrect_answers": [
+        "Bird",
+        "Sickle",
+        "Tree"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which artist or group did John Lennon consider &quot;son(s) of the Beatles&quot;?",
+      "correct_answer": "Jeff Lynne&#039;s Electric Light Orchestra",
+      "incorrect_answers": [
+        "The Rolling Stones",
+        "Pink Floyd",
+        "The Who"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these symbols can be seen on the shirt of the 1993 video game character, Bubsy T. Bobcat?",
+      "correct_answer": "An exclamation point",
+      "incorrect_answers": [
+        "A question mark",
+        "The letter B",
+        "Nothing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the Polish city known to Germans as Danzig?",
+      "correct_answer": "Gdańsk",
+      "incorrect_answers": [
+        "Warsaw",
+        "Zakopane",
+        "Poznań"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;One Piece&quot;, who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
+      "correct_answer": "Koala",
+      "incorrect_answers": [
+        "Boa Hancock",
+        "Nico Robin",
+        "Emporio Ivankov "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the world&#039;s first video game?",
+      "correct_answer": "Tennis for Two",
+      "incorrect_answers": [
+        "Spacewar!",
+        "Pong",
+        "Space Travel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What was the first living creature in space?",
+      "correct_answer": "Fruit Flies ",
+      "incorrect_answers": [
+        "Monkey",
+        "Dog",
+        "Mouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In Game of Thrones what is the name of Jon Snow&#039;s sword?",
+      "correct_answer": "Longclaw",
+      "incorrect_answers": [
+        "Oathkeeper",
+        "Widow&#039;s Wail",
+        "Needle"
+      ]
+    }
+  ]
+}

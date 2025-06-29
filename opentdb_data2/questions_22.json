@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Pokemon generation did the fan-named &quot;Masuda Method&quot; first appear in? ",
+      "correct_answer": "Diamond/Pearl",
+      "incorrect_answers": [
+        "Ruby/Sapphire",
+        "Black/White",
+        "X/Y"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "19",
+        "21",
+        "25"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The Canadian $1 coin is colloquially known as a what?",
+      "correct_answer": "Loonie",
+      "incorrect_answers": [
+        "Boolie",
+        "Foolie",
+        "Moodie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What historical event was Tchaikovsky&#039;s 1812 Overture referencing?",
+      "correct_answer": "The Napoleonic Wars",
+      "incorrect_answers": [
+        "The American War of 1812",
+        "The Russian Revolution",
+        "The Charge of the Light Brigade (Crimean War)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Along with Gabe Newell, who co-founded Valve?",
+      "correct_answer": "Mike Harrington",
+      "incorrect_answers": [
+        "Robin Walker",
+        "Marc Laidlaw",
+        "Stephen Bahl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;One Piece&quot;, who confirms the existence of the legendary treasure, One Piece?",
+      "correct_answer": "Edward &quot;Whitebeard&quot; Newgate",
+      "incorrect_answers": [
+        "Former Marine Fleet Admiral Sengoku",
+        "Pirate King Gol D Roger",
+        "Silvers Rayleigh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Named after the mallow flower, mauve is a shade of what?",
+      "correct_answer": "Purple",
+      "incorrect_answers": [
+        "Red",
+        "Brown",
+        "Pink"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of the following movies was not based on a novel by Stephen King? ",
+      "correct_answer": "The Thing",
+      "incorrect_answers": [
+        "Carrie",
+        "Misery",
+        "The Green Mile"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Bob and Mike Bryan were well known brothers in which sport?",
+      "correct_answer": "Tennis",
+      "incorrect_answers": [
+        "Basketball",
+        "Football",
+        "Baseball"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these is NOT an official map in Counter-Strike: Global Offensive?",
+      "correct_answer": "de_season",
+      "incorrect_answers": [
+        "de_sugarcane",
+        "de_canals",
+        "de_militia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played the Cenobite called &quot;Pinhead&quot; in the original Hellraiser films?",
+      "correct_answer": "Doug Bradley",
+      "incorrect_answers": [
+        "Doug Jones",
+        "Doug Savant",
+        "Doug Benson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the television show &quot;Lazy Town&quot;, who is the actor of Robbie Rotten?",
+      "correct_answer": "Stef&aacute;n Stef&aacute;nsson",
+      "incorrect_answers": [
+        "Adam Sandler",
+        "Magn&uacute;s Scheving",
+        "Stephen Carl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of the following actors has only been in a Quentin Tarantino directed film once?",
+      "correct_answer": "John Travolta",
+      "incorrect_answers": [
+        "Christoph Waltz",
+        "Harvey Keitel",
+        "Samuel L. Jackson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?",
+      "correct_answer": "Peace",
+      "incorrect_answers": [
+        "Physics",
+        "Economics",
+        "Physiology/Medicine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Iconic cartoon character Mickey Mouse made his onscreen debut in what year?",
+      "correct_answer": "1928",
+      "incorrect_answers": [
+        "1929",
+        "1922",
+        "1932"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the artist of the recent new album the Uncanny Valley?",
+      "correct_answer": "Perturbator",
+      "incorrect_answers": [
+        "Carpenter Brut",
+        "GOST",
+        "Dan Terminus "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which U.S. President was famously &#039;attacked&#039; by a swimming rabbit?",
+      "correct_answer": "Jimmy Carter",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "Lydon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The file hosting service, &quot;Google Drive&quot; was launched on what day?",
+      "correct_answer": "April 24, 2012",
+      "incorrect_answers": [
+        "January 12, 2014",
+        "November 14, 2008",
+        "January 20, 2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The name of technology company HP stands for what?",
+      "correct_answer": "Hewlett-Packard",
+      "incorrect_answers": [
+        "Howard Packmann",
+        "Husker-Pollosk",
+        "Hellman-Pohl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "The song &quot;Three Lions&quot; by the Lightning Seeds was made for which major football event in 1996?",
+      "correct_answer": "European Championships",
+      "incorrect_answers": [
+        "World Cup",
+        "Champions League",
+        "Confederations Cup"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who is believed to have been the first European to &#039;discover&#039; the land of New Zealand?",
+      "correct_answer": "Abel Tasman",
+      "incorrect_answers": [
+        "Christopher Columbus",
+        "Jeanne Bar&eacute;",
+        "John Cabot "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "Kuwait",
+        "United Arab Emirates",
+        "Jordan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these cartoon girlfriends of popular characters first appeared before their boyfriends?",
+      "correct_answer": "Olive Oyl",
+      "incorrect_answers": [
+        "Minnie Mouse",
+        "Lola Bunny",
+        "Daisy Duck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these Marvel games was released on the Playstation 2?",
+      "correct_answer": "Spider-Man 2",
+      "incorrect_answers": [
+        "Silver Surfer",
+        "Howard the Duck",
+        "Wolverine: Adamantium Rage"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a game under the Worms series?",
+      "correct_answer": "Major Malfunction",
+      "incorrect_answers": [
+        "Crazy Golf",
+        "Clan Wars",
+        "Ultimate Mayhem"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was Club Penguin launched?",
+      "correct_answer": "October 24, 2005",
+      "incorrect_answers": [
+        "October 21, 2005",
+        "March 29, 2006",
+        "November 22, 2004"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+      "correct_answer": "Key",
+      "incorrect_answers": [
+        "Sword",
+        "Pen",
+        "Cellphone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the character you play as in Yume Nikki?",
+      "correct_answer": "Madotsuki",
+      "incorrect_answers": [
+        "Masada",
+        "Uboa",
+        "Poniko"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters was NOT planned to be playable for Super Smash Bros. 64?",
+      "correct_answer": "Peach",
+      "incorrect_answers": [
+        "Bowser",
+        "Mewtwo",
+        "King Dedede"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+      "correct_answer": "Economics",
+      "incorrect_answers": [
+        "Philosophy",
+        "Politics",
+        "Physics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the protagonist of the 2017 anime &quot;Land of the Lustrous&quot;?",
+      "correct_answer": "Phosphophyllite",
+      "incorrect_answers": [
+        "Watermelon Tourmaline",
+        "Cinnabar",
+        "Padparadscha"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which type of rock is created by intense heat AND pressure?",
+      "correct_answer": "Metamorphic",
+      "incorrect_answers": [
+        "Sedimentary",
+        "Igneous",
+        "Diamond"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the unit of electrical capacitance?",
+      "correct_answer": "Farad",
+      "incorrect_answers": [
+        "Gauss",
+        "Henry",
+        "Watt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the official language of Costa Rica?",
+      "correct_answer": "Spanish",
+      "incorrect_answers": [
+        "English",
+        "Portuguese",
+        "Creole"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Portal 2, the iconic character GLaDOS is turned into:",
+      "correct_answer": "A potato",
+      "incorrect_answers": [
+        "A tomato",
+        "A lemon",
+        "An apple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "When was the movie &#039;Con Air&#039; released?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1985",
+        "1999",
+        "1990"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+      "correct_answer": "Aragon",
+      "incorrect_answers": [
+        "Galicia",
+        "Le&oacute;n",
+        "Navarre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many games are there in the &quot;Colony Wars&quot; series for the PlayStation?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of 2 Valve Games are set in the same universe?",
+      "correct_answer": "Half-life and Portal",
+      "incorrect_answers": [
+        "Portal and Left 4 Dead",
+        "Half-life and Left 4 Dead",
+        "Half-life and Counter Strike"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the aim of the &quot;Umbrella Revolution&quot; in Hong Kong in 2014?",
+      "correct_answer": "Genuine universal suffrage",
+      "incorrect_answers": [
+        "Gaining Independence",
+        "Go back under British Rule",
+        "Lower taxes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Avatar: The Last Airbender&quot;, which element does Aang begin to learn after being defrosted?",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Air",
+        "Earth",
+        "Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In Mulan (1998), who is the leader of the Huns?",
+      "correct_answer": "Shan Yu",
+      "incorrect_answers": [
+        "Chien-Po",
+        "Li Shang",
+        "Fa Zhou"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did Vesuvius destroy the city of Pompeii? ",
+      "correct_answer": "79 AD",
+      "incorrect_answers": [
+        "62 AD",
+        "31 BC",
+        "54 BC"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which ability from the &quot;Magic: The Gathering&quot; Scars of Mirrodin expansion involves having at least three artifacts in play?",
+      "correct_answer": "Metalcraft",
+      "incorrect_answers": [
+        "Affinity",
+        "Imprint",
+        "Living Weapon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "According to the Star Wars lore, what is Han Solo&#039;s home planet?",
+      "correct_answer": "Corellia",
+      "incorrect_answers": [
+        "Tatooine",
+        "Naboo",
+        "Coruscant"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, &#039;Oliver Twist&#039;?",
+      "correct_answer": "The Artful Dodger",
+      "incorrect_answers": [
+        "Fagin",
+        "Bull&rsquo;s-eye",
+        "Mr. Fang"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+      "correct_answer": "Māori",
+      "incorrect_answers": [
+        "Papuans",
+        "Aborigines",
+        "Polynesians"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+      "correct_answer": "&quot;A rainy Lithuanian / Is dancing as an Indian&quot;",
+      "incorrect_answers": [
+        "&quot;Fly away on, my zephyr / I feel it more than ever&quot;",
+        "&quot;And I liked the dimple in your chin / Your pale blue eyes&quot;",
+        "&quot;You used to be so warm and affectionate...but now you&#039;re quick to get into your regret&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the bloodiest single-day battle during the American Civil War?",
+      "correct_answer": "The Battle of Antietam",
+      "incorrect_answers": [
+        "The Siege of Vicksburg",
+        "The Battle of Gettysburg",
+        "The Battles of Chancellorsville"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "How many stations does the Central Line have on the London Underground?",
+      "correct_answer": "49",
+      "incorrect_answers": [
+        "51",
+        "43",
+        "47"
+      ]
+    }
+  ]
+}

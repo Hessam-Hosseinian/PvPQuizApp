@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many laws of thermodynamics are there?",
+      "correct_answer": "Four",
+      "incorrect_answers": [
+        "Three",
+        "Two",
+        "Five"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Portal 2, the iconic character GLaDOS is turned into:",
+      "correct_answer": "A potato",
+      "incorrect_answers": [
+        "A tomato",
+        "A lemon",
+        "An apple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+      "correct_answer": "Hideki Tojo",
+      "incorrect_answers": [
+        "Michinomiya Hirohito",
+        "Isoroku Yamamoto",
+        "Fumimaro Konoe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Who was the original author of Frankenstein?",
+      "correct_answer": "Mary Shelley",
+      "incorrect_answers": [
+        "Edgar Allan Poe",
+        "Bram Stoker",
+        "H. P. Lovecraft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
+      "correct_answer": "Dave",
+      "incorrect_answers": [
+        "John",
+        "Will",
+        "Carl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which car did not appear in the 2002 Lego Game: Drome Racers?",
+      "correct_answer": "Wasp",
+      "incorrect_answers": [
+        "Raptor",
+        "Hornet",
+        "Behemoth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which rap group released the album &quot;Straight Outta Compton&quot;?",
+      "correct_answer": "N.W.A",
+      "incorrect_answers": [
+        "Wu-Tang Clan",
+        "Run-D.M.C.",
+        "Beastie Boys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+      "correct_answer": "Astoria Greengrass",
+      "incorrect_answers": [
+        "Pansy Parkinson",
+        "Millicent Bulstrode",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which water-type Pok&eacute;mon starter was introduced in the 4th generation of the series?",
+      "correct_answer": "Piplup",
+      "incorrect_answers": [
+        "Totodile",
+        "Oshawott",
+        "Mudkip"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which planet in the Solar System is the closest to the Sun?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": [
+        "Earth",
+        "Mars",
+        "Venus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Who was the 40th President of the USA?",
+      "correct_answer": "Ronald Reagan",
+      "incorrect_answers": [
+        "Jimmy Carter",
+        "Bill Clinton",
+        "Richard Nixon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which psychopath(s) in Dead Rising 1 gave you the small chainsaw?",
+      "correct_answer": "Adam the Clown",
+      "incorrect_answers": [
+        "Cliff Hudson",
+        "The convicts",
+        "Larry the butcher"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Rick and Morty&quot;, from which dimension do Rick and Morty originate from?",
+      "correct_answer": "C-137",
+      "incorrect_answers": [
+        "J1977",
+        "C-136",
+        "C500-a"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of NASA&rsquo;s most famous space telescope?",
+      "correct_answer": "Hubble Space Telescope",
+      "incorrect_answers": [
+        "Big Eye",
+        "Death Star",
+        "Millenium Falcon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was the first prime minister of Canada?",
+      "correct_answer": "John Macdonald",
+      "incorrect_answers": [
+        "John Abbott",
+        "Alexander Mackenzie",
+        "Robert Borden"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Left 4 Dead, what is the character Bill&#039;s last name?",
+      "correct_answer": "Overbeck",
+      "incorrect_answers": [
+        "Fish",
+        "Roberts",
+        "Stevenson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "How many members are there in the band Nirvana?",
+      "correct_answer": "Three",
+      "incorrect_answers": [
+        "Two",
+        "Four",
+        "Five"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the romanized Japanese word for &quot;university&quot;?",
+      "correct_answer": "Daigaku",
+      "incorrect_answers": [
+        "Toshokan",
+        "Jimusho",
+        "Shokudou"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+      "correct_answer": "James Rodr&iacute;guez",
+      "incorrect_answers": [
+        "Thomas M&uuml;ller",
+        "Lionel Messi",
+        "Neymar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+      "correct_answer": "Egypt and Sudan",
+      "incorrect_answers": [
+        "Israel and Jordan",
+        "Chad and Libya",
+        "Iraq and Saudi Arabia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Which of the following Autobot names in Michael Bay&#039;s movies was NOT a name for a Transformer in the original 1980&#039;s cartoon?",
+      "correct_answer": "Mudflap",
+      "incorrect_answers": [
+        "Skids",
+        "Sideswipe",
+        "Ratchet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is not a member of the virtual band Gorillaz?",
+      "correct_answer": "Phi Cypher",
+      "incorrect_answers": [
+        "Murdoc Niccals",
+        "Noodle",
+        "Russel Hobbs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "League of Legends, DOTA 2, Smite and Heroes of the Storm are all part of which game genre?",
+      "correct_answer": "Multiplayer Online Battle Arena (MOBA)",
+      "incorrect_answers": [
+        "Real Time Strategy (RTS)",
+        "First Person Shooter (FPS)",
+        "Role Playing Game (RPG)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?",
+      "correct_answer": "Mercedes-AMG Petronas",
+      "incorrect_answers": [
+        "Scuderia Ferrari",
+        "McLaren Honda",
+        "Red Bull Racing Renault"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+      "correct_answer": "Cipher",
+      "incorrect_answers": [
+        "Mobius 1",
+        "Blaze",
+        "Pixy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "When was the Tamagotchi digital pet released?",
+      "correct_answer": "1996",
+      "incorrect_answers": [
+        "1989",
+        "1992",
+        "1990"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What prime number comes next after 19?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "25",
+        "21",
+        "27"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Counter Strike: Global Offensive, what is the code implanted onto the C4 as the Terrorists plant the bomb?",
+      "correct_answer": "7355608",
+      "incorrect_answers": [
+        "7890728",
+        "7256380",
+        "7726354"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Worms&quot; series of video games, which of these weapons is affected by wind?",
+      "correct_answer": "Bazooka",
+      "incorrect_answers": [
+        "Grenade",
+        "Air Strike",
+        "Mortar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+      "correct_answer": "The Columbian Exchange",
+      "incorrect_answers": [
+        "Triangle Trade",
+        "Transatlantic Slave Trade",
+        "The Silk Road"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Halo&quot;, what is the name of the planet which Installation 04 orbits?",
+      "correct_answer": "Threshold",
+      "incorrect_answers": [
+        "Substance",
+        "Sanghelios",
+        "Te"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is Tasmania?",
+      "correct_answer": "An Australian State",
+      "incorrect_answers": [
+        "A flavor of Ben and Jerry&#039;s ice-cream",
+        "A Psychological Disorder",
+        "The Name of a Warner Brothers Cartoon Character"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "A comet&#039;s gaseous envelope (which creates the tail) is called what?",
+      "correct_answer": "The coma",
+      "incorrect_answers": [
+        "The wake",
+        "The backwash",
+        "The ablative"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Which of these are the name of a famous marker brand?",
+      "correct_answer": "Copic",
+      "incorrect_answers": [
+        "Dopix",
+        "Cofix",
+        "Marx"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What year did World War I begin?",
+      "correct_answer": "1914",
+      "incorrect_answers": [
+        "1905",
+        "1919",
+        "1925"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many regular Sunken Sea Scrolls are there in &quot;Splatoon&quot;?",
+      "correct_answer": "27",
+      "incorrect_answers": [
+        "32",
+        "30",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Who was the King of Gods in Ancient Greek mythology?",
+      "correct_answer": "Zeus",
+      "incorrect_answers": [
+        "Apollo",
+        "Hermes",
+        "Poseidon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?",
+      "correct_answer": "Dr. Mario",
+      "incorrect_answers": [
+        "Mewtwo",
+        "Lucas",
+        "Roy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Found in the Marvel Comics fictional universe, what is the name of the nearly indestructible metal that coats Wolverine&#039;s bones and claws?",
+      "correct_answer": "Adamantium",
+      "incorrect_answers": [
+        "Titanium",
+        "Vibranium",
+        "Carbonadium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+      "correct_answer": "January 30, 1933",
+      "incorrect_answers": [
+        "September 1, 1939",
+        "February 27, 1933",
+        "October 6, 1939"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the world&#039;s first handheld game device?",
+      "correct_answer": "Mattel Auto Race",
+      "incorrect_answers": [
+        "Game Boy",
+        "Microvision",
+        "Game &amp; Watch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The &#039;64&#039; in the Nintendo-64 console refers to what?",
+      "correct_answer": "The bits in the CPU architecture",
+      "incorrect_answers": [
+        "The number of megabytes of RAM",
+        "Capacity of the ROM Cartridges in megabytes",
+        "Clock speed of the CPU in Hertz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Starbound&quot;, according to the asset files, the description of the &quot;Erchius Ghost&quot; is the same as which other assets?",
+      "correct_answer": "Spookit",
+      "incorrect_answers": [
+        "Petricub",
+        "Trictus",
+        "Pyromantle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "When was Finland&#039;s 100th year of being independent?",
+      "correct_answer": "2017",
+      "incorrect_answers": [
+        "2016",
+        "2018",
+        "2015"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What company developed the vocaloid Hatsune Miku?",
+      "correct_answer": "Crypton Future Media",
+      "incorrect_answers": [
+        "Sega",
+        "Sony",
+        "Yamaha Corporation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Pok&eacute;mon Go is a location-based augmented reality game developed and published by which company?",
+      "correct_answer": "Niantic",
+      "incorrect_answers": [
+        "Rovio",
+        "Zynga",
+        "Supercell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which Japanese company is the world&#039;s largest manufacturer of motorcycles?",
+      "correct_answer": "Honda",
+      "incorrect_answers": [
+        "Yamaha",
+        "Suzuki",
+        "Kawasaki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "According to Overwatch&#039;s lore, who was once a member of the Deadlock Gang?",
+      "correct_answer": "McCree",
+      "incorrect_answers": [
+        "Roadhog",
+        "Soldier 76",
+        "Junkrat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which artist curated the official soundtrack for &quot;The Hunger Games: Mockingjay - Part 1&quot;?",
+      "correct_answer": "Lorde",
+      "incorrect_answers": [
+        "Kanye West",
+        "Tove Lo",
+        "Charli XCX"
+      ]
+    }
+  ]
+}

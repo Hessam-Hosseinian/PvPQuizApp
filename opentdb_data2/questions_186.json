@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "How old was Muhammad Ali when he died?",
+      "correct_answer": "74",
+      "incorrect_answers": [
+        "61",
+        "He&#039;s still alive",
+        "56"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the theme song of &quot;Neon Genesis Evangelion&quot;?",
+      "correct_answer": "A Cruel Angel&#039;s Thesis",
+      "incorrect_answers": [
+        "Stardust Crusaders",
+        "Requiem for a Dream",
+        "God Knows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In what Half-Life expansion can you find Gordon&#039;s picture in an &quot;Employee of the Month&quot; picture frame?",
+      "correct_answer": "Half-Life: Opposing Force",
+      "incorrect_answers": [
+        "Half-Life: Blue Shift",
+        "Half-Life: Decay",
+        "They Hunger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Night In The Woods, where does Gregg work?",
+      "correct_answer": "Snack Falcon",
+      "incorrect_answers": [
+        "Ol&#039; Pickaxe",
+        "Video Outpost &quot;Too&quot;",
+        "Food Donkey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Which Batman sidekick is the son of Talia al Ghul?",
+      "correct_answer": "Damian Wayne",
+      "incorrect_answers": [
+        "Dick Grayson",
+        "Tim Drake",
+        "Jason Todd"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "When was Tesla founded?",
+      "correct_answer": "2003",
+      "incorrect_answers": [
+        "2008",
+        "2005",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The word &quot;abulia&quot; means which of the following?",
+      "correct_answer": "The inability to make decisions",
+      "incorrect_answers": [
+        "The inability to stand up",
+        "The inability to concentrate on anything",
+        "A feverish desire to rip one&#039;s clothes off"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What style of beer will typically have a higher than average hop content?",
+      "correct_answer": "India Pale Ale",
+      "incorrect_answers": [
+        "Stout",
+        "Extra Special Bitter",
+        "Scotch Ale"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+      "correct_answer": "Elric",
+      "incorrect_answers": [
+        "Ellis",
+        "Eliek",
+        "Elwood"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In Margaret Atwood&#039;s &quot;The Handmaid&#039;s Tale&quot;, what is Offred&#039;s real name is implied to be?",
+      "correct_answer": "June",
+      "incorrect_answers": [
+        "August",
+        "April",
+        "May"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;To Love-Ru&quot; series, how many Trans-weapons were created?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the artist of the recent new album the Uncanny Valley?",
+      "correct_answer": "Perturbator",
+      "incorrect_answers": [
+        "Carpenter Brut",
+        "GOST",
+        "Dan Terminus "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When was &quot;The Gadget&quot;, the first nuclear device to be detonated, tested?",
+      "correct_answer": "July 16, 1945",
+      "incorrect_answers": [
+        "June 22, 1945",
+        "August 6, 1945",
+        "April 5, 1945"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "When was the game &#039;Portal 2&#039; released?",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2014",
+        "2009",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In which year was Constantinople conquered by the Turks?",
+      "correct_answer": "1453",
+      "incorrect_answers": [
+        "1435",
+        "1454",
+        "1440"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In &quot;Mean Girls&quot;, who has breasts that tell when it&#039;s raining?",
+      "correct_answer": "Karen Smith",
+      "incorrect_answers": [
+        "Gretchen Weiners",
+        "Janice Ian",
+        "Cady Heron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Before getting the shotgun, what did the titular hobo in &#039;Hobo with a Shotgun&#039; want to purchase?",
+      "correct_answer": "a lawnmower",
+      "incorrect_answers": [
+        "a revolver",
+        "a guitar",
+        "a suit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On a London Underground map, what colour is the Circle Line?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": [
+        "Red",
+        "Blue",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which country has the abbreviation &quot;CH&quot;?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": [
+        "China",
+        "Canada",
+        "No Country"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which brass instrument has the lowest pitch in an orchestra?",
+      "correct_answer": "Tuba",
+      "incorrect_answers": [
+        "Trumpet",
+        "Saxophone",
+        "Trombone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Resident Evil 2&quot;, which virus was William Birkin mutated by?",
+      "correct_answer": "G-Virus",
+      "incorrect_answers": [
+        "T-Virus",
+        "C-Virus",
+        "E-Virus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "The Nike apparel and footwear brand takes it&#039;s name from the Greek goddess of what?",
+      "correct_answer": "Victory",
+      "incorrect_answers": [
+        "Courage",
+        "Strength",
+        "Honor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What was the name of the hip hop group Kanye West was a member of in the late 90s?",
+      "correct_answer": "The Go-Getters",
+      "incorrect_answers": [
+        "The Jumpers",
+        "The Kickstarters",
+        "The Beat-Busters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the Linnean name of the domestic apple tree?",
+      "correct_answer": "Malus pumila",
+      "incorrect_answers": [
+        "Malus americana",
+        "Pomus domestica",
+        "Appelus delectica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Jewelpet Sunshine&quot;, what is the song that plays when Kanon and her friends bust out of prison?",
+      "correct_answer": "I Don&#039;t Want to Miss a Thing",
+      "incorrect_answers": [
+        "Eye Of The Tiger",
+        "Born to be Wild",
+        "Ruby Ring"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What are the scales on all snakes and most lizards are made of?",
+      "correct_answer": "Keratin",
+      "incorrect_answers": [
+        "Ecdysis",
+        "Epidermis",
+        "Ankyloglossia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these bands is the oldest?",
+      "correct_answer": "Pink Floyd",
+      "incorrect_answers": [
+        "AC/DC",
+        "Metallica",
+        "Red Hot Chili Peppers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the standard frame rate for animation?",
+      "correct_answer": "24 FPS",
+      "incorrect_answers": [
+        "12 FPS",
+        "30 FPS",
+        "60 FPS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "How much horsepower is produced by the SD40-2 Locomotive?",
+      "correct_answer": "3,000",
+      "incorrect_answers": [
+        "3,200",
+        "2,578",
+        "2,190"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital city of Slovenia?",
+      "correct_answer": "Ljubljana",
+      "incorrect_answers": [
+        "Maribor",
+        "Velenje",
+        "Trbovlje"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which moon is the only satellite in our solar system to possess a dense atmosphere?",
+      "correct_answer": "Titan",
+      "incorrect_answers": [
+        "Europa",
+        "Miranda",
+        "Callisto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which was the first &quot;Call Of Duty: Zombies&quot; map to introduce the &quot;Wunderwaffe DG-2&quot;?",
+      "correct_answer": "Shi No Numa",
+      "incorrect_answers": [
+        "Tranzit",
+        "Kino Der Toten",
+        "Der Riese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many countries does Spain have a land border with?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "What Magic: The Gathering card&#039;s flavor text is just &#039;Ribbit.&#039;?",
+      "correct_answer": "Turn to Frog",
+      "incorrect_answers": [
+        "Spore Frog",
+        "Bloated Toad",
+        "Frogmite"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Krusty is the guild master of which guild in &quot;Log Horizon&quot;?",
+      "correct_answer": "D. D. D",
+      "incorrect_answers": [
+        "Silver Sword",
+        "West Wind Brigade",
+        "Oceanic Systems (Marine Agency)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Star Wars: Republic Commando (2005), what is the name of the squad that you play as?",
+      "correct_answer": "Delta Squad",
+      "incorrect_answers": [
+        "Omega Squad",
+        "Echo Squad",
+        "Alpha Squad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Nintendo 64 game did NOT have Luigi in it?",
+      "correct_answer": "Super Mario 64",
+      "incorrect_answers": [
+        "Mario Party 2",
+        "Paper Mario",
+        "Super Smash Bros."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which singer was featured in Jack &Uuml; (Skrillex &amp; Diplo)&#039;s 2015 song &#039;Where Are &Uuml; Now&#039;?",
+      "correct_answer": "Justin Bieber",
+      "incorrect_answers": [
+        "Selena Gomez",
+        "Ellie Goulding",
+        "The Weeknd"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "What was the name of the first front-wheel-drive car produced by Datsun (now Nissan)?",
+      "correct_answer": "Cherry",
+      "incorrect_answers": [
+        "Sunny",
+        "Bluebird",
+        "Skyline"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "In which Shakespeare play does the character Marcellus say, &quot;Something is rotten in the state of Denmark&quot;?",
+      "correct_answer": "Hamlet",
+      "incorrect_answers": [
+        "Macbeth",
+        "King Lear",
+        "Twelfth Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which game was the Game of the Year in 2018?",
+      "correct_answer": "God of War",
+      "incorrect_answers": [
+        "Detroit: Become Human",
+        "Red Dead Redemption 2",
+        "A Way Out"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the inspector in the series &quot;On the Buses&quot;?",
+      "correct_answer": "Blakey",
+      "incorrect_answers": [
+        "Harper",
+        "Naily",
+        "Gally"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which actress portrayed Dr. Grace Augustine in the James Cameron movie &quot;Avatar&quot;?",
+      "correct_answer": "Sigourney Weaver",
+      "incorrect_answers": [
+        "Jessica Chastain",
+        "Melissa Beckett",
+        "Alyssa Monroe "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
+      "correct_answer": "Scorpion",
+      "incorrect_answers": [
+        "Snake",
+        "Bull",
+        "Horse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Minecraft&quot; was released from beta in 2011 during a convention held in which city?",
+      "correct_answer": "Las Vegas",
+      "incorrect_answers": [
+        "Paris",
+        "Bellevue",
+        "London"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?",
+      "correct_answer": "Dr. Mario",
+      "incorrect_answers": [
+        "Mewtwo",
+        "Lucas",
+        "Roy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the first book of the Old Testament?",
+      "correct_answer": "Genesis",
+      "incorrect_answers": [
+        "Exodus",
+        "Leviticus",
+        "Numbers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who was the lead singer and frontman of rock band R.E.M?",
+      "correct_answer": "Michael Stipe",
+      "incorrect_answers": [
+        "Chris Martin",
+        "Thom Yorke",
+        "George Michael"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?",
+      "correct_answer": "The Central Powers",
+      "incorrect_answers": [
+        "The Axis Powers",
+        "The Federation of Empires",
+        "Authoritarian Alliance"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which Russian author wrote the epic novel War and Peace?",
+      "correct_answer": "Leo Tolstoy",
+      "incorrect_answers": [
+        "Fyodor Dostoyevsky",
+        "Alexander Pushkin",
+        "Vladimir Nabokov"
+      ]
+    }
+  ]
+}

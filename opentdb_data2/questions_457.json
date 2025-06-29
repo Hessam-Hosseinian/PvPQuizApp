@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which German city is located on the River Isar?",
+      "correct_answer": "Munich",
+      "incorrect_answers": [
+        "Berlin",
+        "Hamburg",
+        "Dortmund"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following spacecraft never touched the moon?",
+      "correct_answer": "Mariner 4",
+      "incorrect_answers": [
+        "Apollo 11",
+        "Luna 2",
+        "SMART-1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+      "correct_answer": "Mermaid Transformation",
+      "incorrect_answers": [
+        "Artificial Gills",
+        "Bubble Head",
+        "Bubble Shield"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Who wrote the Batman comic series &quot;The Killing Joke&quot;?",
+      "correct_answer": "Alan Moore",
+      "incorrect_answers": [
+        "Bill Finger",
+        "Frank Miller",
+        "Jerry Siegel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?",
+      "correct_answer": "Yo-kai Watch",
+      "incorrect_answers": [
+        "Pok&eacute;mon",
+        "Yu-gi-oh",
+        "Buddyfight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who is frozen at the end of the movie &quot;Goldeneye&quot;?",
+      "correct_answer": "Boris Grishenko",
+      "incorrect_answers": [
+        "James Bond",
+        "Natalya Simonova",
+        "Alec Travelyan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which American family band had a 1986 top 10 hit with the song &#039;Crush On You&#039;?",
+      "correct_answer": "The Jets",
+      "incorrect_answers": [
+        "DeBarge",
+        "The Jacksons",
+        "The Cover Girls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What is the primary purpose of the Fourth Amendment to the US Constitution?",
+      "correct_answer": "Preventing unreasonable searches and seizures",
+      "incorrect_answers": [
+        "Preventing cruel and unusual punishments",
+        "Protecting against imprisonment without due process of law",
+        "Protecting the right to keep and bear arms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the world&#039;s first video game console?",
+      "correct_answer": "Magnavox Odyssey",
+      "incorrect_answers": [
+        "Coleco Telstar",
+        "Nintendo Color TV Game",
+        "Atari 2600"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "Which of these games includes the phrase &quot;Do not pass Go, do not collect $200&quot;?",
+      "correct_answer": "Monopoly",
+      "incorrect_answers": [
+        "Pay Day",
+        "Cluedo",
+        "Coppit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Enter the Gungeon, which one of these is not a playable character?",
+      "correct_answer": "The Wizard",
+      "incorrect_answers": [
+        "The Bullet",
+        "The Robot",
+        "The Cultist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The humerus, paired radius, and ulna come together to form what joint?",
+      "correct_answer": "Elbow",
+      "incorrect_answers": [
+        "Knee",
+        "Sholder",
+        "Ankle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Satella in &quot;Re:Zero&quot; is the witch of what?",
+      "correct_answer": "Envy",
+      "incorrect_answers": [
+        "Pride",
+        "Sloth",
+        "Wrath"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the approximate value of mathematical constant e?",
+      "correct_answer": "2.72",
+      "incorrect_answers": [
+        "3.14",
+        "1.62",
+        "1.41"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What power does Max Caulfield from &quot;Life is Strange&quot; have?",
+      "correct_answer": "Rewinding Time",
+      "incorrect_answers": [
+        "Invisibility",
+        "Telepathy",
+        "Super Strength"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which singer was featured in Swedish producer Avicii&#039;s song &quot;Wake Me Up&quot;?",
+      "correct_answer": "Aloe Blacc",
+      "incorrect_answers": [
+        "John Legend",
+        "CeeLo Green",
+        "Pharrell Williams"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of Team Mystic in Pok&eacute;mon Go?",
+      "correct_answer": "Blanche",
+      "incorrect_answers": [
+        "Candela",
+        "Spark",
+        "Willow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What do you study if you are studying entomology?",
+      "correct_answer": "Insects",
+      "incorrect_answers": [
+        "Humans",
+        "the Brain",
+        "Fish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Highschool of the Dead&quot;, where did Komuro and Saeko establish to meet after the bus explosion?",
+      "correct_answer": "Eastern Police Station",
+      "incorrect_answers": [
+        "The Center Mall",
+        "Komuro&#039;s House",
+        "On The Main Bridge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+      "correct_answer": "USS Pueblo",
+      "incorrect_answers": [
+        "USS North Carolina",
+        "USS Constitution",
+        "USS Indianapolis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Terran units from the RTS game Starcraft was first introduced in the expansion Brood War?",
+      "correct_answer": "Medic",
+      "incorrect_answers": [
+        "Wraith",
+        "Science Vessel",
+        "SCV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What country is not a part of Scandinavia?",
+      "correct_answer": "Finland",
+      "incorrect_answers": [
+        "Norway",
+        "Sweden",
+        "Denmark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "At what temperature does temp in &deg;C equal temp in &deg;F?",
+      "correct_answer": "-40",
+      "incorrect_answers": [
+        "+40",
+        "0",
+        "+100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What did the first moving picture depict?",
+      "correct_answer": "A galloping horse",
+      "incorrect_answers": [
+        "A woman in a dress",
+        "A man walking",
+        "A crackling fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Twin Size Mattress&quot; was written by which band?",
+      "correct_answer": "The Front Bottoms",
+      "incorrect_answers": [
+        "Twenty One Pilots",
+        "The Wonder Years",
+        "The Smith Street Band"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?",
+      "correct_answer": "Ame &amp; Yuki",
+      "incorrect_answers": [
+        "Hana &amp; Yuki",
+        "Ame &amp; Hana",
+        "Chuck &amp; Anna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Terraria&quot;, which of these bosses are pre-hardmode bosses?",
+      "correct_answer": "Eye of Cthulhu",
+      "incorrect_answers": [
+        "Plantera",
+        "Skeletron Prime",
+        "The Destroyer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "Which of the following tabletop games is the oldest?",
+      "correct_answer": "Go",
+      "incorrect_answers": [
+        "Chess",
+        "Mahjong",
+        "Shogi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which team has won the most Stanley Cups in the NHL?",
+      "correct_answer": "Montreal Canadians",
+      "incorrect_answers": [
+        "Chicago Blackhawks",
+        "Toronto Maple Leafs",
+        "Detroit Red Wings"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python&#039;s Life of Brian?",
+      "correct_answer": "Romani Ite Domum",
+      "incorrect_answers": [
+        "Romans Go Home",
+        "Roxani Ite Domum",
+        "Tomate Ite Domum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Need For Speed Most Wanted (2005), what do you drive at the beginning of the career mode?",
+      "correct_answer": "BMW M3 GTR",
+      "incorrect_answers": [
+        "Porsche 911 Turbo",
+        "Nissan 240SX",
+        "Ford Mustang"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs from American Idiot: The Musical was a previously unreleased Green Day song?",
+      "correct_answer": "When It&#039;s Time",
+      "incorrect_answers": [
+        "Are We The Waiting",
+        "Before The Lobotomy",
+        "Favorite Son"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following presidents is not on Mount Rushmore?",
+      "correct_answer": "John F. Kennedy",
+      "incorrect_answers": [
+        "Theodore Roosevelt",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+      "correct_answer": "Equatorial Guinea",
+      "incorrect_answers": [
+        "Guinea",
+        "Cameroon",
+        "Angola"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "In a standard set of playing cards, which is the only king without a moustache?",
+      "correct_answer": "Hearts",
+      "incorrect_answers": [
+        "Spades",
+        "Diamonds",
+        "Clubs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the 1964 film &quot;Zulu&quot;, what song does the British Army company sing before the final battle?",
+      "correct_answer": "Men of Harlech",
+      "incorrect_answers": [
+        "Scotland the Brave",
+        "Colonel Bogey March",
+        "The British Grenadiers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "How many time zones does China have?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "3",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What fast food chain has the most locations globally? ",
+      "correct_answer": "Subway",
+      "incorrect_answers": [
+        "Starbucks",
+        "McDonalds",
+        "KFC"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the adventurer you meet at the mines in Stardew Valley?",
+      "correct_answer": "Marlon",
+      "incorrect_answers": [
+        "Marnie",
+        "Morris",
+        "Marvin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "According to Toby Fox, what was the method to creating the initial tune for Megalovania?",
+      "correct_answer": "Singing into a Microphone",
+      "incorrect_answers": [
+        "Playing a Piano",
+        "Using a Composer Software",
+        "Listened to birds at the park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
+      "correct_answer": "Midnight, January 1, 1970",
+      "incorrect_answers": [
+        "Midnight, July 4, 1976",
+        "Midnight on the creator of Unix&#039;s birthday",
+        "Midnight, July 4, 1980"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What port does HTTP run on?",
+      "correct_answer": "80",
+      "incorrect_answers": [
+        "53",
+        "443",
+        "23"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What former MOBA, created by Waystone Games and published by EA, was shut down in 2014?",
+      "correct_answer": "Dawngate",
+      "incorrect_answers": [
+        "Strife",
+        "League of Legends",
+        "Heroes of Newerth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Why was The Green Monster at Fenway Park was originally built?",
+      "correct_answer": "To prevent viewing games from outside the park.",
+      "incorrect_answers": [
+        "To make getting home runs harder.",
+        "To display advertisements.",
+        "To provide extra seating."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "In Black Hammer, what city did the heroes save from the Anti-God?",
+      "correct_answer": "Spiral City",
+      "incorrect_answers": [
+        "Mega-City One",
+        "Rockwood",
+        "Star City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Gannymede is the largest moon of which planet?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Uranus",
+        "Neptune",
+        "Mars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "All the following metal elements are liquids at or near room temperature EXCEPT:",
+      "correct_answer": "Beryllium",
+      "incorrect_answers": [
+        "Gallium",
+        "Caesium",
+        "Mercury"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+      "correct_answer": "The Polish President",
+      "incorrect_answers": [
+        "Pope John Paul II",
+        "Bang-Ding Ow",
+        "Albert Putin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What are the cylinder-like parts that pump up and down within the engine?",
+      "correct_answer": "Pistons",
+      "incorrect_answers": [
+        "Leaf Springs",
+        "Radiators",
+        "ABS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year is considered to be the year that the British Empire ended?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1986",
+        "1981",
+        "1971"
+      ]
+    }
+  ]
+}

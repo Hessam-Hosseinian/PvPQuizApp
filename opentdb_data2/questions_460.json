@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Rollercoaster Tycoon&quot; was programmed mostly entirely in...",
+      "correct_answer": "x86 Assembly",
+      "incorrect_answers": [
+        "C++",
+        "C",
+        "ALGOL"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which popular rock band has a one-armed drummer?",
+      "correct_answer": "Def Leppard",
+      "incorrect_answers": [
+        "The Beatles",
+        "Lynyrd Skynyrd",
+        "Foreigner"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the standard frame rate for animation?",
+      "correct_answer": "24 FPS",
+      "incorrect_answers": [
+        "12 FPS",
+        "30 FPS",
+        "60 FPS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which member of &quot;The Beatles&quot; narrated episodes of &quot;Thomas the Tank Engine&quot;?",
+      "correct_answer": "Ringo Starr",
+      "incorrect_answers": [
+        "George Harrison",
+        "John Lennon",
+        "Paul McCartney"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?",
+      "correct_answer": "Micronesia",
+      "incorrect_answers": [
+        "Fiji",
+        "Tuvalu",
+        "Marshall Islands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters is the mascot of the video game company SEGA?",
+      "correct_answer": "Sonic the Hedgehog",
+      "incorrect_answers": [
+        "Dynamite Headdy",
+        "Alex Kidd",
+        "Opa-Opa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+      "correct_answer": "Owen Hart",
+      "incorrect_answers": [
+        "Chris Benoit",
+        "Lex Luger",
+        "Al Snow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "In which country is Tallinn located?",
+      "correct_answer": "Estonia",
+      "incorrect_answers": [
+        "Finland",
+        "Sweden",
+        "Poland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who voices the main character Blu in the 2011 animated film &quot;Rio&quot;?",
+      "correct_answer": "Jesse Eisenberg",
+      "incorrect_answers": [
+        "Michael Cera",
+        "Jonah Hill",
+        "Zach Galifianakis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What year was the Disney film &quot;A Goofy Movie&quot; released?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1999",
+        "2001",
+        "1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "In chess, which is a characteristic of the King&#039;s Gambit?",
+      "correct_answer": "Sacrificing a pawn",
+      "incorrect_answers": [
+        "Sacrificing the king for a queen",
+        "Castling kingside",
+        "Moving the king on the 2nd move"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main character in most of the games of the YS series?",
+      "correct_answer": "Adol Christin ",
+      "incorrect_answers": [
+        "Character doesn&#039;t have a name",
+        "Estelle Bright",
+        "Roger Wilco"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What ingredient is NOT used to craft a cake in Minecraft?",
+      "correct_answer": "Bread",
+      "incorrect_answers": [
+        "Wheat",
+        "Milk",
+        "Egg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "Which programming language shares its name with an island in Indonesia?",
+      "correct_answer": "Java",
+      "incorrect_answers": [
+        "Python",
+        "C",
+        "Jakarta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What was the name of Pink Floyd&#039;s first studio album?",
+      "correct_answer": "The Piper at the Gates of Dawn",
+      "incorrect_answers": [
+        "Ummagumma",
+        "More",
+        "Atom Heart Mother"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+      "correct_answer": "Ernest Rutherford",
+      "incorrect_answers": [
+        "Joseph John Thomson",
+        "Archimedes",
+        "Niels Henrik David Bohr"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the final boss in Turok: Dinosaur Hunter?",
+      "correct_answer": "The Campaigner",
+      "incorrect_answers": [
+        "The Primagen",
+        "Oblivion",
+        "Lord Tyrannus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the half-demon character in Divinity: Original Sin 2 who you talk to to transition between acts?",
+      "correct_answer": "Malady",
+      "incorrect_answers": [
+        "Meister Siva",
+        "Gawin",
+        "Exter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the creature that the main character befriends in &quot;The Last Guardian&quot;?",
+      "correct_answer": "Trico",
+      "incorrect_answers": [
+        "Nico",
+        "Wolf",
+        "Andazi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first &quot;Call Of Duty: Zombies&quot; map to be directed by Jason Blundell?",
+      "correct_answer": "Mob Of The Dead",
+      "incorrect_answers": [
+        "Buried",
+        "Origins",
+        "Moon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What year was the United States Declaration of Independence signed?",
+      "correct_answer": "1776",
+      "incorrect_answers": [
+        "1775",
+        "1774",
+        "1777"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?",
+      "correct_answer": "The Junkyard Gang",
+      "incorrect_answers": [
+        "The Trash Troupe",
+        "The Scrapyard Seven",
+        "The Rotten Posse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "According to their longtime nickname, what kind of &quot;duo&quot; are Batman &amp; Robin?",
+      "correct_answer": "Dynamic",
+      "incorrect_answers": [
+        "Dangerous",
+        "Dynastic",
+        "Delirious"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which one of these characters is from &quot;Legendz : Tale of the Dragon Kings&quot;?",
+      "correct_answer": "Shiron",
+      "incorrect_answers": [
+        "Jack",
+        "Axia",
+        "Drum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of the Pack-A-Punched Crossbow?",
+      "correct_answer": "Awful Lawton",
+      "incorrect_answers": [
+        "Longinus",
+        "V-R11",
+        "Predator"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who voices for Ruby in the animated series RWBY?",
+      "correct_answer": "Lindsay Jones",
+      "incorrect_answers": [
+        "Tara Strong",
+        "Jessica Nigri",
+        "Hayden Panettiere"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Approximately how long is a year on Uranus?",
+      "correct_answer": "84 Earth years",
+      "incorrect_answers": [
+        "47 Earth years",
+        "62 Earth years",
+        "109 Earth years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did the Berlin Wall fall?",
+      "correct_answer": "1989",
+      "incorrect_answers": [
+        "1987",
+        "1991",
+        "1993"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the perk that was introduced in the &quot;Call Of Duty: Zombies&quot; map, &quot;Mob Of The Dead&quot;?",
+      "correct_answer": "Electric Cherry",
+      "incorrect_answers": [
+        "Quick Revive",
+        "Vulture Aid",
+        "Tombstone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "When did Tame Impala release their second album?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2015",
+        "2010",
+        "1967"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Spitfire L.F. Mk IX had what engine?",
+      "correct_answer": "Merlin 66",
+      "incorrect_answers": [
+        "Griffon 65",
+        "Merlin 50",
+        "Merlin X"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of these countries was sea charted in 1500 by the Portuguese maritime explorations?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "India",
+        "Mozambique",
+        "Madagascar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+      "correct_answer": "Wessex",
+      "incorrect_answers": [
+        "Barsetshire",
+        "Fulchester",
+        "Ambridge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+      "correct_answer": "John Steinbeck",
+      "incorrect_answers": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "William Faulkner"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Brendan Fraser starred in the following movies, except which one?",
+      "correct_answer": "Titanic",
+      "incorrect_answers": [
+        "Monkeybone",
+        "Encino Man",
+        "Mrs. Winterbourne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+      "correct_answer": "RiDGiD STUDiOS",
+      "incorrect_answers": [
+        "Dan Bell",
+        "Billy Familia",
+        "VeganGainz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, which map features the &quot;Fly Trap&quot; easter egg?",
+      "correct_answer": "Der Riese",
+      "incorrect_answers": [
+        "Tranzit",
+        "Call Of The Dead",
+        "Shi No Numa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which Italian city is home of the car manufacturer &#039;Fiat&#039;?",
+      "correct_answer": "Turin",
+      "incorrect_answers": [
+        "Maranello",
+        "Modena",
+        "Rome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;JoJo&#039;s Bizarre Adventure: Stardust Crusaders&quot;, what is the last name of the protagonist Jotaro?",
+      "correct_answer": "Kujo",
+      "incorrect_answers": [
+        "Cujoh",
+        "Joestar",
+        "Higashikata"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "7-Eleven stores were temporarily converted into Kwik E-marts to promote the release of what movie?",
+      "correct_answer": "The Simpsons Movie",
+      "incorrect_answers": [
+        "Spider-Man 3",
+        "Shrek the Third",
+        "Ratatouille"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+      "correct_answer": "Operation Typhoon",
+      "incorrect_answers": [
+        "Operation Sunflower",
+        "Operation Barbarossa",
+        "Case Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who voiced Metalbeard in &quot;The Lego Movie&quot;?",
+      "correct_answer": "Nick Offerman",
+      "incorrect_answers": [
+        "Liam Neeson",
+        "Morgan Freeman",
+        "Will Arnet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which of the following authors was not born in England? ",
+      "correct_answer": "Arthur Conan Doyle",
+      "incorrect_answers": [
+        "Graham Greene",
+        "H G Wells",
+        "Arthur C Clarke"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Madonna&#039;s song &quot;Hung Up&quot; includes a piece from which popular 70s song?",
+      "correct_answer": "Gimmie! Gimmie! Gimme! (A Man After Midnight)",
+      "incorrect_answers": [
+        "Staying Alive",
+        "Night Fever",
+        "The Chain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of Samantha Maxis&#039; dog?",
+      "correct_answer": "Fluffy",
+      "incorrect_answers": [
+        "Baxter",
+        "Fido",
+        "Henry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Terraria&quot;, which of these bosses are pre-hardmode bosses?",
+      "correct_answer": "Eye of Cthulhu",
+      "incorrect_answers": [
+        "Plantera",
+        "Skeletron Prime",
+        "The Destroyer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film &quot;The Fugitive&quot;?",
+      "correct_answer": "Tommy Lee Jones",
+      "incorrect_answers": [
+        "Harrison Ford",
+        "Harvey Keitel",
+        "Martin Landau"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In the children&#039;s book series, where is Paddington Bear originally from?",
+      "correct_answer": "Peru",
+      "incorrect_answers": [
+        "India",
+        "Iceland",
+        "Canada"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+      "correct_answer": "Duck",
+      "incorrect_answers": [
+        "Bye",
+        "Beamer",
+        "Carry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In DuckTales, what is the name of the city where all the main characters live?",
+      "correct_answer": "Duckburg",
+      "incorrect_answers": [
+        "Duckwing",
+        "Tailspin",
+        "Wingford"
+      ]
+    }
+  ]
+}

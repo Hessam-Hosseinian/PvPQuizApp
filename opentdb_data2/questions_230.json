@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which player &quot;kung-fu kicked&quot; a Crystal Palace fan in January 1995?",
+      "correct_answer": "Eric Cantona",
+      "incorrect_answers": [
+        "David Seamen",
+        "Ashley Cole",
+        "Mark Hughes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Brian May was the guitarist for which band?",
+      "correct_answer": "Queen",
+      "incorrect_answers": [
+        "Pink Floyd",
+        "Rolling Stones",
+        "The Doors"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+      "correct_answer": "Simien Jackel",
+      "incorrect_answers": [
+        "Ethiopian Coyote",
+        "Amharic Fox",
+        "Canis Simiensis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these is NOT a city in Saudi Arabia?",
+      "correct_answer": "Dubai",
+      "incorrect_answers": [
+        "Riyadh",
+        "Mecca",
+        "Medina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these Movies was NOT released in 1996?",
+      "correct_answer": "Gladiator",
+      "incorrect_answers": [
+        "Independence Day",
+        "The Rock",
+        "Mission: Impossible"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "In which country is the city of Rio de Janeiro?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "Peru",
+        "Chile",
+        "Venezuela"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In which year was League of Legends released?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2010",
+        "2003",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What&#039;s the weakness of american vampires (Scott Snyder&#039;s American Vampire)?",
+      "correct_answer": "Gold",
+      "incorrect_answers": [
+        "Sunlight",
+        "Wood",
+        "Silver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What&#039;s the Team Fortress 2 Scout&#039;s city of origin?",
+      "correct_answer": "Boston",
+      "incorrect_answers": [
+        "Sydney",
+        "Detroit",
+        "New York"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What was Manfred von Richthofen&#039;s nickname?",
+      "correct_answer": "The Red Baron",
+      "incorrect_answers": [
+        "The High Flying Ace",
+        "The Blue Serpent ",
+        "The Germany Gunner"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which of the following James Bond villains is not affiliated with the SPECTRE organization?",
+      "correct_answer": "Auric Goldfinger",
+      "incorrect_answers": [
+        "Dr. Julius No",
+        "Rosa Klebb",
+        "Emilio Largo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "According to the American rapper Nelly, what should you do when its hot in here?",
+      "correct_answer": "Take off all your clothes",
+      "incorrect_answers": [
+        "Take a cool shower",
+        "Drink some water",
+        "Go skinny dipping"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which &quot;Call of Duty&quot; game are the &quot;Apothicons&quot; introduced in the Zombies mode?",
+      "correct_answer": "Call Of Duty: Black Ops III",
+      "incorrect_answers": [
+        "Call Of Duty: Black Ops",
+        "Call Of Duty: World At War",
+        "Call Of Duty: Black Ops II"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which is the world&#039;s longest river?",
+      "correct_answer": "Nile",
+      "incorrect_answers": [
+        "Missouri",
+        "Amazon",
+        "Yangtze"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many planets make up our Solar System?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "7",
+        "9",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the official language of Costa Rica?",
+      "correct_answer": "Spanish",
+      "incorrect_answers": [
+        "English",
+        "Portuguese",
+        "Creole"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Prior to working at Wizards of the Coast, &quot;Mark Rosewater&quot; was a writer for which show?",
+      "correct_answer": "Roseanne",
+      "incorrect_answers": [
+        "Boy Meets World",
+        "The X-Files",
+        "NYPD Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which Canadian province has Charlottetown as its capital?",
+      "correct_answer": "Prince Edward Island",
+      "incorrect_answers": [
+        "Saskachewan",
+        "Northwest Terrirories",
+        "Ontario"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Enceladus",
+        "Pollux",
+        "Saturn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which Beatles album does NOT feature any of the band members on it&#039;s cover?",
+      "correct_answer": "The Beatles (White Album)",
+      "incorrect_answers": [
+        "Rubber Soul",
+        "Abbey Road",
+        "Magical Mystery Tour"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Rhinoplasty is a surgical procedure on what part of the human body?",
+      "correct_answer": "Nose",
+      "incorrect_answers": [
+        "Ears",
+        "Chin",
+        "Neck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "In board games, an additional or ammended rule that applies to a certain group or place is informally known as a &quot;what&quot; rule?",
+      "correct_answer": "House",
+      "incorrect_answers": [
+        "Custom",
+        "Extra",
+        "Change"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the largest freshwater lake by volume?",
+      "correct_answer": "Lake Baikal",
+      "incorrect_answers": [
+        "Lake Superior",
+        "Lake Huron",
+        "Lake Michigan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2010",
+        "2011",
+        "2013"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Which of these is NOT a car model produced by Malaysian car manufacturer Proton?",
+      "correct_answer": "Kelisa",
+      "incorrect_answers": [
+        "Saga",
+        "Perdana",
+        "Inspira"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Super Mario Sunshine&quot;, how do you unlock the &quot;Corona Mountain&quot; level?",
+      "correct_answer": "By clearing every 7th episode",
+      "incorrect_answers": [
+        "By obtaining 70 Shines",
+        "By clearing every episode involving a &quot;Secret&quot;",
+        "By unlocking every nozzle F.L.U.D.D can use"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What is the name of the Boeing B-29 that dropped the &#039;Little Boy&#039; atomic bomb on Hiroshima?",
+      "correct_answer": "Enola Gay",
+      "incorrect_answers": [
+        "Necessary Evil",
+        "The Great Artiste",
+        "Full House"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following countries is within the Eurozone but outside of the Schengen Area?",
+      "correct_answer": "Cyprus",
+      "incorrect_answers": [
+        "Malta",
+        "Greece",
+        "Portugal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1979 British film &quot;Quadrophenia&quot; what is the name of the main protagonist?",
+      "correct_answer": "Jimmy Cooper",
+      "incorrect_answers": [
+        "Pete Townshend",
+        "Franc Roddam",
+        "Archie Bunker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What are the cylinder-like parts that pump up and down within the engine?",
+      "correct_answer": "Pistons",
+      "incorrect_answers": [
+        "Leaf Springs",
+        "Radiators",
+        "ABS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the term GPU stand for?",
+      "correct_answer": "Graphics Processing Unit",
+      "incorrect_answers": [
+        "Gaming Processor Unit",
+        "Graphite Producing Unit",
+        "Graphical Proprietary Unit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Pok&eacute;mon games released first?",
+      "correct_answer": "Pok&eacute;mon Crystal",
+      "incorrect_answers": [
+        "Pok&eacute;mon Platinum",
+        "Pok&eacute;mon FireRed",
+        "Pok&eacute;mon Black"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+      "correct_answer": "Assyrians",
+      "incorrect_answers": [
+        "Babylonians",
+        "Hittites",
+        "Elamites"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year is considered to be the year that the British Empire ended?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1986",
+        "1981",
+        "1971"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who created the &quot;Metal Gear&quot; Series?",
+      "correct_answer": "Hideo Kojima",
+      "incorrect_answers": [
+        "Hiroshi Yamauchi",
+        "Shigeru Miyamoto",
+        "Gunpei Yokoi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "On which planet does the game Freedom Planet (2014) take place?",
+      "correct_answer": "Avalice",
+      "incorrect_answers": [
+        "Freedom",
+        "Galaxytrail",
+        "Shang Mu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What is Tiger Woods&#039; all-time best career golf-score?",
+      "correct_answer": "61",
+      "incorrect_answers": [
+        "65",
+        "63",
+        "67"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which cartoon family lives in 742 Evergreen Terrace, Springfield USA?",
+      "correct_answer": "The Simpsons",
+      "incorrect_answers": [
+        "The Hills",
+        "The Flintstones",
+        "The Griffins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Who is the author of the series &quot;Malazan Book of the Fallen&quot;?",
+      "correct_answer": "Steven Erikson",
+      "incorrect_answers": [
+        "Ian Cameron Esslemont",
+        "George R. R. Martin",
+        "J. R. R. Tolkien"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the boss round featured in the &quot;Call Of Duty: Zombies&quot; map &quot;Five&quot;?",
+      "correct_answer": "The Pentagon Thief",
+      "incorrect_answers": [
+        "Hellhounds",
+        "Jumping Jacks",
+        "Napalm Zombie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who is Manchester United&#039;s top premier league goal scorer?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "Sir Bobby Charlton",
+        "Ryan Giggs",
+        "David Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In the hexadecimal system, what number comes after 9?",
+      "correct_answer": "The Letter A",
+      "incorrect_answers": [
+        "10",
+        "The Number 0",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The medial meniscus forms which part of what joint in the human body?",
+      "correct_answer": "Knee",
+      "incorrect_answers": [
+        "Elbow",
+        "Ankle",
+        "Shoulder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Whose signature guitar technique is called the &quot;windmill&quot;?",
+      "correct_answer": "Pete Townshend",
+      "incorrect_answers": [
+        "Jimmy Page",
+        "Eddie Van Halen",
+        "Jimi Hendrix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+      "correct_answer": "Camino Island",
+      "incorrect_answers": [
+        "Rogue Lawyer",
+        "Gray Mountain",
+        "The Litigators"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did the North American Video Game Crash occur?",
+      "correct_answer": "1983",
+      "incorrect_answers": [
+        "1982",
+        "1993",
+        "1970"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which country does the band Rammstein hail from?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Austria",
+        "Armenia",
+        "Belgium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Bohdan Khmelnytsky was which of the following?",
+      "correct_answer": "Leader of the Ukrainian Cossacks",
+      "incorrect_answers": [
+        "General Secretary of the Communist Party of the USSR",
+        "Prince of Wallachia",
+        "Grand Prince of Novgorod"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who voices the character &quot;Vernon Cherry&quot; in &quot;Red Dead Redemption&quot;?",
+      "correct_answer": "Casey Mongillo",
+      "incorrect_answers": [
+        "Tara Strong",
+        "Troy Baker",
+        "Rob Wiethoff"
+      ]
+    }
+  ]
+}

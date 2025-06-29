@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "How many seasons did the TV show &quot;Donkey Kong Country&quot; last?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+      "correct_answer": "Neoplasticism",
+      "incorrect_answers": [
+        "Precisionism",
+        "Cubism",
+        "Impressionism"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the talking cat in Persona 5?",
+      "correct_answer": "Morgana",
+      "incorrect_answers": [
+        "Teddie",
+        "Marie",
+        "Ryuji"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+      "correct_answer": "RiDGiD STUDiOS",
+      "incorrect_answers": [
+        "Dan Bell",
+        "Billy Familia",
+        "VeganGainz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Who is the original author of the realtime physics engine called PhysX?",
+      "correct_answer": "NovodeX",
+      "incorrect_answers": [
+        "Ageia",
+        "Nvidia",
+        "AMD"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the lowest layer of the Earth&#039;s atmosphere named?",
+      "correct_answer": "Troposphere",
+      "incorrect_answers": [
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Where does the book &quot;The Silence of the Lambs&quot; get its title from?",
+      "correct_answer": "The main character&#039;s trauma in childhood",
+      "incorrect_answers": [
+        "The relation it has with killing the innocents",
+        "The villain&#039;s favourite meal",
+        "The voice of innocent people being shut by the powerful"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who in this list is one of the co-founders of Valve?",
+      "correct_answer": "Gabe Newell",
+      "incorrect_answers": [
+        "Robin Walker",
+        "Marc Laidlaw",
+        "Ray Ueno"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In Calvin and Hobbes, what is the name of the principal at Calvin&#039;s school?",
+      "correct_answer": "Mr. Spittle",
+      "incorrect_answers": [
+        "Mr. Boreman",
+        "Mr. Spitling",
+        "Mr. Moe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the playable character in the 2018 video game Deltarune: Chapter 1?",
+      "correct_answer": "Kris",
+      "incorrect_answers": [
+        "Frisk",
+        "Chara",
+        "Gaster"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What was Maggie Simpson&#039;s first canonical word, not including the Tracey Ullman shorts?",
+      "correct_answer": "Daddy.",
+      "incorrect_answers": [
+        "Sequel?",
+        "Ja!",
+        "Rusty!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Toriko&quot;, which of the following foods is knowingly compatible with Toriko?",
+      "correct_answer": "Poison Potato",
+      "incorrect_answers": [
+        "Mors Oil",
+        "Alpacookie",
+        "Parmesansho Fruit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?",
+      "correct_answer": "Mercedes-AMG Petronas",
+      "incorrect_answers": [
+        "Scuderia Ferrari",
+        "McLaren Honda",
+        "Red Bull Racing Renault"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+      "correct_answer": "Hong Kong",
+      "incorrect_answers": [
+        "India",
+        "Australia",
+        "Ireland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What does the F stand for in the FBI?",
+      "correct_answer": "Federal",
+      "incorrect_answers": [
+        "Foreign",
+        "Formal",
+        "First"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+      "correct_answer": "Lift",
+      "incorrect_answers": [
+        "Thrust",
+        "Drag",
+        "Weight "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following is the IATA code for Manchester Airport?",
+      "correct_answer": "MAN",
+      "incorrect_answers": [
+        "EGLL",
+        "LHR",
+        "EGCC"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Lake Titicaca is located between which two nations?",
+      "correct_answer": "Peru and Bolivia",
+      "incorrect_answers": [
+        "Kenya and Uganda",
+        "Mexico and the United States",
+        "India and Bangladesh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Grand Theft Auto: V, what wanted level does the player receive if they enter Zancudo Army Base north of Los Santos?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the &quot;powerhouse&quot; of the Eukaryotic animal cell?",
+      "correct_answer": "Mitochondria",
+      "incorrect_answers": [
+        "Nucleus",
+        "Chloroplast",
+        "Endoplasmic Reticulum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What album is the song &#039;New Slang&#039; by The Shins found on?",
+      "correct_answer": "Oh, Inverted World",
+      "incorrect_answers": [
+        "Wincing The Night Away",
+        "Chutes Too Narrow",
+        "Port Of Morrow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which puzzle game was designed by a Russian programmer, featuring Russian buildings and music?",
+      "correct_answer": "Tetris",
+      "incorrect_answers": [
+        "Jenga",
+        "Boulder Dash",
+        "Puzzled"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What mountain range lines the border between Spain and France?",
+      "correct_answer": "Pyrenees",
+      "incorrect_answers": [
+        "Alps",
+        "Carpathians",
+        "Urals"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What was the name of Jonny&#039;s pet dog in The Adventures of Jonny Quest?",
+      "correct_answer": "Bandit",
+      "incorrect_answers": [
+        "Lucky",
+        "Rocky",
+        "Max"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the capital city of Bermuda?",
+      "correct_answer": "Hamilton",
+      "incorrect_answers": [
+        "Santo Dominigo",
+        "San Juan",
+        "Havana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "What round is a classic AK-47 chambered in?",
+      "correct_answer": "7.62x39mm",
+      "incorrect_answers": [
+        "7.62x51mm",
+        "5.56x45mm",
+        "5.45x39mm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "Europa Universalis is a strategy video game based on which French board game?",
+      "correct_answer": "Europa Universalis",
+      "incorrect_answers": [
+        "Europe and the Universe",
+        "Europa!",
+        "Power in Europe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What vehicle in PUBG has the highest top speed?",
+      "correct_answer": "Motorcycle",
+      "incorrect_answers": [
+        "PG-117",
+        "Dacia",
+        "Buggy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Halo 2, how many rounds does the M6C hold in a single magazine?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "6",
+        "36",
+        "18"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the fastest speed possible in Trackmania&sup2;: Stadium?",
+      "correct_answer": "1000  km/h",
+      "incorrect_answers": [
+        "500 km/h",
+        "320 km/h",
+        "100 km/h"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In the &quot;The Hobbit&quot;, who kills Smaug?",
+      "correct_answer": "Bard",
+      "incorrect_answers": [
+        "Bilbo Baggins",
+        "Gandalf the Grey",
+        "Frodo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Brian May was the guitarist for which band?",
+      "correct_answer": "Queen",
+      "incorrect_answers": [
+        "Pink Floyd",
+        "Rolling Stones",
+        "The Doors"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
+      "correct_answer": "Time And Relative Dimensions In Space",
+      "incorrect_answers": [
+        "Time And Resting Dimensions In Space",
+        "Time And Relative Dimensions In Style",
+        "Toilet Aid Rope Dog Is Soup"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which Crypt of the NecroDancer (2015) character has a soundtrack by Jake &quot;Virt&quot; Kaufman?",
+      "correct_answer": "Uncle Eli",
+      "incorrect_answers": [
+        "Cadence",
+        "Nocturna",
+        "Octavian (Bard)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What was the most populous city in the Americas in 2015?",
+      "correct_answer": "S&atilde;o Paulo",
+      "incorrect_answers": [
+        "New York",
+        "Mexico City",
+        "Los Angeles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The buried remains of which English explorer of Australia were found in London  in January 2019? ",
+      "correct_answer": "Matthew Flinders",
+      "incorrect_answers": [
+        "William Bourke",
+        "Abel Tasman",
+        "Dirk Hartog"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Which painting was not made by Vincent Van Gogh?",
+      "correct_answer": "The Ninth Wave",
+      "incorrect_answers": [
+        "Caf&eacute; Terrace at Night",
+        "Bedroom In Arles",
+        "Starry Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these characters is NOT a playable fighter in Super Smash Bros. Ultimate?",
+      "correct_answer": "Kumatora",
+      "incorrect_answers": [
+        "King K. Rool",
+        "Incineroar",
+        "Corrin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "The ontological argument for the proof of God&#039;s existence is first attributed to whom?",
+      "correct_answer": "Anselm of Canterbury",
+      "incorrect_answers": [
+        "Ren&eacute; Descartes",
+        "Immanuel Kant",
+        "Aristotle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "How much weight did Chris Pratt lose for his role as Star-Lord in &quot;Guardians of the Galaxy&quot;?",
+      "correct_answer": "60 lbs",
+      "incorrect_answers": [
+        "30 lbs",
+        "50 lbs",
+        "70 lbs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In the show &quot;Tengen Toppa Gurren Lagann&quot; what is the name of the character who force everyone to live underground?",
+      "correct_answer": "Lordgenome",
+      "incorrect_answers": [
+        "Kingloname",
+        "Lord Genome",
+        "King Loname"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the leader of Sweden in the Great Northern War?",
+      "correct_answer": "Charles XII",
+      "incorrect_answers": [
+        "Per Albin Hansson",
+        "Peter the Great",
+        "Gustavus Adolphus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the official German name of the Swiss Federal Railways?",
+      "correct_answer": "Schweizerische Bundesbahnen",
+      "incorrect_answers": [
+        "Schweizerische Nationalbahnen",
+        "Bundesbahnen der Schweiz",
+        "Schweizerische Staatsbahnen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Grand Theft Auto V, what was Michael De Santa&#039;s former surname?",
+      "correct_answer": "Townley",
+      "incorrect_answers": [
+        "De Santos",
+        "Watson",
+        "Simpson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "&quot;All the Boys&quot; by Panic! At the Disco was released as a bonus track on what album?",
+      "correct_answer": "Too Weird To Live, Too Rare To Die!",
+      "incorrect_answers": [
+        "A Fever You Can&#039;t Sweat Out",
+        "Death Of A Bachelor",
+        "Vices &amp; Virtues"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which country does the power metal band &quot;Sabaton&quot; originate from?",
+      "correct_answer": "Sweden",
+      "incorrect_answers": [
+        "Germany",
+        "United States",
+        "Finland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "When was Gangnam Style uploaded to YouTube?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2013",
+        "2014",
+        "2011"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What was Daft Punk&#039;s first studio album?",
+      "correct_answer": "Homework",
+      "incorrect_answers": [
+        "Discovery",
+        "Random Access Memories",
+        "Human After All"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "On what street did the 1666 Great Fire of London start?",
+      "correct_answer": "Pudding Lane",
+      "incorrect_answers": [
+        "Baker Street",
+        "Houses of Parliament",
+        "St Paul&#039;s Cathedral"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In the hexadecimal system, what number comes after 9?",
+      "correct_answer": "The Letter A",
+      "incorrect_answers": [
+        "10",
+        "The Number 0",
+        "16"
+      ]
+    }
+  ]
+}

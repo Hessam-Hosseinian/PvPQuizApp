@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "The fictional movie &#039;Rochelle, Rochelle&#039; features in which sitcom?",
+      "correct_answer": "Seinfeld",
+      "incorrect_answers": [
+        "Frasier",
+        "Cheers",
+        "Friends"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who plays Alice in the Resident Evil movies?",
+      "correct_answer": "Milla Jovovich",
+      "incorrect_answers": [
+        "Madison Derpe",
+        "Milla Johnson",
+        "Kim Demp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which of the following dice is not a platonic solid?",
+      "correct_answer": "10-sided die",
+      "incorrect_answers": [
+        "12-sided die",
+        "20-sided die",
+        "8-sided die"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the fourth digit of &pi;?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which French duo had UK hits in 1998 with the songs &#039;Sexy Boy&#039;, &#039;Kelly Watch The Stars&#039; &amp; &#039;All I Need&#039;?",
+      "correct_answer": "Air",
+      "incorrect_answers": [
+        "Fire",
+        "Earth",
+        "Water"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "What car manufacturer gave away their patent for the seat-belt in the interest of saving lives?",
+      "correct_answer": "Volvo",
+      "incorrect_answers": [
+        "Ferrari",
+        "Ford",
+        "Renault"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What UK Train does NOT go over 125MPH?",
+      "correct_answer": "Sprinter",
+      "incorrect_answers": [
+        "Class 43",
+        "Javelin",
+        "Pendolino"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which alternative rock band released the critically-acclaimed album &quot;OK Computer&quot;?",
+      "correct_answer": "Radiohead",
+      "incorrect_answers": [
+        "R.E.M.",
+        "Nirvana",
+        "Coldplay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the &quot;powerhouse&quot; of the Eukaryotic animal cell?",
+      "correct_answer": "Mitochondria",
+      "incorrect_answers": [
+        "Nucleus",
+        "Chloroplast",
+        "Endoplasmic Reticulum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Starbound&quot;, according to the asset files, the description of the &quot;Erchius Ghost&quot; is the same as which other assets?",
+      "correct_answer": "Spookit",
+      "incorrect_answers": [
+        "Petricub",
+        "Trictus",
+        "Pyromantle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Celebrities",
+      "question": "How tall is Tom Cruise?",
+      "correct_answer": "5&prime; 7&Prime;",
+      "incorrect_answers": [
+        "5&prime; 9&Prime;",
+        "5&prime; 4&Prime;",
+        "5&prime; 5&Prime;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Pokemon Diamond, Pearl and Platinum, where can a Munchlax be found?",
+      "correct_answer": "Honey Trees",
+      "incorrect_answers": [
+        "Trading with an NPC",
+        "Grass on Route 209",
+        "Wayward Cave"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company did Bethesda purchase the Fallout Series from?",
+      "correct_answer": "Interplay Entertainment ",
+      "incorrect_answers": [
+        "Capcom",
+        "Blizzard Entertainment",
+        "Nintendo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS1 engine is how many cubic inches?",
+      "correct_answer": "346",
+      "incorrect_answers": [
+        "350",
+        "355",
+        "360"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "All of the following are towns/villages in the Pacific Island nation of Kiribati EXCEPT:",
+      "correct_answer": "Urutora",
+      "incorrect_answers": [
+        "Rungata",
+        "London",
+        "Washington"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Who invented the first ever chocolate bar, in 1847?",
+      "correct_answer": "Joseph Fry",
+      "incorrect_answers": [
+        "Andrew Johnson",
+        "John Cadbury",
+        "John Tyler"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "USA",
+        "Japan",
+        "Switzerland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the show &quot;Steven Universe&quot;, who are the main two employees of The Big Donut?",
+      "correct_answer": "Sadie and Lars",
+      "incorrect_answers": [
+        "Steven and James",
+        "Erik and Julie",
+        "Bob and May"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "The Nike apparel and footwear brand takes it&#039;s name from the Greek goddess of what?",
+      "correct_answer": "Victory",
+      "incorrect_answers": [
+        "Courage",
+        "Strength",
+        "Honor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these holidays is NOT usually celebrated in the month of December?",
+      "correct_answer": "Thanksgiving",
+      "incorrect_answers": [
+        "Christmas",
+        "Kwanzaa",
+        "Hanukkah"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "The Alps are a mountain range on which continent?",
+      "correct_answer": "Europe",
+      "incorrect_answers": [
+        "North America",
+        "Asia",
+        "Africa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Super Smash Bros. Ultimate, which of the following pair of characters are NOT considered &quot;Echo Fighters&quot;?",
+      "correct_answer": "Link &amp; Young Link",
+      "incorrect_answers": [
+        "Marth &amp; Lucina",
+        "Richter &amp; Simon",
+        "Peach &amp; Daisy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these characters live in a pineapple under the sea in the cartoon &quot;SpongeBob SquarePants&quot;.",
+      "correct_answer": "SpongeBob SquarePants ",
+      "incorrect_answers": [
+        "Patrick Star",
+        "Squidward Tentacles",
+        "Mr. Krabs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The crown of the Empire State Building was originally built for what purpose?",
+      "correct_answer": "Airship Dock",
+      "incorrect_answers": [
+        "Lightning Rod",
+        "Antennae",
+        "Flag Pole"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+      "correct_answer": "German",
+      "incorrect_answers": [
+        "American",
+        "British",
+        "Polish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "How do you tame a horse in Minecraft?",
+      "correct_answer": "By continually mounting it",
+      "incorrect_answers": [
+        "By feeding it Wheat",
+        "By feeding it Sugar",
+        "By petting it"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who is the creator of the soft drink, Dr. Pepper?",
+      "correct_answer": "Charles Alderton",
+      "incorrect_answers": [
+        "James Wellington",
+        "Johnson Hinsin",
+        "Boris Heviltik"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS7 engine is how many cubic inches?",
+      "correct_answer": "427",
+      "incorrect_answers": [
+        "346",
+        "364",
+        "376"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When Halo 3: ODST was unveiled in 2008, it had a different title. What was the game formally called?",
+      "correct_answer": "Halo 3: Recon",
+      "incorrect_answers": [
+        "Halo 3: Helljumpers",
+        "Halo 3: Phantom",
+        "Halo 3: Guerilla"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which Kingdom Hearts game featured the cast of &quot;The World Ends With You&quot;?",
+      "correct_answer": "Dream Drop Distance",
+      "incorrect_answers": [
+        "Birth By Sleep",
+        "365/2 Days",
+        "Re:Chain of Memories"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
+      "correct_answer": "Center Parcs",
+      "incorrect_answers": [
+        "Yelloh Village",
+        "Keycamp",
+        "Villa Plus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the colour of unoxidized blood?",
+      "correct_answer": "Red",
+      "incorrect_answers": [
+        "Blue",
+        "Purple",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a playable character in &quot;Left 4 Dead&quot;?",
+      "correct_answer": "Nick",
+      "incorrect_answers": [
+        "Louis",
+        "Zoey",
+        "Bill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which game was the first time Mario was voiced by Charles Martinet?",
+      "correct_answer": "Mario&#039;s Game Gallery",
+      "incorrect_answers": [
+        "Super Mario 64",
+        "Mario Tennis",
+        "Dr. Mario 64"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+      "correct_answer": "USS Pueblo",
+      "incorrect_answers": [
+        "USS North Carolina",
+        "USS Constitution",
+        "USS Indianapolis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the protagonist&#039;s title given by the demons in DOOM (2016)?",
+      "correct_answer": "Doom Slayer",
+      "incorrect_answers": [
+        "Doom Guy",
+        "Doom Marine",
+        "Doom Reaper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which actress portrayed Dr. Grace Augustine in the James Cameron movie &quot;Avatar&quot;?",
+      "correct_answer": "Sigourney Weaver",
+      "incorrect_answers": [
+        "Jessica Chastain",
+        "Melissa Beckett",
+        "Alyssa Monroe "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "How many strings are there on a cello?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed the free battle royale game Fortnite?",
+      "correct_answer": "Epic Games",
+      "incorrect_answers": [
+        "Valve",
+        "Ubisoft",
+        "Square Enix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What does VR stand for?",
+      "correct_answer": "Virtual Reality",
+      "incorrect_answers": [
+        "Very Real",
+        "Visual Recognition",
+        "Voice Recognition"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Pokemon generation did the fan-named &quot;Masuda Method&quot; first appear in? ",
+      "correct_answer": "Diamond/Pearl",
+      "incorrect_answers": [
+        "Ruby/Sapphire",
+        "Black/White",
+        "X/Y"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Macintosh has named six of its operating systems after big cats. What big cat did Macintosh name their 2007 release after? ",
+      "correct_answer": "Leopard",
+      "incorrect_answers": [
+        "Tiger",
+        "Panther",
+        "Puma"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who was the last emperor of Mexico?",
+      "correct_answer": "Ferdinand Maximilian",
+      "incorrect_answers": [
+        "Andr&eacute;s Manuel L&oacute;pez Obrador",
+        "Napoleon III",
+        "Agust&iacute;n de Iturbide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the world&#039;s most expensive spice by weight?",
+      "correct_answer": "Saffron",
+      "incorrect_answers": [
+        "Cinnamon",
+        "Cardamom",
+        "Vanilla"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Celebrities",
+      "question": "What does film maker Dan Bell typically focus his films on?",
+      "correct_answer": "Abandoned Buildings and Dead Malls",
+      "incorrect_answers": [
+        "Historic Landmarks",
+        "Action Films",
+        "Documentaries "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Ringo Starr of The Beatles mainly played what instrument?",
+      "correct_answer": "Drums",
+      "incorrect_answers": [
+        "Bass",
+        "Guitar",
+        "Piano"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "When was the Declaration of Independence approved by the Second Continental Congress?",
+      "correct_answer": "July 4, 1776",
+      "incorrect_answers": [
+        "May 4, 1776",
+        "June 4, 1776",
+        "July 2, 1776"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which game did the Konami Code make its first appearance?",
+      "correct_answer": "Gradius",
+      "incorrect_answers": [
+        "Contra",
+        "Castlevania",
+        "Dance Dance Revolution"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What&#039;s the second book in George R. R. Martin&#039;s &#039;A Song of Ice and Fire&#039; series?",
+      "correct_answer": "A Clash of Kings",
+      "incorrect_answers": [
+        "A Dance with Dragons",
+        "A Storm of Swords",
+        "A Feast for Crows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the infamous pachinko machine from &quot;Kaiji&quot;?",
+      "correct_answer": "The Bog",
+      "incorrect_answers": [
+        "The Devil",
+        "The Undefeated",
+        "The Dragon"
+      ]
+    }
+  ]
+}

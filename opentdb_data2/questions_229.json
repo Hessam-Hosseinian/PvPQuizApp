@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which of these countries remained neutral during World War II?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": [
+        "United Kingdom",
+        "France",
+        "Italy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Half-Life series, Gordon Freeman&#039;s signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the island introduced in the ARMA III: APEX expansion pack?",
+      "correct_answer": "Tanoa",
+      "incorrect_answers": [
+        "Altis",
+        "Stratis",
+        "Malden"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What M83 was featured in Grand Theft Auto V&#039;s radio?",
+      "correct_answer": "Midnight City",
+      "incorrect_answers": [
+        "Outro",
+        "Reunion",
+        "Wait"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "&#039;74&ndash;&#039;75 is a 1993 single from the album Ring by what American band?",
+      "correct_answer": "The Connells",
+      "incorrect_answers": [
+        "R.E.M.",
+        "The Ocean Blue",
+        "The Bangles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following is not an Ivy League University?",
+      "correct_answer": "Stanford",
+      "incorrect_answers": [
+        "University of Pennsylvania",
+        "Harvard",
+        "Princeton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "How many heads does Cerberus have?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these is NOT an official map in Counter-Strike: Global Offensive?",
+      "correct_answer": "de_season",
+      "incorrect_answers": [
+        "de_sugarcane",
+        "de_canals",
+        "de_militia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?",
+      "correct_answer": "Alfa Romeo",
+      "incorrect_answers": [
+        "Auto Union",
+        "Mercedes Benz",
+        "Bentley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Enter the Gungeon, which one of these is not a playable character?",
+      "correct_answer": "The Wizard",
+      "incorrect_answers": [
+        "The Bullet",
+        "The Robot",
+        "The Cultist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Who wrote &quot;A Tale of Two Cities&quot;?",
+      "correct_answer": "Charles Dickens",
+      "incorrect_answers": [
+        "Charles Darwin",
+        "Mark Twain",
+        "Roald Dahl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+      "correct_answer": "Quentin Tarantino",
+      "incorrect_answers": [
+        "Martin Scorcese",
+        "Steven Spielberg",
+        "James Cameron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;Re:Zero&quot; manga series, which of the following Sin Archbishops eats Rem&#039;s existence?",
+      "correct_answer": "Ley Batenkaitos",
+      "incorrect_answers": [
+        "Roy Alphard",
+        "Petelgeuse Romanee-Conti",
+        "Louis Arneb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The &#039;Islets of Langerhans&#039; is found in which human organ?",
+      "correct_answer": "Pancreas",
+      "incorrect_answers": [
+        "Kidney",
+        "Liver",
+        "Brain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Grand Theft Auto (GTA) games have the same setting?",
+      "correct_answer": "GTA V and GTA San Andreas",
+      "incorrect_answers": [
+        "GTA V and GTA Vice City",
+        "GTA IV and GTA San Andreas",
+        "GTA IV and GTA Vice City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What was Sir Donald Bradman&#039;s batting average in test matches?",
+      "correct_answer": "99.94",
+      "incorrect_answers": [
+        "100",
+        "69.51",
+        "44.78"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "How many bytes are in a single Kibibyte?",
+      "correct_answer": "1024",
+      "incorrect_answers": [
+        "2400",
+        "1000",
+        "1240"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+      "correct_answer": "USS Hornet",
+      "incorrect_answers": [
+        "USS Enterprise",
+        "USS Lexington",
+        "USS Saratoga"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In &quot;It&#039;s Always Sunny in Philadelphia&quot; what was the name of Frank&#039;s wrestling persona?",
+      "correct_answer": "The Trash Man",
+      "incorrect_answers": [
+        "Bird of War",
+        "Day Man",
+        "The Maniac"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following car models has been badge-engineered (rebadged) the most?",
+      "correct_answer": "Isuzu Trooper",
+      "incorrect_answers": [
+        "Holden Monaro",
+        "Suzuki Swift",
+        "Chevy Camaro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Green Day?",
+      "correct_answer": "Billie Joe Armstrong",
+      "incorrect_answers": [
+        "Mike Dirnt",
+        "Sean Hughes",
+        "Tr&eacute; Cool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which actress portrayed Dr. Grace Augustine in the James Cameron movie &quot;Avatar&quot;?",
+      "correct_answer": "Sigourney Weaver",
+      "incorrect_answers": [
+        "Jessica Chastain",
+        "Melissa Beckett",
+        "Alyssa Monroe "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What country has a horizontal bicolor red and white flag?",
+      "correct_answer": "Monaco",
+      "incorrect_answers": [
+        "Bahrain",
+        "Malta",
+        "Liechenstein"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "The 1939 movie &quot;The Wizard of Oz&quot; contained a horse that changed color, what material did they use to achieve this effect?",
+      "correct_answer": "Gelatin",
+      "incorrect_answers": [
+        "Dye",
+        "Paint",
+        "CGI Effect"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
+      "correct_answer": "Daveed Diggs",
+      "incorrect_answers": [
+        "Lin-Manuel Miranda",
+        "Javier Mu&ntilde;oz",
+        "Wayne Brady"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the main character of Metal Gear Solid 2?",
+      "correct_answer": "Raiden",
+      "incorrect_answers": [
+        "Solidus Snake",
+        "Big Boss",
+        "Venom Snake"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which musical artist was NOT featured as playable avatars in the game &quot;DJ Hero&quot;?",
+      "correct_answer": "Dr. Dre",
+      "incorrect_answers": [
+        "DJ Shadow",
+        "Daft Punk",
+        "Grandmaster Flash"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which city hosted the CS:GO Dreamhack Open 2015?",
+      "correct_answer": "Cluj-Napoca",
+      "incorrect_answers": [
+        "Cologne",
+        "Atlanta",
+        "London"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+      "correct_answer": "John Steinbeck",
+      "incorrect_answers": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "William Faulkner"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In AMC&#039;s TV Series &quot;The Walking Dead&quot; what are &quot;Zombies&quot; referred to as?",
+      "correct_answer": "Walkers",
+      "incorrect_answers": [
+        "Creepers",
+        "Maggots",
+        "Hell Pigs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Pete Townshend collaborated with which famous guitarist for an event at Brixton Academy in 1985?",
+      "correct_answer": "David Gilmour",
+      "incorrect_answers": [
+        "Jimmy Page",
+        "Mark Knopfler",
+        "Eric Clapton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The Italian automaker Lamborghini uses what animal as its logo?",
+      "correct_answer": "Bull",
+      "incorrect_answers": [
+        "Bat",
+        "Horse",
+        "Snake"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is NOT a Nintendo game console?",
+      "correct_answer": "Dreamcast",
+      "incorrect_answers": [
+        "SNES",
+        "Wii",
+        "Switch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;Toaru Majutsu no Index&quot; anime, Touma Kamijou is a level 0 esper that has the ability to do what?",
+      "correct_answer": "Dispell any esper or magical powers",
+      "incorrect_answers": [
+        "Teleport",
+        "Make telepathic communications",
+        "Create electricity from his own body"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Starting from 2000, China banned manufacturing and sales of all video game consoles. On which year was this ban lifted?",
+      "correct_answer": "2015",
+      "incorrect_answers": [
+        "2012",
+        "2008",
+        "2017"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the name of Sonic the Hedgehog&#039;s original human girlfriend?",
+      "correct_answer": "Madonna",
+      "incorrect_answers": [
+        "Celeste",
+        "Sierra",
+        "Nina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What song on ScHoolboy Q&#039;s album Black Face LP featured Kanye West?",
+      "correct_answer": "THat Part",
+      "incorrect_answers": [
+        "Neva CHange",
+        "Big Body",
+        "Blank Face"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which team was the 2014-2015 NBA Champions?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": [
+        "Cleveland Cavaliers",
+        "Houston Rockets",
+        "Atlanta Hawks"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which of the following chemicals are found in eggplant seeds?",
+      "correct_answer": "Nicotine",
+      "incorrect_answers": [
+        "Mescaline",
+        "Cyanide",
+        "Psilocybin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Panic! At the Disco&#039;s sixth album &quot;Pray For The Wicked&quot; was released on which date?",
+      "correct_answer": "June 22, 2018",
+      "incorrect_answers": [
+        "May 9, 2018",
+        "March 13, 2018",
+        "February 21, 2018"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Ace Attorney&quot; series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?",
+      "correct_answer": "Bansai Ichiyanagi",
+      "incorrect_answers": [
+        "Manfred Von Karma",
+        "Gregory Edgeworth",
+        "Tateyuki Shigaraki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In the TV Show &quot;Donkey Kong Country&quot;, which episode did the song &quot;Eddie, Let Me Go Back To My Home&quot; play in?",
+      "correct_answer": "It&#039;s a Wonderful Life",
+      "incorrect_answers": [
+        "Message In A Bottle Show",
+        "To The Moon Baboon",
+        "Ape-Nesia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
+      "correct_answer": "Badger",
+      "incorrect_answers": [
+        "Fox",
+        "Frog",
+        "Rabbit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka&#039;s younger brother?",
+      "correct_answer": "Tatsuya",
+      "incorrect_answers": [
+        "Montoya",
+        "Tomohisa",
+        "Minato"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the chemical symbol for lead?",
+      "correct_answer": "Pb",
+      "incorrect_answers": [
+        "Ld",
+        "Le",
+        "Pm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is not by Tatsuro Yamashita?",
+      "correct_answer": "Lucky Lady Feel So Good ",
+      "incorrect_answers": [
+        "Merry-Go Round",
+        "Let&#039;s Dance Baby",
+        "Love Talkin&#039;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "When Batman trolls the online chat rooms, what alias does he use?",
+      "correct_answer": "JonDoe297",
+      "incorrect_answers": [
+        "iAmBatman",
+        "BWayne13",
+        "BW1129"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many protons are in an oxygen atom?",
+      "correct_answer": "Eight",
+      "incorrect_answers": [
+        "Four",
+        "Two",
+        "Six"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+      "correct_answer": "Franklin Pierce",
+      "incorrect_answers": [
+        "Andrew Johnson",
+        "Abraham Lincoln",
+        "James Polk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What year was the Disney film &quot;A Goofy Movie&quot; released?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1999",
+        "2001",
+        "1997"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many bones are in the human body?",
+      "correct_answer": "206",
+      "incorrect_answers": [
+        "203",
+        "209",
+        "200"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "&quot;The A Team&quot; first aired in the USA and in the UK in what year?",
+      "correct_answer": "1983",
+      "incorrect_answers": [
+        "1981",
+        "1985",
+        "1987"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What is generally considered to be William Shakespeare&#039;s birth date?",
+      "correct_answer": "April 23rd, 1564",
+      "incorrect_answers": [
+        "July 4th, 1409",
+        "September 29th, 1699",
+        "December 1st, 1750"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
+      "correct_answer": "Korean",
+      "incorrect_answers": [
+        "Kenyan",
+        "Kazakhstan",
+        "Kuwaiti"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which of the following countries was not an axis power during World War II?",
+      "correct_answer": " Soviet Union",
+      "incorrect_answers": [
+        "Italy",
+        "Germany",
+        "Japan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Which Batman sidekick is the son of Talia al Ghul?",
+      "correct_answer": "Damian Wayne",
+      "incorrect_answers": [
+        "Dick Grayson",
+        "Tim Drake",
+        "Jason Todd"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which band released songs suchs as &quot;Rio&quot;, &quot;Girls on Film&quot;, and &quot;The Reflex&quot;?",
+      "correct_answer": "Duran Duran",
+      "incorrect_answers": [
+        "The Cure",
+        "New Order",
+        "Depeche Mode"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these films is NOT set in Los Angeles?",
+      "correct_answer": "RoboCop",
+      "incorrect_answers": [
+        "Blade Runner",
+        "The Terminator",
+        "Predator 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the pirate that sings the intro to &quot;Spongebob Squarepants&quot;?",
+      "correct_answer": "Painty",
+      "incorrect_answers": [
+        "Patchy",
+        "Lloyd",
+        "Larry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these artists did NOT remix the song &quot;Faded&quot; by Alan Walker?",
+      "correct_answer": "Skrillex",
+      "incorrect_answers": [
+        "Ti&euml;sto",
+        "Slushii",
+        "Dash Berlin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who in Pulp Fiction says &quot;No, they got the metric system there, they wouldn&#039;t know what the f*** a Quarter Pounder is.&quot;",
+      "correct_answer": "Vincent Vega",
+      "incorrect_answers": [
+        "Jules Winnfield",
+        "Jimmie Dimmick",
+        "Butch Coolidge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Celebrities",
+      "question": "How tall is Tom Cruise?",
+      "correct_answer": "5&prime; 7&Prime;",
+      "incorrect_answers": [
+        "5&prime; 9&Prime;",
+        "5&prime; 4&Prime;",
+        "5&prime; 5&Prime;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "The heavy metal band Black Sabbath hail from which English city?",
+      "correct_answer": "Birmingham",
+      "incorrect_answers": [
+        "Manchester",
+        "London",
+        "Newcastle-Upon-Tyne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?",
+      "correct_answer": "4.48 Psychosis",
+      "incorrect_answers": [
+        "Hamilton",
+        "Much Ado About Nothing",
+        "The Birthday Party"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "When was the iPhone released?",
+      "correct_answer": "2007",
+      "incorrect_answers": [
+        "2005",
+        "2006",
+        "2004"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Breaking Bad,&quot; which main character was planned to be killed in Season 1 but wasn&#039;t because the show creator liked the actor?",
+      "correct_answer": "Jesse Pinkman",
+      "incorrect_answers": [
+        "Saul Goodman",
+        "Gus Fring",
+        "Hank Schrader"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following is not an Ivy League University?",
+      "correct_answer": "Stanford",
+      "incorrect_answers": [
+        "University of Pennsylvania",
+        "Harvard",
+        "Princeton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Which of the following Argentinian presidents was elected in 2015?",
+      "correct_answer": "Mauricio Macri",
+      "incorrect_answers": [
+        "Cristina Fernandez de Kirchner",
+        "Nestor Kirchner",
+        "Juan Domingo Peron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What part of the brain takes its name from the Greek for seahorse?",
+      "correct_answer": "Hippocampus",
+      "incorrect_answers": [
+        "Cerebellum",
+        "Thalamus",
+        "Amygdala"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was Pokemon GO released in North America?",
+      "correct_answer": "July 6th, 2016",
+      "incorrect_answers": [
+        "June 5th, 2016",
+        "May 24th, 2016",
+        "January 2nd, 2017"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What name was historically used for the Turkish city currently known as Istanbul?",
+      "correct_answer": "Constantinople",
+      "incorrect_answers": [
+        "H&uuml;davendigar",
+        "S&ouml;ğ&uuml;t",
+        "Adrianople"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the chemical symbol for lead?",
+      "correct_answer": "Pb",
+      "incorrect_answers": [
+        "Ld",
+        "Le",
+        "Pm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "correct_answer": "Badminton",
+      "incorrect_answers": [
+        "Table Tennis",
+        "Rugby",
+        "Cricket"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which team won the first Overwatch League championship?",
+      "correct_answer": "London Spitfire",
+      "incorrect_answers": [
+        "Philadelphia Fusion",
+        "New York Excelsior",
+        "Seoul Dynasty"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What was Bank of America originally established as?",
+      "correct_answer": "Bank of Italy",
+      "incorrect_answers": [
+        "Bank of Long Island",
+        "Bank of Pennsylvania",
+        "Bank of Charlotte"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which player &quot;kung-fu kicked&quot; a Crystal Palace fan in January 1995?",
+      "correct_answer": "Eric Cantona",
+      "incorrect_answers": [
+        "David Seamen",
+        "Ashley Cole",
+        "Mark Hughes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these Johns was murdered by gunshots outside the Dakota in New York in 1980?",
+      "correct_answer": "John Lennon",
+      "incorrect_answers": [
+        "Johnny Thunders",
+        "John Denver",
+        "John Cascella"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many steps are there to upgrade a Staff?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "7",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "When was the play &quot;Macbeth&quot; written?",
+      "correct_answer": "1606",
+      "incorrect_answers": [
+        "1605",
+        "1723",
+        "1628"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of Team Instinct in Pok&eacute;mon Go?",
+      "correct_answer": "Spark",
+      "incorrect_answers": [
+        "Candela",
+        "Blanche",
+        "Willow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "2001",
+        "2011",
+        "1991"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
+      "correct_answer": "Trance",
+      "incorrect_answers": [
+        "House",
+        "Drum and Bass",
+        "Dubstep"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What was the cause of death for Freddie Mercury?",
+      "correct_answer": "Pneumonia",
+      "incorrect_answers": [
+        "Stomach Cancer",
+        "HIV",
+        "Brain Hemorrhage"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What is the frontman&#039;s name of the metal band Megadeth?",
+      "correct_answer": "Dave Mustaine",
+      "incorrect_answers": [
+        "Rob Halford",
+        "Vince Neil",
+        "James Hetfield"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+      "correct_answer": "7 - 1",
+      "incorrect_answers": [
+        "0 - 1",
+        "3 - 4",
+        "16 - 0"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Wendy O. Koopa appeared in the Super Mario DIC Cartoons, but what was she known as?",
+      "correct_answer": "Kootie Pie",
+      "incorrect_answers": [
+        "Sweetie Pie",
+        "Wendy Pie",
+        "Honey Pie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What country was the Trabant 601 manufactured in?",
+      "correct_answer": "East Germany",
+      "incorrect_answers": [
+        "Soviet Union",
+        "Hungary",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How much does the &#039;AWP&#039; cost in Counter-Strike: Global Offensive?",
+      "correct_answer": "$4750",
+      "incorrect_answers": [
+        "$4500",
+        "$4650",
+        "$5000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "What is the name of the Greek god of blacksmiths?",
+      "correct_answer": "Hephaestus",
+      "incorrect_answers": [
+        "Dyntos",
+        "Vulcan",
+        "Artagatus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Sonic the Hedgehog 3&quot; for the Sega Genesis, what is the color of the second Chaos Emerald you can get from Special Stages?",
+      "correct_answer": "Orange",
+      "incorrect_answers": [
+        "Blue",
+        "Green",
+        "Magenta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
+      "correct_answer": "Steve Buscemi",
+      "incorrect_answers": [
+        "Kevin Spacey",
+        "Benicio Del Toro",
+        "Gabriel Byrne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What episode of &quot;Mr. Bean&quot; saw him trying to prevent people from seeing him naked?",
+      "correct_answer": "Mr. Bean in Room 426",
+      "incorrect_answers": [
+        "Mr. Bean Goes to Town",
+        "The Trouble with Mr. Bean",
+        "Back to School Mr. Bean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which Aerosmith album featured &quot;Walk This Way&quot;?",
+      "correct_answer": "Toys in the Attic",
+      "incorrect_answers": [
+        "Rocks",
+        "Get Your Wings",
+        "Draw the Line"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many protons are in an oxygen atom?",
+      "correct_answer": "Eight",
+      "incorrect_answers": [
+        "Four",
+        "Two",
+        "Six"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the code name given to Sonic the Hedgehog 4 during its development?",
+      "correct_answer": "Project Needlemouse",
+      "incorrect_answers": [
+        "Project Bluespike",
+        "Project Roboegg",
+        "Project Darksphere"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who was walking like an Egyptian in 1981?",
+      "correct_answer": "The Bangles",
+      "incorrect_answers": [
+        "R.E.M.",
+        "The Ocean Blue",
+        "The Connells"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What animal is on Link&#039;s pajamas in The Legend of Zelda: The Wind Waker?",
+      "correct_answer": "Crawfish",
+      "incorrect_answers": [
+        "Lobster",
+        "Salmon",
+        "Swordfish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;A Hat in Time&quot;, what must Hat Kid collect to finish a level",
+      "correct_answer": "A time piece",
+      "incorrect_answers": [
+        "A heart fragment",
+        "A relic fragment",
+        "A hat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which U.S. President was famously &#039;attacked&#039; by a swimming rabbit?",
+      "correct_answer": "Jimmy Carter",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "Lydon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In PROTOTYPE 2, which of the following abilities/weapons is NOT obtained by an Evolved?",
+      "correct_answer": "Tendrils",
+      "incorrect_answers": [
+        "Blade",
+        "Bio-Bomb",
+        "Pack Leader"
+      ]
+    }
+  ]
+}

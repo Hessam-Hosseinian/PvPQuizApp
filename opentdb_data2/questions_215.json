@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+      "correct_answer": "ADPCM Sampler",
+      "incorrect_answers": [
+        "FM Synthesizer",
+        "Programmable Sound Generator (PSG)",
+        "PCM Sampler"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Myopia is the scientific term for which condition?",
+      "correct_answer": "Shortsightedness",
+      "incorrect_answers": [
+        "Farsightedness",
+        "Double Vision",
+        "Clouded Vision"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
+      "correct_answer": "Trance",
+      "incorrect_answers": [
+        "House",
+        "Drum and Bass",
+        "Dubstep"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Splatoon, what is the age that inklings can freely change between squid and humanoid forms?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Pok&eacute;mon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?",
+      "correct_answer": "Nobunaga",
+      "incorrect_answers": [
+        "The Player",
+        "Oichi",
+        "Hideyoshi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which European city has the highest mileage of canals in the world?",
+      "correct_answer": "Birmingham",
+      "incorrect_answers": [
+        "Venice",
+        "Amsterdam",
+        "Berlin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following is NOT a song in BROCKHAMPTON&#039;s SATURATION album series?",
+      "correct_answer": "LAMB",
+      "incorrect_answers": [
+        "HOTTIE",
+        "SWAMP",
+        "BUMP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+      "correct_answer": "Australia",
+      "incorrect_answers": [
+        "India",
+        "Canada",
+        "Brazil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which church&#039;s interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+      "correct_answer": "St. Peter&#039;s Basilica",
+      "incorrect_answers": [
+        "Catania Cathedral",
+        "St. Mark&rsquo;s Basilica",
+        "The Duomo of Florence"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime Assassination Classroom what is the class that Korosensei teaches?",
+      "correct_answer": "Class 3-E",
+      "incorrect_answers": [
+        "Class 3-A",
+        "Class 3-B",
+        "Class 3-D"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was Nintendo&#039;s Virtual Boy released?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1989",
+        "1997",
+        "1992"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the Kill Bill movies?",
+      "correct_answer": "Quentin Tarantino",
+      "incorrect_answers": [
+        "Arnold Schwarzenegger",
+        "David Lean",
+        "Stanley Kubrick"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which day in &quot;Papers, Please&quot; does the man in red appear?",
+      "correct_answer": "Day 23",
+      "incorrect_answers": [
+        "Day 20",
+        "Day 17",
+        "Day 15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "What does GPS stand for?",
+      "correct_answer": "Global Positioning System",
+      "incorrect_answers": [
+        "Global Personal System",
+        "General Positioning System",
+        "General Personal Satellite"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "On what street did the 1666 Great Fire of London start?",
+      "correct_answer": "Pudding Lane",
+      "incorrect_answers": [
+        "Baker Street",
+        "Houses of Parliament",
+        "St Paul&#039;s Cathedral"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
+      "correct_answer": "Edward VIII",
+      "incorrect_answers": [
+        "Victoria",
+        "George VI",
+        "Charles II"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Old Town Road&quot; by American rapper Lil Nas X samples the song &quot;34 Ghosts IV&quot; by which band?",
+      "correct_answer": "Nine Inch Nails",
+      "incorrect_answers": [
+        "Death Grips",
+        "Iron Maiden",
+        "Animal Collective"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the original DOOM (1993) which of the following is NOT a cheat code?",
+      "correct_answer": "IDCLIP",
+      "incorrect_answers": [
+        "IDFA",
+        "IDDQD",
+        "IDSPISPOPD"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "How many teeth does an adult rabbit have?",
+      "correct_answer": "28",
+      "incorrect_answers": [
+        "30",
+        "26",
+        "24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these languages was NOT included in the 2016 song &quot;Don&#039;t Mind&quot; by Kent Jones?",
+      "correct_answer": "Portuguese",
+      "incorrect_answers": [
+        "Japanese",
+        "French",
+        "Spanish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a playable character in &quot;Enter The Gungeon?&quot;",
+      "correct_answer": "The Heavy",
+      "incorrect_answers": [
+        "The Bullet",
+        "The Robot",
+        "The Cultist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+      "correct_answer": "Mermaid Transformation",
+      "incorrect_answers": [
+        "Artificial Gills",
+        "Bubble Head",
+        "Bubble Shield"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+      "correct_answer": "The Greasers",
+      "incorrect_answers": [
+        "The Outsiders",
+        "The Mafia",
+        "The Socs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the first ever London Underground line to be built?",
+      "correct_answer": "Metropolitan Line",
+      "incorrect_answers": [
+        "Circle Line",
+        "Bakerloo Line",
+        "Victoria Line"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the relationship between the band members of American rock band King of Leon?",
+      "correct_answer": "Brothers &amp; cousins",
+      "incorrect_answers": [
+        "Childhood friends",
+        "Former classmates",
+        "Fraternity house members"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "What is the real hair colour of the mainstream comic book version (Earth-616) of Daredevil?",
+      "correct_answer": "Blonde",
+      "incorrect_answers": [
+        "Auburn",
+        "Brown",
+        "Black"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which Star Trek race advances itself through assimilation?",
+      "correct_answer": "Borg",
+      "incorrect_answers": [
+        "Vulcan",
+        "Betazoid",
+        "Klingon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Politics",
+      "question": "Former United States President Bill Clinton famously played which instrument?",
+      "correct_answer": "Saxophone",
+      "incorrect_answers": [
+        "Baritone horn",
+        "Piano",
+        "Violin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these American cities has fewer than 1,000,000 people?",
+      "correct_answer": "San Francisco, California",
+      "incorrect_answers": [
+        "Phoenix, Arizona",
+        "San Antonio, Texas",
+        "Philadelphia, Pennsylvania"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;Team Fortress 2&quot;, which class is able to double jump?",
+      "correct_answer": "Scout",
+      "incorrect_answers": [
+        "Spy",
+        "Engineer",
+        "Pyro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What is generally considered to be William Shakespeare&#039;s birth date?",
+      "correct_answer": "April 23rd, 1564",
+      "incorrect_answers": [
+        "July 4th, 1409",
+        "September 29th, 1699",
+        "December 1st, 1750"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of the following actors has only been in a Quentin Tarantino directed film once?",
+      "correct_answer": "John Travolta",
+      "incorrect_answers": [
+        "Christoph Waltz",
+        "Harvey Keitel",
+        "Samuel L. Jackson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "Which Norse God has a horse named Sleipnir?",
+      "correct_answer": "Odin",
+      "incorrect_answers": [
+        "Thor",
+        "Frigg",
+        "Balder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "When was Tesla founded?",
+      "correct_answer": "2003",
+      "incorrect_answers": [
+        "2008",
+        "2005",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Game Boy from the Game Boy series of portable video game consoles was released first?",
+      "correct_answer": "Game Boy Color",
+      "incorrect_answers": [
+        "Game Boy Advance",
+        "Game Boy Micro",
+        "Game Boy Advance SP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the main character of the anime &quot;One-Punch Man&quot;?",
+      "correct_answer": "Saitama",
+      "incorrect_answers": [
+        "Genos",
+        "Sonic",
+        "King"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the term GPU stand for?",
+      "correct_answer": "Graphics Processing Unit",
+      "incorrect_answers": [
+        "Gaming Processor Unit",
+        "Graphite Producing Unit",
+        "Graphical Proprietary Unit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "In Kendrick Lamar&#039;s 2012 album, &quot;Good Kid, M.A.A.D City&quot;, the album&#039;s story takes place in which city?",
+      "correct_answer": "Compton",
+      "incorrect_answers": [
+        "Detroit",
+        "New York",
+        "Baltimore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the only Generation III Pokemon whose name begins with the letter I?",
+      "correct_answer": "Illumise",
+      "incorrect_answers": [
+        "Infernape",
+        "Ivysaur",
+        "Igglybuff"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+      "correct_answer": "Smash Mouth",
+      "incorrect_answers": [
+        "Bowling for Soup",
+        "Sum 41",
+        "Linkin Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "How many times was Albert Einstein married in his lifetime?",
+      "correct_answer": "Twice",
+      "incorrect_answers": [
+        "Five",
+        "Thrice",
+        "Once"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Earl Grey tea is black tea flavoured with what?",
+      "correct_answer": "Bergamot oil",
+      "incorrect_answers": [
+        "Lavender",
+        "Vanilla",
+        "Honey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "How long is an IPv6 address?",
+      "correct_answer": "128 bits",
+      "incorrect_answers": [
+        "32 bits",
+        "64 bits",
+        "128 bytes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which pop singer was brought in by SEGA to produce the music for &quot;Sonic the Hedgehog 3&quot;?",
+      "correct_answer": "Michael Jackson ",
+      "incorrect_answers": [
+        "Prince",
+        "George Michael",
+        "Vanilla Ice "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did Norway become free from Sweden?",
+      "correct_answer": "1905",
+      "incorrect_answers": [
+        "1925",
+        "1814",
+        "1834"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "The 2002 film &quot;28 Days Later&quot; is mainly set in which European country?",
+      "correct_answer": "United Kingdom",
+      "incorrect_answers": [
+        "France",
+        "Italy",
+        "Germany"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which one of these Pink Floyd albums were also a movie?",
+      "correct_answer": "The Wall",
+      "incorrect_answers": [
+        "The Dark Side of the Moon",
+        "Wish You Were Here",
+        "Animals"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In &quot;Magic: The Gathering&quot;, during the design for Planar Chaos, what color did the developers think of adding in as the sixth color?",
+      "correct_answer": "Purple",
+      "incorrect_answers": [
+        "Brown",
+        "Pink",
+        "Orange"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which &#039;Family Guy&#039; character got his own spin-off show in 2009?",
+      "correct_answer": "Cleveland Brown",
+      "incorrect_answers": [
+        "Glenn Quagmire",
+        "Joe Swanson",
+        "The Greased-up Deaf Guy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+      "correct_answer": "Capture scent particles",
+      "incorrect_answers": [
+        "Taste the sweet air",
+        "Threaten other species",
+        "Attract female mates"
+      ]
+    }
+  ]
+}

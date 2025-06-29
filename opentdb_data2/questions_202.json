@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which of the General Mills Corporation&#039;s monster cereals was the last to be released in the 1970&#039;s?",
+      "correct_answer": "Fruit Brute",
+      "incorrect_answers": [
+        "Count Chocula",
+        "Franken Berry",
+        "Boo-Berry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "When was Tesla founded?",
+      "correct_answer": "2003",
+      "incorrect_answers": [
+        "2008",
+        "2005",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Portal series of games, who was the founder of Aperture Science?",
+      "correct_answer": "Cave Johnson",
+      "incorrect_answers": [
+        "GLaDOs",
+        "Wallace Breen",
+        "Gordon Freeman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Starting from 2000, China banned manufacturing and sales of all video game consoles. On which year was this ban lifted?",
+      "correct_answer": "2015",
+      "incorrect_answers": [
+        "2012",
+        "2008",
+        "2017"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The tuba is a part of which musical family?",
+      "correct_answer": "Brass",
+      "incorrect_answers": [
+        "Percussion",
+        "Strings",
+        "Woodwind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Adam West was the mayor of which cartoon town?",
+      "correct_answer": "Quahog",
+      "incorrect_answers": [
+        "Springfield",
+        "South Park",
+        "Langley Falls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which country was Josef Stalin born in?",
+      "correct_answer": "Georgia",
+      "incorrect_answers": [
+        "Russia",
+        "Germany",
+        "Poland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which is not a country in Africa?",
+      "correct_answer": "Guyana",
+      "incorrect_answers": [
+        "Senegal",
+        "Liberia",
+        "Somalia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "How old was Laurence Fishburne when Francis Ford Coppola cast him in Apocalypse Now (1979)? ",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "16",
+        "18",
+        "20"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Who is the author of Jurassic Park?",
+      "correct_answer": "Michael Crichton",
+      "incorrect_answers": [
+        "Peter Benchley",
+        "Chuck Paluhniuk",
+        "Irvine Welsh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Rudyard Kipling&#039;s &quot;The Jungle Book&quot;, what type of snake was Kaa?",
+      "correct_answer": "Python",
+      "incorrect_answers": [
+        "Cobra",
+        "Anaconda",
+        "Viper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the Master levels in &quot;Super Monkey Ball&quot; is also used in the arcade version of the game, simply named &quot;Monkey Ball&quot;?",
+      "correct_answer": "MASTER 9 - Bridge Master",
+      "incorrect_answers": [
+        "MASTER 3 - Stamina Master",
+        "MASTER 10 - Monkey Master",
+        "MASTER 6 - Roll Master"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which ability from the &quot;Magic: The Gathering&quot; Scars of Mirrodin expansion involves having at least three artifacts in play?",
+      "correct_answer": "Metalcraft",
+      "incorrect_answers": [
+        "Affinity",
+        "Imprint",
+        "Living Weapon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year did the Vietnam War end?",
+      "correct_answer": "1975",
+      "incorrect_answers": [
+        "1978",
+        "1967",
+        "1969"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Bugs Bunny, Tony the Tiger, and other bipedal animal characters are known as what type of character?",
+      "correct_answer": "Anthropomorphic",
+      "incorrect_answers": [
+        "Anthropolegic ",
+        "Anthrologic",
+        "Anthrogenetic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Who founded the Khan Academy?",
+      "correct_answer": "Sal Khan",
+      "incorrect_answers": [
+        "Ben Khan",
+        "Kitt Khan",
+        "Adel Khan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as &quot;Skoal Bandits&quot;?",
+      "correct_answer": "1983",
+      "incorrect_answers": [
+        "1934",
+        "1984",
+        "1822"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "When was the DVD invented?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "2000",
+        "1990",
+        "1980"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is not by Tatsuro Yamashita?",
+      "correct_answer": "Lucky Lady Feel So Good ",
+      "incorrect_answers": [
+        "Merry-Go Round",
+        "Let&#039;s Dance Baby",
+        "Love Talkin&#039;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Kingdom Hearts&quot;, what is the name of Sora&#039;s home world?",
+      "correct_answer": "Destiny Islands",
+      "incorrect_answers": [
+        "Agrabah",
+        "Land of Departure",
+        "Disney Town"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game series &quot;The Legend of Zelda&quot;, what was the first 3D game?",
+      "correct_answer": "Ocarina of Time",
+      "incorrect_answers": [
+        "Majora&#039;s Mask",
+        "A Link to the Past",
+        "The Wind Waker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the infamous pachinko machine from &quot;Kaiji&quot;?",
+      "correct_answer": "The Bog",
+      "incorrect_answers": [
+        "The Devil",
+        "The Undefeated",
+        "The Dragon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these video game series have NOT had a promotional item appear in Team Fortress 2?",
+      "correct_answer": "Half-Life",
+      "incorrect_answers": [
+        "Quake",
+        "The Binding of Isaac",
+        "Fallout"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who won the 10th season of Big Brother in the United States?",
+      "correct_answer": "Dan Gheesling",
+      "incorrect_answers": [
+        "Adam Jasinski",
+        "Hayden Moss",
+        "Dick Donato"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "USA",
+        "Japan",
+        "Switzerland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the nickname for the US state Delaware?",
+      "correct_answer": "The First State",
+      "incorrect_answers": [
+        "The Fiftieth State",
+        "The Second State",
+        "The Sixteenth State"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Terraria, which of the following items does the Martian Saucer mini-boss NOT drop?",
+      "correct_answer": "Drill Containment Unit",
+      "incorrect_answers": [
+        "Anti-Gravity Hook",
+        "Influx Waver",
+        "Cosmic Car Key"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What were the first states to break away from Yugoslavia?",
+      "correct_answer": "Slovenia, Croatia",
+      "incorrect_answers": [
+        "Macedonia, Montenegro",
+        "Slovenia, Macedonia",
+        "Montenegro, Slovenia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which product did Nokia, the telecommunications company, originally sell?",
+      "correct_answer": "Paper",
+      "incorrect_answers": [
+        "Phones",
+        "Computers",
+        "Processors"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What medication was once commonly used as rat poison?",
+      "correct_answer": "Coumadin",
+      "incorrect_answers": [
+        "Aspirin",
+        "Eliquis",
+        "Tylenol"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What type of function is x&sup2;+2x+1?",
+      "correct_answer": "Quadratic",
+      "incorrect_answers": [
+        "Rational",
+        "Linear",
+        "Exponential"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of the American state of Arizona?",
+      "correct_answer": "Phoenix",
+      "incorrect_answers": [
+        "Montgomery",
+        "Tallahassee",
+        "Raleigh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What Touhou Project character&#039;s first ever appearance was as a midboss in the eighth game, Imperishable Night?",
+      "correct_answer": "Tewi Inaba",
+      "incorrect_answers": [
+        "Mystia Lorelei",
+        "Kaguya Houraisan",
+        "Rumia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which restaurant&#039;s mascot is a clown?",
+      "correct_answer": "McDonald&#039;s",
+      "incorrect_answers": [
+        "Whataburger",
+        "Burger King",
+        "Sonic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Nintendo 64 game did NOT have Luigi in it?",
+      "correct_answer": "Super Mario 64",
+      "incorrect_answers": [
+        "Mario Party 2",
+        "Paper Mario",
+        "Super Smash Bros."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+      "correct_answer": "Highlander",
+      "incorrect_answers": [
+        "Flash Gordon",
+        "Labyrinth",
+        "Howard the Duck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Nuclear Throne, what organization chases the player character throughout the game?",
+      "correct_answer": "The I.D.P.D",
+      "incorrect_answers": [
+        "The Fishmen",
+        "The Bandits",
+        "The Y.V.G.G"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is NOT in The Beatles&#039; album &quot;Sgt. Pepper&#039;s Lonely Hearts Club Band&quot;?",
+      "correct_answer": "Strawberry Fields Forever",
+      "incorrect_answers": [
+        "Getting Better",
+        "Fixing a Hole",
+        "Lucy in the Sky with Diamonds"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "The character White Diamond from Steven Universe, is voiced by who?",
+      "correct_answer": "Christine Ebersole",
+      "incorrect_answers": [
+        "Ellen McLain",
+        "Aly Michalka",
+        "Rihanna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?",
+      "correct_answer": "David Duchovny",
+      "incorrect_answers": [
+        "Gillian Anderson",
+        "Robert Patrick",
+        "Mitch Pileggi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Halo series, which era of SPARTAN is Master Chief? ",
+      "correct_answer": "SPARTAN-II",
+      "incorrect_answers": [
+        "SPARTAN-I",
+        "SPARTAN-III",
+        "SPARTAN-IV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which anime heavily features music from the genre &quot;Eurobeat&quot;?",
+      "correct_answer": "Initial D",
+      "incorrect_answers": [
+        "Wangan Midnight",
+        "Kino no Tabi",
+        "Cowboy Bebop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which &quot;Call of Duty&quot; game are the &quot;Apothicons&quot; introduced in the Zombies mode?",
+      "correct_answer": "Call Of Duty: Black Ops III",
+      "incorrect_answers": [
+        "Call Of Duty: Black Ops",
+        "Call Of Duty: World At War",
+        "Call Of Duty: Black Ops II"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who assassinated President James A. Garfield?",
+      "correct_answer": "Charles Guiteau",
+      "incorrect_answers": [
+        "Sirhan Sirhan",
+        "Leon Czolgosz",
+        "John Wilkes Booth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What were the Chilled Monkey Brains made from during Indiana Jones and the Temple of Doom?",
+      "correct_answer": "Custard and Raspberry Sauce",
+      "incorrect_answers": [
+        "Strawberry Ice Cream",
+        "Cherry Yogurt",
+        "Raspberry Sorbet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In &quot;Magic: The Gathering&quot;, what instant card has the highest converted mana cost?",
+      "correct_answer": "Blinkmoth Infusion",
+      "incorrect_answers": [
+        "Vitalizing Wind",
+        " Chant of Vitu-Ghazi",
+        "Assert Authority"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What year did the anime &quot;Himouto! Umaru-chan&quot; air?",
+      "correct_answer": "2015",
+      "incorrect_answers": [
+        "2014",
+        "2012",
+        "2013"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which country was NOT part of the Soviet Union?",
+      "correct_answer": "Romania",
+      "incorrect_answers": [
+        "Turkmenistan",
+        "Belarus",
+        "Tajikistan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In Yu-Gi-Oh, how does a player perform an Xyz Summon?",
+      "correct_answer": "Overlay at least 2 Monsters of the Same Level",
+      "incorrect_answers": [
+        "Activate a Spell and Send Monsters to the Graveyard",
+        "Add the Monsters&#039; Levels Together to Match the Xyz Monster",
+        "Banish A Number of Monsters From Your Hand And Deck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Grand Theft Auto V, what was Michael De Santa&#039;s former surname?",
+      "correct_answer": "Townley",
+      "incorrect_answers": [
+        "De Santos",
+        "Watson",
+        "Simpson"
+      ]
+    }
+  ]
+}

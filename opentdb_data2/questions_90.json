@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The land mass of modern day Turkey is called what?",
+      "correct_answer": "Anatolia",
+      "incorrect_answers": [
+        "Ismuth of Ottoma",
+        "Ottoma",
+        "Ismuth of Anatolia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?",
+      "correct_answer": "Chile",
+      "incorrect_answers": [
+        "Ethiopia",
+        "Indonesia",
+        "Nicaragua"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "The film Mad Max: Fury Road features the Dies Irae  from which composer&#039;s requiem?",
+      "correct_answer": "Verdi",
+      "incorrect_answers": [
+        "Mozart",
+        "Berlioz",
+        "Brahms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+      "correct_answer": "Quantum Teleportation",
+      "incorrect_answers": [
+        "Super Dense Coding",
+        "Quantum Entanglement",
+        "Quantum Programming"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "After which Danish city is the 72th element on the periodic table named?",
+      "correct_answer": "Copenhagen",
+      "incorrect_answers": [
+        "Odense",
+        "Herning",
+        "Skagen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "The main antagonist of the second part of JoJo&#039;s Bizarre Adventure is which of the following?",
+      "correct_answer": "Kars",
+      "incorrect_answers": [
+        "Erina Joestar",
+        "Santana",
+        "Wired Beck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these artists has NOT been a member of dancehall group Major Lazer?",
+      "correct_answer": "Skrillex",
+      "incorrect_answers": [
+        "Diplo",
+        "Jillionaire",
+        "Walshy Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which JoJo&#039;s Bizarre Adventure character possesses the Stand named Silver Chariot?",
+      "correct_answer": "Jean Pierre Polnareff",
+      "incorrect_answers": [
+        "Noriaki Kakyoin",
+        "Hol Horse",
+        "Hermes Costello"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who won the 2011 Stanley Cup?",
+      "correct_answer": "Boston Bruins",
+      "incorrect_answers": [
+        "Montreal Canadiens",
+        "New York Rangers",
+        "Toronto Maple Leafs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the county seat of King County, Washington?",
+      "correct_answer": "Seattle",
+      "incorrect_answers": [
+        "Bellevue",
+        "Enumclaw",
+        "Skykomish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The &#039;64&#039; in the Nintendo-64 console refers to what?",
+      "correct_answer": "The bits in the CPU architecture",
+      "incorrect_answers": [
+        "The number of megabytes of RAM",
+        "Capacity of the ROM Cartridges in megabytes",
+        "Clock speed of the CPU in Hertz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "With which doubles partner did John McEnroe have most success?",
+      "correct_answer": "Peter Fleming",
+      "incorrect_answers": [
+        "Mark Woodforde",
+        "Michael Stich",
+        "Mary Carillo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first president born in the independent United States?",
+      "correct_answer": "Martin Van Buren",
+      "incorrect_answers": [
+        "John Adams",
+        "George Washington",
+        "James Monroe "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Which race enjoys a glass of warm baghol in &quot;Star Trek&quot;?",
+      "correct_answer": "Klingon",
+      "incorrect_answers": [
+        "Vulcan",
+        "Human",
+        "Botha"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+      "correct_answer": "Viktor Tsoi",
+      "incorrect_answers": [
+        "Jimi Hendrix",
+        "Brian Jones",
+        "Vladimir Vysotsky"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Iconic cartoon character Mickey Mouse made his onscreen debut in what year?",
+      "correct_answer": "1928",
+      "incorrect_answers": [
+        "1929",
+        "1922",
+        "1932"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "At which race was the 2018 F1 Drivers Championship won?",
+      "correct_answer": "Mexico",
+      "incorrect_answers": [
+        "United States",
+        "Belgium",
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Which actor was not a major character in TV Show Freaks and Geeks?",
+      "correct_answer": "Jonah Hill",
+      "incorrect_answers": [
+        "Jason Segel",
+        "Seth Rogen",
+        "James Franco"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which of these people is NOT a part of the Internet comedy group Mega64?",
+      "correct_answer": "Jon Jafari",
+      "incorrect_answers": [
+        "Rocco Botte",
+        "Derrick Acosta",
+        "Shawn Chatfield"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the total length of the Titanic?",
+      "correct_answer": "882 ft | 268.8 m",
+      "incorrect_answers": [
+        "759 ft | 231.3 m",
+        "1042 ft | 317.6 m",
+        "825 ft | 251.5 m"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "How old was Adolf Hitler when he died?",
+      "correct_answer": "56",
+      "incorrect_answers": [
+        "43",
+        "65",
+        "47"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+      "correct_answer": "Cherry MX Blue",
+      "incorrect_answers": [
+        "Cherry MX Black",
+        "Cherry MX Red",
+        "Cherry MX Brown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What French artist/band is known for playing on the midi instrument &quot;Launchpad&quot;?",
+      "correct_answer": "Madeon",
+      "incorrect_answers": [
+        "Daft Punk ",
+        "Disclosure",
+        "David Guetta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which small country is located between the borders of France and Spain?",
+      "correct_answer": "Andorra",
+      "incorrect_answers": [
+        "San Marino",
+        "Vatican City",
+        "Lichtenstein"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the mod &quot;Cry of Fear&quot; based off of?",
+      "correct_answer": "Half-Life",
+      "incorrect_answers": [
+        "Counter Strike: Source",
+        "Half-Life 2",
+        "It&#039;s a stand alone game, not a mod"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "On Twitter, what was the original character limit for a Tweet?",
+      "correct_answer": "140",
+      "incorrect_answers": [
+        "120",
+        "160",
+        "100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the last boss in Night In The Woods&#039; Demontower minigame?",
+      "correct_answer": "The Blood Thief",
+      "incorrect_answers": [
+        "Mega Hairball ",
+        "King Skellie ",
+        "Krampus "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the official language of Costa Rica?",
+      "correct_answer": "Spanish",
+      "incorrect_answers": [
+        "English",
+        "Portuguese",
+        "Creole"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which part from the JoJo&#039;s Bizarre Adventure manga is about a horse race across America?",
+      "correct_answer": "Part 7: Steel Ball Run",
+      "incorrect_answers": [
+        "Part 6: Stone Ocean",
+        "Part 3: Stardust Crusaders",
+        "Part 5: Golden Wind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the dog that played Toto in the 1939 film &quot;The Wizard of Oz&quot;?",
+      "correct_answer": "Terry",
+      "incorrect_answers": [
+        "Tommy",
+        "Teddy",
+        "Toto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+      "correct_answer": "San Fransokyo",
+      "incorrect_answers": [
+        "San Tokyo",
+        "Tokysisco",
+        "Sankyo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which ocean borders the west coast of the United States?",
+      "correct_answer": "Pacific",
+      "incorrect_answers": [
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which was the first video game to be produced by development company Rare?",
+      "correct_answer": "Slalom",
+      "incorrect_answers": [
+        "R.C. Pro-Am",
+        "Donkey Kong Country",
+        "Battletoads"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the romanized Russian word for &quot;winter&quot;?",
+      "correct_answer": "Zima",
+      "incorrect_answers": [
+        "Leto",
+        "Vesna",
+        "Osen&#039;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the fastest speed possible in Trackmania&sup2;: Stadium?",
+      "correct_answer": "1000  km/h",
+      "incorrect_answers": [
+        "500 km/h",
+        "320 km/h",
+        "100 km/h"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "What is the &quot;Mitsubishi Wakamaru&quot;?",
+      "correct_answer": "A robot",
+      "incorrect_answers": [
+        "A pickup truck",
+        "An motorcycle",
+        "A motorboat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+      "correct_answer": "Motorola 68000",
+      "incorrect_answers": [
+        "Zilog Z80",
+        "Yamaha YM2612",
+        "Intel 8088"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
+      "correct_answer": "Final",
+      "incorrect_answers": [
+        "Static",
+        "Private",
+        "Public"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was Pokemon GO released in North America?",
+      "correct_answer": "July 6th, 2016",
+      "incorrect_answers": [
+        "June 5th, 2016",
+        "May 24th, 2016",
+        "January 2nd, 2017"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Who was the original voice actor of Shaggy Rogers in Scooby-Doo?",
+      "correct_answer": "Casey Kasem",
+      "incorrect_answers": [
+        "Dante Basco",
+        "Billy West",
+        "Frank Welker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "When someone is cowardly, they are said to have what color belly?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": [
+        "Green",
+        "Red",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which show is known for the songs &quot;You are a Pirate&quot;, &quot;Cooking by the Book&quot; and &quot;We Are Number One&quot;?",
+      "correct_answer": "LazyTown",
+      "incorrect_answers": [
+        "Sofia the First",
+        "DuckTales",
+        "Tom and Jerry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who was the guitarist in the band &quot;The Doors&quot;?",
+      "correct_answer": "Robby Krieger",
+      "incorrect_answers": [
+        "Eric Clapton",
+        "John Densmore",
+        "Jimi Hendrix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What do the letters of the fast food chain KFC stand for?",
+      "correct_answer": "Kentucky Fried Chicken",
+      "incorrect_answers": [
+        "Kentucky Fresh Cheese",
+        "Kibbled Freaky Cow",
+        "Kiwi Food Cut"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Little Witch Academia&quot;, what is Shiny Chariot&#039;s alias at Luna Nova Academy?",
+      "correct_answer": "Ursula Callistis",
+      "incorrect_answers": [
+        "Croix Meridies",
+        "Miranda Holbrook",
+        "Anne Finnelan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+      "correct_answer": "150",
+      "incorrect_answers": [
+        "200",
+        "100",
+        "155"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who voices the main character Blu in the 2011 animated film &quot;Rio&quot;?",
+      "correct_answer": "Jesse Eisenberg",
+      "incorrect_answers": [
+        "Michael Cera",
+        "Jonah Hill",
+        "Zach Galifianakis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What is the domain name for the country Tuvalu?",
+      "correct_answer": ".tv",
+      "incorrect_answers": [
+        ".tu",
+        ".tt",
+        ".tl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the 4-armed Chaos Witch from the 2016 video game &quot;Battleborn&quot;?",
+      "correct_answer": "Orendi",
+      "incorrect_answers": [
+        "Orendoo",
+        "Oranda",
+        "Randy"
+      ]
+    }
+  ]
+}

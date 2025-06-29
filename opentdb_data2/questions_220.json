@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "An organism described as &quot;heliotropic&quot; has a tendancy to move towards which of these things?",
+      "correct_answer": "Light",
+      "incorrect_answers": [
+        "Water",
+        "Trees",
+        "Pollen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1971 film &quot;Willy Wonka &amp; the Chocolate Factory&quot;, who played Willy Wonka?",
+      "correct_answer": "Gene Wilder",
+      "incorrect_answers": [
+        "Shia LeBouf",
+        "Peter Ostrum",
+        "Johnny Depp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Britain",
+        "Belgium",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Enter the Gungeon, which one of these is not a playable character?",
+      "correct_answer": "The Wizard",
+      "incorrect_answers": [
+        "The Bullet",
+        "The Robot",
+        "The Cultist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is Cynophobia the fear of?",
+      "correct_answer": "Dogs",
+      "incorrect_answers": [
+        "Birds",
+        "Flying",
+        "Germs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which Mario game did the Mega Mushroom make its debut?",
+      "correct_answer": "Mario Party 4",
+      "incorrect_answers": [
+        "New Super Mario Bros.",
+        "Mario Kart Wii",
+        "Super Mario 3D World"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In programming, what do you call functions with the same name but different implementations?",
+      "correct_answer": "Overloading",
+      "incorrect_answers": [
+        "Overriding",
+        "Abstracting",
+        "Inheriting"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The World Health Organization headquarters is located in which European country?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": [
+        "United Kingdom",
+        "France",
+        "Belgium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In which manga did the &quot;404 Girl&quot; from 4chan originate from?",
+      "correct_answer": "Yotsuba&amp;!",
+      "incorrect_answers": [
+        "Azumanga Daioh",
+        "Lucky Star",
+        "Clover"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Elite Four member from the first generation of Pok&eacute;mon became the champion in the next generation?",
+      "correct_answer": "Lance",
+      "incorrect_answers": [
+        "Agatha",
+        "Bruno",
+        "Lorelei"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+      "correct_answer": "September 11, 1941",
+      "incorrect_answers": [
+        "June 15, 1947",
+        "January 15, 1943",
+        "September 2, 1962"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What is the code name for the mobile operating system Android 7.0?",
+      "correct_answer": "Nougat",
+      "incorrect_answers": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who voice acted the character Hiccup in the movie &quot;How to Train Your Dragon&quot;?",
+      "correct_answer": "Jay Baruchel",
+      "incorrect_answers": [
+        "Jack Brauchel",
+        "John Powell",
+        "Gerard Butler"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+      "correct_answer": "Astoria Greengrass",
+      "incorrect_answers": [
+        "Pansy Parkinson",
+        "Millicent Bulstrode",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;The Melancholy of Haruhi Suzumiya&quot; series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+      "correct_answer": "God",
+      "incorrect_answers": [
+        "Alien",
+        "Time Traveler",
+        "Esper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Who was the only president to not be in office in Washington D.C?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "Abraham Lincoln",
+        "Richard Nixon",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
+      "correct_answer": "Harry Potter",
+      "incorrect_answers": [
+        "Ted",
+        "Spy Kids",
+        "Pirates of the Caribbean "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "During development of &quot;Super Mario World&quot;, Yoshi&#039;s hard saddle was originally which of these?",
+      "correct_answer": "A shell",
+      "incorrect_answers": [
+        "A slide of Gelatin",
+        "A poffin",
+        "A spike"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed and published Game Dev Tycoon?",
+      "correct_answer": "Greenheart Games",
+      "incorrect_answers": [
+        "Greenland Games",
+        "The Tycoonists",
+        "MomCorp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "The Norse god Odin has two pet crows named &quot;Huginn&quot; and &quot;Muninn&quot;.  What do their names mean?",
+      "correct_answer": "Thought &amp; Memory",
+      "incorrect_answers": [
+        "Power &amp; Peace",
+        "War &amp; Learning",
+        "Sleeping &amp; Waking"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Which of the following is NOT a work done by Shakespeare?",
+      "correct_answer": "Trial of Temperance",
+      "incorrect_answers": [
+        "Measure For Measure",
+        "Titus Andronicus",
+        "Cymbeline"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which actress danced the twist with John Travolta in &#039;Pulp Fiction&#039;?",
+      "correct_answer": "Uma Thurman",
+      "incorrect_answers": [
+        "Kathy Griffin",
+        "Pam Grier",
+        "Bridget Fonda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "At which university do &quot;The Big Bang Theory&quot; characters Mr. Wolowitz and Drs. Cooper, Hofstadter and Koothrappali work?",
+      "correct_answer": "Caltech",
+      "incorrect_answers": [
+        "UCLA",
+        "MIT",
+        "UC Berkeley "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which character class in Dungeons and Dragons 5th edition gains it&#039;s powers from making a pact with a being of higher power?",
+      "correct_answer": "Warlock",
+      "incorrect_answers": [
+        "Wizard",
+        "Sorceror",
+        "Cleric"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;To Love-Ru: Darkness&quot;, which of the girls attempt making a harem for Rito Yuuki?",
+      "correct_answer": "Momo Deviluke",
+      "incorrect_answers": [
+        "Yami (Golden Darkness)",
+        "Haruna Sairenji",
+        "Mea Kurosaki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Fairy Tail&quot;, what is the nickname of Natsu Dragneel?",
+      "correct_answer": "The Salamander",
+      "incorrect_answers": [
+        "The Dragon Slayer",
+        "The Dragon",
+        "The Demon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "What year did Albrecht D&uuml;rer create the painting &quot;The Young Hare&quot;?",
+      "correct_answer": "1502",
+      "incorrect_answers": [
+        "1702",
+        "1402",
+        "1602"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who created the &quot;Metal Gear&quot; Series?",
+      "correct_answer": "Hideo Kojima",
+      "incorrect_answers": [
+        "Hiroshi Yamauchi",
+        "Shigeru Miyamoto",
+        "Gunpei Yokoi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?",
+      "correct_answer": "Ame &amp; Yuki",
+      "incorrect_answers": [
+        "Hana &amp; Yuki",
+        "Ame &amp; Hana",
+        "Chuck &amp; Anna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the name given to Indian food cooked over charcoal in a clay oven?",
+      "correct_answer": "Tandoori",
+      "incorrect_answers": [
+        "Biryani",
+        "Pani puri",
+        "Tiki masala"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+      "correct_answer": "Billy Loomis and Stu Macher",
+      "incorrect_answers": [
+        "Dewey Riley",
+        "Sidney Prescott",
+        "Archie Prescott and Philip Marv"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which one of the following is not made by Ford?",
+      "correct_answer": "Camry",
+      "incorrect_answers": [
+        "Fusion",
+        "Model A",
+        "F-150"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which famous artist featured on Rowdy Rebel&#039;s 2015 song &quot;Computers&quot;?",
+      "correct_answer": "Bobby Shmurda ",
+      "incorrect_answers": [
+        "Lil Wayne",
+        "Will.I.AM",
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the first &quot;Star Wars&quot; film by release order?",
+      "correct_answer": "A New Hope",
+      "incorrect_answers": [
+        "The Phantom Menace",
+        "The Force Awakens",
+        "Revenge of the Sith"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What is the primary purpose of the Fourth Amendment to the US Constitution?",
+      "correct_answer": "Preventing unreasonable searches and seizures",
+      "incorrect_answers": [
+        "Preventing cruel and unusual punishments",
+        "Protecting against imprisonment without due process of law",
+        "Protecting the right to keep and bear arms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It&#039;s a Wonderful Life&quot;, who was his guardian angel?",
+      "correct_answer": "Eddie the Mean Old Yeti",
+      "incorrect_answers": [
+        "Kiddy Kong",
+        "Diddy Kong",
+        "King K. Rool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the largest living species of penguin?",
+      "correct_answer": "Emperor",
+      "incorrect_answers": [
+        "King",
+        "Gentoo",
+        "Adele"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In which years did the Battle of Gallipoli take place?",
+      "correct_answer": "1915 - 1916",
+      "incorrect_answers": [
+        "1914 - 1918",
+        "1914 - 1915",
+        "1915 - 1918"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": " Which of these champions from the MOBA &#039;League of Legends&#039; is NOT a Yordle?",
+      "correct_answer": "Annie",
+      "incorrect_answers": [
+        "Veigar",
+        "Tristana",
+        "Lulu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What type of Pok&eacute;mon is Charizard?",
+      "correct_answer": "Fire/Flying",
+      "incorrect_answers": [
+        "Fire",
+        "Dragon",
+        "Fire/Dragon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of the following did not feature in the cartoon &#039;Wacky Races&#039;?",
+      "correct_answer": "The Dragon Wagon",
+      "incorrect_answers": [
+        "The Bouldermobile",
+        "The Crimson Haybailer",
+        "The Compact Pussycat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who was the guitarist in the band &quot;The Doors&quot;?",
+      "correct_answer": "Robby Krieger",
+      "incorrect_answers": [
+        "Eric Clapton",
+        "John Densmore",
+        "Jimi Hendrix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is a class in the game &quot;Hearthstone&quot;?",
+      "correct_answer": "Priest",
+      "incorrect_answers": [
+        "Sage",
+        "Cleric",
+        "Monk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Of the following months, which has the most amount of days?",
+      "correct_answer": "December",
+      "incorrect_answers": [
+        "April",
+        "September",
+        "November "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+      "correct_answer": "The Dresden Files",
+      "incorrect_answers": [
+        "A Hat in Time",
+        "The Cinder Spires",
+        "My Life as a Teenage Wizard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The name of the Metroid series comes from what?",
+      "correct_answer": "An enemy in the game",
+      "incorrect_answers": [
+        "The final boss&#039;s name",
+        "The main character&#039;s name",
+        "A spaceship&#039;s name"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which anime heavily features music from the genre &quot;Eurobeat&quot;?",
+      "correct_answer": "Initial D",
+      "incorrect_answers": [
+        "Wangan Midnight",
+        "Kino no Tabi",
+        "Cowboy Bebop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What was the first superhero film James Gunn was involved with?",
+      "correct_answer": "The Specials",
+      "incorrect_answers": [
+        "Super",
+        "Guardians of the Galaxy",
+        "Brightburn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Black Lagoon&quot;, what colour is Rock&#039;s tie?",
+      "correct_answer": "Teal",
+      "incorrect_answers": [
+        "Crimson",
+        "Dark Brown",
+        "Black"
+      ]
+    }
+  ]
+}

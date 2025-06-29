@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+      "correct_answer": "The Greasers",
+      "incorrect_answers": [
+        "The Outsiders",
+        "The Mafia",
+        "The Socs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+      "correct_answer": "Galois",
+      "incorrect_answers": [
+        "Abel",
+        "Euler",
+        "Gauss"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Minecraft: Java Edition, which of the following feature/block was added to Survival mode in Beta 1.3?",
+      "correct_answer": "Beds",
+      "incorrect_answers": [
+        "Hunger",
+        "The Nether",
+        "Grass"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which country is the Taedong River in?",
+      "correct_answer": "North Korea",
+      "incorrect_answers": [
+        "South Korea",
+        "Japan",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;DELTARUNE&quot;, what is Ralsei&#039;s special ability?",
+      "correct_answer": "Pacify",
+      "incorrect_answers": [
+        "Persuade",
+        "Eliminate",
+        "Hug"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+      "correct_answer": "Culper Ring",
+      "incorrect_answers": [
+        "New York Spy Ring",
+        "Washington&#039;s Spies",
+        "Unnamed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "What were Marcel Duchamp&#039;s readymades?",
+      "correct_answer": "utilitarian objects elevated to the status of art",
+      "incorrect_answers": [
+        "a series focused on color and light as opposed to line and shape",
+        "paintings with a barely visible outlined square",
+        "a group of identical steel boxes jutting from the wall "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+      "correct_answer": "Siege of Petersburg",
+      "incorrect_answers": [
+        "Siege of Vicksburg",
+        "Antietam Campaign",
+        "Gettysburg Campagin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Australia",
+        "Turkey",
+        "Cambodia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what term for blocking was established in the Portal set?",
+      "correct_answer": "Intercepting",
+      "incorrect_answers": [
+        "Blocking",
+        "Resisting",
+        "Shielding"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Phoenix Wright: Ace Attorney&quot; which character is the District Chief of Police?",
+      "correct_answer": "Damon Gant",
+      "incorrect_answers": [
+        "Miles Edgeworth",
+        "Lana Skye",
+        "Mike Meekins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "What is Hermione Granger&#039;s middle name?",
+      "correct_answer": "Jean",
+      "incorrect_answers": [
+        "Jane",
+        "Emma",
+        "Jo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into &quot;Super Smash Bros.&quot;?",
+      "correct_answer": "Dragon King: The Fighting Game",
+      "incorrect_answers": [
+        "Nintendo Legends: Fight!",
+        "Martial Arts: King of the Hill",
+        "Aerial Warriors: Supreme Battle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which color cannot be produced in Roses, even through genetic alteration?",
+      "correct_answer": "Blue",
+      "incorrect_answers": [
+        "Black",
+        "Orange",
+        "Brown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the name of the main character from the music video of &quot;Shelter&quot; by Porter Robinson and A-1 Studios?",
+      "correct_answer": "Rin",
+      "incorrect_answers": [
+        "Rem",
+        "Ren",
+        "Ram"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of these countries&#039; national teams qualified for the 2018 FIFA World Cup in Russia?",
+      "correct_answer": "Tunisia",
+      "incorrect_answers": [
+        "United States of America",
+        "Italy",
+        "Netherlands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+      "correct_answer": "Shamir",
+      "incorrect_answers": [
+        "Secure",
+        "Schottky",
+        "Stable"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which essential condiment is also known as Japanese horseradish?",
+      "correct_answer": "Wasabi ",
+      "incorrect_answers": [
+        "Mentsuyu",
+        "Karashi",
+        "Ponzu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is a dead mall?",
+      "correct_answer": "A mall with high vacancy rates or low consumer foot traffic",
+      "incorrect_answers": [
+        "A mall with no stores",
+        "A mall that has been condemed",
+        "A mall after business hours"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+      "correct_answer": "print(&quot;Hello World&quot;)",
+      "incorrect_answers": [
+        "console.log(&quot;Hello World&quot;)",
+        "echo &quot;Hello World&quot;",
+        "printf(&quot;Hello World&quot;)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What album is the song &#039;New Slang&#039; by The Shins found on?",
+      "correct_answer": "Oh, Inverted World",
+      "incorrect_answers": [
+        "Wincing The Night Away",
+        "Chutes Too Narrow",
+        "Port Of Morrow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who wrote the Sinead O`Connor hit &#039;Nothing Compares 2 U&#039;?",
+      "correct_answer": "Prince",
+      "incorrect_answers": [
+        "Michael Jackson",
+        "Cameo",
+        "Rick James"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who plays protagonist Ethan Hunt in the &quot;Mission: Impossible&quot; film-series?",
+      "correct_answer": "Tom Cruise",
+      "incorrect_answers": [
+        "Johnny Depp",
+        "Sean Connery",
+        "Pierce Brosnan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is not by Tatsuro Yamashita?",
+      "correct_answer": "Lucky Lady Feel So Good ",
+      "incorrect_answers": [
+        "Merry-Go Round",
+        "Let&#039;s Dance Baby",
+        "Love Talkin&#039;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of your team in Star Wars: Republic Commando?",
+      "correct_answer": "Delta Squad",
+      "incorrect_answers": [
+        "The Commandos",
+        "Bravo Six",
+        "Vader&#039;s Fist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of these facilities was not present on the Titanic?",
+      "correct_answer": "Fainting room",
+      "incorrect_answers": [
+        "Turkish bath",
+        "Kennel",
+        "Squash court"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of the following originated as a manga?",
+      "correct_answer": "Akira",
+      "incorrect_answers": [
+        "Cowboy Bebop",
+        "High School DxD",
+        "Gurren Lagann"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who performed the guitar solo on Michael Jackson&#039;s hit &quot;Beat It&quot;?",
+      "correct_answer": "Eddie Van Halen",
+      "incorrect_answers": [
+        "Steve Vai",
+        "Kirk Hammett",
+        "Zakk Wylde"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which studio animated Afro Samurai?",
+      "correct_answer": "Gonzo",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "xebec",
+        "Production I.G"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which country is completely landlocked by South Africa?",
+      "correct_answer": "Lesotho",
+      "incorrect_answers": [
+        "Swaziland",
+        "Botswana",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the device that allows for infinite energy in the anime &quot;Dimension W&quot;?",
+      "correct_answer": "Coils",
+      "incorrect_answers": [
+        "Wires",
+        "Collectors",
+        "Tesla"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the ADV (English) Dub of the anime &quot;Ghost Stories&quot;, which character is portrayed as a Pentacostal Christian?",
+      "correct_answer": "Momoko Koigakubo",
+      "incorrect_answers": [
+        "Hajime Aoyama",
+        "Satsuki Miyanoshita",
+        "Mio Itai"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What year did World War I begin?",
+      "correct_answer": "1914",
+      "incorrect_answers": [
+        "1905",
+        "1919",
+        "1925"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "HTML is what type of language?",
+      "correct_answer": "Markup Language",
+      "incorrect_answers": [
+        "Macro Language",
+        "Programming Language",
+        "Scripting Language"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
+      "correct_answer": "Sneeze",
+      "incorrect_answers": [
+        "Cough",
+        "Yawn",
+        "Hiccup"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Gamecube Version of &quot;Resident Evil&quot; what text document is open on the monitor of the computer in the Visual Data Room?",
+      "correct_answer": "A GDC Document",
+      "incorrect_answers": [
+        "Text Document on Herbs",
+        "Nothing",
+        "Document on B.O.Ws"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the 1968 Cartoon Show &quot;Wacky Races&quot; what was the name of cavemen duo who rode in The Boulder Mobile?",
+      "correct_answer": "The Slag Brothers",
+      "incorrect_answers": [
+        "The Slate Brothers",
+        "The Rock Brothers",
+        "The Stone Brothers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the original name of Final Fantasy XV?",
+      "correct_answer": "Final Fantasy Versus XIII",
+      "incorrect_answers": [
+        "Final Fantasy: Reborn",
+        "Final Fantasy XVI",
+        "Final Fantasy XIII-3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Politics",
+      "question": "How many people are in the U.S. House of Representatives?",
+      "correct_answer": "435",
+      "incorrect_answers": [
+        "260",
+        "415",
+        "50"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "correct_answer": "Paul Revere",
+      "incorrect_answers": [
+        "Thomas Paine",
+        "Henry Longfellow",
+        "Nathan Hale"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Rudyard Kipling&#039;s &quot;The Jungle Book&quot;, what type of snake was Kaa?",
+      "correct_answer": "Python",
+      "incorrect_answers": [
+        "Cobra",
+        "Anaconda",
+        "Viper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Kanye West at 2009 VMA&#039;s interrupted which celebrity?",
+      "correct_answer": "Taylor Swift",
+      "incorrect_answers": [
+        "MF DOOM",
+        "Beyonce",
+        "Beck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed the free battle royale game Fortnite?",
+      "correct_answer": "Epic Games",
+      "incorrect_answers": [
+        "Valve",
+        "Ubisoft",
+        "Square Enix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Highschool of the Dead&quot;, where did Komuro and Saeko establish to meet after the bus explosion?",
+      "correct_answer": "Eastern Police Station",
+      "incorrect_answers": [
+        "The Center Mall",
+        "Komuro&#039;s House",
+        "On The Main Bridge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a Fallout protagonist?",
+      "correct_answer": "Tunnel Snake",
+      "incorrect_answers": [
+        "Courier",
+        "Lone Wanderer",
+        "Vault Dweller"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure? ",
+      "correct_answer": "Polio",
+      "incorrect_answers": [
+        "Cancer",
+        "Meningitis",
+        "HIV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the common, gun-toting enemies of the &quot;Oddworld&quot; video game series?",
+      "correct_answer": "Sligs",
+      "incorrect_answers": [
+        "Scrabs",
+        "Slogs",
+        "Glukkons"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What are the cylinder-like parts that pump up and down within the engine?",
+      "correct_answer": "Pistons",
+      "incorrect_answers": [
+        "Leaf Springs",
+        "Radiators",
+        "ABS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When was Napoleon Bonaparte crowned emperor of the French? ",
+      "correct_answer": " December 2nd 1804",
+      "incorrect_answers": [
+        " July 3rd 1802",
+        " March 8th 1803",
+        " October 15th 1804"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who won the &quot;Champions League&quot; in 1999?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": [
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Which president erased the national debt of the United States?",
+      "correct_answer": "Andrew Jackson",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "John F. Kennedy",
+        "Franklin Roosevelt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It&#039;s a Wonderful Life&quot;, who was his guardian angel?",
+      "correct_answer": "Eddie the Mean Old Yeti",
+      "incorrect_answers": [
+        "Kiddy Kong",
+        "Diddy Kong",
+        "King K. Rool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Who was the winner of the 2016 WWE Royal Rumble?",
+      "correct_answer": "Triple H",
+      "incorrect_answers": [
+        "Roman Reigns",
+        "AJ Styles",
+        "Dean Ambrose"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Avatar: The Last Airbender&quot;, which element does Aang begin to learn after being defrosted?",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Air",
+        "Earth",
+        "Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these words refers to something made, distributed, or sold illegally?",
+      "correct_answer": "Bootleg",
+      "incorrect_answers": [
+        "Bootblack",
+        "Bootlace",
+        "Bootstrap"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+      "correct_answer": "Shamir",
+      "incorrect_answers": [
+        "Secure",
+        "Schottky",
+        "Stable"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "Which of these is a colony of polyps and not a jellyfish?",
+      "correct_answer": "Portuguese Man-of-War",
+      "incorrect_answers": [
+        "Sea Wasp",
+        "Irukandji",
+        "Sea Nettle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What does the F stand for in the FBI?",
+      "correct_answer": "Federal",
+      "incorrect_answers": [
+        "Foreign",
+        "Formal",
+        "First"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What does the letter &#039;S&#039; stand for in &#039;NASA&#039;?",
+      "correct_answer": "Space",
+      "incorrect_answers": [
+        "Science",
+        "Society",
+        "Star"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What does &quot;LCD&quot; stand for?",
+      "correct_answer": "Liquid Crystal Display",
+      "incorrect_answers": [
+        "Language Control Design",
+        "Last Common Difference",
+        "Long Continuous Design"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "When did the TV show Rick and Morty first air on Adult Swim?",
+      "correct_answer": "2013",
+      "incorrect_answers": [
+        "2014",
+        "2016",
+        "2015"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+      "correct_answer": "Operation Downfall",
+      "incorrect_answers": [
+        "Operation Boarding Party",
+        "Operation Ironclad",
+        "Operation Aflame"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Who is the founder of Palantir?",
+      "correct_answer": "Peter Thiel",
+      "incorrect_answers": [
+        "Mark Zuckerberg",
+        "Marc Benioff",
+        "Jack Dorsey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which one of these Pink Floyd albums were also a movie?",
+      "correct_answer": "The Wall",
+      "incorrect_answers": [
+        "The Dark Side of the Moon",
+        "Wish You Were Here",
+        "Animals"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?",
+      "correct_answer": "Hampton Court",
+      "incorrect_answers": [
+        "St James&#039;s Palace",
+        "Buckingham Palace",
+        "Coughton Court"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the alien species introduced in Shadow the Hedgehog (2005)?",
+      "correct_answer": "Black Arms",
+      "incorrect_answers": [
+        "The Swarm",
+        "Black Hive",
+        "The Eclipse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company did Bethesda purchase the Fallout Series from?",
+      "correct_answer": "Interplay Entertainment ",
+      "incorrect_answers": [
+        "Capcom",
+        "Blizzard Entertainment",
+        "Nintendo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
+      "correct_answer": "&quot;How disgusting.&quot;",
+      "incorrect_answers": [
+        "&quot;Idiot, I won&#039;t let you kill me!&quot;",
+        "&quot;Nothing.&quot;",
+        "&quot;Goddammit, Shinji.&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the main currency in Club Penguin?",
+      "correct_answer": "Coins",
+      "incorrect_answers": [
+        "Stamps",
+        "Tickets",
+        "Gems"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which American family band had a 1986 top 10 hit with the song &#039;Crush On You&#039;?",
+      "correct_answer": "The Jets",
+      "incorrect_answers": [
+        "DeBarge",
+        "The Jacksons",
+        "The Cover Girls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The website &quot;Shut Up &amp; Sit Down&quot; reviews which form of media?",
+      "correct_answer": "Board Games",
+      "incorrect_answers": [
+        "Television Shows",
+        "Video Games",
+        "Films"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "After how many years would you celebrate your crystal anniversary?",
+      "correct_answer": "15",
+      "incorrect_answers": [
+        "20",
+        "10",
+        "25"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who was the guitarist in the band &quot;The Doors&quot;?",
+      "correct_answer": "Robby Krieger",
+      "incorrect_answers": [
+        "Eric Clapton",
+        "John Densmore",
+        "Jimi Hendrix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the foley artist who designed the famous sounds of Star Wars, including Chewbacca&#039;s roar and R2-D2&#039;s beeps and whistles?",
+      "correct_answer": "Ben Burtt",
+      "incorrect_answers": [
+        "Ken Burns",
+        "Ralph McQuarrie",
+        "Miranda Keyes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following landmarks is not located in New York City?",
+      "correct_answer": "Lincoln Memorial",
+      "incorrect_answers": [
+        "Empire State Building",
+        "Times Square",
+        "Central Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the survival horror game, &quot;Cry of Fear,&quot; what was the name of Simon&#039;s close friend/potential love interest?",
+      "correct_answer": "Sophie",
+      "incorrect_answers": [
+        "Olivia",
+        "Jessica",
+        "Alice"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?",
+      "correct_answer": "Lobster Johnson",
+      "incorrect_answers": [
+        "Roger the Homunculus",
+        "The Spider",
+        "The Wendigo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the real name of Canadian electronic music producer deadmau5?",
+      "correct_answer": "Joel Zimmerman",
+      "incorrect_answers": [
+        "Sonny Moore",
+        "Adam Richard Wiles",
+        "Thomas Wesley Pentz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In JoJo&#039;s Bizarre Adventure, who says &quot;Yare yare daze&quot;?",
+      "correct_answer": "Jotaro Kujo",
+      "incorrect_answers": [
+        "Joseph Joestar",
+        "Jolyne Cujoh",
+        "Koichi Hirose"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who is frozen at the end of the movie &quot;Goldeneye&quot;?",
+      "correct_answer": "Boris Grishenko",
+      "incorrect_answers": [
+        "James Bond",
+        "Natalya Simonova",
+        "Alec Travelyan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Gravity Falls&quot;, the character Bill Cipher remarks that &quot;the universe is what?&quot;",
+      "correct_answer": "A hologram ",
+      "incorrect_answers": [
+        "An illusion ",
+        "A simulation",
+        "Corrupting"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the only Generation III Pokemon whose name begins with the letter I?",
+      "correct_answer": "Illumise",
+      "incorrect_answers": [
+        "Infernape",
+        "Ivysaur",
+        "Igglybuff"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What was the title of ABBA`s first UK hit single?",
+      "correct_answer": "Waterloo",
+      "incorrect_answers": [
+        "Mamma Mia",
+        "Fernando",
+        "Dancing Queen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+      "correct_answer": "The Velvet Underground and Nico",
+      "incorrect_answers": [
+        "Abbey Road",
+        "Led Zeppelin IV",
+        "Pet Sounds"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the PAYDAY series, who betrayed the PAYDAY gang that got Hoxton arrested?",
+      "correct_answer": "Hector",
+      "incorrect_answers": [
+        "Vlad",
+        "The Dentist",
+        "The Elephant"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did construction of the Suez Canal finish?",
+      "correct_answer": "1869",
+      "incorrect_answers": [
+        "1859",
+        "1860",
+        "1850"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Under which name was Rodrigo Borgia made Pope?",
+      "correct_answer": "Alexander VI",
+      "incorrect_answers": [
+        "Rodrigo I",
+        "John Paul II",
+        "Pius VII"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which actor plays the role of the main antagonist in the 2011 movie &quot;Tower Heist?&quot;",
+      "correct_answer": "Alan Alda",
+      "incorrect_answers": [
+        "Eddie Murphy",
+        "Alec Baldwin",
+        "Kevin Nealon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Hunter x Hunter&quot;, what are members in Killua&#039;s family known for being?",
+      "correct_answer": "Assassins",
+      "incorrect_answers": [
+        "Bandits",
+        "Hunters",
+        "Ninjas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The Touhou Project series of games is often associated with which genre?",
+      "correct_answer": "Shoot &#039;em up",
+      "incorrect_answers": [
+        "Strategy",
+        "FPS",
+        "Casual"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is &quot;Stenoma&quot;?",
+      "correct_answer": "A genus of moths",
+      "incorrect_answers": [
+        "A combat stimulant from WW2",
+        "A type of seasoning",
+        "A port city in the carribean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What was Ash Ketchum&#039;s second Pokemon?",
+      "correct_answer": "Caterpie",
+      "incorrect_answers": [
+        "Charmander",
+        "Pikachu",
+        "Pidgey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In Two and a Half Men, what is Alan Harper&#039;s son&#039;s name?",
+      "correct_answer": "Jake",
+      "incorrect_answers": [
+        "John",
+        "Jeremy",
+        "James"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the first element on the periodic table?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Helium",
+        "Oxygen",
+        "Lithium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Call of Duty: United Offensive, what two soldiers share a name of a video game character?",
+      "correct_answer": "Gordon &amp; Freeman",
+      "incorrect_answers": [
+        "Sam &amp; Fisher",
+        "Nathan &amp; Drake",
+        "Dig &amp; Dug"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Paul McCartney has always used his middle name. What is his real first name? ",
+      "correct_answer": "James",
+      "incorrect_answers": [
+        "John",
+        "Jack",
+        "Justin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+      "correct_answer": "The Prince and the Pauper",
+      "incorrect_answers": [
+        "Hamlet",
+        "Wealthy Boy and the Schmuck",
+        "A Modern Twain Story"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first game in the &quot;Battlefield&quot; series?",
+      "correct_answer": "Battlefield 1942",
+      "incorrect_answers": [
+        "Battlefield Vietnam",
+        "Battlefield 2",
+        "Battlefield 1"
+      ]
+    }
+  ]
+}

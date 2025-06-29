@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the cartoon character, Andy Capp, known as in Germany?",
+      "correct_answer": "Willi Wakker",
+      "incorrect_answers": [
+        "Dick Tingeler",
+        "Helmut Schmacker",
+        "Rod Tapper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these colours is NOT featured in the logo for Google?",
+      "correct_answer": "Pink",
+      "incorrect_answers": [
+        "Yellow",
+        "Blue",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who is the main character in the show &quot;Burn Notice&quot;?",
+      "correct_answer": "Michael Westen",
+      "incorrect_answers": [
+        "Sam Axe",
+        "Fiona Glenanne",
+        "Madeline Westen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which color cannot be produced in Roses, even through genetic alteration?",
+      "correct_answer": "Blue",
+      "incorrect_answers": [
+        "Black",
+        "Orange",
+        "Brown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+      "correct_answer": "center",
+      "incorrect_answers": [
+        "static",
+        "absolute",
+        "relative"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of the antagonist group in Danganronpa Another Episode: Ultra Despair Girls?",
+      "correct_answer": "Warriors of Hope",
+      "incorrect_answers": [
+        "The Monokubs",
+        "Warriors of Despair",
+        "The Ultimate Despair"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following presidents is not on Mount Rushmore?",
+      "correct_answer": "John F. Kennedy",
+      "incorrect_answers": [
+        "Theodore Roosevelt",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Rollercoaster Tycoon&quot; was programmed mostly entirely in...",
+      "correct_answer": "x86 Assembly",
+      "incorrect_answers": [
+        "C++",
+        "C",
+        "ALGOL"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the surname of one of the male teachers in the BBC series Postman Pat?",
+      "correct_answer": "Pringle",
+      "incorrect_answers": [
+        "Walker",
+        "Dorito",
+        "Lays"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which actors made up the trio in &quot;The Good, the Bad, and the Ugly&quot;? ",
+      "correct_answer": "Clint Eastwood, Eli Wallach, and Lee Van Cleef",
+      "incorrect_answers": [
+        "Sergio Leone, Ennio Morricone, and Tonino Delli Colli",
+        "Yul Brynner, Steve McQueen, and Charles Bronson",
+        "Aldo Giuffr&egrave;, Mario Brega, and Luigi Pistilli"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which one of these is not an official development name for a Ubuntu release?",
+      "correct_answer": "Mystic Mansion",
+      "incorrect_answers": [
+        "Trusty Tahr",
+        "Utopic Unicorn",
+        "Wily Werewolf"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which band released songs suchs as &quot;Rio&quot;, &quot;Girls on Film&quot;, and &quot;The Reflex&quot;?",
+      "correct_answer": "Duran Duran",
+      "incorrect_answers": [
+        "The Cure",
+        "New Order",
+        "Depeche Mode"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What level do you have to be to get a service medal on CS:GO?",
+      "correct_answer": "40",
+      "incorrect_answers": [
+        "50",
+        "30",
+        "20"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "On a standard Monopoly board, which square is diagonally opposite &#039;Go&#039;? ",
+      "correct_answer": "Free Parking",
+      "incorrect_answers": [
+        "Go to Jail",
+        "Jail",
+        "The Electric Company"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "Which class of animals are newts members of?",
+      "correct_answer": "Amphibian",
+      "incorrect_answers": [
+        "Fish",
+        "Reptiles",
+        "Mammals"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Persona 4&quot;, what is the canonical name of the protagonist?",
+      "correct_answer": "Yu Narukami",
+      "incorrect_answers": [
+        "Chino Mashido",
+        "Tunki Sunada",
+        "Masaki Narinaka"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Zelda games did not feature Ganon as a final boss?",
+      "correct_answer": "Majora&#039;s Mask",
+      "incorrect_answers": [
+        "Ocarina of Time",
+        "Skyward Sword",
+        "Breath of the Wild"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which Elton John hit starts with the line &quot;When are you gonna come down&quot;?",
+      "correct_answer": "Goodbye Yellow Brick Road",
+      "incorrect_answers": [
+        "Rocket Man",
+        "Bennie and the Jets",
+        "Crocodile Rock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Where was Nicki Minaj born?",
+      "correct_answer": "Trinidad and Tobago",
+      "incorrect_answers": [
+        "Haiti",
+        "Saint Lucia",
+        "Grenada"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the French word for &quot;fish&quot;?",
+      "correct_answer": "poisson",
+      "incorrect_answers": [
+        "fiche",
+        "escargot",
+        "mer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the original Sonic the Hedgehog game released?",
+      "correct_answer": "1991",
+      "incorrect_answers": [
+        "1989",
+        "1993",
+        "1995"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "In Macbeth, the eyes of what animals were used in the Witches&#039; cauldron?",
+      "correct_answer": "Newts",
+      "incorrect_answers": [
+        "Humans",
+        "Sharks",
+        "Squids"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the punishment for playing Postal 2 in New Zealand?",
+      "correct_answer": "10 years in prison and a fine of $50,000",
+      "incorrect_answers": [
+        "Fine of $5,000",
+        "Nothing",
+        "15 years in prison and a fine of $10,000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When was Napoleon Bonaparte crowned emperor of the French? ",
+      "correct_answer": " December 2nd 1804",
+      "incorrect_answers": [
+        " July 3rd 1802",
+        " March 8th 1803",
+        " October 15th 1804"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In PROTOTYPE 2. who is referred to as &quot;Tango Primary&quot;?",
+      "correct_answer": "James Heller",
+      "incorrect_answers": [
+        "Alex Mercer",
+        "Dana Mercer",
+        "Any Goliaths roaming around"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the 1986 film &quot;The Wraith&quot;, what concept car is used for the Turbo Interceptor?",
+      "correct_answer": "Dodge M4S",
+      "incorrect_answers": [
+        "Pontiac Banshee",
+        "General Motors Firebird",
+        "Dodge Copperhead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Super Mario Bros., who informs Mario that the princess is in another castle?",
+      "correct_answer": "Toad",
+      "incorrect_answers": [
+        "Luigi",
+        "Yoshi",
+        "Bowser"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In which 1973 film does Yul Brynner play a robotic cowboy who malfunctions and goes on a killing spree?",
+      "correct_answer": "Westworld",
+      "incorrect_answers": [
+        "Runaway",
+        "Android",
+        "The Terminators"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the film &quot;Harry Potter and the Order of The Phoenix&quot;, why was Harry Potter&#039;s scream, after Sirius Black died, muted?",
+      "correct_answer": "Too Agonizing",
+      "incorrect_answers": [
+        "Too Loud",
+        "Too Harsh",
+        "Too Violent"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Which &quot;Green Arrow&quot; sidekick commonly wears a baseball cap?",
+      "correct_answer": "Roy Harper",
+      "incorrect_answers": [
+        "Black Canary",
+        "Emiko Queen",
+        "Dick Grayson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the artist of the recent new album the Uncanny Valley?",
+      "correct_answer": "Perturbator",
+      "incorrect_answers": [
+        "Carpenter Brut",
+        "GOST",
+        "Dan Terminus "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the show &quot;Foster&#039;s Home For Imaginary Friends&quot;, which character had an obsession with basketball?",
+      "correct_answer": "Wilt",
+      "incorrect_answers": [
+        "Coco",
+        "Mac",
+        "Cheese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Panic! At the Disco&#039;s sixth album &quot;Pray For The Wicked&quot; was released on which date?",
+      "correct_answer": "June 22, 2018",
+      "incorrect_answers": [
+        "May 9, 2018",
+        "March 13, 2018",
+        "February 21, 2018"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which King of England was faced with the Peasants&#039; Revolt in 1381?",
+      "correct_answer": "Richard II",
+      "incorrect_answers": [
+        "Edward III",
+        "Edward II",
+        "Henry IV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "If you are caught &quot;Goldbricking&quot;, what are you doing wrong?",
+      "correct_answer": "Slacking",
+      "incorrect_answers": [
+        "Smoking",
+        "Stealing",
+        "Cheating"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Overwatch, how old is Reinhardt Wilhelm?",
+      "correct_answer": "61",
+      "incorrect_answers": [
+        "59",
+        "65",
+        "62"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which company has exclusive rights to air episodes of the &quot;The Grand Tour&quot;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "Netflix",
+        "BBC",
+        "CCTV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In which city did American rap producer DJ Khaled originate from?",
+      "correct_answer": "Miami",
+      "incorrect_answers": [
+        "New York",
+        "Detroit",
+        "Atlanta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;The Binding of Isaac&quot;, what is the name of the final boss that you fight in The Void?",
+      "correct_answer": "Delirium",
+      "incorrect_answers": [
+        "Mega Satan",
+        "Hush",
+        "The Lamb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which of these book series is by James Patterson?",
+      "correct_answer": "Maximum Ride",
+      "incorrect_answers": [
+        "Harry Potter",
+        "The Legend of Xanth",
+        "The Bartemaeus Trilogy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Kingdom Hearts&quot;, what mission are Donald and Goofy assigned by King Mickey?",
+      "correct_answer": "To find the Key bearer and stick with him!",
+      "incorrect_answers": [
+        "To find the Key bearer and steal the key!",
+        "To find the Key bearer and report back!",
+        "To find the Key bearer and kill him!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the only US President to be elected four times?",
+      "correct_answer": "Franklin Roosevelt",
+      "incorrect_answers": [
+        "Theodore Roosevelt",
+        "George Washington",
+        "Abraham Lincoln"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "What was the first successful and commercially viable photographic technique?",
+      "correct_answer": "The Daguerreotype",
+      "incorrect_answers": [
+        "Collodion process",
+        "The Turin Shroud",
+        "Kodachrome film"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the name of the city that The Flintstones is based in?",
+      "correct_answer": "Bedrock",
+      "incorrect_answers": [
+        "Stoneville",
+        "Rockhampton",
+        "Boulder City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1999 movie Fight Club, which of these is not a rule of the &quot;fight club&quot;?",
+      "correct_answer": "Always wear a shirt",
+      "incorrect_answers": [
+        "You do not talk about FIGHT CLUB",
+        "Only two guys to a fight",
+        "Fights will go on as long as they have to"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Splatoon, what is the age that inklings can freely change between squid and humanoid forms?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In most FPS video games such as Counter-Strike, shooting which part of the body does the highest damage?",
+      "correct_answer": "Head",
+      "incorrect_answers": [
+        "Arm",
+        "Leg",
+        "Chest"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?",
+      "correct_answer": "Ming Tea",
+      "incorrect_answers": [
+        "Cough Fi",
+        "Spear Mint",
+        "Mister E"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "&quot;Doctor Who&quot; star David Tennant performed in a rendition of which Shakespearean play?",
+      "correct_answer": "Hamlet",
+      "incorrect_answers": [
+        "The Tempest",
+        "Othello",
+        "The Taming of the Shrew"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which year was the first official Youtube Rewind released?",
+      "correct_answer": "2010",
+      "incorrect_answers": [
+        "2012",
+        "2011",
+        "2013"
+      ]
+    }
+  ]
+}

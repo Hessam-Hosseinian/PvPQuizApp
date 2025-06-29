@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what card&#039;s flavor text is &quot;Catch!&quot;?",
+      "correct_answer": "Lava Axe",
+      "incorrect_answers": [
+        "Stone-Throwing Devils",
+        "Ember Shot",
+        "Throwing Knife"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "On which computer hardware device is the BIOS chip located?",
+      "correct_answer": "Motherboard",
+      "incorrect_answers": [
+        "Hard Disk Drive",
+        "Central Processing Unit",
+        "Graphics Processing Unit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these countries is the smallest by population?",
+      "correct_answer": "Norway",
+      "incorrect_answers": [
+        "Slovakia",
+        "Finland",
+        "Hong Kong"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?",
+      "correct_answer": "Wally West",
+      "incorrect_answers": [
+        "Johnny Quick",
+        "Jay Garrick",
+        "Eobard Thawne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who is attributed credit for recording the epic poem The Odyssey?",
+      "correct_answer": "Homer",
+      "incorrect_answers": [
+        "Aristotle",
+        "Odysseus",
+        "Socrates"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Into which basin does the Jordan River flow into?",
+      "correct_answer": "Dead Sea",
+      "incorrect_answers": [
+        "Aral Sea",
+        "Caspian Sea",
+        "Salton Sea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What is the mnemonic device for remembering the fates of the wives of Henry VIII?",
+      "correct_answer": "Divorced, Beheaded, Died, Divorced, Beheaded, Survived",
+      "incorrect_answers": [
+        "Beheaded, Died, Divorced, Divorced, Beheaded, Survived",
+        "Died, Beheaded, Divorced, Beheaded, Survived, Divorced",
+        "Survived, Beheaded, Died, Divorced, Divorced, Beheaded"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the Lord of the Rings: The Two Towers, where are the party of orcs taking the hobbits?",
+      "correct_answer": "Isengard",
+      "incorrect_answers": [
+        "Rivendell",
+        "Mordor",
+        "Moria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How much does the &#039;AWP&#039; cost in Counter-Strike: Global Offensive?",
+      "correct_answer": "$4750",
+      "incorrect_answers": [
+        "$4500",
+        "$4650",
+        "$5000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Love Live: School Idol Project&quot; what pseudonym does Kotori Minami use in her job as a maid?",
+      "correct_answer": "Minalinsky",
+      "incorrect_answers": [
+        "Stanoytchev",
+        "Kuznetsov",
+        "Aqours"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Hel was the daughter of which Norse Mythological figure?",
+      "correct_answer": "Loki",
+      "incorrect_answers": [
+        "Thor",
+        "Odin",
+        "Balder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Celebrities",
+      "question": "Neil Hamburger is played by which comedian?",
+      "correct_answer": "Gregg Turkington",
+      "incorrect_answers": [
+        "Nathan Fielder",
+        "Tim Heidecker",
+        "Todd Glass"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the Zodiac symbol for Gemini?",
+      "correct_answer": "Twins",
+      "incorrect_answers": [
+        "Fish",
+        "Scales",
+        "Maiden"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "What is the name of the Greek god of blacksmiths?",
+      "correct_answer": "Hephaestus",
+      "incorrect_answers": [
+        "Dyntos",
+        "Vulcan",
+        "Artagatus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Which of these is NOT one of Donald Trump&#039;s children?",
+      "correct_answer": "Julius",
+      "incorrect_answers": [
+        "Donald Jr.",
+        "Ivanka",
+        "Eric"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "By how many minutes are you late to work in &quot;Half-Life&quot;?",
+      "correct_answer": "30",
+      "incorrect_answers": [
+        "5",
+        "60",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+      "correct_answer": "Duck",
+      "incorrect_answers": [
+        "Bye",
+        "Beamer",
+        "Carry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Panama Canal was finished under the administration of which U.S. president?",
+      "correct_answer": "Woodrow Wilson",
+      "incorrect_answers": [
+        "Franklin Delano Roosevelt",
+        "Herbert Hoover",
+        "Theodore Roosevelt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Terraria, which of these items is NOT crafted at a Mythril Anvil?",
+      "correct_answer": "Ankh Charm",
+      "incorrect_answers": [
+        "Venom Staff",
+        "Sky Fracture",
+        "Orichalcum Tools"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in &quot;The Railway Series&quot;?",
+      "correct_answer": "LB&amp;SCR A1X",
+      "incorrect_answers": [
+        "LB&amp;SCR E2",
+        "LB&amp;SCR J1",
+        "LB&amp;SCR D1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is NOT included in the Suicide Squad OST?",
+      "correct_answer": "Skies on Fire - AC/DC",
+      "incorrect_answers": [
+        "Heathens - Twenty One Pilots",
+        "Without Me - Eminem",
+        "Fortunate Son - Creedence Clearwater Revival"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which product did Nokia, the telecommunications company, originally sell?",
+      "correct_answer": "Paper",
+      "incorrect_answers": [
+        "Phones",
+        "Computers",
+        "Processors"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the name for a male bee that comes from an unfertilized egg?",
+      "correct_answer": "Drone",
+      "incorrect_answers": [
+        "Soldier",
+        "Worker",
+        "Male"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "From where does the Nintendo video game character Mario derive his name?",
+      "correct_answer": "The landlord of the American headquarters",
+      "incorrect_answers": [
+        "Shigeru Miyamoto&#039;s father in law",
+        "Satoru Iwata&#039;s plumber",
+        "The date (Mar 10) that Donkey Kong was released."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In &quot;Little Women&quot;, which of the March sisters married Laurie?",
+      "correct_answer": "Amy",
+      "incorrect_answers": [
+        "Beth",
+        "Jo",
+        "Meg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following liquids is least viscous? Assume temperature is 25&deg;C.",
+      "correct_answer": "Acetone",
+      "incorrect_answers": [
+        "Water",
+        "Mercury",
+        "Benzene"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What&#039;s the name of the halloween-related Sims 4 Stuff Pack released September 29th, 2015?",
+      "correct_answer": "Spooky Stuff",
+      "incorrect_answers": [
+        "Ghosts n&#039; Ghouls",
+        "Nerving Nights",
+        "Fearful Frights"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a Fallout protagonist?",
+      "correct_answer": "Tunnel Snake",
+      "incorrect_answers": [
+        "Courier",
+        "Lone Wanderer",
+        "Vault Dweller"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "When did Spongebob Squarepants first air?",
+      "correct_answer": "May 1, 1999",
+      "incorrect_answers": [
+        "July 20, 2000",
+        "February 6, 2003",
+        "June 27, 1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?",
+      "correct_answer": "Dr. Mario",
+      "incorrect_answers": [
+        "Mewtwo",
+        "Lucas",
+        "Roy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": ".rs is the top-level domain for what country?",
+      "correct_answer": "Serbia",
+      "incorrect_answers": [
+        "Romania",
+        "Russia",
+        "Rwanda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Which track by &quot;Massive Attack&quot; is used for the theme of &quot;House&quot;? ",
+      "correct_answer": "Teardrop",
+      "incorrect_answers": [
+        "Protection",
+        "Angel",
+        "Black Milk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is not a character in the Street Fighter series?",
+      "correct_answer": "Mai Shiranui",
+      "incorrect_answers": [
+        "Laura Matsuda",
+        "Sakura Kasugano",
+        "Ibuki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call of Duty: Black Ops III&quot; Zombies, what does completing all the main easter eggs reward you with?",
+      "correct_answer": "1,000,000 XP",
+      "incorrect_answers": [
+        "Juggernog at the start of each game",
+        "50 Liquid Diviniums",
+        "All three options."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What zodiac sign is represented by a pair of scales?",
+      "correct_answer": "Libra",
+      "incorrect_answers": [
+        "Aries",
+        "Capricorn",
+        "Sagittarius"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which of these cities does NOT have a United States Minting location?",
+      "correct_answer": "St. Louis, MO",
+      "incorrect_answers": [
+        "San Fransisco, CA",
+        "Philidelphia, PA",
+        "West Point, NY"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the game &quot;Galaga&quot; was a sequel to?",
+      "correct_answer": "Galaxian",
+      "incorrect_answers": [
+        "Galactica",
+        "Space Invaders",
+        "Galactic Wars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What happened on June 6, 1944?",
+      "correct_answer": "D-Day",
+      "incorrect_answers": [
+        "Atomic bombings of Hiroshima and Nagasaki",
+        "Attack on Pearl Harbor",
+        "The Liberation of Paris"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?",
+      "correct_answer": "Shogun",
+      "incorrect_answers": [
+        "Ninja",
+        "Samurai",
+        "Shinobi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "How much money did the 2019 Marvel movie &quot;Avengers: Endgame&quot; gross for it&#039;s record-breaking worldwide opening weekend?",
+      "correct_answer": "1.2 billion USD",
+      "incorrect_answers": [
+        "640 million USD",
+        "456 million USD",
+        "392 million USD"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Old Town Road&quot; by American rapper Lil Nas X samples the song &quot;34 Ghosts IV&quot; by which band?",
+      "correct_answer": "Nine Inch Nails",
+      "incorrect_answers": [
+        "Death Grips",
+        "Iron Maiden",
+        "Animal Collective"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT a song on The Beatles&#039; 1968 self titled album, also known as the White album?",
+      "correct_answer": "Being For The Benefit Of Mr. Kite!",
+      "incorrect_answers": [
+        "Why Don&#039;t We Do It in the Road?",
+        "Everybody&#039;s Got Something to Hide Except Me and My Monkey",
+        "The Continuing Story of Bungalow Bill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these games came out first?",
+      "correct_answer": "Terraria",
+      "incorrect_answers": [
+        "Minecraft",
+        "Starbound",
+        "Factorio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which country hosted the 2018 FIFA World Cup?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Germany",
+        "United States",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the 15th letter of the Greek alphabet?",
+      "correct_answer": "Omicron (&Omicron;)",
+      "incorrect_answers": [
+        "Sigma (&Sigma;)",
+        "Pi (&Pi;)",
+        "Nu (&Nu;)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Area 51 is located in which US state?",
+      "correct_answer": "Nevada",
+      "incorrect_answers": [
+        "Arizona",
+        "New Mexico",
+        "Utah"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What European country is not a part of the EU?",
+      "correct_answer": "Norway",
+      "incorrect_answers": [
+        "Lithuania",
+        "Ireland",
+        "Czechia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Who is depicted on the US hundred dollar bill?",
+      "correct_answer": "Benjamin Franklin",
+      "incorrect_answers": [
+        "George Washington",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "When Gmail first launched, how much storage did it provide for your email?",
+      "correct_answer": "1GB",
+      "incorrect_answers": [
+        "512MB",
+        "5GB",
+        "Unlimited"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "On Twitter, what was the original character limit for a Tweet?",
+      "correct_answer": "140",
+      "incorrect_answers": [
+        "120",
+        "160",
+        "100"
+      ]
+    }
+  ]
+}

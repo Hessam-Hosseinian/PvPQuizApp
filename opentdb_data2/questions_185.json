@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime Noragami who is one of the main protagonists?",
+      "correct_answer": "Yukine",
+      "incorrect_answers": [
+        "Karuha",
+        "Mineha",
+        "Mayu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What was the name of Pink Floyd&#039;s first studio album?",
+      "correct_answer": "The Piper at the Gates of Dawn",
+      "incorrect_answers": [
+        "Ummagumma",
+        "More",
+        "Atom Heart Mother"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which of the following Physicists aided Nazi Germany in their production of a nuclear weapon?",
+      "correct_answer": "Werner Heisenberg",
+      "incorrect_answers": [
+        "John von Neumann",
+        "Albert Einstein",
+        "Max Planck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mario Kart series, which game introduced the &quot;Shield Drifting&quot; mechanic?",
+      "correct_answer": "Mario Kart Arcade GP DX",
+      "incorrect_answers": [
+        "Mario Kart: Double Dash",
+        "Mario Kart Super Circuit",
+        "Mario Kart DS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Warframe, what Mastery Rank do you need to have to build the Tigris Prime?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "6",
+        "18",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is able to grab the survivors with his tongue in Left 4 Dead?",
+      "correct_answer": "Smoker",
+      "incorrect_answers": [
+        "Jockey",
+        "Hunter",
+        "Boomer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+      "correct_answer": "33.9",
+      "incorrect_answers": [
+        "30.0",
+        "27.4",
+        "10.6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+      "correct_answer": "San Fransokyo",
+      "incorrect_answers": [
+        "San Tokyo",
+        "Tokysisco",
+        "Sankyo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The land mass of modern day Turkey is called what?",
+      "correct_answer": "Anatolia",
+      "incorrect_answers": [
+        "Ismuth of Ottoma",
+        "Ottoma",
+        "Ismuth of Anatolia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following landmarks is not located in New York City?",
+      "correct_answer": "Lincoln Memorial",
+      "incorrect_answers": [
+        "Empire State Building",
+        "Times Square",
+        "Central Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of these car models are produced by Lamborghini?",
+      "correct_answer": "Aventador",
+      "incorrect_answers": [
+        "Huayra",
+        "918",
+        "Chiron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which Marvel superhero did Chris Evans play prior to his role as Captain America?",
+      "correct_answer": "Human Torch",
+      "incorrect_answers": [
+        "Cyclops",
+        "Iceman",
+        "Daredevil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the title of the game &quot;Luigi&#039;s Mansion&quot;, what is the only letter to not appear with a pair of eyes in it?",
+      "correct_answer": "s",
+      "incorrect_answers": [
+        "n",
+        "i",
+        "m"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "When did Spongebob Squarepants first air?",
+      "correct_answer": "May 1, 1999",
+      "incorrect_answers": [
+        "July 20, 2000",
+        "February 6, 2003",
+        "June 27, 1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "The book &quot;The Little Prince&quot; was written by...",
+      "correct_answer": "Antoine de Saint-Exup&eacute;ry",
+      "incorrect_answers": [
+        "Miguel de Cervantes Saavedra",
+        "Jane Austen",
+        "F. Scott Fitzgerald"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the total length of the Titanic?",
+      "correct_answer": "882 ft | 268.8 m",
+      "incorrect_answers": [
+        "759 ft | 231.3 m",
+        "1042 ft | 317.6 m",
+        "825 ft | 251.5 m"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of these is NOT a province in China?",
+      "correct_answer": "Yangtze",
+      "incorrect_answers": [
+        "Fujian",
+        "Sichuan",
+        "Guangdong"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+      "correct_answer": "Siege of Petersburg",
+      "incorrect_answers": [
+        "Siege of Vicksburg",
+        "Antietam Campaign",
+        "Gettysburg Campagin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the primary addictive substance found in tobacco?",
+      "correct_answer": "Nicotine",
+      "incorrect_answers": [
+        "Cathinone",
+        "Ephedrine",
+        "Glaucine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+      "correct_answer": "Terisiare",
+      "incorrect_answers": [
+        "Aerona",
+        "Shiv",
+        "Jamuraa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What does the F stand for in the FBI?",
+      "correct_answer": "Federal",
+      "incorrect_answers": [
+        "Foreign",
+        "Formal",
+        "First"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What was the name of the planet in &quot;Aliens&quot;?",
+      "correct_answer": "LV-426",
+      "incorrect_answers": [
+        "Weyland Yutani Corporation Base",
+        "FR-838",
+        "DI-621"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "How does the character Dragowizard, Qinus Axia&#039;s from the anime &quot;Buddyfight&quot; differ between the Japanese and English dubs?",
+      "correct_answer": "Different Gender",
+      "incorrect_answers": [
+        "Different Body Proportions",
+        "Different Backstory",
+        "Different Appearance"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "This composer worked on the 2003 TV series Battlestar Galatica.",
+      "correct_answer": "Bear McCreary",
+      "incorrect_answers": [
+        "Ramin Djawadi",
+        "Jeremy Soule",
+        "Harry Gregson-Williams"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "How was Socrates executed?",
+      "correct_answer": "Poison",
+      "incorrect_answers": [
+        "Decapitation",
+        "Firing squad",
+        "Crucifixion "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "United States of America",
+        "Soviet Union",
+        "Poland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of these stars is the largest?",
+      "correct_answer": "UY Scuti",
+      "incorrect_answers": [
+        "VY Canis Majoris",
+        "Betelgeuse",
+        "RW Cephei"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is the real name of the &quot;Master Of Magnetism&quot; Magneto?",
+      "correct_answer": "Max Eisenhardt",
+      "incorrect_answers": [
+        "Charles Xavier",
+        "Pietro Maximoff",
+        "Johann Schmidt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "How many officially recognized dwarf planets in the solar system are named after Polynesian deities?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "0",
+        "1",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which character is from &quot;Splatoon&quot;?",
+      "correct_answer": "Marie",
+      "incorrect_answers": [
+        "Cyrus",
+        "Palutena",
+        "Shulk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "0"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Slay the Spire, which of the following is NOT a playable character?",
+      "correct_answer": "Stoneheart",
+      "incorrect_answers": [
+        "Silent",
+        "Defect",
+        "Ironclad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many normal endings are there in Cry Of Fear&#039;s campaign mode?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of the Pack-A-Punched Crossbow?",
+      "correct_answer": "Awful Lawton",
+      "incorrect_answers": [
+        "Longinus",
+        "V-R11",
+        "Predator"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+      "correct_answer": "Origami",
+      "incorrect_answers": [
+        "Sumi-e",
+        "Ukiyo-e",
+        "Haiku"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "When was WhatsApp founded?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2007",
+        "2012",
+        "2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?",
+      "correct_answer": "Myrtenaster",
+      "incorrect_answers": [
+        "Gambol Shroud",
+        "Crescent Rose",
+        "Ember Celica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What position does Harry Potter play in Quidditch?",
+      "correct_answer": "Seeker",
+      "incorrect_answers": [
+        "Beater",
+        "Chaser",
+        "Keeper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The United States Army Air Corps became the United States Air Force on what date?",
+      "correct_answer": "September 18, 1947",
+      "incorrect_answers": [
+        "December 14, 1946",
+        "October 27, 1945",
+        "November 08, 1944"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Toby Fox&#039;s &quot;Megalovania&quot; was first used where?",
+      "correct_answer": "Radiation&#039;s Earthbound Halloween Hack",
+      "incorrect_answers": [
+        "Homestuck: [S] Wake",
+        "Undertale",
+        "Mother: Cognitive Dissonance"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The cake depicted in Valve&#039;s &quot;Portal&quot; franchise most closely resembles which real-world type of cake?",
+      "correct_answer": "Black Forest",
+      "incorrect_answers": [
+        "Devil&#039;s Food",
+        "Molten Chocolate",
+        "German Chocolate"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "Which of the following is another name for the &quot;Poecilotheria Metallica Tarantula&quot;?",
+      "correct_answer": "Gooty",
+      "incorrect_answers": [
+        "Hopper",
+        "Silver Stripe",
+        "Woebegone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "Kuwait",
+        "United Arab Emirates",
+        "Jordan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which of these cities is NOT featured in the Pandemic board game?",
+      "correct_answer": "Berlin",
+      "incorrect_answers": [
+        "Ho Chi Minh City",
+        "Lagos",
+        "Karachi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Little Witch Academia&quot;, what is Shiny Chariot&#039;s alias at Luna Nova Academy?",
+      "correct_answer": "Ursula Callistis",
+      "incorrect_answers": [
+        "Croix Meridies",
+        "Miranda Holbrook",
+        "Anne Finnelan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many objects are equivalent to one mole?",
+      "correct_answer": "6.022 x 10^23",
+      "incorrect_answers": [
+        "6.002 x 10^22",
+        "6.022 x 10^22",
+        "6.002 x 10^23"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On which continent/s is the entire country of Spain specifically located when taking into account all of its territory?",
+      "correct_answer": "Europe and Africa",
+      "incorrect_answers": [
+        "Europe, Africa and Asia",
+        "Europe",
+        "Europe and Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was Genghis Khan&#039;s real name?",
+      "correct_answer": "Tem&uuml;jin",
+      "incorrect_answers": [
+        "M&ouml;ngke",
+        "&Ouml;gedei",
+        "Tem&uuml;r"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which country&#039;s version of Half-Life are the HECU Marines replaced with robots?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Japan",
+        "China",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who won Big Brother 2014 UK?",
+      "correct_answer": "Helen Wood",
+      "incorrect_answers": [
+        "Christopher Hall",
+        "Pauline Bennett",
+        "Pavandeep &quot;Pav&quot; Paul"
+      ]
+    }
+  ]
+}

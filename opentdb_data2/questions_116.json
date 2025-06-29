@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which Nirvana album had a naked baby on the cover?",
+      "correct_answer": "Nevermind",
+      "incorrect_answers": [
+        "Bleach",
+        "In Utero",
+        "Incesticide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which player holds the NHL record of 2,857 points?",
+      "correct_answer": "Wayne Gretzky",
+      "incorrect_answers": [
+        "Mario Lemieux ",
+        "Sidney Crosby",
+        "Gordie Howe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Pol Pot was the former dictator of which country?",
+      "correct_answer": "Cambodia",
+      "incorrect_answers": [
+        "Laos",
+        "North Korea",
+        "Vietnam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Sciophobia is the fear of what?",
+      "correct_answer": "Shadows",
+      "incorrect_answers": [
+        "Eating",
+        "Bright lights",
+        "Transportation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "By definition, where does an abyssopelagic animal live?",
+      "correct_answer": "At the bottom of the ocean",
+      "incorrect_answers": [
+        "In the desert",
+        "On top of a mountain",
+        "Inside a tree"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which country has the most Trappist breweries?",
+      "correct_answer": "Belgium",
+      "incorrect_answers": [
+        "Netherlands",
+        "France",
+        "USA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?",
+      "correct_answer": "Torquay",
+      "incorrect_answers": [
+        "Blackpool",
+        "Bournemouth",
+        "Great Yarmouth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "When did the TV show Rick and Morty first air on Adult Swim?",
+      "correct_answer": "2013",
+      "incorrect_answers": [
+        "2014",
+        "2016",
+        "2015"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In which series of games do you collect souls to empower you and buy weaponry and armor with?",
+      "correct_answer": "Souls ",
+      "incorrect_answers": [
+        "Final Fantasy ",
+        "Monster Hunter",
+        "The Legend of Zelda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "How many episodes were in season five of Samurai Jack?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "12",
+        "11",
+        "13"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "Talos, the mythical giant bronze man, was the protector of which island?",
+      "correct_answer": "Crete",
+      "incorrect_answers": [
+        "Sardinia",
+        "Sicily",
+        "Cyprus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Approximately how long is a year on Uranus?",
+      "correct_answer": "84 Earth years",
+      "incorrect_answers": [
+        "47 Earth years",
+        "62 Earth years",
+        "109 Earth years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which classical composer wrote the &quot;Moonlight Sonata&quot;?",
+      "correct_answer": "Ludvig Van Beethoven",
+      "incorrect_answers": [
+        "Chief Keef",
+        "Wolfgang Amadeus Mozart",
+        "Johannes Brahms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Undertale, what&#039;s the prize for answering correctly?",
+      "correct_answer": "More questions",
+      "incorrect_answers": [
+        "New car",
+        "Mercy",
+        "Money"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Paper Mario: The Thousand Year Door&quot;, what is Hooktail&#039;s weakness?",
+      "correct_answer": "The Sound of Crickets",
+      "incorrect_answers": [
+        "Attacks from Koopas",
+        "The &quot;Ice Storm&quot; Item",
+        "The Hammer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which famous 90&#039;s rap album is commonly referred to as &quot;The Bible of Hip Hop&quot;?",
+      "correct_answer": "Illmatic",
+      "incorrect_answers": [
+        "The Low End Theory",
+        "The Chronic",
+        "Enter The Wu-Tang (36 Chambers)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the #1 selling game on Steam by revenue in 2016?",
+      "correct_answer": "Sid Meier&#039;s Civilization VI",
+      "incorrect_answers": [
+        "Grand Theft Auto V",
+        "Counter Strike: Global Offensive",
+        "Dark Souls III"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What was the first company to use the term &quot;Golden Master&quot;?",
+      "correct_answer": "Apple",
+      "incorrect_answers": [
+        "IBM",
+        "Microsoft",
+        "Google"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "How many countries border Kyrgyzstan?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+      "correct_answer": "Tilly",
+      "incorrect_answers": [
+        "Tom",
+        "Tiny",
+        "None of the Above"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "How much horsepower is produced by the SD40-2 Locomotive?",
+      "correct_answer": "3,000",
+      "incorrect_answers": [
+        "3,200",
+        "2,578",
+        "2,190"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which character was introduced to the Super Smash Bros franchise in Super Smash Bros Melee?",
+      "correct_answer": "Sheik",
+      "incorrect_answers": [
+        "Samus",
+        "Lucas",
+        "Mega Man"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which river flows through the Scottish city of Glasgow?",
+      "correct_answer": "Clyde",
+      "incorrect_answers": [
+        "Tay",
+        "Dee",
+        "Tweed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Where does &quot;The Legend of Zelda: Majora&#039;s Mask&quot; take place?",
+      "correct_answer": "Termina",
+      "incorrect_answers": [
+        "Hyrule",
+        "Gysahl",
+        "Besaid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What is the Gray Wolf&#039;s scientific name?",
+      "correct_answer": "Canis Lupus",
+      "incorrect_answers": [
+        "Canis Aureus",
+        "Canis Latrans",
+        "Canis Lupus Lycaon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Wendy O. Koopa appeared in the Super Mario DIC Cartoons, but what was she known as?",
+      "correct_answer": "Kootie Pie",
+      "incorrect_answers": [
+        "Sweetie Pie",
+        "Wendy Pie",
+        "Honey Pie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the largest organ of the human body?",
+      "correct_answer": "Skin",
+      "incorrect_answers": [
+        "Heart",
+        "large Intestine",
+        "Liver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the FIRST Valve game to have VR?",
+      "correct_answer": "The Lab",
+      "incorrect_answers": [
+        "Dota 2",
+        "Destinations",
+        "Half-Life 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was the video game publisher &quot;Ubisoft&quot; founded ?",
+      "correct_answer": "March 1986",
+      "incorrect_answers": [
+        "April 1990",
+        "June 2001",
+        "August 1956"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which car manufacturer created the &quot;Aventador&quot;?",
+      "correct_answer": "Lamborghini",
+      "incorrect_answers": [
+        "Ferrari",
+        "Pagani",
+        "Bugatti"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+      "correct_answer": "Print",
+      "incorrect_answers": [
+        "Digest",
+        "Look",
+        "Read"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Baron Silas Greenback is the arch nemesis of which cartoon hero?",
+      "correct_answer": "Danger Mouse",
+      "incorrect_answers": [
+        "Bananaman",
+        "SuperTed",
+        "Captain Star"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a playable character in &quot;Enter The Gungeon?&quot;",
+      "correct_answer": "The Heavy",
+      "incorrect_answers": [
+        "The Bullet",
+        "The Robot",
+        "The Cultist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the protagonist of the 2017 anime &quot;Land of the Lustrous&quot;?",
+      "correct_answer": "Phosphophyllite",
+      "incorrect_answers": [
+        "Watermelon Tourmaline",
+        "Cinnabar",
+        "Padparadscha"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the show &quot;The Office&quot; who does Michael Scott eventually end up with?",
+      "correct_answer": "Holly Flax",
+      "incorrect_answers": [
+        "Angela Martin",
+        "Jan Levinson",
+        "Pam Beesly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What does Bart sell his soul for in The Simpsons episode &#039;Bart Sells His Soul&#039;?",
+      "correct_answer": "$5",
+      "incorrect_answers": [
+        "A Copy of Bonestorm 2",
+        "$100",
+        "A Giant Gobstopper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In DC comics where does the Green Arrow (Oliver Queen) live?",
+      "correct_answer": "Star City",
+      "incorrect_answers": [
+        "Central City",
+        "Gotham City",
+        "Metropolis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which &quot;Call Of Duty: Zombies&quot; map introduced the &quot;Staffs Of The Ancients&quot;?",
+      "correct_answer": "Origins",
+      "incorrect_answers": [
+        "Shangri-La",
+        "Revelations",
+        "Nuketown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these stages is not playable in &quot;Super Smash Bros. for Wii U&quot;?",
+      "correct_answer": "Fountain of Dreams",
+      "incorrect_answers": [
+        "Bridge of Eldin",
+        "75m",
+        "Miiverse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch&quot;, how much health does Roadhog&#039;s &quot;Take a Breather&quot; ability recover?",
+      "correct_answer": "300",
+      "incorrect_answers": [
+        "100",
+        "200",
+        "400"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who is the main protagonist in, the 1985 film, Back to the Future?",
+      "correct_answer": "Marty McFly",
+      "incorrect_answers": [
+        "Emmett &quot;Doc&quot; Brown",
+        "Biff Tannen",
+        "George McFly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "How was Socrates executed?",
+      "correct_answer": "Poison",
+      "incorrect_answers": [
+        "Decapitation",
+        "Firing squad",
+        "Crucifixion "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In which movie does Robin Williams&#039; character have to disguise themselves into a woman?",
+      "correct_answer": "Mrs. Doubtfire",
+      "incorrect_answers": [
+        "Old Dogs",
+        "Jumanji",
+        "Awakenings"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is the stage name of New Zealand singer Phillipa &quot;Pip&quot; Brown?",
+      "correct_answer": "Ladyhawke",
+      "incorrect_answers": [
+        "Lorde",
+        "Kesha",
+        "Anika Moa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the birth name of Michael Keaton?",
+      "correct_answer": "Michael Douglas",
+      "incorrect_answers": [
+        "Michael Fox",
+        "Michael Richards",
+        "Michael Kane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+      "correct_answer": "Highlander",
+      "incorrect_answers": [
+        "Flash Gordon",
+        "Labyrinth",
+        "Howard the Duck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What historical event was Tchaikovsky&#039;s 1812 Overture referencing?",
+      "correct_answer": "The Napoleonic Wars",
+      "incorrect_answers": [
+        "The American War of 1812",
+        "The Russian Revolution",
+        "The Charge of the Light Brigade (Crimean War)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who invented the &quot;Flying Shuttle&quot; in 1738; one of the key developments in the industrialization of weaving?",
+      "correct_answer": "John Kay",
+      "incorrect_answers": [
+        "James Hargreaves",
+        "Richard Arkwright",
+        "John Deere"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which television show has Dan Gheesling been on?",
+      "correct_answer": "Big Brother",
+      "incorrect_answers": [
+        "Jeopardy",
+        "Survivor",
+        "The Bachelor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the collective noun for bears?",
+      "correct_answer": "Sloth",
+      "incorrect_answers": [
+        "Drove",
+        "Tribe",
+        "Husk"
+      ]
+    }
+  ]
+}

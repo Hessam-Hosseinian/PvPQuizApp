@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which one of these Manga titles was not created by Urasawa Naoki?",
+      "correct_answer": "My Father&#039;s Journal",
+      "incorrect_answers": [
+        "Billy Bat",
+        "20th Century Boys",
+        "Monster"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "How many sonatas did Ludwig van Beethoven write?",
+      "correct_answer": "32",
+      "incorrect_answers": [
+        "50",
+        "31",
+        "21"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "What is the world&#039;s oldest known piece of fiction?",
+      "correct_answer": "Epic of Gilgamesh",
+      "incorrect_answers": [
+        "Papyrus of Ani",
+        "Code of Hammurabi",
+        "Rosetta Stone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Pikmin&quot; series, what is the only pikmin type to possess visible ears?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": [
+        "Red",
+        "White",
+        "Winged"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the first episode of Yu-Gi-Oh: Duel Monsters, what book is Seto Kaiba seen reading at Domino High School?",
+      "correct_answer": "Thus Spoke Zarathustra",
+      "incorrect_answers": [
+        "Beyond Good and Evil",
+        "The Republic",
+        "Meditations"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the town in which Lily and James Potter are buried?",
+      "correct_answer": "Godric&#039;s Hollow",
+      "incorrect_answers": [
+        "Hogsmeade",
+        "Ottery St. Catchpole",
+        "Little Hangleton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Brian May was the guitarist for which band?",
+      "correct_answer": "Queen",
+      "incorrect_answers": [
+        "Pink Floyd",
+        "Rolling Stones",
+        "The Doors"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "During the events of Half-Life: Opposing Force, what is the age of Adrian Shephard, the protagonist?",
+      "correct_answer": "22",
+      "incorrect_answers": [
+        "23",
+        "21",
+        "24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What does the Latin phrase &quot;Veni, vidi, vici&quot; translate into English?",
+      "correct_answer": "I came, I saw, I conquered",
+      "incorrect_answers": [
+        "See no evil, hear no evil, speak no evil",
+        "Life, liberty, and happiness",
+        "Past, present, and future"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+      "correct_answer": "Objective-C",
+      "incorrect_answers": [
+        "C#",
+        "Ruby",
+        "C++"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The Western Lowland Gorilla is scientifically know as?",
+      "correct_answer": "Gorilla Gorilla Gorilla",
+      "incorrect_answers": [
+        "Gorilla Gorilla Diehli",
+        "Gorilla Beringei Graueri",
+        "Gorilla Beringei Beringei"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "This trope refers to minor characters that are killed off to show how a monster works.",
+      "correct_answer": "Red Shirt",
+      "incorrect_answers": [
+        "Minions",
+        "Expendables",
+        "Cannon Fodder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "eBay",
+        "Overstock",
+        "Shopify"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "In flight systems, what does the initialism &quot;TCAS&quot; stand for?",
+      "correct_answer": "Traffic Collision Avoidance System",
+      "incorrect_answers": [
+        "Traffic Communication Alert System",
+        "Traffic Configuration Alignment System",
+        "Traffic Call-sign Abbreviation System"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "Which of the following is NOT a venomous snake?",
+      "correct_answer": "Reticulated python",
+      "incorrect_answers": [
+        "Malayan Krait",
+        "Yellow bellied sea snake",
+        "Black mamba"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the English voice actor for Sora from the Kingdom Hearts series?",
+      "correct_answer": "Haley Joel Osment",
+      "incorrect_answers": [
+        "Kōki Uchiyama",
+        "Jesse McCartney",
+        "Miyu Irino"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the pirate that sings the intro to &quot;Spongebob Squarepants&quot;?",
+      "correct_answer": "Painty",
+      "incorrect_answers": [
+        "Patchy",
+        "Lloyd",
+        "Larry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "Unlike on most salamanders, this part of a newt is flat?",
+      "correct_answer": "Tail",
+      "incorrect_answers": [
+        "Head",
+        "Teeth",
+        "Feet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS1 engine is how many cubic inches?",
+      "correct_answer": "346",
+      "incorrect_answers": [
+        "350",
+        "355",
+        "360"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which pop singer was brought in by SEGA to produce the music for &quot;Sonic the Hedgehog 3&quot;?",
+      "correct_answer": "Michael Jackson ",
+      "incorrect_answers": [
+        "Prince",
+        "George Michael",
+        "Vanilla Ice "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "In Shakespeare&#039;s play Julius Caesar, Caesar&#039;s last words were...",
+      "correct_answer": "Et tu, Brute? ",
+      "incorrect_answers": [
+        "Iacta alea est!",
+        "Vidi, vini, vici.",
+        "Aegri somnia vana."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "How many degrees Fahrenheit is 100 degrees Celsius? ",
+      "correct_answer": "212",
+      "incorrect_answers": [
+        "326",
+        "100",
+        "451"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "&quot;Make You Feel My Love&quot; was originally written and performed by which singer-songwriter?",
+      "correct_answer": "Bob Dylan",
+      "incorrect_answers": [
+        "Elvis",
+        "Adele",
+        "Billy Joel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What Nickelodeon game show featured a house on the set that the contestants would ransack to find hidden objects?",
+      "correct_answer": "Finders Keepers",
+      "incorrect_answers": [
+        "Double Dare",
+        "Nickelodeon Guts",
+        "Nick Arcade"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In &quot;The Lord of the Rings,&quot; who is the owner of Asfaloth, the horse which brings Frodo to Rivendell?",
+      "correct_answer": "Glorfindel",
+      "incorrect_answers": [
+        "Arwen",
+        "Aragorn",
+        "Haldir"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who created &quot;RWBY&quot;?",
+      "correct_answer": "Monty Oum",
+      "incorrect_answers": [
+        "Miles Luna",
+        "Kerry Shawcross",
+        "Shane Newville"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which movie released in 2016 features Superman and Batman fighting?",
+      "correct_answer": "Batman v Superman: Dawn of Justice",
+      "incorrect_answers": [
+        "Batman v Superman: Superapocalypse",
+        "Batman v Superman: Black of Knight",
+        "Batman v Superman: Knightfall"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+      "correct_answer": "Sputnik 1",
+      "incorrect_answers": [
+        "Soyuz 7K-OK",
+        "Zenit-2",
+        "Voskhod 3KV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In &quot;Star Trek Nemesis&quot;, why was Praetor Shinzon created?",
+      "correct_answer": "To replace Picard as a Romulan Agent",
+      "incorrect_answers": [
+        "To destroy the Enterprise",
+        "To become Picard&#039;s friend ",
+        "To steal the Enterprise"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "When did the TV show Rick and Morty first air on Adult Swim?",
+      "correct_answer": "2013",
+      "incorrect_answers": [
+        "2014",
+        "2016",
+        "2015"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which is the chemical name of H2O?",
+      "correct_answer": "Dihydrogen Monoxide",
+      "incorrect_answers": [
+        "Ammonium chloride",
+        "Anhydrous Sodium Carbonate",
+        "Manganese dioxide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Where does the original Friday The 13th movie take place?",
+      "correct_answer": "Camp Crystal Lake",
+      "incorrect_answers": [
+        "Packanack",
+        "Higgins Haven",
+        "Camp Forest Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "How many soccer players should be on the field at the same time?",
+      "correct_answer": "22",
+      "incorrect_answers": [
+        "20",
+        "24",
+        "26"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the creator of the manga series &quot;One Piece&quot;?",
+      "correct_answer": "Eiichiro Oda",
+      "incorrect_answers": [
+        "Yoshihiro Togashi",
+        "Hayao Miyazaki",
+        "Masashi Kishimoto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main villain of Kirby&#039;s Return to Dreamland?",
+      "correct_answer": "Magolor",
+      "incorrect_answers": [
+        "Landia",
+        "King Dedede",
+        "Queen Sectonia "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Chino Moreno is the lead singer of which alternative metal band?",
+      "correct_answer": "Deftones",
+      "incorrect_answers": [
+        "Tool",
+        "Korn",
+        "Type O Negative"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What are the first names of the first father and son pair that were both Prime Ministers of Canada?",
+      "correct_answer": "Justin and Pierre",
+      "incorrect_answers": [
+        "John and Louis",
+        "Brian and Justin",
+        "Brian and Pierre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "The Dice Tower network of board game podcasts and videos is run by which individual?",
+      "correct_answer": "Tom Vasel",
+      "incorrect_answers": [
+        "Jason LeVine",
+        "Borth Sampson",
+        "Uncle Pennybags"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "When did Tame Impala release their second album?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2015",
+        "2010",
+        "1967"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In what year was Tchaikovsky&#039;s 1812 Overture composed?",
+      "correct_answer": "1880",
+      "incorrect_answers": [
+        "1812",
+        "1790",
+        "1840"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What country is the second largest in the world by area?",
+      "correct_answer": "Canada",
+      "incorrect_answers": [
+        "Russia",
+        "China",
+        "United States of America"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "How long did the Warsaw Uprising during World War II last?",
+      "correct_answer": "63 Days",
+      "incorrect_answers": [
+        "20 Days",
+        "55 Days",
+        "224 Days"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the first Mersenne prime exponent over 1000?",
+      "correct_answer": "1279",
+      "incorrect_answers": [
+        "2203",
+        "1009",
+        "1069"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the infamous pachinko machine from &quot;Kaiji&quot;?",
+      "correct_answer": "The Bog",
+      "incorrect_answers": [
+        "The Devil",
+        "The Undefeated",
+        "The Dragon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of these is NOT a city in India?",
+      "correct_answer": "Islamabad",
+      "incorrect_answers": [
+        "Hyderabad",
+        "Ahmedabad",
+        "Ghaziabad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of these anime have over 7,500 episodes?",
+      "correct_answer": "Sazae-san",
+      "incorrect_answers": [
+        "Naruto",
+        "One Piece",
+        "Chibi Maruko-chan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Halo&quot;, what is the name of the planet which Installation 04 orbits?",
+      "correct_answer": "Threshold",
+      "incorrect_answers": [
+        "Substance",
+        "Sanghelios",
+        "Te"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "In Canadian football, scoring a rouge is worth how many points?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the romanized Russian word for &quot;winter&quot;?",
+      "correct_answer": "Zima",
+      "incorrect_answers": [
+        "Leto",
+        "Vesna",
+        "Osen&#039;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of the following former Yugoslavian states is landlocked?",
+      "correct_answer": "Serbia",
+      "incorrect_answers": [
+        "Bosnia and Herzegovina",
+        "Montenegro",
+        "Croatia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following countries has officially banned the civilian use of dash cams in cars?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "United States",
+        "Czechia",
+        "South Korea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "On the periodic table of elements, what is the symbol for Tin?",
+      "correct_answer": "Sn",
+      "incorrect_answers": [
+        "Ti",
+        "Ni",
+        "Na"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters was considered, but ultimately not included, for Super Smash Bros. Melee?",
+      "correct_answer": "James Bond",
+      "incorrect_answers": [
+        "Diddy Kong",
+        "Mega Man",
+        "Wave Racer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the tallest mountain in Canada?",
+      "correct_answer": "Mount Logan",
+      "incorrect_answers": [
+        "Mont Tremblant",
+        "Whistler Mountain",
+        "Blue Mountain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which one of these films are shot entirely in one-take?",
+      "correct_answer": "Russian Ark",
+      "incorrect_answers": [
+        "Good Will Hunting",
+        "Birdman",
+        "Schindler&#039;s List"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the elemental symbol for mercury?",
+      "correct_answer": "Hg",
+      "incorrect_answers": [
+        "Me",
+        "Mc",
+        "Hy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is Hellboy&#039;s true name?",
+      "correct_answer": "Anung Un Rama",
+      "incorrect_answers": [
+        "Right Hand of Doom",
+        "Ogdru Jahad",
+        "Azzael"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Senegal?",
+      "correct_answer": "Dakar",
+      "incorrect_answers": [
+        "Nouakchott",
+        "Conakry",
+        "Monrovia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the chemical symbol for lead?",
+      "correct_answer": "Pb",
+      "incorrect_answers": [
+        "Ld",
+        "Le",
+        "Pm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What is the scientific name of the cheetah?",
+      "correct_answer": "Acinonyx jubatus",
+      "incorrect_answers": [
+        "Panthera onca",
+        "Lynx rufus",
+        "Felis catus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the frontman of Muse?",
+      "correct_answer": "Matt Bellamy",
+      "incorrect_answers": [
+        "Dominic Howard",
+        "Thom Yorke",
+        "Jonny Greenwood"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which member of the Wu-Tang Clan had only one verse in their debut album Enter the Wu-Tang (36 Chambers)?",
+      "correct_answer": "Masta Killa",
+      "incorrect_answers": [
+        "Method Man",
+        "Inspectah Deck",
+        "GZA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "correct_answer": "Demolition",
+      "incorrect_answers": [
+        "The Dream Team",
+        "The Bushwhackers",
+        "The British Bulldogs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Telltale Games&#039; &quot;The Walking Dead: Season One&quot; what is the name of Clementine&#039;s father?",
+      "correct_answer": "Ed",
+      "incorrect_answers": [
+        "Charles",
+        "Lee",
+        "Walter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which nation claims ownership of Antarctica?",
+      "correct_answer": "No one, but there are claims.",
+      "incorrect_answers": [
+        "United States of America",
+        "United Nations",
+        "Australia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is Homestuck character Gamzee&#039;s last name?",
+      "correct_answer": "Makara",
+      "incorrect_answers": [
+        "Makera",
+        "Makare",
+        "Makrea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "What is the most challenging monster in the Dungeons &amp; Dragons 5th Edition Monster Manual?",
+      "correct_answer": "Tarrasque",
+      "incorrect_answers": [
+        "Beholder",
+        "Displacer Beast",
+        "Lich"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Celebrities",
+      "question": "How tall is Tom Cruise?",
+      "correct_answer": "5&prime; 7&Prime;",
+      "incorrect_answers": [
+        "5&prime; 9&Prime;",
+        "5&prime; 4&Prime;",
+        "5&prime; 5&Prime;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The architect known as Le Corbusier was an important figure in what style of architecture?",
+      "correct_answer": "Modernism",
+      "incorrect_answers": [
+        "Neoclassical",
+        "Baroque",
+        "Gothic Revival"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is Pink Floyd&#039;s first album?",
+      "correct_answer": "The Piper at the Gates of Dawn",
+      "incorrect_answers": [
+        "The Dark Side of the Moon",
+        "Wish You Were Here",
+        "Meddle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "All of the following are towns/villages in the Pacific Island nation of Kiribati EXCEPT:",
+      "correct_answer": "Urutora",
+      "incorrect_answers": [
+        "Rungata",
+        "London",
+        "Washington"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "When was Tesla founded?",
+      "correct_answer": "2003",
+      "incorrect_answers": [
+        "2008",
+        "2005",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What was the name of Ross&#039; pet monkey on &quot;Friends&quot;?",
+      "correct_answer": "Marcel",
+      "incorrect_answers": [
+        "Jojo",
+        "George",
+        "Champ"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the protagonist of the 2017 anime &quot;Land of the Lustrous&quot;?",
+      "correct_answer": "Phosphophyllite",
+      "incorrect_answers": [
+        "Watermelon Tourmaline",
+        "Cinnabar",
+        "Padparadscha"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which restaurant&#039;s mascot is a clown?",
+      "correct_answer": "McDonald&#039;s",
+      "incorrect_answers": [
+        "Whataburger",
+        "Burger King",
+        "Sonic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What was the wifi password given to Stephen Strange in Doctor Strange?",
+      "correct_answer": "Shambala",
+      "incorrect_answers": [
+        "Peace",
+        "Ancient",
+        "Chakra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following characters were considered for inclusion in Super Smash Bros. Melee?",
+      "correct_answer": "Lucas",
+      "incorrect_answers": [
+        "Mega Man",
+        "Meta Knight",
+        "Diddy Kong"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;To Love-Ru&quot;, who is the first to hear of Yami&#039;s past from her?",
+      "correct_answer": "Rito",
+      "incorrect_answers": [
+        "Mikan",
+        "Lala",
+        "Haruna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which one of these action movies are shot entirely in one take?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Ip Man 2",
+        "The Bourne Legacy",
+        "L&eacute;on: The Professional"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Silverchair?",
+      "correct_answer": "Daniel Johns",
+      "incorrect_answers": [
+        "Ben Gillies",
+        "Chris Joannou",
+        "George Costanza"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a wonder weapon in &quot;Call Of Duty: Zombies&quot;?",
+      "correct_answer": "R115 Resonator",
+      "incorrect_answers": [
+        "GKZ-45 Mk3",
+        "Ray Gun",
+        "Scavenger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What&#039;s the first National Park designated in the United States?",
+      "correct_answer": "Yellowstone",
+      "incorrect_answers": [
+        "Sequoia ",
+        "Yosemite",
+        "Rocky Mountain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which M83 album is the song &quot;Midnight City&quot; featured in?",
+      "correct_answer": "Hurry Up, We&#039;re Dreaming",
+      "incorrect_answers": [
+        "Saturdays = Youth",
+        "Before the Dawn Heals Us",
+        "Junk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Who painted &quot;Swans Reflecting Elephants&quot;, &quot;Sleep&quot;, and &quot;The Persistence of Memory&quot;?",
+      "correct_answer": "Salvador Dali",
+      "incorrect_answers": [
+        "Jackson Pollock",
+        "Vincent van Gogh",
+        "Edgar Degas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Nintendo 64 game did NOT have Luigi in it?",
+      "correct_answer": "Super Mario 64",
+      "incorrect_answers": [
+        "Mario Party 2",
+        "Paper Mario",
+        "Super Smash Bros."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "Nidhogg is a mythical creature from what mythology?",
+      "correct_answer": "Norse",
+      "incorrect_answers": [
+        "Egyptian",
+        "Greek",
+        "Hindu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "What is Ron Weasley&#039;s middle name?",
+      "correct_answer": "Bilius",
+      "incorrect_answers": [
+        "Arthur",
+        "John",
+        "Dominic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "The first half-hour CGI cartoon, ReBoot, aired on which year?",
+      "correct_answer": "1994",
+      "incorrect_answers": [
+        "1993",
+        "1998",
+        "1999"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "In chess, which is a characteristic of the King&#039;s Gambit?",
+      "correct_answer": "Sacrificing a pawn",
+      "incorrect_answers": [
+        "Sacrificing the king for a queen",
+        "Castling kingside",
+        "Moving the king on the 2nd move"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?",
+      "correct_answer": "Zambia &amp; Zimbabwe",
+      "incorrect_answers": [
+        "Togo &amp; Benin",
+        "Lesotho &amp; Swaziland",
+        "Rwanda &amp; Burundi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the author of the manga series &quot;Astro Boy&quot;?",
+      "correct_answer": "Osamu Tezuka",
+      "incorrect_answers": [
+        "Mitsuteri Yokoyama",
+        "Takao Saito",
+        "Yoshihiro Tatsumi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What does the &quot;MP&quot; stand for in MP3?",
+      "correct_answer": "Moving Picture",
+      "incorrect_answers": [
+        "Music Player",
+        "Multi Pass",
+        "Micro Point"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which horizon in a soil profile consists of bedrock?",
+      "correct_answer": "R",
+      "incorrect_answers": [
+        "O",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which Russian oblast forms a border with Poland?",
+      "correct_answer": "Kaliningrad",
+      "incorrect_answers": [
+        "Samara",
+        "Nizhny Novgorod",
+        "Omsk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "In Macbeth, the eyes of what animals were used in the Witches&#039; cauldron?",
+      "correct_answer": "Newts",
+      "incorrect_answers": [
+        "Humans",
+        "Sharks",
+        "Squids"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Robin Van Persie",
+        "David Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed and published Game Dev Tycoon?",
+      "correct_answer": "Greenheart Games",
+      "incorrect_answers": [
+        "Greenland Games",
+        "The Tycoonists",
+        "MomCorp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "The character Momonga from the &quot;Overlord&quot; series orders his servants to call him by what name?",
+      "correct_answer": "Ainz Ooal Gown",
+      "incorrect_answers": [
+        "Master",
+        "Yggdrasil",
+        "Kugane Maruyama"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which American family band had a 1986 top 10 hit with the song &#039;Crush On You&#039;?",
+      "correct_answer": "The Jets",
+      "incorrect_answers": [
+        "DeBarge",
+        "The Jacksons",
+        "The Cover Girls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Brendan Fraser starred in the following movies, except which one?",
+      "correct_answer": "Titanic",
+      "incorrect_answers": [
+        "Monkeybone",
+        "Encino Man",
+        "Mrs. Winterbourne"
+      ]
+    }
+  ]
+}

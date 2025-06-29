@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many planets are in our Solar System?",
+      "correct_answer": "Eight",
+      "incorrect_answers": [
+        "Nine",
+        "Seven",
+        "Ten"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the opening track on Lorde&#039;s Pure Heroine?",
+      "correct_answer": "Tennis Court",
+      "incorrect_answers": [
+        "Team",
+        "Royals",
+        "400 Lux"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;World of Warcraft,&quot; what dragon appears in the human guise of Lord Victor Nefarius?",
+      "correct_answer": "Nefarian",
+      "incorrect_answers": [
+        "Nefarius",
+        "Neltharion",
+        "Nefaran"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?",
+      "correct_answer": "Entra&ntilde;as",
+      "incorrect_answers": [
+        "&amp;&amp;&amp;&amp;&amp;&amp;",
+        "Sheep",
+        "Xen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the 1968 Cartoon Show &quot;Wacky Races&quot; what was the name of cavemen duo who rode in The Boulder Mobile?",
+      "correct_answer": "The Slag Brothers",
+      "incorrect_answers": [
+        "The Slate Brothers",
+        "The Rock Brothers",
+        "The Stone Brothers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In the book series &quot;Odd Thomas&quot;, Danny Jessup has what genetic disease? ",
+      "correct_answer": " Osteogenesis Imperfecta",
+      "incorrect_answers": [
+        "Spinocerebellar ataxia",
+        "Adrenoleukodystrophy",
+        "Cystic Fibrosis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+      "correct_answer": "Grand Banks",
+      "incorrect_answers": [
+        "Great Barrier Reef",
+        "Mariana Trench",
+        "Hudson Bay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
+      "correct_answer": "&quot;How disgusting.&quot;",
+      "incorrect_answers": [
+        "&quot;Idiot, I won&#039;t let you kill me!&quot;",
+        "&quot;Nothing.&quot;",
+        "&quot;Goddammit, Shinji.&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+      "correct_answer": "Ernest Rutherford",
+      "incorrect_answers": [
+        "Joseph John Thomson",
+        "Archimedes",
+        "Niels Henrik David Bohr"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+      "correct_answer": "Mermaid Transformation",
+      "incorrect_answers": [
+        "Artificial Gills",
+        "Bubble Head",
+        "Bubble Shield"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of Jamaica?",
+      "correct_answer": "Kingston",
+      "incorrect_answers": [
+        "San Juan",
+        "Port-au-Prince",
+        "Bridgetown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Star Trek: Voyager&quot;, which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+      "correct_answer": "Pathfinder",
+      "incorrect_answers": [
+        "Message In A Bottle",
+        "Someone To Watch Over Me",
+        "Counterpoint"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which desert is the only desert in the world where the &quot;Saguaro&quot; cactus grows indigenously?",
+      "correct_answer": "The Sonoran Desert",
+      "incorrect_answers": [
+        "The Gobi Desert",
+        "The Yuma Desert",
+        "The Arabian Desert"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following countries does NOT recognize Armenia as an independent country?",
+      "correct_answer": "Pakistan",
+      "incorrect_answers": [
+        "Iran",
+        "Turkey",
+        "Azerbaijan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What country was the Trabant 601 manufactured in?",
+      "correct_answer": "East Germany",
+      "incorrect_answers": [
+        "Soviet Union",
+        "Hungary",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film &quot;The Fugitive&quot;?",
+      "correct_answer": "Tommy Lee Jones",
+      "incorrect_answers": [
+        "Harrison Ford",
+        "Harvey Keitel",
+        "Martin Landau"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who voices the character &quot;Reigen&quot;  in the English dub of &quot;Mob Psycho 100&quot;?",
+      "correct_answer": "Chris Niosi",
+      "incorrect_answers": [
+        "Max Mittelman",
+        "Kyle McCarley",
+        "Casey Mongillo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Overwatch, which hero out of the following 4 is from Brazil?",
+      "correct_answer": "L&uacute;cio",
+      "incorrect_answers": [
+        "Sombra",
+        "McCree",
+        "Symmetra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What did Gregory Mendel use to test genetic crossovers?",
+      "correct_answer": "Peas",
+      "incorrect_answers": [
+        "Cats",
+        "Flowers",
+        "Parrots"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Where is the Gluteus Maximus muscle located?",
+      "correct_answer": "Butt",
+      "incorrect_answers": [
+        "Arm",
+        "Head",
+        "Torso"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Call of Duty, what is the last level where you play as an American soldier?",
+      "correct_answer": "Festung Recogne",
+      "incorrect_answers": [
+        "Ste. Mere-Eglise (Day)",
+        "Chateau",
+        "Brecourt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "According to Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains, however improbable, must be the...&quot;",
+      "correct_answer": "Truth",
+      "incorrect_answers": [
+        "Answer",
+        "Cause",
+        "Source"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mario Kart series, which game introduced the &quot;Shield Drifting&quot; mechanic?",
+      "correct_answer": "Mario Kart Arcade GP DX",
+      "incorrect_answers": [
+        "Mario Kart: Double Dash",
+        "Mario Kart Super Circuit",
+        "Mario Kart DS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the Naruto manga, what is the last name of Tsunade?",
+      "correct_answer": "Senju",
+      "incorrect_answers": [
+        "Haruno",
+        "Uzumaki",
+        "Yamanaka"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?",
+      "correct_answer": "David Duchovny",
+      "incorrect_answers": [
+        "Gillian Anderson",
+        "Robert Patrick",
+        "Mitch Pileggi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "19",
+        "21",
+        "25"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The creeper in Minecraft was the result of a bug while implementing which creature?",
+      "correct_answer": "Pig",
+      "incorrect_answers": [
+        "Zombie",
+        "Chicken",
+        "Cow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Super Smash Bros. for Nintendo 3DS and Nintendo Wii U, who was the sixth fighter to be added to the game post-launch?",
+      "correct_answer": "Corrin",
+      "incorrect_answers": [
+        "Cloud",
+        "Bayonnetta",
+        "Ryu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In what year does Jurassic World open in the &quot;Jurassic Park&quot; universe?",
+      "correct_answer": "2005",
+      "incorrect_answers": [
+        "2007",
+        "2015",
+        "2020"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "All of the following are names of the Seven Warring States EXCEPT:",
+      "correct_answer": "Zhai (翟)",
+      "incorrect_answers": [
+        "Zhao (趙)",
+        "Qin (秦)",
+        "Qi (齊)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "The heavy metal band Black Sabbath hail from which English city?",
+      "correct_answer": "Birmingham",
+      "incorrect_answers": [
+        "Manchester",
+        "London",
+        "Newcastle-Upon-Tyne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "Carcassonne is based on which French town?",
+      "correct_answer": "Carcassonne",
+      "incorrect_answers": [
+        "Paris",
+        "Marseille",
+        "Clermont-Ferrand"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+      "correct_answer": "Surveyor to the City of London",
+      "incorrect_answers": [
+        "Professor of Mathematics",
+        "Warden of the Royal Mint",
+        "Member of Parliament"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+      "correct_answer": "Quentin Tarantino",
+      "incorrect_answers": [
+        "Martin Scorcese",
+        "Steven Spielberg",
+        "James Cameron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "EDM producer Marshmello performs live wearing clothes and a marshmallow mask of what colour?",
+      "correct_answer": "White",
+      "incorrect_answers": [
+        "Black",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In South Park, what is Stan&#039;s surname?",
+      "correct_answer": "Marsh",
+      "incorrect_answers": [
+        "Stotch",
+        "Broflovski",
+        "Tweak"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the primary lyricist for Canadian progressive rock band Rush?",
+      "correct_answer": "Neil Peart",
+      "incorrect_answers": [
+        "Geddy Lee",
+        "Alex Lifeson",
+        "John Rutsey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Who was the original author of Frankenstein?",
+      "correct_answer": "Mary Shelley",
+      "incorrect_answers": [
+        "Edgar Allan Poe",
+        "Bram Stoker",
+        "H. P. Lovecraft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Integration is the reverse of what mathematical operation?",
+      "correct_answer": "Derivation",
+      "incorrect_answers": [
+        "Division",
+        "Standard Deviation",
+        "Multiplication"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Australia",
+        "Turkey",
+        "Cambodia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The World Health Organization headquarters is located in which European country?",
+      "correct_answer": "Switzerland",
+      "incorrect_answers": [
+        "United Kingdom",
+        "France",
+        "Belgium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime, &quot;Fullmetal Alchemist&quot;, who is known as the &#039;Flame Alchemist&#039;?",
+      "correct_answer": "Roy Mustang",
+      "incorrect_answers": [
+        "Edward Elric",
+        "Maes Hughes",
+        "Lin Yao"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who had a 1981 hit with the song &quot;Japanese Boy&quot;?",
+      "correct_answer": "Aneka",
+      "incorrect_answers": [
+        "Toyah",
+        "Sandra",
+        "Madonna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Before &quot;Jurassic Park III&quot; was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+      "correct_answer": "Baryonyx",
+      "incorrect_answers": [
+        "Tyrannosaurus Rex",
+        "Velociraptor",
+        "Suchomimus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "About how much money did it cost for Tommy Wiseau to make his masterpiece &quot;The Room&quot; (2003)?",
+      "correct_answer": "$6 Million",
+      "incorrect_answers": [
+        "$20,000",
+        "$1 Million",
+        "$10 Million"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "This Marvel superhero is often called &quot;The man without fear&quot;.",
+      "correct_answer": "Daredevil",
+      "incorrect_answers": [
+        "Thor",
+        "Wolverine",
+        "Hulk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who was given the title &quot;Full Metal&quot; in the anime series &quot;Full Metal Alchemist&quot;?",
+      "correct_answer": "Edward Elric",
+      "incorrect_answers": [
+        "Alphonse Elric",
+        "Van Hohenheim",
+        "Izumi Curtis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+      "correct_answer": "Billy Loomis and Stu Macher",
+      "incorrect_answers": [
+        "Dewey Riley",
+        "Sidney Prescott",
+        "Archie Prescott and Philip Marv"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the name of the city that The Flintstones is based in?",
+      "correct_answer": "Bedrock",
+      "incorrect_answers": [
+        "Stoneville",
+        "Rockhampton",
+        "Boulder City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these characters was first introduced in Sonic Boom: Rise of Lyric?",
+      "correct_answer": "Sticks the Badger",
+      "incorrect_answers": [
+        "Mighty the Armadillo",
+        "Espio the Chameleon",
+        "Rouge the Bat"
+      ]
+    }
+  ]
+}

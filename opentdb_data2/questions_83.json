@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which is not a country in Africa?",
+      "correct_answer": "Guyana",
+      "incorrect_answers": [
+        "Senegal",
+        "Liberia",
+        "Somalia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who was &quot;Kung Fu Fighting&quot; in 1974?",
+      "correct_answer": "Carl Douglas",
+      "incorrect_answers": [
+        "The Bee Gees",
+        "Heatwave",
+        "Kool &amp; the Gang"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+      "correct_answer": "100 Megatons",
+      "incorrect_answers": [
+        "200 Megatons",
+        "75 Megatons",
+        "150 Megatons"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Where would you find the &quot;Spanish Steps&quot;?",
+      "correct_answer": "Rome, Italy",
+      "incorrect_answers": [
+        "Barcelona, Spain",
+        "Berlin, Germany",
+        "London, England"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which part from the JoJo&#039;s Bizarre Adventure manga is about a horse race across America?",
+      "correct_answer": "Part 7: Steel Ball Run",
+      "incorrect_answers": [
+        "Part 6: Stone Ocean",
+        "Part 3: Stardust Crusaders",
+        "Part 5: Golden Wind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What&#039;s Harry Potter&#039;s dad&#039;s name?",
+      "correct_answer": "James Potter",
+      "incorrect_answers": [
+        "Joey Potter",
+        "Frank Potter",
+        "Hairy Potter Sr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In Half-Life, what is the name of the alien that attaches to heads?",
+      "correct_answer": "Headcrab",
+      "incorrect_answers": [
+        "Bullsquid",
+        "Vortigaunt",
+        "Facehugger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What is Tiger Woods&#039; all-time best career golf-score?",
+      "correct_answer": "61",
+      "incorrect_answers": [
+        "65",
+        "63",
+        "67"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Halo 2&quot;, what is the name of the monitor of Installation 05?",
+      "correct_answer": "2401 Penitent Tangent",
+      "incorrect_answers": [
+        "343 Guilty Spark",
+        "031 Exuberant Witness",
+        "252 Biodis Expolsion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Which Van Gogh painting depicts the view from his asylum in Saint-R&eacute;my-de-Provence in southern France?",
+      "correct_answer": "The Starry Night",
+      "incorrect_answers": [
+        "Wheatfields with Crows",
+        "The Sower with Setting Sun",
+        "The Church at Auvers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which of the following songs did Elton John perform following Princess Diane&#039;s passing?",
+      "correct_answer": "Candles in the Wind",
+      "incorrect_answers": [
+        "I Guess That&#039;s Why They Call It The Blues",
+        "Your Song",
+        "Island Girl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following passenger jets is the longest?",
+      "correct_answer": "Boeing 747-8",
+      "incorrect_answers": [
+        "Airbus A350-1000",
+        "Airbus A330-200",
+        "Boeing 787-10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+      "correct_answer": "Great Pyramid of Giza",
+      "incorrect_answers": [
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria",
+        "Statue of Zeus at Olympia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "Which animal was part of an Russian domestication experiment in 1959?",
+      "correct_answer": "Foxes",
+      "incorrect_answers": [
+        "Pigeons",
+        "Bears",
+        "Alligators"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Who painted the Mona Lisa?",
+      "correct_answer": "Leonardo da Vinci",
+      "incorrect_answers": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these albums is a Wu-Tang Clan album?",
+      "correct_answer": "Iron Flag",
+      "incorrect_answers": [
+        "Perfect Hair",
+        "The Low End Theory",
+        "Licensed to Ill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT the name of a team leader in Pok&eacute;mon GO?",
+      "correct_answer": "Leif",
+      "incorrect_answers": [
+        "Blanche",
+        "Spark",
+        "Candela"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?",
+      "correct_answer": "Steed",
+      "incorrect_answers": [
+        "Mule",
+        "Benson",
+        "Pony"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the real name of &quot;Warhead&quot; in the Sega Genesis game &quot;Vectorman&quot;?",
+      "correct_answer": "Raster",
+      "incorrect_answers": [
+        "Peacehead",
+        "Vectorkid",
+        "Bitmap"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was the Valve Corporation founded?",
+      "correct_answer": "August 24, 1996",
+      "incorrect_answers": [
+        "December 26, 1994",
+        "March 22, 1997",
+        "March 13, 1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these is NOT a catchphrase used by Rick Sanchez in the TV show &quot;Rick and Morty&quot;?",
+      "correct_answer": "Slam dunk, nothing but net!",
+      "incorrect_answers": [
+        "Hit the sack, Jack!",
+        "Rikki-Tikki-Tavi, biatch!",
+        "Wubba-lubba-dub-dub!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "The greek god Poseidon was the god of what?",
+      "correct_answer": "The Sea",
+      "incorrect_answers": [
+        "War",
+        "Sun",
+        "Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "What is the name of the first human being in Norse mythology?",
+      "correct_answer": "Ask",
+      "incorrect_answers": [
+        "Asmund",
+        "Ake",
+        "Asger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which of the following car manufacturers had a war named after it?",
+      "correct_answer": "Toyota",
+      "incorrect_answers": [
+        "Honda",
+        "Ford",
+        "Volkswagen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Overwatch, which hero out of the following 4 is from Brazil?",
+      "correct_answer": "L&uacute;cio",
+      "incorrect_answers": [
+        "Sombra",
+        "McCree",
+        "Symmetra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT the name of a rival gang in the video game Saint&#039;s Row 2?",
+      "correct_answer": "The Zin Empire",
+      "incorrect_answers": [
+        "The Brotherhood",
+        "The Ronin",
+        "The Sons of Samedi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+      "correct_answer": "Tree",
+      "incorrect_answers": [
+        "Mountain",
+        "Temple",
+        "Castle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters in &quot;Undertale&quot; can the player NOT go on a date with?",
+      "correct_answer": "Toriel",
+      "incorrect_answers": [
+        "Papyrus",
+        "Undyne",
+        "Alphys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which of these words means &quot;idle spectator&quot;?",
+      "correct_answer": "Gongoozler",
+      "incorrect_answers": [
+        "Gossypiboma",
+        "Jentacular",
+        "Meupareunia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which actor portrays &quot;Walter White&quot; in the series &quot;Breaking Bad&quot;?",
+      "correct_answer": " Bryan Cranston",
+      "incorrect_answers": [
+        "Andrew Lincoln",
+        "Aaron Paul",
+        "RJ Mitte"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the Super Mario Bros. Movie (2023), who plays Toad?",
+      "correct_answer": "Keegan-Michael Key",
+      "incorrect_answers": [
+        "Seth Rogan",
+        "Charlie Day",
+        "Jack Black"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What NBC sitcom once saw two of its characters try to pitch NBC on a sitcom about nothing?",
+      "correct_answer": "Seinfeld",
+      "incorrect_answers": [
+        "Frasier",
+        "Becker",
+        "Friends"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;PAYDAY&quot; series, what is the real name of the character known as &quot;Dallas&quot;?",
+      "correct_answer": "Nathan Steele",
+      "incorrect_answers": [
+        "Nate Siemens",
+        "Nick Stamos",
+        "Nolan Stuhlinger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+      "correct_answer": "My Neighbor Totoro",
+      "incorrect_answers": [
+        "Hop",
+        "Rise of the Guardians",
+        "Alice in Wonderland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Touhou 12: Undefined Fantastic Object, which of these was not a playable character?",
+      "correct_answer": "Izayoi Sakuya",
+      "incorrect_answers": [
+        "Hakurei Reimu",
+        "Kirisame Marisa",
+        "Kochiya Sanae"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following music bands is not from Finland?",
+      "correct_answer": "Sabaton",
+      "incorrect_answers": [
+        "Apocalyptica",
+        "Waltari",
+        "Lordi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the molecular formula of Ozone?",
+      "correct_answer": "O3",
+      "incorrect_answers": [
+        "C6H2O6",
+        "N2O",
+        "SO4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Celebrities",
+      "question": "Aubrey Graham is better known as",
+      "correct_answer": "Drake",
+      "incorrect_answers": [
+        "Travis Scott",
+        "Lil Wayne",
+        "2 Chainz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What year was Apple Inc. founded?",
+      "correct_answer": "1976",
+      "incorrect_answers": [
+        "1978",
+        "1980",
+        "1974"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the Netflix show, Stranger Things, what song would Will sing to himself as he was missing?",
+      "correct_answer": "Should I Stay or Should I Go?",
+      "incorrect_answers": [
+        "Love Will Tear Us Apart",
+        "This Charming Man",
+        "Africa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which is the world&#039;s longest river?",
+      "correct_answer": "Nile",
+      "incorrect_answers": [
+        "Missouri",
+        "Amazon",
+        "Yangtze"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+      "correct_answer": "Sputnik 1",
+      "incorrect_answers": [
+        "Soyuz 7K-OK",
+        "Zenit-2",
+        "Voskhod 3KV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-III?",
+      "correct_answer": "Ewan McGregor",
+      "incorrect_answers": [
+        "Alec Guinness",
+        "Hayden Christensen",
+        "Liam Neeson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Divinity: Original Sin II, what is the name of the skeletal origin character?",
+      "correct_answer": "Fane",
+      "incorrect_answers": [
+        "Lohse",
+        "The Red Prince",
+        "There are no skeletal origin characters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these Fortnite emotes does NOT involve a sport in some way?",
+      "correct_answer": "Freestylin&#039;",
+      "incorrect_answers": [
+        "Red Card",
+        "Kick Ups",
+        "Baller"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many trophies are there in &quot;Super Smash Bros. for Nintendo 3DS&quot;?",
+      "correct_answer": "685",
+      "incorrect_answers": [
+        "1360",
+        "716",
+        "1155"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+      "correct_answer": "Quentin Tarantino",
+      "incorrect_answers": [
+        "Martin Scorcese",
+        "Steven Spielberg",
+        "James Cameron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the 1974 Christmas flick &quot;The Year Without a Santa Claus,&quot; what are the names of the two elves who help Mrs. Claus save Christmas?",
+      "correct_answer": "Jingle &amp; Jangle",
+      "incorrect_answers": [
+        "Buddy &amp; Bobby",
+        "Holly &amp; Jolly",
+        "Snowflake &amp; Icicle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What is the name of the Boeing B-29 that dropped the &#039;Little Boy&#039; atomic bomb on Hiroshima?",
+      "correct_answer": "Enola Gay",
+      "incorrect_answers": [
+        "Necessary Evil",
+        "The Great Artiste",
+        "Full House"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main villain of the Crash Bandicoot series?",
+      "correct_answer": "Dr. Neo Cortex",
+      "incorrect_answers": [
+        "Dr. Evo-Cortex",
+        "Dr. Cortox",
+        "Sir Cartex"
+      ]
+    }
+  ]
+}

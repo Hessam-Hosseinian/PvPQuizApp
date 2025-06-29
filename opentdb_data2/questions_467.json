@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "What is the name of the Greek god of peaceful deaths?",
+      "correct_answer": "Thanatos",
+      "incorrect_answers": [
+        "Tartarus",
+        "Hades",
+        "Moros"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Frankenmuth, a US city nicknamed &quot;Little Bavaria&quot;, is located in what state?",
+      "correct_answer": "Michigan",
+      "incorrect_answers": [
+        "Pennsylvania",
+        "Kentucky",
+        "Virginia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Which famous spy novelist wrote the childrens&#039; story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+      "correct_answer": "Ian Fleming",
+      "incorrect_answers": [
+        "Joseph Conrad",
+        "John Buchan",
+        "Graham Greene"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the world&#039;s longest venomous snake?",
+      "correct_answer": "King Cobra",
+      "incorrect_answers": [
+        "Green Anaconda",
+        "Inland Taipan",
+        "Yellow Bellied Sea Snake"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What national museum will you find in Cooperstown, New York?",
+      "correct_answer": "National Baseball Hall of Fame",
+      "incorrect_answers": [
+        "Metropolitan Museum of Art",
+        "National Toy Hall of Fame",
+        "Museum of Modern Art"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What&#039;s the name of Batman&#039;s parents?",
+      "correct_answer": "Thomas &amp; Martha",
+      "incorrect_answers": [
+        "Joey &amp; Jackie",
+        "Jason &amp; Sarah",
+        "Todd &amp; Mira"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Who was the Roman god of fire?",
+      "correct_answer": "Vulcan",
+      "incorrect_answers": [
+        "Apollo",
+        "Jupiter",
+        "Mercury"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "The 1939 movie &quot;The Wizard of Oz&quot; contained a horse that changed color, what material did they use to achieve this effect?",
+      "correct_answer": "Gelatin",
+      "incorrect_answers": [
+        "Dye",
+        "Paint",
+        "CGI Effect"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who tutored Alexander the Great?",
+      "correct_answer": "Aristotle",
+      "incorrect_answers": [
+        "Socrates",
+        "Plato",
+        "King Philip"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "What round is a classic AK-47 chambered in?",
+      "correct_answer": "7.62x39mm",
+      "incorrect_answers": [
+        "7.62x51mm",
+        "5.56x45mm",
+        "5.45x39mm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which actor plays the role of the main antagonist in the 2011 movie &quot;Tower Heist?&quot;",
+      "correct_answer": "Alan Alda",
+      "incorrect_answers": [
+        "Eddie Murphy",
+        "Alec Baldwin",
+        "Kevin Nealon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What was the first sport to have been played on the moon?",
+      "correct_answer": "Golf",
+      "incorrect_answers": [
+        "Football",
+        "Tennis",
+        "Soccer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which chemical element has the lowest boiling point?",
+      "correct_answer": "Helium",
+      "incorrect_answers": [
+        "Hydrogen",
+        "Neon",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is not a single by Pink Floyd guitarist, David Gilmour?",
+      "correct_answer": "Sunset Strip",
+      "incorrect_answers": [
+        "Rattle That Lock",
+        "Blue Light",
+        "Arnold Layne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In the Hellboy universe, who founded the BPRD?",
+      "correct_answer": "Trevor Bruttenholm",
+      "incorrect_answers": [
+        "Kate Corrigan",
+        "Johann Kraus",
+        "Benjamin Daimio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which order do you need to hit some Deku Scrubs to open the first boss door in &quot;Ocarina of Time&quot;?",
+      "correct_answer": "2, 3, 1",
+      "incorrect_answers": [
+        "1, 2, 3",
+        "1, 3, 2",
+        "2, 1, 3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "In Kendrick Lamar&#039;s 2012 album, &quot;Good Kid, M.A.A.D City&quot;, the album&#039;s story takes place in which city?",
+      "correct_answer": "Compton",
+      "incorrect_answers": [
+        "Detroit",
+        "New York",
+        "Baltimore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "correct_answer": "DING Ning (China)",
+      "incorrect_answers": [
+        "LI Xiaoxia (China)",
+        "Ai FUKUHARA (Japan)",
+        "Song KIM (North Korea)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+      "correct_answer": "The Polish President",
+      "incorrect_answers": [
+        "Pope John Paul II",
+        "Bang-Ding Ow",
+        "Albert Putin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, &#039;Top Gear&#039;?",
+      "correct_answer": "Jessica",
+      "incorrect_answers": [
+        "Angela",
+        "Erica",
+        "Sandra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "What mythology did the god &quot;Apollo&quot; come from?",
+      "correct_answer": "Greek and Roman",
+      "incorrect_answers": [
+        "Roman and Spanish",
+        "Greek and Chinese",
+        "Greek, Roman and Norse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following created and directed the Katamari Damacy series?",
+      "correct_answer": "Keita Takahashi",
+      "incorrect_answers": [
+        "Hideki Kamiya",
+        "Shu Takumi",
+        "Shinji Mikami"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Brendan Fraser starred in the following movies, except which one?",
+      "correct_answer": "Titanic",
+      "incorrect_answers": [
+        "Monkeybone",
+        "Encino Man",
+        "Mrs. Winterbourne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT the name of a rival gang in the video game Saint&#039;s Row 2?",
+      "correct_answer": "The Zin Empire",
+      "incorrect_answers": [
+        "The Brotherhood",
+        "The Ronin",
+        "The Sons of Samedi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+      "correct_answer": "Smash Mouth",
+      "incorrect_answers": [
+        "Bowling for Soup",
+        "Sum 41",
+        "Linkin Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a main playable character in &quot;Grand Theft Auto V&quot;?",
+      "correct_answer": "Lamar",
+      "incorrect_answers": [
+        "Trevor",
+        "Michael",
+        "Franklin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What two characters from the game Undertale are never in a relationship or not related?",
+      "correct_answer": "Frisk &amp; Chara",
+      "incorrect_answers": [
+        "Sans &amp; Papyrus",
+        "Toriel &amp; Asgore",
+        "Alphys &amp; Undyne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "How old was Laurence Fishburne when Francis Ford Coppola cast him in Apocalypse Now (1979)? ",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "16",
+        "18",
+        "20"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "How many players are there in an association football/soccer team?",
+      "correct_answer": "11",
+      "incorrect_answers": [
+        "10",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "&quot;The Big Bang Theory&quot; was first theorized by a priest of what religious ideology?",
+      "correct_answer": "Catholic",
+      "incorrect_answers": [
+        "Christian",
+        "Jewish",
+        "Islamic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft lore,  how many siblings does Sylvanas Windrunner have?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Where and when was the first cardboard box made for industrial use?",
+      "correct_answer": "England, 1817",
+      "incorrect_answers": [
+        "United States, 1817",
+        "England, 1917",
+        "United States, 1917"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What island in the Canary Islands was the scene of one of the worst air disasters in history with the collision of two jumbo jets?",
+      "correct_answer": "Tenerife",
+      "incorrect_answers": [
+        "Fuerteventura",
+        "Gran Canaria",
+        "Maui"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "Which company designed the &quot;Betamax&quot; video cassette format?",
+      "correct_answer": "Sony",
+      "incorrect_answers": [
+        "Panasonic",
+        "LG",
+        "Fujitsu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the romanized Arabic word for &quot;moon&quot;?",
+      "correct_answer": "Qamar",
+      "incorrect_answers": [
+        "Najma",
+        "Kawkab",
+        "Shams"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Who painted &quot;The Starry Night&quot;?",
+      "correct_answer": "Vincent van Gogh",
+      "incorrect_answers": [
+        "Edvard Munch",
+        "Pablo Picasso",
+        "Claude Monet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the protagonist of J.D. Salinger&#039;s novel Catcher in the Rye?",
+      "correct_answer": "Holden Caulfield",
+      "incorrect_answers": [
+        "Fletcher Christian",
+        "Jay Gatsby",
+        "Randall Flagg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is Laos?",
+      "correct_answer": "Country",
+      "incorrect_answers": [
+        "Region",
+        "River",
+        "City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the 4th boss in the 1997 video game &quot;Crash Bandicoot 2: Cortex Strikes Back&quot;?",
+      "correct_answer": "Dr. N. Gin",
+      "incorrect_answers": [
+        "Dr. Neo Cortex",
+        "Komodo Brothers",
+        "Tiny Tiger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+      "correct_answer": "Sabrina",
+      "incorrect_answers": [
+        "Hermione",
+        "Dorothy",
+        "Dahlia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the name of the capital of Turkey?",
+      "correct_answer": "Ankara",
+      "incorrect_answers": [
+        "Istanbul",
+        "Izmir",
+        "Bursa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of the following is NOT classified as a Semetic language?",
+      "correct_answer": "Sumerian",
+      "incorrect_answers": [
+        "Maltese",
+        "Akkadian",
+        "Mandaic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Star Trek&quot;, what sauce is commonly used by Klingons on bregit lung?",
+      "correct_answer": "Grapok sauce",
+      "incorrect_answers": [
+        "Gazorpazorp pudding",
+        "Sweet chili sauce",
+        "Grapork sauce"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What are the three starter Pokemon available in Pokemon Black and White?",
+      "correct_answer": "Snivy, Tepig, Oshawott",
+      "incorrect_answers": [
+        "Snivy, Fennekin, Froakie",
+        "Chespin, Tepig, Froakie",
+        "Chespin, Fennekin, Oshawott"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first video game in the Batman &quot;Arkham&quot; series?",
+      "correct_answer": "Arkham Asylum",
+      "incorrect_answers": [
+        "Arkham Knight",
+        "Arkham City",
+        "Arkham Origins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who won the &quot;Champions League&quot; in 1999?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": [
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of his six wives was Henry VIII married to the longest?",
+      "correct_answer": "Catherine of Aragon",
+      "incorrect_answers": [
+        "Anne Boleyn",
+        "Jane Seymour",
+        "Catherine Parr"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Gravity Falls&quot;, what does Quentin Trembley do when he is driven out from the White House?",
+      "correct_answer": "Eat a salamander and jump out the window.",
+      "incorrect_answers": [
+        "Leave in peace.",
+        "Jump out the window.",
+        "Release 1,000 captive salamanders into the white house."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "How many spaces are there on a standard Monopoly board?",
+      "correct_answer": "40",
+      "incorrect_answers": [
+        "28",
+        "55",
+        "36"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the writer of the game &quot;Half-Life&quot;?",
+      "correct_answer": "Marc Laidlaw",
+      "incorrect_answers": [
+        "Gabe Newell",
+        "Robin Walker",
+        "Chet Faliszek"
+      ]
+    }
+  ]
+}

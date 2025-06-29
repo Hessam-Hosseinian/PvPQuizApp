@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Where are the cars of the brand &quot;Ferrari&quot; manufactured?",
+      "correct_answer": "Italy",
+      "incorrect_answers": [
+        "Romania",
+        "Germany",
+        "Russia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which two teams played in Super Bowl XLII?",
+      "correct_answer": "The New York Giants &amp; The New England Patriots",
+      "incorrect_answers": [
+        "The Green Bay Packers &amp; The Pittsburgh Steelers",
+        "The Philadelphia Eagles &amp; The New England Patriots",
+        "The Seattle Seahawks &amp; The Denver Broncos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In which year did the orignal Sims game release?",
+      "correct_answer": "2000",
+      "incorrect_answers": [
+        "2001",
+        "1999",
+        "1998"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Into which basin does the Jordan River flow into?",
+      "correct_answer": "Dead Sea",
+      "incorrect_answers": [
+        "Aral Sea",
+        "Caspian Sea",
+        "Salton Sea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Before the 19th Century, the &quot;Living Room&quot; was originally called the...",
+      "correct_answer": "Parlor",
+      "incorrect_answers": [
+        "Open Room",
+        "Sitting Room",
+        "Loft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "Which of the following is NOT a venomous snake?",
+      "correct_answer": "Reticulated python",
+      "incorrect_answers": [
+        "Malayan Krait",
+        "Yellow bellied sea snake",
+        "Black mamba"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these artists was NOT a member of the electronic music supergroup Swedish House Mafia, which split up in 2013?",
+      "correct_answer": "Alesso",
+      "incorrect_answers": [
+        "Steve Angello",
+        "Sebastian Ingrosso",
+        "Axwell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following language families is the most controversial amongst modern linguists?",
+      "correct_answer": "Altaic",
+      "incorrect_answers": [
+        "Sino-Tibetan",
+        "Dravidian",
+        "Indo-European"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+      "correct_answer": "Galois Theory",
+      "incorrect_answers": [
+        "Galois&#039; Continued Fractions",
+        "Galois&#039; Method for PDE&#039;s ",
+        "Abelian Integration"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Which movie served as the KTMA pilot episode for the show &quot;Mystery Science Theater 3000&quot;?",
+      "correct_answer": "The Green Slime",
+      "incorrect_answers": [
+        "The Robot Vs. The Aztec Mummy",
+        "The Crawling Eye",
+        "Plan 9 From Outer Space"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which English football club has the nickname &#039;The Foxes&#039;?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Northampton Town",
+        "Bradford City",
+        "West Bromwich Albion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In poker, &quot;EV&quot; means what?",
+      "correct_answer": "Expected Value",
+      "incorrect_answers": [
+        "Equity Value",
+        "Equivalent Variation",
+        "Equity Variation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Papua New Guinea",
+        "Ethiopia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Celebrities",
+      "question": "Gabe Newell was born in which year?",
+      "correct_answer": "1962 ",
+      "incorrect_answers": [
+        "1970",
+        "1960",
+        "1972"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In &quot;The Simpsons&quot;, what is the real name of &quot;Comic Book Guy&quot;?",
+      "correct_answer": "Jeff Albertson",
+      "incorrect_answers": [
+        "Comic Book Guy",
+        "Edward Stone",
+        "Jack Richardson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What is the name of Layer 7 of the OSI model?",
+      "correct_answer": "Application",
+      "incorrect_answers": [
+        "Session",
+        "Network",
+        "Present"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?",
+      "correct_answer": "Ira Levin",
+      "incorrect_answers": [
+        "Stephen King",
+        "Robert Bloch",
+        "Mary Shelley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the 2017 Formula One World Drivers&#039; Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Max Verstappen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "Which of the following is NOT a class in Dungeons and Dragons 5e?",
+      "correct_answer": "Engineer ",
+      "incorrect_answers": [
+        "Fighter ",
+        "Paladin ",
+        "Bard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who was the main antagonist of Max Payne 3 (2012)?",
+      "correct_answer": "Victor Branco",
+      "incorrect_answers": [
+        "&Aacute;lvaro Neves",
+        "Armando Becker",
+        "Milo Rego"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+      "correct_answer": "44.1 kHz",
+      "incorrect_answers": [
+        "32.0 kHz",
+        "1.5 MHz",
+        "20.5 kHz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What national team won the 2016 edition of UEFA European Championship?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": [
+        "France",
+        "Germany",
+        "England"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+      "correct_answer": "Tilly",
+      "incorrect_answers": [
+        "Tom",
+        "Tiny",
+        "None of the Above"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In which African country was the 2006 film &#039;Blood Diamond&#039; mostly set in?",
+      "correct_answer": "Sierra Leone",
+      "incorrect_answers": [
+        "Liberia",
+        "Burkina Faso",
+        "Central African Republic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "What is Grumpy Cat&#039;s real name?",
+      "correct_answer": "Tardar Sauce",
+      "incorrect_answers": [
+        "Sauce",
+        "Minnie",
+        "Broccoli"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed the free battle royale game Fortnite?",
+      "correct_answer": "Epic Games",
+      "incorrect_answers": [
+        "Valve",
+        "Ubisoft",
+        "Square Enix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
+      "correct_answer": "Anglesey",
+      "incorrect_answers": [
+        "Barry",
+        "Bardsey",
+        "Caldey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "Who is a minor god that is protector and creator of various arts, such as cheese making and bee keeping.",
+      "correct_answer": "Aristaeus",
+      "incorrect_answers": [
+        "Autonoe",
+        "Carme",
+        "Cephisso"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT the name of an album released by American rapper Viper?",
+      "correct_answer": "The Life of Pablo",
+      "incorrect_answers": [
+        "Kill Urself My Man",
+        "You&#039;ll Cowards Don&#039;t Even Smoke Crack",
+        "Yo Wife Handcuffin&#039; Me"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which &quot;Call Of Duty: Zombies&quot; map introduced the &quot;Staffs Of The Ancients&quot;?",
+      "correct_answer": "Origins",
+      "incorrect_answers": [
+        "Shangri-La",
+        "Revelations",
+        "Nuketown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many states are in Australia?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "7",
+        "8",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "On what day did Germany invade Poland?",
+      "correct_answer": "September 1, 1939",
+      "incorrect_answers": [
+        "December 7, 1941",
+        "June 22, 1941",
+        "July 7, 1937"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What are the names of the Ice Climbers in the video game Ice Climber?",
+      "correct_answer": "Popo and Nana",
+      "incorrect_answers": [
+        "Popo and Nina",
+        "Papi and Nana",
+        "Papi and Nina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of NASA&rsquo;s most famous space telescope?",
+      "correct_answer": "Hubble Space Telescope",
+      "incorrect_answers": [
+        "Big Eye",
+        "Death Star",
+        "Millenium Falcon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is the official name of Prince&#039;s backing band?",
+      "correct_answer": "The Revolution",
+      "incorrect_answers": [
+        "The Paupers",
+        "The Wailers",
+        "The Heartbreakers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Sid Meier&#039;s Civilization V, which World Wonder can only be built in cities on or next to a desert?",
+      "correct_answer": "Petra",
+      "incorrect_answers": [
+        "The Pyramids",
+        "Alhambra",
+        "Mausoleum of Maussollos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which horror movie had a sequel in the form of a video game released in August 20, 2002?",
+      "correct_answer": "The Thing",
+      "incorrect_answers": [
+        "The Evil Dead",
+        "Saw",
+        "Alien"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In CoD: Black Ops III, what is the name of the rogue A.I. antagonist?",
+      "correct_answer": "Corvus",
+      "incorrect_answers": [
+        "Cabal",
+        "Legion",
+        "Icarus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What is the oldest Disney film?",
+      "correct_answer": "Snow White and the Seven Dwarfs",
+      "incorrect_answers": [
+        "Pinocchio",
+        "Dumbo",
+        "Fantasia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the only country in the world with a flag that doesn&#039;t have four right angles?",
+      "correct_answer": "Nepal",
+      "incorrect_answers": [
+        "Panama",
+        "Angola",
+        "Egypt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What is the name of the Boeing B-29 that dropped the &#039;Little Boy&#039; atomic bomb on Hiroshima?",
+      "correct_answer": "Enola Gay",
+      "incorrect_answers": [
+        "Necessary Evil",
+        "The Great Artiste",
+        "Full House"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the Dreamworks animated movie &quot;Madagascar,&quot; who voices Maurice the lemur?",
+      "correct_answer": "Cedric the Entertainer",
+      "incorrect_answers": [
+        "Jack Black",
+        "Sacha Baron Cohen",
+        "Chris Rock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What was the first feature-length computer-animated movie?",
+      "correct_answer": "Toy Story",
+      "incorrect_answers": [
+        "Tron",
+        "Lion king",
+        "101 Dalmatians"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Who is the author of Jurassic Park?",
+      "correct_answer": "Michael Crichton",
+      "incorrect_answers": [
+        "Peter Benchley",
+        "Chuck Paluhniuk",
+        "Irvine Welsh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What was the first commerically available computer processor?",
+      "correct_answer": "Intel 4004",
+      "incorrect_answers": [
+        "Intel 486SX",
+        "TMS 1000",
+        "AMD AM386"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Who was the King of Gods in Ancient Greek mythology?",
+      "correct_answer": "Zeus",
+      "incorrect_answers": [
+        "Apollo",
+        "Hermes",
+        "Poseidon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What North American tourist attraction is served by the &quot;Maid of the Mist&quot; tour company?",
+      "correct_answer": "Niagara Falls",
+      "incorrect_answers": [
+        "Whistler, British Columbia",
+        "Disney World",
+        "Yosemite National Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the capital of South Vietnam before the Vietnam War?",
+      "correct_answer": "Saigon",
+      "incorrect_answers": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Hue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "In &quot;Resident Evil 3&quot;, how many inventory slots does Jill have at the start of the game?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Which famous book is sub-titled &#039;The Modern Prometheus&#039;?",
+      "correct_answer": "Frankenstein",
+      "incorrect_answers": [
+        "Dracula",
+        "The Strange Case of Dr. Jekyll and Mr. Hyde ",
+        "The Legend of Sleepy Hollow"
+      ]
+    }
+  ]
+}

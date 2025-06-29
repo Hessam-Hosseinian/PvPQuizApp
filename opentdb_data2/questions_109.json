@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In what city in the dystopia alternate future of Half-Life 2 do you first start in?",
+      "correct_answer": "City 17",
+      "incorrect_answers": [
+        "City 18",
+        "City 6",
+        "City 45"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which French duo had UK hits in 1998 with the songs &#039;Sexy Boy&#039;, &#039;Kelly Watch The Stars&#039; &amp; &#039;All I Need&#039;?",
+      "correct_answer": "Air",
+      "incorrect_answers": [
+        "Fire",
+        "Earth",
+        "Water"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch&quot;, what is the name of the company that made D.Va&#039;s mech?",
+      "correct_answer": "MEKA",
+      "incorrect_answers": [
+        "MI8",
+        "KPAMC",
+        "JSAMB"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What is the species of the &quot;Predator&quot; in the 1987 movie &quot;Predator&quot;?",
+      "correct_answer": "Yautja",
+      "incorrect_answers": [
+        "Xenomorph",
+        "Praetorian",
+        "Phocrex"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following music bands is not from Finland?",
+      "correct_answer": "Sabaton",
+      "incorrect_answers": [
+        "Apocalyptica",
+        "Waltari",
+        "Lordi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who was a voice actor for the English dubbing of HOWL&#039;S MOVING CASTLE (2004)?",
+      "correct_answer": "Christian Bale",
+      "incorrect_answers": [
+        "Matt Damon",
+        "Joseph Gordon-Levitt",
+        "Willem Dafoe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In Two and a Half Men, what is Alan Harper&#039;s son&#039;s name?",
+      "correct_answer": "Jake",
+      "incorrect_answers": [
+        "John",
+        "Jeremy",
+        "James"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "How long did World War II last?",
+      "correct_answer": "6 years",
+      "incorrect_answers": [
+        "4 years",
+        "5 years",
+        "7 years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What was the first Android version specifically optimized for tablets?",
+      "correct_answer": "Honeycomb",
+      "incorrect_answers": [
+        "Eclair",
+        "Froyo",
+        "Marshmellow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+      "correct_answer": "Capture scent particles",
+      "incorrect_answers": [
+        "Taste the sweet air",
+        "Threaten other species",
+        "Attract female mates"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On which continent is the country of Angola located?",
+      "correct_answer": "Africa",
+      "incorrect_answers": [
+        "South America",
+        "Europe",
+        "Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the true moon princess in Sailor Moon?",
+      "correct_answer": "Sailor Moon",
+      "incorrect_answers": [
+        "Sailor Venus",
+        "Sailor Mars",
+        "Sailor Jupiter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Montreal is in which Canadian province?",
+      "correct_answer": "Quebec",
+      "incorrect_answers": [
+        "Ontario",
+        "Nova Scotia",
+        "Alberta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of these countries is NOT a part of the Asian continent?",
+      "correct_answer": "Suriname",
+      "incorrect_answers": [
+        "Georgia",
+        "Russia",
+        "Singapore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did Vesuvius destroy the city of Pompeii? ",
+      "correct_answer": "79 AD",
+      "incorrect_answers": [
+        "62 AD",
+        "31 BC",
+        "54 BC"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The &quot;Tibia&quot; is found in which part of the body?",
+      "correct_answer": "Leg",
+      "incorrect_answers": [
+        "Arm",
+        "Hand",
+        "Head"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Who became Prime Minister of the United Kingdom in July 2016?",
+      "correct_answer": "Theresa May",
+      "incorrect_answers": [
+        "Boris Johnson",
+        "David Cameron",
+        "Tony Blair"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What is the real name of &quot;moot&quot;, founder of the imageboard 4chan?",
+      "correct_answer": "Christopher Poole",
+      "incorrect_answers": [
+        "Mark Zuckerberg",
+        "Allison Harvard",
+        "Catie Wayne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What war is Call Of Duty: Black Ops based on?",
+      "correct_answer": "Cold War",
+      "incorrect_answers": [
+        "WW3",
+        "Vietnam",
+        "WW1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?",
+      "correct_answer": "Steed",
+      "incorrect_answers": [
+        "Mule",
+        "Benson",
+        "Pony"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "11",
+        "12",
+        "9"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the world strategy game &#039;Sid Meier&#039;s Civilization&#039;, a programming bug caused the AI depiction of Gandhi to do which of the following?",
+      "correct_answer": "Become aggressive and launch nuclear strikes",
+      "incorrect_answers": [
+        "Begin speaking in German ",
+        "Become friendly and trade his entire wealth",
+        "Launch attacks on his own cities and assets"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of the following European languages is classified as a &quot;language isolate?&quot;",
+      "correct_answer": "Basque",
+      "incorrect_answers": [
+        "Galician",
+        "Maltese",
+        "Hungarian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "&quot;Green Eggs And Ham&quot; is a book by which author?",
+      "correct_answer": "Dr. Seuss",
+      "incorrect_answers": [
+        "Beatrix Potter",
+        "Roald Dahl",
+        "A.A. Milne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "7-Eleven stores were temporarily converted into Kwik E-marts to promote the release of what movie?",
+      "correct_answer": "The Simpsons Movie",
+      "incorrect_answers": [
+        "Spider-Man 3",
+        "Shrek the Third",
+        "Ratatouille"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is the official name of Prince&#039;s backing band?",
+      "correct_answer": "The Revolution",
+      "incorrect_answers": [
+        "The Paupers",
+        "The Wailers",
+        "The Heartbreakers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who played Thanos in Avengers: Infinity War and Avengers: End Game?",
+      "correct_answer": "Josh Brolin",
+      "incorrect_answers": [
+        "Tom Hiddleston",
+        "Adam Sandler",
+        "Sean Gunn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What&#039;s the famous line Vaas says in &quot;Far Cry 3&quot;?",
+      "correct_answer": "Did I ever tell you the definition of Insanity?",
+      "incorrect_answers": [
+        "Have I failed to entertain you?",
+        "You&#039;re my b*tch!",
+        "Maybe your best course...would be to tread lightly."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Slay the Spire, which of the following is NOT a playable character?",
+      "correct_answer": "Stoneheart",
+      "incorrect_answers": [
+        "Silent",
+        "Defect",
+        "Ironclad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1979 British film &quot;Quadrophenia&quot; what is the name of the main protagonist?",
+      "correct_answer": "Jimmy Cooper",
+      "incorrect_answers": [
+        "Pete Townshend",
+        "Franc Roddam",
+        "Archie Bunker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "When was the board game Twister, released to the public?",
+      "correct_answer": "April 1966",
+      "incorrect_answers": [
+        "September 1965",
+        "January 1969",
+        "February 1966"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "The son of which pope supposedly held a lecherous f&ecirc;te involving 50 courtesans in the papal palace?",
+      "correct_answer": "Alexander VI",
+      "incorrect_answers": [
+        "Innocent V",
+        "Urban II",
+        "Pius III"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who sings the rap song &quot;Secret Wars Part 1&quot;?",
+      "correct_answer": "The Last Emperor",
+      "incorrect_answers": [
+        "MC Frontalot",
+        "Busdriver",
+        "Masta Killa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+      "correct_answer": "San Fransokyo",
+      "incorrect_answers": [
+        "San Tokyo",
+        "Tokysisco",
+        "Sankyo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What Touhou Project character&#039;s first ever appearance was as a midboss in the eighth game, Imperishable Night?",
+      "correct_answer": "Tewi Inaba",
+      "incorrect_answers": [
+        "Mystia Lorelei",
+        "Kaguya Houraisan",
+        "Rumia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT the name of an album released by American rapper Viper?",
+      "correct_answer": "The Life of Pablo",
+      "incorrect_answers": [
+        "Kill Urself My Man",
+        "You&#039;ll Cowards Don&#039;t Even Smoke Crack",
+        "Yo Wife Handcuffin&#039; Me"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer&#039;s Stone?",
+      "correct_answer": "Fluffy",
+      "incorrect_answers": [
+        "Spike",
+        "Poofy",
+        "Spot"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Cast Away&quot; the main protagonist&#039;s best friend while on the island is named",
+      "correct_answer": "Wilson",
+      "incorrect_answers": [
+        "Carson",
+        "Jackson",
+        "Willy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who played &quot;Charlie Price&quot; in the musical &quot;Kinky Boots&quot; on Broadway in New York from May 26th - Aug 6th 2017?",
+      "correct_answer": "Brendon Urie",
+      "incorrect_answers": [
+        "Ed Sheeren",
+        "Tom Cruise",
+        "Dallon Weekes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is Scooby-Doo&#039;s real name?",
+      "correct_answer": "Scoobert",
+      "incorrect_answers": [
+        "Scooter",
+        "Scrappy",
+        "Shooby"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which English guitarist has the nickname &quot;Slowhand&quot;?",
+      "correct_answer": "Eric Clapton",
+      "incorrect_answers": [
+        "Mark Knopfler",
+        "Jeff Beck",
+        "Jimmy Page"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is a type of monster found in Minecraft?",
+      "correct_answer": "Skeleton",
+      "incorrect_answers": [
+        "Werewolf",
+        "Vampire",
+        "Minotaur"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "When did Spongebob Squarepants first air?",
+      "correct_answer": "May 1, 1999",
+      "incorrect_answers": [
+        "July 20, 2000",
+        "February 6, 2003",
+        "June 27, 1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What Sims console game featured the Black Eyed Peas in the game?",
+      "correct_answer": "The Urbz: Sims In The City",
+      "incorrect_answers": [
+        "The Sims 2",
+        "The Sims",
+        "The Sims: Bustin Out"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Abel Magwitch is a character from which Charles Dickens novel?",
+      "correct_answer": "Great Expectations",
+      "incorrect_answers": [
+        "The Pickwick Papers",
+        "Nicholas Nickleby",
+        "Oliver Twist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which is the most popular spoken language in the Southern Hemisphere?",
+      "correct_answer": "Portuguese",
+      "incorrect_answers": [
+        "English ",
+        "Spanish",
+        "French"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which data structure does FILO apply to?",
+      "correct_answer": "Stack",
+      "incorrect_answers": [
+        "Queue",
+        "Heap",
+        "Tree"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+      "correct_answer": "Cabbage Patch Kids",
+      "incorrect_answers": [
+        "Transformers",
+        "Care Bears",
+        "Rubik&rsquo;s Cube"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which city is the capital of the United States of America?",
+      "correct_answer": "Washington D.C",
+      "incorrect_answers": [
+        "Seattle",
+        "Albany",
+        "Los Angeles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Counter Strike: Global Offensive, what is the code implanted onto the C4 as the Terrorists plant the bomb?",
+      "correct_answer": "7355608",
+      "incorrect_answers": [
+        "7890728",
+        "7256380",
+        "7726354"
+      ]
+    }
+  ]
+}

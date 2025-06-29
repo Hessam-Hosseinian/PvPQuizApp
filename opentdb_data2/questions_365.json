@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+      "correct_answer": "Nuts",
+      "incorrect_answers": [
+        "Nothing",
+        "Fruit",
+        "Seaweed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Ellie Goulding&#039;s earliest album was named?",
+      "correct_answer": "Lights",
+      "incorrect_answers": [
+        "Halcyon",
+        "Bright Lights",
+        "Halcyon Days"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the main character in &quot;The Flash&quot; TV series?",
+      "correct_answer": "Barry Allen",
+      "incorrect_answers": [
+        "Oliver Queen",
+        "Bart Allen",
+        "Bruce Wayne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT an album released by The Beatles?",
+      "correct_answer": "The Wall",
+      "incorrect_answers": [
+        "Abbey Road",
+        "Magical Mystery Tour",
+        "Revolver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Batman in the 1997 film &quot;Batman and Robin&quot;?",
+      "correct_answer": "George Clooney",
+      "incorrect_answers": [
+        "Michael Keaton",
+        "Val Kilmer",
+        "Christian Bale"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the capital of Mauritius?",
+      "correct_answer": "Port Louis",
+      "incorrect_answers": [
+        "Port Moresby",
+        "Port Vila",
+        "Port-au-Prince"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Which one of these paintings is not by Caspar David Friedrich?",
+      "correct_answer": "The Black Sea",
+      "incorrect_answers": [
+        "The Sea of Ice",
+        "Wanderer above the Sea of Fog",
+        "The Monk by the Sea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2002 video game &quot;Kingdom Hearts&quot;, how many Keyblades are usable?",
+      "correct_answer": "18",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What year did Dire Straits&#039;s Song &quot;Money for Nothing&quot; release?",
+      "correct_answer": "1985",
+      "incorrect_answers": [
+        "1973",
+        "1980",
+        "1991"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+      "correct_answer": "Great Pyramid of Giza",
+      "incorrect_answers": [
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria",
+        "Statue of Zeus at Olympia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "&quot;Hallelujah&quot; is a song written by which Canadian recording artist?",
+      "correct_answer": "Leonard Cohen",
+      "incorrect_answers": [
+        "Kory Lefkowits",
+        "Ryan Letourneau ",
+        "Justin Bieber "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+      "correct_answer": "Alan Shearer",
+      "incorrect_answers": [
+        "Wayne Rooney",
+        "Robbie Fowler",
+        "Thierry Henry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "correct_answer": "Demolition",
+      "incorrect_answers": [
+        "The Dream Team",
+        "The Bushwhackers",
+        "The British Bulldogs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "On the periodic table of elements, what is the symbol for Tin?",
+      "correct_answer": "Sn",
+      "incorrect_answers": [
+        "Ti",
+        "Ni",
+        "Na"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+      "correct_answer": "Shamshi-Adad III",
+      "incorrect_answers": [
+        "Shalmaneser V",
+        "Esharhaddon",
+        "Ashur-nasir-pal II"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "What colour is the female blackbird?",
+      "correct_answer": "Brown",
+      "incorrect_answers": [
+        "Black",
+        "White",
+        "Yellow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which video game earned music composer Mike Morasky the most awards for his work?",
+      "correct_answer": "Portal 2",
+      "incorrect_answers": [
+        "Left 4 Dead 2",
+        "Team Fortress 2",
+        "Counter-Strike: Global Offensive"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch&quot;, what is the name of Mercy&#039;s &quot;ultimate ability&quot;?",
+      "correct_answer": "Valkyrie",
+      "incorrect_answers": [
+        "Earthshatter",
+        "Rocket Barrage",
+        "Molten Core"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the name of New Zealand&#039;s indigenous people?",
+      "correct_answer": "Maori",
+      "incorrect_answers": [
+        "Vikings",
+        "Polynesians",
+        "Samoans"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Michael Crichton&#039;s novel &quot;Jurassic Park&quot;, John Hammond meets his demise at the claws of which dinosaur?",
+      "correct_answer": "Procompsognathus",
+      "incorrect_answers": [
+        "Dilophosaurus",
+        "Tyrannosaurus Rex",
+        "Velociraptor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
+      "correct_answer": "Dunning-Kruger effect",
+      "incorrect_answers": [
+        "Meyers-Briggs effect",
+        "M&uuml;ller-Lyer effect",
+        "Freud-Hall effect"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The band Muse released their first album, Showbiz, in what year?",
+      "correct_answer": "1999",
+      "incorrect_answers": [
+        "1998",
+        "2000",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which novelty band was best known for their UK chart hits &quot;Combine Harvester&quot; and &quot;I Am a Cider Drinker&quot; in 1976?",
+      "correct_answer": "The Wurzels",
+      "incorrect_answers": [
+        "Goldie Lookin Chain",
+        "Bonzo Dog Doo-Dah Band",
+        "The Firm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which famous singer was portrayed by actor Kevin Spacey in the 2004 biographical film &quot;Beyond the Sea&quot;?",
+      "correct_answer": "Bobby Darin",
+      "incorrect_answers": [
+        "Louis Armstrong",
+        "Frank Sinatra",
+        "Dean Martin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+      "correct_answer": "German",
+      "incorrect_answers": [
+        "American",
+        "British",
+        "Polish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The city of Rockport is featured in which of the following video games?",
+      "correct_answer": "Need for Speed: Most Wanted (2005)",
+      "incorrect_answers": [
+        "Infamous 2",
+        "Saints Row: The Third",
+        "Burnout Revenge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the famous Papa John&#039;s last name?",
+      "correct_answer": "Schnatter",
+      "incorrect_answers": [
+        "Chowder",
+        "Williams",
+        "ANDERSON"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Star Wars: Republic Commando (2005), what is the name of the squad that you play as?",
+      "correct_answer": "Delta Squad",
+      "incorrect_answers": [
+        "Omega Squad",
+        "Echo Squad",
+        "Alpha Squad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "&quot;Lift Your Spirit&quot; is an album by which artist?",
+      "correct_answer": "Aloe Blacc",
+      "incorrect_answers": [
+        "Lena Meyer-Landrut",
+        "Stevie Wonder",
+        "Taylor Swift"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Stardew Valley, what is the reward for completing all of the Bulletin Board bundles?",
+      "correct_answer": "Additional Friendship points",
+      "incorrect_answers": [
+        "Glittering Boulder removed",
+        "Bus is repaired",
+        "Greenhouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "How many degrees Fahrenheit is 100 degrees Celsius? ",
+      "correct_answer": "212",
+      "incorrect_answers": [
+        "326",
+        "100",
+        "451"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Into which basin does the Jordan River flow into?",
+      "correct_answer": "Dead Sea",
+      "incorrect_answers": [
+        "Aral Sea",
+        "Caspian Sea",
+        "Salton Sea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which was the first &quot;Call Of Duty: Zombies&quot; map to introduce the &quot;Wunderwaffe DG-2&quot;?",
+      "correct_answer": "Shi No Numa",
+      "incorrect_answers": [
+        "Tranzit",
+        "Kino Der Toten",
+        "Der Riese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What&#039;s the famous line Vaas says in &quot;Far Cry 3&quot;?",
+      "correct_answer": "Did I ever tell you the definition of Insanity?",
+      "incorrect_answers": [
+        "Have I failed to entertain you?",
+        "You&#039;re my b*tch!",
+        "Maybe your best course...would be to tread lightly."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+      "correct_answer": "The Dresden Files",
+      "incorrect_answers": [
+        "A Hat in Time",
+        "The Cinder Spires",
+        "My Life as a Teenage Wizard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In Black Hammer, what dimension does Colonel Weird travel through?",
+      "correct_answer": "Para-Zone",
+      "incorrect_answers": [
+        "Hyperspace",
+        "Mirror Universe",
+        "Phantom Zone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Toriko&quot;, which of the following Heavenly Kings has an enhanced sense of Hearing?",
+      "correct_answer": "Zebra",
+      "incorrect_answers": [
+        "Coco",
+        "Sunny",
+        "Toriko"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In Youtuber Jerma985&#039;s 2014 film &quot;Rat Movie: Mystery of the Mayan Treasure,&quot; who is the man who tries to steal the Mayan Treasure?",
+      "correct_answer": "Dick Dastardly Richards",
+      "incorrect_answers": [
+        "Gabe &quot;The Glue Man&quot; Degrossi",
+        "Bootleg Duck Dynasty Byeah Batman",
+        "Demon Lord Zeraxos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "When did the Byzantine Empire collapse?",
+      "correct_answer": "1453",
+      "incorrect_answers": [
+        "1299",
+        "1353",
+        "1498"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Hera is god of...",
+      "correct_answer": "Marriage",
+      "incorrect_answers": [
+        "Agriculture",
+        "Sea",
+        "War"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what class is known for having the highest possible defense?",
+      "correct_answer": "The Knight",
+      "incorrect_answers": [
+        "The Wizard",
+        "The Archer",
+        "The Warrior"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which English football club has the nickname &#039;The Foxes&#039;?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Northampton Town",
+        "Bradford City",
+        "West Bromwich Albion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which country&#039;s version of Half-Life are the HECU Marines replaced with robots?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Japan",
+        "China",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Ikki Kurogane is known by what nickname at the beginning of &quot;Chivalry of a Failed Knight&quot;?",
+      "correct_answer": "Worst One",
+      "incorrect_answers": [
+        "Another One",
+        "Blazer",
+        "Princess"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who wrote the Sinead O`Connor hit &#039;Nothing Compares 2 U&#039;?",
+      "correct_answer": "Prince",
+      "incorrect_answers": [
+        "Michael Jackson",
+        "Cameo",
+        "Rick James"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "In 2013 how much money was lost by Nigerian scams?",
+      "correct_answer": "$12.7 Billion",
+      "incorrect_answers": [
+        "$95 Million",
+        "$956 Million",
+        "$2.7 Billion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "Carcassonne is based on which French town?",
+      "correct_answer": "Carcassonne",
+      "incorrect_answers": [
+        "Paris",
+        "Marseille",
+        "Clermont-Ferrand"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Hunter x Hunter&quot;, what are members in Killua&#039;s family known for being?",
+      "correct_answer": "Assassins",
+      "incorrect_answers": [
+        "Bandits",
+        "Hunters",
+        "Ninjas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which country has the most Trappist breweries?",
+      "correct_answer": "Belgium",
+      "incorrect_answers": [
+        "Netherlands",
+        "France",
+        "USA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Hel was the daughter of which Norse Mythological figure?",
+      "correct_answer": "Loki",
+      "incorrect_answers": [
+        "Thor",
+        "Odin",
+        "Balder"
+      ]
+    }
+  ]
+}

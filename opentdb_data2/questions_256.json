@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+      "correct_answer": "Enkidu",
+      "incorrect_answers": [
+        "Enki",
+        "Enlil",
+        "Enkimdu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What year did the James Cameron film &quot;Titanic&quot; come out in theaters?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1996",
+        "1998",
+        "1999"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first President of the People&#039;s Republic of China?",
+      "correct_answer": "Mao Zedong",
+      "incorrect_answers": [
+        "Liu Shaoqi",
+        "Dong Biwu",
+        "Li Xiannian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the romanized Japanese word for &quot;university&quot;?",
+      "correct_answer": "Daigaku",
+      "incorrect_answers": [
+        "Toshokan",
+        "Jimusho",
+        "Shokudou"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+      "correct_answer": "Justinian I",
+      "incorrect_answers": [
+        "Constantine IV",
+        "Arcadius",
+        "Theodosius the Great"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which of these Bojack Horseman characters is a human?",
+      "correct_answer": "Todd Chavez",
+      "incorrect_answers": [
+        "Lennie Turtletaub",
+        "Princess Carolyn",
+        "Tom Jumbo-Grumbo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which wrestler won the 2019 Men&rsquo;s Royal Rumble?",
+      "correct_answer": "Seth Rollins",
+      "incorrect_answers": [
+        "Braun Strowman",
+        "AJ Styles",
+        "Andrade"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following mathematicians made major contributions to game theory?",
+      "correct_answer": "John Von Neumann",
+      "incorrect_answers": [
+        "Carl Friedrich Gauss",
+        "Leonhard Euler",
+        "Stefan Banach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "In a standard set of playing cards, which is the only king without a moustache?",
+      "correct_answer": "Hearts",
+      "incorrect_answers": [
+        "Spades",
+        "Diamonds",
+        "Clubs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which country is completely landlocked by South Africa?",
+      "correct_answer": "Lesotho",
+      "incorrect_answers": [
+        "Swaziland",
+        "Botswana",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "A criminal who has &ldquo;cooked the books&rdquo; has engaged in what kind of illegal behavior?",
+      "correct_answer": "Accounting Fraud",
+      "incorrect_answers": [
+        "Money Laundering",
+        "Extortion",
+        "Blackmail"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "correct_answer": "Demolition",
+      "incorrect_answers": [
+        "The Dream Team",
+        "The Bushwhackers",
+        "The British Bulldogs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+      "correct_answer": "Peter Cushing",
+      "incorrect_answers": [
+        "Boris Karloff",
+        "Vincent Price",
+        "Lon Chaney Jr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Where is the fast food chain &quot;Panda Express&quot; headquartered?",
+      "correct_answer": "Rosemead, California",
+      "incorrect_answers": [
+        "Sacramento, California",
+        "Fresno, California",
+        "San Diego, California"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Batman in the 1997 film &quot;Batman and Robin&quot;?",
+      "correct_answer": "George Clooney",
+      "incorrect_answers": [
+        "Michael Keaton",
+        "Val Kilmer",
+        "Christian Bale"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "The Second Boer War in 1899 was fought where?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": [
+        "Argentina",
+        "Nepal",
+        "Bulgaria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following games has the most playable characters?",
+      "correct_answer": "Timesplitters: Future Perfect",
+      "incorrect_answers": [
+        "Mortal Kombat: Armageddon",
+        "Marvel Vs. Capcom 2",
+        "Dragon Ball Z: Budokai Tenkaichi 3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT the name of a rival gang in the video game Saint&#039;s Row 2?",
+      "correct_answer": "The Zin Empire",
+      "incorrect_answers": [
+        "The Brotherhood",
+        "The Ronin",
+        "The Sons of Samedi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2002 video game &quot;Kingdom Hearts&quot;, how many playable worlds were there?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "11"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+      "correct_answer": "Taiwan",
+      "incorrect_answers": [
+        "United States",
+        "Germany",
+        "China (People&#039;s Republic of)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In what year did &quot;The Big Bang Theory&quot; debut on CBS?",
+      "correct_answer": "2007",
+      "incorrect_answers": [
+        "2008",
+        "2006",
+        "2009"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the game &quot;Eliminator&quot; released?",
+      "correct_answer": "1998",
+      "incorrect_answers": [
+        "2000",
+        "1999",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Splatoon 2&#039;s Hero Mode, which agent does the player take the role of?",
+      "correct_answer": "Agent 4",
+      "incorrect_answers": [
+        "Agent 1",
+        "Agent 2",
+        "Agent 3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft lore, who was first to have the title &quot;The Ashbringer&quot;?",
+      "correct_answer": "Alexandros Mograine",
+      "incorrect_answers": [
+        "Tirion Fordring",
+        "Arthas Menethil",
+        "Uther the Lightbringer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the largest planet in Kerbal Space Program?",
+      "correct_answer": "Jool",
+      "incorrect_answers": [
+        "Eeloo",
+        "Kerbol",
+        "Minmus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What does VR stand for?",
+      "correct_answer": "Virtual Reality",
+      "incorrect_answers": [
+        "Very Real",
+        "Visual Recognition",
+        "Voice Recognition"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "For the film &quot;Raiders of The Lost Ark&quot;, what was Harrison Ford sick with during the filming of the Cairo chase?",
+      "correct_answer": "Dysentery",
+      "incorrect_answers": [
+        "Anemia",
+        "Constipation",
+        "Acid Reflux "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "On a standard Monopoly board, how much do you have to pay for Tennessee Ave?",
+      "correct_answer": "$180",
+      "incorrect_answers": [
+        "$200",
+        "$160",
+        "$220"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT considered a woodwind instrument?",
+      "correct_answer": "Trombone",
+      "incorrect_answers": [
+        "Oboe",
+        "Clarinet",
+        "Bassoon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+      "correct_answer": "center",
+      "incorrect_answers": [
+        "static",
+        "absolute",
+        "relative"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Area 51 is located in which US state?",
+      "correct_answer": "Nevada",
+      "incorrect_answers": [
+        "Arizona",
+        "New Mexico",
+        "Utah"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "In physics, conservation of energy and conservation of momentum are both consequences of which of the following?",
+      "correct_answer": "Noether&#039;s Theorem",
+      "incorrect_answers": [
+        "Bell&#039;s Theorem",
+        "Wick&#039;s Theorem",
+        "Carnot&#039;s Theorem"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who is frozen at the end of the movie &quot;Goldeneye&quot;?",
+      "correct_answer": "Boris Grishenko",
+      "incorrect_answers": [
+        "James Bond",
+        "Natalya Simonova",
+        "Alec Travelyan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime &quot;My Hero Academia&quot;, which character is shown with the ability to manipulate gravity?",
+      "correct_answer": "Uraraka",
+      "incorrect_answers": [
+        "Bakugo",
+        "Deku",
+        "Asui "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the fastest animal?",
+      "correct_answer": "Peregrine Falcon",
+      "incorrect_answers": [
+        "Golden Eagle",
+        "Cheetah",
+        "Horsefly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+      "correct_answer": "Bing Crosby",
+      "incorrect_answers": [
+        "Elvis Presley",
+        "Charlie Chaplin",
+        "Groucho Marx"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what does the game traditionally reward you for completing a boss round?",
+      "correct_answer": "Max Ammo",
+      "incorrect_answers": [
+        "A Pack-A-Punched gun",
+        "Death Machine",
+        "Monkey Bombs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What year was O.J. Simpson aquitted of his murder charges?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1992",
+        "1996",
+        "1991"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "When did the last episode of &quot;Futurama&quot; air before returning in 2023?",
+      "correct_answer": "September 4, 2013",
+      "incorrect_answers": [
+        "December 25, 2010",
+        "March 28, 1999",
+        "November 4, 2021"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In &quot;Jurassic World&quot;, what is the name of the dinosaur that is a genetic hybrid?",
+      "correct_answer": "Indominus Rex",
+      "incorrect_answers": [
+        "Mosasaurus",
+        "Pteranodon",
+        "Tyrannosaurus Rex "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who plays Alice in the Resident Evil movies?",
+      "correct_answer": "Milla Jovovich",
+      "incorrect_answers": [
+        "Madison Derpe",
+        "Milla Johnson",
+        "Kim Demp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the code name for the &quot;Nintendo Gamecube&quot;?",
+      "correct_answer": "Dolphin",
+      "incorrect_answers": [
+        "Nitro",
+        "Revolution",
+        "Atlantis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Nintendo Game Splatoon 2, what is Marina&#039;s screen name?",
+      "correct_answer": "DJ_Hyperfresh",
+      "incorrect_answers": [
+        "MC.princess",
+        "Kidnotsquid123",
+        "I&lt;30ffTh3H00k"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main protagonist in Danganronpa 2: Goodbye Despair?",
+      "correct_answer": "Hajime Hinata",
+      "incorrect_answers": [
+        "Nagito Komaeda",
+        "Makoto Naegi",
+        "Junko Enoshima"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On which continent/s is the entire country of Spain specifically located when taking into account all of its territory?",
+      "correct_answer": "Europe and Africa",
+      "incorrect_answers": [
+        "Europe, Africa and Asia",
+        "Europe",
+        "Europe and Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which one of the following rhythm games was made by Harmonix?",
+      "correct_answer": "Rock Band",
+      "incorrect_answers": [
+        "Meat Beat Mania",
+        "Guitar Hero Live",
+        "Dance Dance Revolution"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The co-creator of Gorillaz, Damon Albarn, is also the lead singer of what band?",
+      "correct_answer": "Blur",
+      "incorrect_answers": [
+        "Oasis",
+        "Radiohead",
+        "Queens of the Stone Age"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Seychelles?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Luanda",
+        "N&#039;Djamena",
+        "Tripoli"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What was Nickelodeon&#039;s original name?",
+      "correct_answer": "Pinwheel",
+      "incorrect_answers": [
+        "MTVKids",
+        "KidsTV",
+        "Splat!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;One Piece&quot;, what does &quot;the Pirate King&quot; mean to the captain of the Straw Hat Pirates?",
+      "correct_answer": "Freedom",
+      "incorrect_answers": [
+        "Promise",
+        "Adventure",
+        "Friendship"
+      ]
+    }
+  ]
+}

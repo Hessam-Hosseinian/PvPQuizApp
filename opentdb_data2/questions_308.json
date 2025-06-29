@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What was the first Android version specifically optimized for tablets?",
+      "correct_answer": "Honeycomb",
+      "incorrect_answers": [
+        "Eclair",
+        "Froyo",
+        "Marshmellow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;One Piece&quot;, which one of the following is NOT an Ancient Weapon?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Uranus",
+        "Poseidon",
+        "Pluton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+      "correct_answer": "107 BCE",
+      "incorrect_answers": [
+        "42 BCE",
+        "264 BCE",
+        "102 CE"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Overwatch,&quot; what are the names of the two Australian criminals from the Junkers faction?",
+      "correct_answer": "Junkrat and Roadhog",
+      "incorrect_answers": [
+        "Roadrat and Junkhog",
+        "Ana and Pharah",
+        "McCree and Deadeye"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which anime did Seiji Kishi NOT direct?",
+      "correct_answer": "Another",
+      "incorrect_answers": [
+        "Humanity Has Declined",
+        "Assassination Classroom",
+        "Danganronpa: The Animation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What was the name of the police officer in the cartoon &quot;Top Cat&quot;?",
+      "correct_answer": "Dibble",
+      "incorrect_answers": [
+        "Barbrady",
+        "Mahoney",
+        "Murphy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "Unlike on most salamanders, this part of a newt is flat?",
+      "correct_answer": "Tail",
+      "incorrect_answers": [
+        "Head",
+        "Teeth",
+        "Feet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "The 1996 film &#039;Fargo&#039; is primarily set in which US state?",
+      "correct_answer": "Minnesota",
+      "incorrect_answers": [
+        "North Dakota",
+        "South Dakota",
+        "Wisconsin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The medial meniscus forms which part of what joint in the human body?",
+      "correct_answer": "Knee",
+      "incorrect_answers": [
+        "Elbow",
+        "Ankle",
+        "Shoulder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of the US state Nevada?",
+      "correct_answer": "Carson City",
+      "incorrect_answers": [
+        "Las Vegas",
+        "Henderson",
+        "Reno"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In Game of Thrones, what continent lies across the Narrow Sea from Westeros?",
+      "correct_answer": "Essos",
+      "incorrect_answers": [
+        "Easteros",
+        "Westereast",
+        "Esuntos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?",
+      "correct_answer": "Captain Jack",
+      "incorrect_answers": [
+        "Captain Jake",
+        "Captain Hector",
+        "Captain Flynn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
+      "correct_answer": "Husker",
+      "incorrect_answers": [
+        "Starbuck",
+        "Apollo",
+        "Crashdown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many countries does Spain have a land border with?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+      "correct_answer": "Californian",
+      "incorrect_answers": [
+        "Carpathia",
+        "Cristol",
+        "Commerce"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of the following Japanese islands is the biggest?",
+      "correct_answer": "Honshu",
+      "incorrect_answers": [
+        "Hokkaido",
+        "Shikoku",
+        "Kyushu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what term for blocking was established in the Portal set?",
+      "correct_answer": "Intercepting",
+      "incorrect_answers": [
+        "Blocking",
+        "Resisting",
+        "Shielding"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "How many scoring zones are there on a conventional dart board?",
+      "correct_answer": "82",
+      "incorrect_answers": [
+        "62",
+        "42",
+        "102"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "When was the Garfield comic first published?",
+      "correct_answer": "1978",
+      "incorrect_answers": [
+        "1982",
+        "1973",
+        "1988"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which canal connects the Mediterranean Sea with the Red Sea?",
+      "correct_answer": "Suez Canal",
+      "incorrect_answers": [
+        "Panama Canal",
+        "Sinai Canal",
+        "Qaraqum Canal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "One of the deadliest pandemics, the &quot;Spanish Flu&quot;, killed off what percentage of the human world population at the time?",
+      "correct_answer": "3 to 6 percent",
+      "incorrect_answers": [
+        "6 to 10 percent",
+        "1 to 3 percent",
+        "less than 1 percent"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these countries is located the FURTHEST away from the South China Sea?",
+      "correct_answer": "Bangladesh",
+      "incorrect_answers": [
+        "Malaysia",
+        "Vietnam",
+        "Philippines"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these Japanese islands is the largest by area?",
+      "correct_answer": "Shikoku",
+      "incorrect_answers": [
+        "Iki",
+        "Odaiba",
+        "Okinawa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which is the largest of these 4 islands?",
+      "correct_answer": "Borneo",
+      "incorrect_answers": [
+        "Great Britain",
+        "Cuba",
+        "Madagascar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the corgi in Cowboy Bebop?",
+      "correct_answer": "Einstein",
+      "incorrect_answers": [
+        "Edward",
+        "Rocket",
+        "Joel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the scientific name of the knee cap?",
+      "correct_answer": "Patella",
+      "incorrect_answers": [
+        "Femur",
+        "Foramen Magnum",
+        "Scapula"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the largest country in the world ?",
+      "correct_answer": "Russian Federation",
+      "incorrect_answers": [
+        "China",
+        "Canada",
+        "Brazil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the series JoJo&#039;s Bizarre Adventure, which main character makes the greatest number of recurring appearances?",
+      "correct_answer": "Jotaro Kujo",
+      "incorrect_answers": [
+        "Giorno Giovanna",
+        "Joseph Joestar",
+        "Josuke Higashikata"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch&quot;, what is the name of Mercy&#039;s &quot;ultimate ability&quot;?",
+      "correct_answer": "Valkyrie",
+      "incorrect_answers": [
+        "Earthshatter",
+        "Rocket Barrage",
+        "Molten Core"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Sonic Forces, which of the following was not from a previous game?",
+      "correct_answer": "Infinite",
+      "incorrect_answers": [
+        "Metal Sonic",
+        "Zavoc",
+        "Chaos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What does the United States of America celebrate during the 4th of July?",
+      "correct_answer": "The signing of the Declaration of Independence",
+      "incorrect_answers": [
+        "The anniversary of the Battle of Gettysburg",
+        "The crossing of the Delaware River",
+        "The ratification of the Constitution"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the creator of the free, open-source rhythm game &#039;osu!&#039;?",
+      "correct_answer": "Dean &#039;Peppy&#039; Herbert",
+      "incorrect_answers": [
+        "Daisuke &#039;Pixel&#039; Amaya",
+        "Eric &#039;ConcernedApe&#039; Barone",
+        "Toby &#039;FwugRadiation&#039; Fox"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "At which university do &quot;The Big Bang Theory&quot; characters Mr. Wolowitz and Drs. Cooper, Hofstadter and Koothrappali work?",
+      "correct_answer": "Caltech",
+      "incorrect_answers": [
+        "UCLA",
+        "MIT",
+        "UC Berkeley "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What is the name of the album released in 2014 by American band Maroon 5?",
+      "correct_answer": "V",
+      "incorrect_answers": [
+        "X",
+        "III",
+        "IV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Josh Mansour is part of what NRL team?",
+      "correct_answer": "Penrith Panthers",
+      "incorrect_answers": [
+        "Melbourne Storm",
+        "Sydney Roosters",
+        "North Queensland Cowboys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the official language of Bhutan?",
+      "correct_answer": "Dzongkha",
+      "incorrect_answers": [
+        "Ladakhi",
+        "Karen",
+        "Groma"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "The musical &quot;Dirty Rotten Scoundrels&quot; is set in what country?",
+      "correct_answer": "France",
+      "incorrect_answers": [
+        "USA",
+        "Germany",
+        "Sweden"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The character Wario was first introduced in which game of the Mario video game franchise?",
+      "correct_answer": "Super Mario Land 2: 6 Golden Coins (1992)",
+      "incorrect_answers": [
+        "Super Mario Bros. 3 (1988)",
+        "Wario Land: Super Mario Land 3 (1994)",
+        "Mario Party (1998)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Chartreuse is a color between yellow and what?",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Red",
+        "Black",
+        "Purple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;Re:Zero&quot; manga series, which of the following Sin Archbishops eats Rem&#039;s existence?",
+      "correct_answer": "Ley Batenkaitos",
+      "incorrect_answers": [
+        "Roy Alphard",
+        "Petelgeuse Romanee-Conti",
+        "Louis Arneb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What organelle aids in synthesis of DNA in cells?",
+      "correct_answer": "Ribosomes",
+      "incorrect_answers": [
+        "Nuclei",
+        "Lysosomes",
+        "Mitochondria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+      "correct_answer": "low, all",
+      "incorrect_answers": [
+        "low, some",
+        "high, all",
+        "high, some"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS3 engine is how many cubic inches?",
+      "correct_answer": "376",
+      "incorrect_answers": [
+        "346",
+        "364",
+        "427"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which of the following was not one of Joseph Stalin&#039;s ten blows during World War II?",
+      "correct_answer": "Vistula-Oder Offensive",
+      "incorrect_answers": [
+        "Crimean Offensive",
+        "Leningrad-Novgorod Offensive",
+        "Operation Bagration"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+      "correct_answer": "Nuts",
+      "incorrect_answers": [
+        "Nothing",
+        "Fruit",
+        "Seaweed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the approximate value of mathematical constant e?",
+      "correct_answer": "2.72",
+      "incorrect_answers": [
+        "3.14",
+        "1.62",
+        "1.41"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Mirror&#039;s Edge Catalyst takes place in the City of...?",
+      "correct_answer": "Glass",
+      "incorrect_answers": [
+        "Mirrors",
+        "Purity",
+        "Diamonds"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "During the Spanish Civil War (1936), Francisco Franco fought for which political faction?",
+      "correct_answer": "Nationalist Spain",
+      "incorrect_answers": [
+        "Republican Spain",
+        "Popular Front",
+        "Papal State"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "When was the website reddit founded ?",
+      "correct_answer": "2005",
+      "incorrect_answers": [
+        "2008",
+        "2004",
+        "2006"
+      ]
+    }
+  ]
+}

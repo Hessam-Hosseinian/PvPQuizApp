@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which of these programming languages is a low-level language?",
+      "correct_answer": "Assembly",
+      "incorrect_answers": [
+        "Python",
+        "C#",
+        "Pascal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "How many years did the Hundred Years&#039; War last?",
+      "correct_answer": "116",
+      "incorrect_answers": [
+        "100",
+        "90",
+        "101"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Integration is the reverse of what mathematical operation?",
+      "correct_answer": "Derivation",
+      "incorrect_answers": [
+        "Division",
+        "Standard Deviation",
+        "Multiplication"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which team won the &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; Invitational Event February 2017 in the PC Category?",
+      "correct_answer": "Continuum",
+      "incorrect_answers": [
+        "GIFU",
+        "Santos Dexterity",
+        "eRa Eternity"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the game &quot;Galaga&quot; was a sequel to?",
+      "correct_answer": "Galaxian",
+      "incorrect_answers": [
+        "Galactica",
+        "Space Invaders",
+        "Galactic Wars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+      "correct_answer": "The Prince and the Pauper",
+      "incorrect_answers": [
+        "Hamlet",
+        "Wealthy Boy and the Schmuck",
+        "A Modern Twain Story"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In the hexadecimal system, what number comes after 9?",
+      "correct_answer": "The Letter A",
+      "incorrect_answers": [
+        "10",
+        "The Number 0",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the same in Celsius and Fahrenheit?",
+      "correct_answer": "-40",
+      "incorrect_answers": [
+        "32",
+        "-39",
+        "-42"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which punk rock band released hit songs such as &quot;Californication&quot;, &quot;Can&#039;t Stop&quot; and &quot;Under the Bridge&quot;?",
+      "correct_answer": "Red Hot Chilli Peppers",
+      "incorrect_answers": [
+        "Green Day",
+        "Linkin Park",
+        "Foo Fighters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+      "correct_answer": "Origami",
+      "incorrect_answers": [
+        "Sumi-e",
+        "Ukiyo-e",
+        "Haiku"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of the first four titles of the &quot;Grand Theft Auto&quot; franchise started the series of iconic image grid cover arts?",
+      "correct_answer": "Grand Theft Auto III",
+      "incorrect_answers": [
+        "Grand Theft Auto",
+        "Grand Theft Auto II",
+        "Grand Theft Auto Vice City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which US state is nicknamed &quot;The Golden State&quot;?",
+      "correct_answer": "California",
+      "incorrect_answers": [
+        "Florida",
+        "New Mexico",
+        "Alaska"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many controllers could a Nintendo GameCube have plugged in at one time?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "8",
+        "6",
+        "2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When was the United States National Security Agency established?",
+      "correct_answer": "November 4, 1952",
+      "incorrect_answers": [
+        "July 26, 1908",
+        " July 1, 1973",
+        " November 25, 2002"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?",
+      "correct_answer": "7 Meters",
+      "incorrect_answers": [
+        "10 Meters",
+        "2 Meters",
+        "5 Meters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following games was not a launch title for the Nintendo Gamecube?",
+      "correct_answer": "Super Mario Sunshine",
+      "incorrect_answers": [
+        "Luigi&rsquo;s Mansion",
+        "Star Wars Rogue Squadron II",
+        "Disney&rsquo;s Tarzan Untamed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Where does the original Friday The 13th movie take place?",
+      "correct_answer": "Camp Crystal Lake",
+      "incorrect_answers": [
+        "Packanack",
+        "Higgins Haven",
+        "Camp Forest Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What video game engine does the videogame Quake 2 run in?",
+      "correct_answer": "iD Tech 2",
+      "incorrect_answers": [
+        "iD Tech 3",
+        "iD Tech 1",
+        "Unreal Engine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2002 video game &quot;Kingdom Hearts&quot;, how many Keyblades are usable?",
+      "correct_answer": "18",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Hunter x Hunter&quot;, what are members in Killua&#039;s family known for being?",
+      "correct_answer": "Assassins",
+      "incorrect_answers": [
+        "Bandits",
+        "Hunters",
+        "Ninjas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+      "correct_answer": "C#",
+      "incorrect_answers": [
+        "Java",
+        "C++",
+        "Objective-C"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Politics",
+      "question": "How many people are in the U.S. House of Representatives?",
+      "correct_answer": "435",
+      "incorrect_answers": [
+        "260",
+        "415",
+        "50"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of India?",
+      "correct_answer": "New Delhi",
+      "incorrect_answers": [
+        "Beijing",
+        "Montreal",
+        "Tithi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Where is Apple Inc. headquartered?",
+      "correct_answer": "Cupertino, California",
+      "incorrect_answers": [
+        "Redwood City, California",
+        "Redmond, Washington",
+        "Santa Monica, CA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the Dreamworks animated movie &quot;Madagascar,&quot; who voices Maurice the lemur?",
+      "correct_answer": "Cedric the Entertainer",
+      "incorrect_answers": [
+        "Jack Black",
+        "Sacha Baron Cohen",
+        "Chris Rock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which portion of the Marijuana plant produces the psychoactive substance known as THC?",
+      "correct_answer": "Female Flower",
+      "incorrect_answers": [
+        "Leaves",
+        "Male Flower",
+        "Root Ball"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who is the musical director for the award winning musical &quot;Hamilton&quot;?",
+      "correct_answer": "Alex Lacamoire",
+      "incorrect_answers": [
+        "Lin-Manuel Miranda",
+        "Renee Elise-Goldberry",
+        "Leslie Odom Jr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the smallest country in South America by area?",
+      "correct_answer": "Suriname",
+      "incorrect_answers": [
+        "Brazil",
+        "Uruguay",
+        "Chile"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?",
+      "correct_answer": "Amanda Barrie",
+      "incorrect_answers": [
+        "Sue Nicholls",
+        "Violet Carson",
+        "Jean Alexander"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?",
+      "correct_answer": "David Duchovny",
+      "incorrect_answers": [
+        "Gillian Anderson",
+        "Robert Patrick",
+        "Mitch Pileggi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Fallout: New Vegas, which one of these casinos can you not play in?",
+      "correct_answer": "Lucky 38",
+      "incorrect_answers": [
+        "The Tops",
+        "Gammorah",
+        "Ultra-Luxe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?",
+      "correct_answer": "Bayonetta",
+      "incorrect_answers": [
+        "Cloud",
+        "Ryu",
+        "Megaman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Before 2016, in which other year did Donald Trump run for President?",
+      "correct_answer": "2000",
+      "incorrect_answers": [
+        "2012",
+        "1988",
+        "2008"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "This Marvel superhero is often called &quot;The man without fear&quot;.",
+      "correct_answer": "Daredevil",
+      "incorrect_answers": [
+        "Thor",
+        "Wolverine",
+        "Hulk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which chemical element has the lowest boiling point?",
+      "correct_answer": "Helium",
+      "incorrect_answers": [
+        "Hydrogen",
+        "Neon",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Strangereal&quot; is a fictitious Earth-like world for which game series?",
+      "correct_answer": "Ace Combat",
+      "incorrect_answers": [
+        "Jet Set Radio",
+        "Deus Ex",
+        "Crimson Skies"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Who co-founded the YouTube Let&#039;s Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?",
+      "correct_answer": "JonTron",
+      "incorrect_answers": [
+        "Pewdiepie",
+        "Tobuscus",
+        "Markiplier"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many Chaos Emeralds can you collect in the first Sonic The Hedgehog?",
+      "correct_answer": "Six",
+      "incorrect_answers": [
+        "Seven",
+        "Five",
+        "Eight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of the British pop rock band Coldplay?",
+      "correct_answer": "Chris Martin",
+      "incorrect_answers": [
+        "Jonny Buckland",
+        "Guy Berryman",
+        "Will Champion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?",
+      "correct_answer": "Zhao Yun",
+      "incorrect_answers": [
+        "Liu Bei",
+        "Guan Yu",
+        "Zhang Fei"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "This movie contains the quote, &quot;I love the smell of napalm in the morning!&quot;",
+      "correct_answer": "Apocalypse Now",
+      "incorrect_answers": [
+        "Platoon",
+        "The Deer Hunter",
+        "Full Metal Jacket"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which constellation contains the center of the Milky Way?",
+      "correct_answer": "Sagittarius",
+      "incorrect_answers": [
+        "Scorpius",
+        "Ophiuchus",
+        "Capricornus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the game &quot;Eliminator&quot; released?",
+      "correct_answer": "1998",
+      "incorrect_answers": [
+        "2000",
+        "1999",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "The collapse of the Soviet Union took place in which year?",
+      "correct_answer": "1991",
+      "incorrect_answers": [
+        "1992",
+        "1891",
+        "1990"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What was Sir Donald Bradman&#039;s batting average in test matches?",
+      "correct_answer": "99.94",
+      "incorrect_answers": [
+        "100",
+        "69.51",
+        "44.78"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What micro-state is considered to have the oldest constitution still in effect?",
+      "correct_answer": "San Marino",
+      "incorrect_answers": [
+        "Andorra",
+        "Monaco",
+        "Saint Kitts and Nevis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Gravity Falls&quot;, what does Quentin Trembley do when he is driven out from the White House?",
+      "correct_answer": "Eat a salamander and jump out the window.",
+      "incorrect_answers": [
+        "Leave in peace.",
+        "Jump out the window.",
+        "Release 1,000 captive salamanders into the white house."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following was a map that was in Team Fortress 2 at launch?",
+      "correct_answer": "Gravel Pit",
+      "incorrect_answers": [
+        "Hoodoo",
+        "Gold Rush",
+        "Upward"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?",
+      "correct_answer": "Torquay",
+      "incorrect_answers": [
+        "Blackpool",
+        "Bournemouth",
+        "Great Yarmouth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In 2004, which person(s) created &quot;Roblox&quot;?",
+      "correct_answer": "David Baszucki and Erik Cassel",
+      "incorrect_answers": [
+        "Erik Cassel",
+        "Jonas Alto and Sarah Smith",
+        "James Kolein"
+      ]
+    }
+  ]
+}

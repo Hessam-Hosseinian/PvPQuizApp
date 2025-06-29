@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which James Bond film had the theme song written and performed by English singer-songwriter Adele?",
+      "correct_answer": "Skyfall",
+      "incorrect_answers": [
+        "Casino Royale",
+        "Quantum Solace",
+        "Spectre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;DELTARUNE&quot;, what is Ralsei&#039;s special ability?",
+      "correct_answer": "Pacify",
+      "incorrect_answers": [
+        "Persuade",
+        "Eliminate",
+        "Hug"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which logical fallacy means to attack the character of your opponent rather than their arguments?",
+      "correct_answer": "Ad hominem",
+      "incorrect_answers": [
+        "Post hoc ergo propter hoc",
+        "Tu quoque",
+        "Argumentum ad populum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is NOT a word used to describe an earthquake?",
+      "correct_answer": "Drop-slide",
+      "incorrect_answers": [
+        "Foreshock",
+        "Strike-slip",
+        "Temblor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year is considered to be the year that the British Empire ended?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1986",
+        "1981",
+        "1971"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which of these is the name of a Japanese system of alternative medicine, literally meaning &quot;finger pressure&quot;?",
+      "correct_answer": "Shiatsu",
+      "incorrect_answers": [
+        "Ukiyo",
+        "Majime",
+        "Ikigai"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of these is a semiconductor amplifying device?",
+      "correct_answer": "transistor",
+      "incorrect_answers": [
+        "tube",
+        "diode",
+        "P-N junction"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What type of angle is greater than 90&deg;?",
+      "correct_answer": "Obtuse",
+      "incorrect_answers": [
+        "Acute",
+        "Right",
+        "Straight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which country, not including Japan, has the most people of Japanese descent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "South Korea",
+        "United States of America"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1979 British film &quot;Quadrophenia&quot; what is the name of the main protagonist?",
+      "correct_answer": "Jimmy Cooper",
+      "incorrect_answers": [
+        "Pete Townshend",
+        "Franc Roddam",
+        "Archie Bunker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+      "correct_answer": "Battle of Midway",
+      "incorrect_answers": [
+        "Attack on Truk Island",
+        "Attack on Pearl Harbor",
+        "Battle of the Coral Sea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which card is on the cover of the Beta rulebook of &quot;Magic: The Gathering&quot;?",
+      "correct_answer": "Bog Wraith",
+      "incorrect_answers": [
+        "Island",
+        "Rock Hydra",
+        "Elvish Archers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?",
+      "correct_answer": "Yo-kai Watch",
+      "incorrect_answers": [
+        "Pok&eacute;mon",
+        "Yu-gi-oh",
+        "Buddyfight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the world that the MMO &quot;RuneScape&quot; takes place in?",
+      "correct_answer": "Gielinor",
+      "incorrect_answers": [
+        "Glindor",
+        "Azeroth",
+        "Zaros"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which actress danced the twist with John Travolta in &#039;Pulp Fiction&#039;?",
+      "correct_answer": "Uma Thurman",
+      "incorrect_answers": [
+        "Kathy Griffin",
+        "Pam Grier",
+        "Bridget Fonda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+      "correct_answer": "Objective-C",
+      "incorrect_answers": [
+        "C#",
+        "Ruby",
+        "C++"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Kingdom Hearts, how many members does Organization XIII have in total?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "10",
+        "13",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these words refers to something made, distributed, or sold illegally?",
+      "correct_answer": "Bootleg",
+      "incorrect_answers": [
+        "Bootblack",
+        "Bootlace",
+        "Bootstrap"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the relationship between Rick and Morty in the show &quot;Rick and Morty&quot;?",
+      "correct_answer": "Grandfather and Grandson",
+      "incorrect_answers": [
+        "Father and Son",
+        "Best Friends",
+        "Crimefighting Partners"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What was the first movie to ever use a Wilhelm Scream?",
+      "correct_answer": "Distant Drums",
+      "incorrect_answers": [
+        "Treasure of the Sierra Madre",
+        "The Charge at Feather River",
+        "Indiana Jones"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+      "correct_answer": "Madeira",
+      "incorrect_answers": [
+        "Terceira",
+        "Santa Maria",
+        "Porto Santo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Given that all party members are maxed, who is the fastest party member in Super Mario RPG: Legend of The Seven Stars?",
+      "correct_answer": "Geno",
+      "incorrect_answers": [
+        "Mario",
+        "Bowser",
+        "Peach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In &quot;Magic: The Gathering&quot;, what instant card has the highest converted mana cost?",
+      "correct_answer": "Blinkmoth Infusion",
+      "incorrect_answers": [
+        "Vitalizing Wind",
+        " Chant of Vitu-Ghazi",
+        "Assert Authority"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who wrote the lyrics for Leonard Bernstein&#039;s 1957 Brodway musical West Side Story?",
+      "correct_answer": "Stephen Sondheim",
+      "incorrect_answers": [
+        "Himself",
+        "Oscar Hammerstein",
+        "Richard Rodgers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+      "correct_answer": "Hong Kong",
+      "incorrect_answers": [
+        "India",
+        "Australia",
+        "Ireland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the film &quot;John Wick&quot; why does John Wick get out of retirement?",
+      "correct_answer": "His puppy is killed and his car was stolen",
+      "incorrect_answers": [
+        "He was punched in the face",
+        "He got mugged",
+        "He needed money"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many unique items does &quot;Borderlands 2&quot; claim to have?",
+      "correct_answer": "87 Bazillion ",
+      "incorrect_answers": [
+        "87 Million",
+        "87 Trillion",
+        "87 Gazillion "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Hitman&quot; series, what is the name of the main character?",
+      "correct_answer": "Agent 47",
+      "incorrect_answers": [
+        "Agent 27",
+        "Agent Smith",
+        "Agent 67"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is Pikachu&#039;s National Pok&eacute;Dex Number?",
+      "correct_answer": "#025",
+      "incorrect_answers": [
+        "#001",
+        "#031",
+        "#109"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch,&quot; what is the hero McCree&#039;s full name?",
+      "correct_answer": "Jesse McCree",
+      "incorrect_answers": [
+        "Jack &quot;McCree&quot; Morrison",
+        "Gabriel Reyes",
+        "Jamison &quot;Deadeye&quot; Fawkes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the name of the second studio album released by American rapper Post Malone in 2018?",
+      "correct_answer": "Beerbongs &amp; Bentleys",
+      "incorrect_answers": [
+        "Takin&#039; Shots",
+        "Rockstar",
+        "Better Now"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Who is the god of war in Polynesian mythology?",
+      "correct_answer": "&#039;Oro",
+      "incorrect_answers": [
+        "Hina",
+        "Kohara",
+        "Māui"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the maximum HP in Terraria?",
+      "correct_answer": "500",
+      "incorrect_answers": [
+        "400",
+        "1000",
+        "100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Zombies mode of &quot;Call of Duty: Black Ops&quot;, what is the &quot;Pack-A-Punched&quot; version of the &quot;Galil&quot; called?",
+      "correct_answer": "Lamentation",
+      "incorrect_answers": [
+        "Galvanized Atomic Lead Insertion Liquidator",
+        "Gabig",
+        "Predictive Death Wish"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What company created and developed the game &quot;Overwatch&quot;?",
+      "correct_answer": "Blizzard Entertainment",
+      "incorrect_answers": [
+        "Valve",
+        "Hi-Rez Studios",
+        "Gearbox Software"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these is NOT a city in Saudi Arabia?",
+      "correct_answer": "Dubai",
+      "incorrect_answers": [
+        "Riyadh",
+        "Mecca",
+        "Medina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "What was the first successful and commercially viable photographic technique?",
+      "correct_answer": "The Daguerreotype",
+      "incorrect_answers": [
+        "Collodion process",
+        "The Turin Shroud",
+        "Kodachrome film"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who voices the main character Blu in the 2011 animated film &quot;Rio&quot;?",
+      "correct_answer": "Jesse Eisenberg",
+      "incorrect_answers": [
+        "Michael Cera",
+        "Jonah Hill",
+        "Zach Galifianakis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the ARPG &quot;Path of Exile,&quot; what is the highest amount of sockets that an item can have?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "5",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Half-Life by Valve uses the GoldSrc game engine, which is a highly modified version of what engine?",
+      "correct_answer": "Quake Engine",
+      "incorrect_answers": [
+        "Doom Engine",
+        "id Engine",
+        "Source Engine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of the Brotherhood of Nod in the Command and Conquer series?",
+      "correct_answer": "Kane",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "CABAL",
+        "Yuri"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which of the following United States Presidents served the shortest term in office?",
+      "correct_answer": "William Henry Harrison",
+      "incorrect_answers": [
+        "Zachary Taylor",
+        "James A. Garfield",
+        "Warren G. Harding"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+      "correct_answer": "Equatorial Guinea",
+      "incorrect_answers": [
+        "Guinea",
+        "Cameroon",
+        "Angola"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Star Trek&quot;, who was the founder of the Klingon Empire and its philosophy?",
+      "correct_answer": "Kahless the Unforgettable",
+      "incorrect_answers": [
+        "Lady Lukara of the Great Hall",
+        "Molor the Unforgiving",
+        "Dahar Master Kor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+      "correct_answer": "Air",
+      "incorrect_answers": [
+        "The Schwartz",
+        "Princess Lonestar",
+        "Meatballs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+      "correct_answer": "Print",
+      "incorrect_answers": [
+        "Digest",
+        "Look",
+        "Read"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following passenger jets is the longest?",
+      "correct_answer": "Boeing 747-8",
+      "incorrect_answers": [
+        "Airbus A350-1000",
+        "Airbus A330-200",
+        "Boeing 787-10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS1 engine is how many cubic inches?",
+      "correct_answer": "346",
+      "incorrect_answers": [
+        "350",
+        "355",
+        "360"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Avatar: The Last Airbender&quot;, which element does Aang begin to learn after being defrosted?",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Air",
+        "Earth",
+        "Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which member of the English band &quot;The xx&quot; released their solo album &quot;In Colour&quot; in 2015?",
+      "correct_answer": "Jamie xx",
+      "incorrect_answers": [
+        "Romy Madley Croft",
+        "Oliver Sim",
+        "Baria Qureshi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the German word for &quot;spoon&quot;?",
+      "correct_answer": "L&ouml;ffel",
+      "incorrect_answers": [
+        "Gabel",
+        "Messer",
+        "Essst&auml;bchen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What Nationality is D.Va from Overwatch?",
+      "correct_answer": "Korean",
+      "incorrect_answers": [
+        "Japanese",
+        "Chinese",
+        "Vietnamese "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many different notes is the tune, &quot;Song of Healing&quot;, comprised of in &quot;The Legend of Zelda: Majora&#039;s Mask&quot;?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "4",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many metal bars does it take to smith a platebody in the MMO &quot;RuneScape&quot;?",
+      "correct_answer": "5 bars",
+      "incorrect_answers": [
+        "3 bars",
+        "2 bars",
+        "10 bars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "How many studio albums have the duo Daft Punk released?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "1",
+        "5",
+        "2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "How many seasons did the TV show &quot;Donkey Kong Country&quot; last?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which Italian city is home of the car manufacturer &#039;Fiat&#039;?",
+      "correct_answer": "Turin",
+      "incorrect_answers": [
+        "Maranello",
+        "Modena",
+        "Rome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Where are Terror Fiends more commonly found in the Nintendo game Miitopia?",
+      "correct_answer": "New Lumos",
+      "incorrect_answers": [
+        "Peculia",
+        "The Sky Scraper",
+        "Otherworld"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?",
+      "correct_answer": "7 Meters",
+      "incorrect_answers": [
+        "10 Meters",
+        "2 Meters",
+        "5 Meters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which element has the atomic number of 7?",
+      "correct_answer": "Nitrogen",
+      "incorrect_answers": [
+        "Oxygen",
+        "Hydrogen",
+        "Neon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+      "correct_answer": "Silver",
+      "incorrect_answers": [
+        "Gold",
+        "Juno",
+        "Sword"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime Noragami who is one of the main protagonists?",
+      "correct_answer": "Yukine",
+      "incorrect_answers": [
+        "Karuha",
+        "Mineha",
+        "Mayu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How long are all the cutscenes from Metal Gear Solid 4 (PS3, 2008) combined?",
+      "correct_answer": "8 hours",
+      "incorrect_answers": [
+        "4 hours",
+        "12 hours",
+        "5 hours"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "In what year was the M1911 pistol designed?",
+      "correct_answer": "1911",
+      "incorrect_answers": [
+        "1907",
+        "1899",
+        "1917"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Twin Size Mattress&quot; was written by which band?",
+      "correct_answer": "The Front Bottoms",
+      "incorrect_answers": [
+        "Twenty One Pilots",
+        "The Wonder Years",
+        "The Smith Street Band"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of Team Instinct in Pok&eacute;mon Go?",
+      "correct_answer": "Spark",
+      "incorrect_answers": [
+        "Candela",
+        "Blanche",
+        "Willow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the unit of electrical inductance?",
+      "correct_answer": "Henry",
+      "incorrect_answers": [
+        "Weber",
+        "Coulomb",
+        "Mho"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the movie &ldquo;The Iron Giant,&rdquo; this character is the protagonist.",
+      "correct_answer": "Hogarth Hughes",
+      "incorrect_answers": [
+        "Kent Mansley",
+        "Dean McCoppin",
+        "Annie Hughes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following rappers were NOT part of the hip-hop group Odd Future?",
+      "correct_answer": "Vince Staples",
+      "incorrect_answers": [
+        "Tyler, the Creator",
+        "Frank Ocean",
+        "Mike G"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the alternate timeline in Mortal Kombat, which character was the one to slaughter the Shirai Ryu clan?",
+      "correct_answer": "Quan Chi",
+      "incorrect_answers": [
+        "Sub-Zero",
+        "Sektor",
+        "Shang Tsung"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+      "correct_answer": "The Columbian Exchange",
+      "incorrect_answers": [
+        "Triangle Trade",
+        "Transatlantic Slave Trade",
+        "The Silk Road"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "The AHL affiliate team of the Boston Bruins is named what?",
+      "correct_answer": "Providence Bruins",
+      "incorrect_answers": [
+        "New Haven Bruins",
+        "Cambridge Bruins",
+        "Hartford Bruins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Which one of the following is NOT a sub-company of the Volkswagen Group?",
+      "correct_answer": "Opel",
+      "incorrect_answers": [
+        "Porsche",
+        "Bugatti",
+        "Bentley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What is the name of Eragon&#039;s dragon in &quot;Eragon&quot;?",
+      "correct_answer": "Saphira",
+      "incorrect_answers": [
+        "Glaedr",
+        "Thorn",
+        "Arya"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Bj&ouml;rk&#039;s &quot;Unison&quot; contains a sample of which Oval song?",
+      "correct_answer": "Aero Deck",
+      "incorrect_answers": [
+        "Textuell",
+        "Panorama",
+        "Do While"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What&#039;s Harry Potter&#039;s dad&#039;s name?",
+      "correct_answer": "James Potter",
+      "incorrect_answers": [
+        "Joey Potter",
+        "Frank Potter",
+        "Hairy Potter Sr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "Which one of these superhero teams appears in the Invincible comics?",
+      "correct_answer": "Guardians of the Globe",
+      "incorrect_answers": [
+        "Avengers",
+        "Justice League",
+        "Teenage Mutant Ninja Turtles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The &quot;Tibia&quot; is found in which part of the body?",
+      "correct_answer": "Leg",
+      "incorrect_answers": [
+        "Arm",
+        "Hand",
+        "Head"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who is the main character in the show &quot;Burn Notice&quot;?",
+      "correct_answer": "Michael Westen",
+      "incorrect_answers": [
+        "Sam Axe",
+        "Fiona Glenanne",
+        "Madeline Westen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "When did the Battle of the Somme begin?",
+      "correct_answer": "July 1st, 1916",
+      "incorrect_answers": [
+        "August 1st, 1916",
+        "July 2nd, 1916",
+        "June 30th, 1916"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The term &quot;scientist&quot; was coined in which year?",
+      "correct_answer": "1833",
+      "incorrect_answers": [
+        "1933",
+        "1942",
+        "1796"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the original name of Final Fantasy XV?",
+      "correct_answer": "Final Fantasy Versus XIII",
+      "incorrect_answers": [
+        "Final Fantasy: Reborn",
+        "Final Fantasy XVI",
+        "Final Fantasy XIII-3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Against which country did the Dutch Republic fight the Eighty Years&#039; War?",
+      "correct_answer": "Spain",
+      "incorrect_answers": [
+        "France",
+        "England",
+        "Portugal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Which issue of the &quot;Sonic the Hedgehog&quot; comic did Scourge the Hedgehog make his first appearance?",
+      "correct_answer": "Sonic the Hedgehog #11",
+      "incorrect_answers": [
+        "Sonic Universe #32",
+        "Sonic the Hedgehog #161",
+        "Sonic the Hedgehog #47"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which music publication is often abbreviated to NME?",
+      "correct_answer": "New Musical Express",
+      "incorrect_answers": [
+        "New Metro Entertainment",
+        "Next Musical Enterprise",
+        "North Manchester Express"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "In ancient Greece, if your job were a &quot;hippeus&quot; which of these would you own?",
+      "correct_answer": "Horse",
+      "incorrect_answers": [
+        "Weave",
+        "Guitar",
+        "Boat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who was the original drummer for The Beatles?",
+      "correct_answer": "Tommy Moore",
+      "incorrect_answers": [
+        "Ringo Starr",
+        "Stuart Sutcliffe",
+        "Pete Best"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What is former United States President Bill Clinton&#039;s full name?",
+      "correct_answer": "William Jefferson Clinton",
+      "incorrect_answers": [
+        "William Roosevelt Clinton",
+        "William Truman Clinton",
+        "William Lincoln Clinton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+      "correct_answer": "Cipher",
+      "incorrect_answers": [
+        "Mobius 1",
+        "Blaze",
+        "Pixy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Resident Evil 2&quot;, what is Leon Kennedy&#039;s middle name?",
+      "correct_answer": "Scott",
+      "incorrect_answers": [
+        "Shaun",
+        "Simon",
+        "Sam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many Chaos Emeralds can you collect in the first Sonic The Hedgehog?",
+      "correct_answer": "Six",
+      "incorrect_answers": [
+        "Seven",
+        "Five",
+        "Eight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
+      "correct_answer": "FME-7",
+      "incorrect_answers": [
+        "VRC7",
+        "VRC6",
+        "MMC5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Which painting was not made by Vincent Van Gogh?",
+      "correct_answer": "The Ninth Wave",
+      "incorrect_answers": [
+        "Caf&eacute; Terrace at Night",
+        "Bedroom In Arles",
+        "Starry Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Pokemon Red &amp; Blue, what is the name of HM05?",
+      "correct_answer": "Flash",
+      "incorrect_answers": [
+        "Strength",
+        "Cut",
+        "Fly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Tomb Raider&quot; icon Lara Croft was originally called...",
+      "correct_answer": "Laura Cruz",
+      "incorrect_answers": [
+        "Laura Craft",
+        "Laura Croft",
+        "Lara Craft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What name does the little headcrab in &quot;Half Life 2&quot; have?",
+      "correct_answer": "Lamarr",
+      "incorrect_answers": [
+        "Jumperr",
+        "Drett",
+        "Jerry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who plays &quot;Bruce Wayne&quot; in the 2008 movie &quot;The Dark Knight&quot;?",
+      "correct_answer": "Christian Bale",
+      "incorrect_answers": [
+        "Michael Caine",
+        "Ron Dean",
+        "Heath Ledger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who tutored Alexander the Great?",
+      "correct_answer": "Aristotle",
+      "incorrect_answers": [
+        "Socrates",
+        "Plato",
+        "King Philip"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?",
+      "correct_answer": "Inuktitut",
+      "incorrect_answers": [
+        "Inuinnaqtun",
+        "Greenlandic",
+        "Inupiat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, which map&#039;s opening cutscene shows &quot;Richtofen&quot; killing another version of himself?",
+      "correct_answer": "The Giant",
+      "incorrect_answers": [
+        "Shadows Of Evil",
+        "Der Eisendrache",
+        "Moon"
+      ]
+    }
+  ]
+}

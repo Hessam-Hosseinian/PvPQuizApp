@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who plays the Nemesis in the Resident Evil movies?",
+      "correct_answer": "Matthew Taylor",
+      "incorrect_answers": [
+        "Jason Dip",
+        "Eric Mabius",
+        "Jimmy Matts"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Which car is the first mass-produced hybrid vehicle?",
+      "correct_answer": "Toyota Prius",
+      "incorrect_answers": [
+        "Chevrolet Volt",
+        "Honda Fit",
+        "Peugeot 308 R HYbrid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of the following countries does &quot;JoJo&#039;s Bizarre Adventure: Stardust Crusaders&quot; not take place in?",
+      "correct_answer": "Philippines",
+      "incorrect_answers": [
+        "India",
+        "Pakistan",
+        "Egypt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Foo Fighters?",
+      "correct_answer": "Dave Grohl",
+      "incorrect_answers": [
+        "Dave Mustaine",
+        "James Hetfield",
+        "Little Red Riding Hood"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "The 2014 movie &quot;The Raid 2: Berandal&quot; was mainly filmed in which Asian country?",
+      "correct_answer": "Indonesia",
+      "incorrect_answers": [
+        "Thailand",
+        "Brunei",
+        "Malaysia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which is the largest freshwater lake in the world?",
+      "correct_answer": "Lake Superior ",
+      "incorrect_answers": [
+        "Caspian Sea",
+        "Lake Michigan",
+        "Lake Huron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "J.K. Rowling completed &quot;Harry Potter and the Deathly Hallows&quot; in which hotel in Edinburgh, Scotland?",
+      "correct_answer": "The Balmoral",
+      "incorrect_answers": [
+        "The Dunstane Hotel",
+        "Hotel Novotel",
+        "Sheraton Grand Hotel &amp; Spa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What&#039;s the name of the main protagonist in the &quot;Legend of Zelda&quot; franchise?",
+      "correct_answer": "Link",
+      "incorrect_answers": [
+        "Mario",
+        "Zelda",
+        "Pit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "On the Beaufort Scale of wind force, what wind name is given to number 8?",
+      "correct_answer": "Gale",
+      "incorrect_answers": [
+        "Storm",
+        "Hurricane",
+        "Breeze"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "In what Homestuck Update was [S] Game Over released?",
+      "correct_answer": "October 25th, 2014",
+      "incorrect_answers": [
+        "April 13th, 2009",
+        "April 8th, 2012",
+        "August 28th, 2003"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Muscle fiber is constructed of bundles small long organelles called what?",
+      "correct_answer": "Myofibrils",
+      "incorrect_answers": [
+        "Epimysium",
+        "Myofiaments",
+        "Myocardium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "According to a Beatles song, who kept her face in a jar by the door?",
+      "correct_answer": "Eleanor Rigby",
+      "incorrect_answers": [
+        "Loretta Martin",
+        "Molly Jones",
+        "Lady Madonna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Pikmin&quot; games, which of the following pikmin colors lacks it&#039;s own &quot;Onion&quot; nest?",
+      "correct_answer": "Purple",
+      "incorrect_answers": [
+        "Winged",
+        "Blue",
+        "Rock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Overwatch, what is L&uacute;cio&#039;s full name?",
+      "correct_answer": "L&uacute;cio Correia Dos Santos",
+      "incorrect_answers": [
+        "L&uacute;cio Luiz L&oacute;s Guilherme",
+        "L&uacute;cio Jo&atilde;o Lucas",
+        "L&uacute;cio Chupar Prima"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?",
+      "correct_answer": "1 Month",
+      "incorrect_answers": [
+        "3 Weeks",
+        "1 Week",
+        "2 Months"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which small country is located between the borders of France and Spain?",
+      "correct_answer": "Andorra",
+      "incorrect_answers": [
+        "San Marino",
+        "Vatican City",
+        "Lichtenstein"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Where would you find the &quot;Spanish Steps&quot;?",
+      "correct_answer": "Rome, Italy",
+      "incorrect_answers": [
+        "Barcelona, Spain",
+        "Berlin, Germany",
+        "London, England"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Where is the Gluteus Maximus muscle located?",
+      "correct_answer": "Butt",
+      "incorrect_answers": [
+        "Arm",
+        "Head",
+        "Torso"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What was the name of Marilyn Monroe&#039;s first husband?",
+      "correct_answer": "James Dougherty",
+      "incorrect_answers": [
+        "Joe Dimaggio",
+        "Kirk Douglas",
+        "Arthur Miller"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The letters in the name of the band &quot;TWRP&quot; stand for what?",
+      "correct_answer": "Tupperware Remix Party",
+      "incorrect_answers": [
+        "Totally Wicked Robot Performers",
+        "Team Wild and the Radio Pirates",
+        "Taiwan Roleplay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which nation claims ownership of Antarctica?",
+      "correct_answer": "No one, but there are claims.",
+      "incorrect_answers": [
+        "United States of America",
+        "United Nations",
+        "Australia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "In 2012 the German-speaking microstate &quot;Liechtenstein&quot; in Central Europe had a population of how many inhabitants?",
+      "correct_answer": "36,600",
+      "incorrect_answers": [
+        "2,400",
+        "90,000",
+        "323,400"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "If you planted the seeds of Quercus robur what would grow?",
+      "correct_answer": "Trees",
+      "incorrect_answers": [
+        "Flowers",
+        "Vegtables",
+        "Grains"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first President of the People&#039;s Republic of China?",
+      "correct_answer": "Mao Zedong",
+      "incorrect_answers": [
+        "Liu Shaoqi",
+        "Dong Biwu",
+        "Li Xiannian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which album was released by Kanye West in 2013?",
+      "correct_answer": "Yeezus",
+      "incorrect_answers": [
+        "My Beautiful Dark Twisted Fantasy",
+        "The Life of Pablo",
+        "Watch the Throne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "According to Bram Stoker&#039;s novel, in which British coastal town did Dracula come ashore?",
+      "correct_answer": "Whitby",
+      "incorrect_answers": [
+        "Scarborough",
+        "Brighton",
+        "Portsmouth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Kingdom Hearts&quot;, who abducts Jasmine in the Lamp Chamber?",
+      "correct_answer": "Riku",
+      "incorrect_answers": [
+        "Riku Replica",
+        "Xaldin",
+        "Captain Hook"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which Apollo mission was the last one in NASA&#039;s Apollo program?",
+      "correct_answer": "Apollo 17",
+      "incorrect_answers": [
+        "Apollo 13",
+        "Apollo 11",
+        "Apollo 15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What type of cheese, loved by Wallace and Gromit, had it&#039;s sale prices rise after their successful short films?",
+      "correct_answer": "Wensleydale",
+      "incorrect_answers": [
+        "Cheddar",
+        "Moon Cheese",
+        "Edam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the scientific name of the red fox?",
+      "correct_answer": "Vulpes Vulpes",
+      "incorrect_answers": [
+        "Vulpes Redus",
+        "Red Fox",
+        "Vulpes Vulpie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "King Henry VIII was the second monarch of which European royal house?",
+      "correct_answer": "Tudor",
+      "incorrect_answers": [
+        "York",
+        "Stuart",
+        "Lancaster"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Fallout: New Vegas, upon starting each one of the four campaign DLCs, which one of them does not have a warning screen/recommended level? ",
+      "correct_answer": "Honest Hearts ",
+      "incorrect_answers": [
+        "Old World Blues",
+        "Lonesome Road",
+        "Dead Money"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In &quot;The Simpsons&quot;, what is the real name of &quot;Comic Book Guy&quot;?",
+      "correct_answer": "Jeff Albertson",
+      "incorrect_answers": [
+        "Comic Book Guy",
+        "Edward Stone",
+        "Jack Richardson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": " What Russian automatic gas-operated assault rifle was developed in the Soviet Union in 1947, and is still popularly used today?",
+      "correct_answer": "AK-47",
+      "incorrect_answers": [
+        "RPK",
+        "M16",
+        "MG 42"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Which of the following is not a piece from the 1950&#039;s musical West Side Story?",
+      "correct_answer": "The Back Alley",
+      "incorrect_answers": [
+        "Maria",
+        "Tonight",
+        "Mambo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;My Little Pony: Friendship is Magic&quot;, which of these ponies represents the quality of honesty?",
+      "correct_answer": "Applejack",
+      "incorrect_answers": [
+        "Twilight Sparkle",
+        "Pinkie Pie",
+        "Rarity"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Which one of the following is NOT a sub-company of the Volkswagen Group?",
+      "correct_answer": "Opel",
+      "incorrect_answers": [
+        "Porsche",
+        "Bugatti",
+        "Bentley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What was the last message of the Dolphins in &quot;The Hitchhiker&#039;s Guide to the Galaxy&quot;?",
+      "correct_answer": "&quot;So long, and thanks for all the fish.&quot;",
+      "incorrect_answers": [
+        "&quot;The answer is 42.&quot;",
+        "&quot;Land of the brave.&quot;",
+        "&quot;Goodbye cruel world!&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which language is most widely spoken in Switzerland?",
+      "correct_answer": "German",
+      "incorrect_answers": [
+        "French",
+        "Italian",
+        "Swiss"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "What is the name of Niccol&ograve; Machiavelli&#039;s work that argued effective leaders needed to crush their opponents at all costs?",
+      "correct_answer": "The Prince",
+      "incorrect_answers": [
+        "The Rape of Lucrece",
+        "Will to Power",
+        "Love&#039;s Labours Lost"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What country did Shirley Bassey originate from?",
+      "correct_answer": "Wales",
+      "incorrect_answers": [
+        "America",
+        "England",
+        "Canada"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft the default UI color that signifies Druid is what?",
+      "correct_answer": "Orange",
+      "incorrect_answers": [
+        "Brown",
+        "Green",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "When was Cadillac founded?",
+      "correct_answer": "1902",
+      "incorrect_answers": [
+        "1964",
+        "1898",
+        "1985"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In what year does Jurassic World open in the &quot;Jurassic Park&quot; universe?",
+      "correct_answer": "2005",
+      "incorrect_answers": [
+        "2007",
+        "2015",
+        "2020"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which actor provided the voice for the main character&#039;s father in Fallout 3?",
+      "correct_answer": "Liam Neeson",
+      "incorrect_answers": [
+        "Kiefer Sutherland",
+        "Brendan Gleeson",
+        "Robbie Coltrane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The Internet Meme &quot;All your base are belong to us&quot; is based on the poorly translated English Version of which Video Game?",
+      "correct_answer": "Zero Wing",
+      "incorrect_answers": [
+        "F-Zero",
+        "Wing Commander",
+        "Star Wars: X-Wing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, &#039;Top Gear&#039;?",
+      "correct_answer": "Jessica",
+      "incorrect_answers": [
+        "Angela",
+        "Erica",
+        "Sandra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what was a tribute card to Jamie Wakefield&#039;s late wife Marilyn, who loved horses?",
+      "correct_answer": "Timbermare",
+      "incorrect_answers": [
+        "Loyal Pegasus",
+        "Vryn Wingmare",
+        "Sungrace Pegasus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the atomic number of the element Strontium?",
+      "correct_answer": "38",
+      "incorrect_answers": [
+        "73",
+        "47",
+        "11"
+      ]
+    }
+  ]
+}

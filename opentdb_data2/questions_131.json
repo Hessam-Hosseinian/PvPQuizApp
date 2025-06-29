@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which football player is featured on the international cover version of the video game FIFA 16?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Wayne Rooney",
+        "David Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What were the first states to break away from Yugoslavia?",
+      "correct_answer": "Slovenia, Croatia",
+      "incorrect_answers": [
+        "Macedonia, Montenegro",
+        "Slovenia, Macedonia",
+        "Montenegro, Slovenia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "&quot;Doctor Who&quot; star David Tennant performed in a rendition of which Shakespearean play?",
+      "correct_answer": "Hamlet",
+      "incorrect_answers": [
+        "The Tempest",
+        "Othello",
+        "The Taming of the Shrew"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "When did the Battle of the Somme begin?",
+      "correct_answer": "July 1st, 1916",
+      "incorrect_answers": [
+        "August 1st, 1916",
+        "July 2nd, 1916",
+        "June 30th, 1916"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Sgt. Gordon Elias in &#039;Platoon&#039; (1986)?",
+      "correct_answer": "Willem Dafoe",
+      "incorrect_answers": [
+        "Charlie Sheen",
+        "Matt Damon",
+        "Johnny Depp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "71% of the Earth&#039;s surface is made up of",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Deserts",
+        "Continents",
+        "Forests"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Foo Fighters?",
+      "correct_answer": "Dave Grohl",
+      "incorrect_answers": [
+        "Dave Mustaine",
+        "James Hetfield",
+        "Little Red Riding Hood"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Etihad Stadium is the home stadium for which team?",
+      "correct_answer": "Manchester City",
+      "incorrect_answers": [
+        "Manchester United",
+        "Arsenal",
+        "Blackpool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "The theme for the popular science fiction series &quot;Doctor Who&quot; was composed by who?",
+      "correct_answer": "Ron Grainer",
+      "incorrect_answers": [
+        "Murray Gold",
+        "Delia Derbyshire",
+        "Peter Howell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "What is the most challenging monster in the Dungeons &amp; Dragons 5th Edition Monster Manual?",
+      "correct_answer": "Tarrasque",
+      "incorrect_answers": [
+        "Beholder",
+        "Displacer Beast",
+        "Lich"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "When did Norway get its constitution?",
+      "correct_answer": "1814",
+      "incorrect_answers": [
+        "1932",
+        "1905",
+        "1854"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Pokemon generation did the fan-named &quot;Masuda Method&quot; first appear in? ",
+      "correct_answer": "Diamond/Pearl",
+      "incorrect_answers": [
+        "Ruby/Sapphire",
+        "Black/White",
+        "X/Y"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "During the game&#039;s development, what was the first ever created Pok&eacute;mon?",
+      "correct_answer": "Rhyhorn",
+      "incorrect_answers": [
+        "Bulbasaur",
+        "Mew",
+        "Arceus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What was Maggie Simpson&#039;s first canonical word, not including the Tracey Ullman shorts?",
+      "correct_answer": "Daddy.",
+      "incorrect_answers": [
+        "Sequel?",
+        "Ja!",
+        "Rusty!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the school in the anime and manga &quot;Gosick&quot;?",
+      "correct_answer": "St. Marguerite",
+      "incorrect_answers": [
+        "St. Augustine",
+        "St. Mary",
+        "St. Bernadette"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which one of these cartoon characters is NOT voiced by Rob Paulsen?",
+      "correct_answer": "Max Tennyson (Ben 10)",
+      "incorrect_answers": [
+        "Carl Wheezer (Jimmy Neutron)",
+        "Yakko Warner (Animaniacs)",
+        "The Mask (The Mask, TV Series)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Pat Cashman, the announcer for Super Smash Brothers: Brawl, also featured prominently in what famous TV show?",
+      "correct_answer": "Bill Nye the Science Guy",
+      "incorrect_answers": [
+        "The Muppet Show",
+        "Scooby-Doo",
+        "Seinfeld"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Terry Pratchett&#039;s Discworld novel &#039;Wyrd Sisters&#039;, which of these are not one of the three main witches?",
+      "correct_answer": "Winny Hathersham",
+      "incorrect_answers": [
+        "Granny Weatherwax",
+        "Nanny Ogg",
+        "Magrat Garlick"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who was featured in the song &quot;Words&quot; by Feint? ",
+      "correct_answer": "Laura Brehm",
+      "incorrect_answers": [
+        "Anna Yvette ",
+        "Danyka Nadeau",
+        "Veela"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
+      "correct_answer": "Italy",
+      "incorrect_answers": [
+        "United States",
+        "Greece",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which river flows through the Scottish city of Glasgow?",
+      "correct_answer": "Clyde",
+      "incorrect_answers": [
+        "Tay",
+        "Dee",
+        "Tweed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What film did James Cameron&#039;s Avatar dethrone as the highest-grossing film ever?",
+      "correct_answer": "Titanic",
+      "incorrect_answers": [
+        "Star Wars",
+        "Gone with the Wind",
+        "Jaws"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What is the fourth book of the Old Testament?",
+      "correct_answer": "Numbers",
+      "incorrect_answers": [
+        "Genesis",
+        "Exodus",
+        "Leviticus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the closest planet to our solar system&#039;s sun?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": [
+        "Mars",
+        "Jupiter",
+        "Earth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Stardew Valley, what is the reward for completing all of the Bulletin Board bundles?",
+      "correct_answer": "Additional Friendship points",
+      "incorrect_answers": [
+        "Glittering Boulder removed",
+        "Bus is repaired",
+        "Greenhouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The &#039;In the Flesh&#039; tour was used in support of what Pink Floyd album?",
+      "correct_answer": "Animals",
+      "incorrect_answers": [
+        "The Wall",
+        "Wish You Were Here",
+        "The Final Cut"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the plane of existence in MicroProse&#039;s 1997 &quot;Magic the Gathering&quot;?",
+      "correct_answer": "Shandalar",
+      "incorrect_answers": [
+        "Theros",
+        "Ravnica",
+        "Amonkhet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Dark Souls, what is the name of the region you&#039;re in for the majority of the game?",
+      "correct_answer": "Lordran",
+      "incorrect_answers": [
+        "Drangleic",
+        "Oolacile",
+        "Catarina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is Solid Snake&#039;s real name?",
+      "correct_answer": "David",
+      "incorrect_answers": [
+        "Solid Snake",
+        "John",
+        "Huey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which city features all of their professional sports teams&#039; jersey&#039;s with the same color scheme?",
+      "correct_answer": "Pittsburgh",
+      "incorrect_answers": [
+        "New York",
+        "Seattle",
+        "Tampa Bay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is not a default game mode in Counter-Strike (2000)?",
+      "correct_answer": "Arms Race",
+      "incorrect_answers": [
+        "Hostage Rescue",
+        "Bomb Defusal",
+        "Assassination"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": [
+        "1932",
+        "1930",
+        "1925"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+      "correct_answer": "Spruce Goose",
+      "incorrect_answers": [
+        "Noah&#039;s Ark",
+        "Fat Man",
+        "Trojan Horse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "The 1939 movie &quot;The Wizard of Oz&quot; contained a horse that changed color, what material did they use to achieve this effect?",
+      "correct_answer": "Gelatin",
+      "incorrect_answers": [
+        "Dye",
+        "Paint",
+        "CGI Effect"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these weapons is NOT available to the Terrorist team in the game, &quot;Counter-Strike: Global Offensive&quot;?",
+      "correct_answer": "SCAR-20",
+      "incorrect_answers": [
+        "SG 550",
+        "CZ-75",
+        "XM1014"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In &quot;ALF&quot;, what was ALF&#039;s real name?",
+      "correct_answer": "Gordon Shumway",
+      "incorrect_answers": [
+        "Gordon Milipp",
+        "Gordon Foster",
+        "Gordon von Gam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "The human heart has how many chambers?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "2",
+        "6",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Vietnam",
+        "Thailand",
+        "Indonesia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Who was the author of the 1954 novel, &quot;Lord of the Flies&quot;?",
+      "correct_answer": "William Golding",
+      "incorrect_answers": [
+        "Stephen King",
+        "F. Scott Fitzgerald",
+        "Hunter Fox"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+      "correct_answer": "Cipher",
+      "incorrect_answers": [
+        "Mobius 1",
+        "Blaze",
+        "Pixy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Halo&quot; franchise, in what country is New Mombasa?",
+      "correct_answer": "Kenya",
+      "incorrect_answers": [
+        "India",
+        "Turkey",
+        "Slovakia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which rap group released the album &quot;Straight Outta Compton&quot;?",
+      "correct_answer": "N.W.A",
+      "incorrect_answers": [
+        "Wu-Tang Clan",
+        "Run-D.M.C.",
+        "Beastie Boys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Cave Story,&quot; what is the character Balrog&#039;s catchphrase?",
+      "correct_answer": "Huzzah!",
+      "incorrect_answers": [
+        "Yes!",
+        "Whoa there!",
+        "Nyeh heh heh!"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "After India, which country produces the second most movies per year?",
+      "correct_answer": "Nigeria",
+      "incorrect_answers": [
+        "United States",
+        "China",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the film &quot;Harry Potter and the Order of The Phoenix&quot;, why was Harry Potter&#039;s scream, after Sirius Black died, muted?",
+      "correct_answer": "Too Agonizing",
+      "incorrect_answers": [
+        "Too Loud",
+        "Too Harsh",
+        "Too Violent"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the largest country in the world ?",
+      "correct_answer": "Russian Federation",
+      "incorrect_answers": [
+        "China",
+        "Canada",
+        "Brazil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of the State of Washington, United States?",
+      "correct_answer": "Olympia",
+      "incorrect_answers": [
+        "Washington D.C.",
+        "Seattle",
+        "Yukon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the film &quot;John Wick&quot; why does John Wick get out of retirement?",
+      "correct_answer": "His puppy is killed and his car was stolen",
+      "incorrect_answers": [
+        "He was punched in the face",
+        "He got mugged",
+        "He needed money"
+      ]
+    }
+  ]
+}

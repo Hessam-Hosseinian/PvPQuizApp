@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "In the Panic! At the Disco&#039;s song &quot;Nothern Downpour&quot;, which lyric follows &#039;I know the world&#039;s a broken bone&#039;.",
+      "correct_answer": "&quot;So melt your headaches call it home&quot;",
+      "incorrect_answers": [
+        "&quot;So sing your song until you&#039;re home&quot;",
+        "&quot;So let them know they&#039;re on their own&quot;",
+        "&quot;So start a fire in their cold stone&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The cake depicted in Valve&#039;s &quot;Portal&quot; franchise most closely resembles which real-world type of cake?",
+      "correct_answer": "Black Forest",
+      "incorrect_answers": [
+        "Devil&#039;s Food",
+        "Molten Chocolate",
+        "German Chocolate"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "What is the name of Niccol&ograve; Machiavelli&#039;s work that argued effective leaders needed to crush their opponents at all costs?",
+      "correct_answer": "The Prince",
+      "incorrect_answers": [
+        "The Rape of Lucrece",
+        "Will to Power",
+        "Love&#039;s Labours Lost"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the name given to Indian food cooked over charcoal in a clay oven?",
+      "correct_answer": "Tandoori",
+      "incorrect_answers": [
+        "Biryani",
+        "Pani puri",
+        "Tiki masala"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the TV series &quot;Person of Interest&quot;, who plays the character &quot;Harold Finch&quot;?",
+      "correct_answer": "Michael Emerson",
+      "incorrect_answers": [
+        "Jim Caviezel",
+        "Taraji P. Henson",
+        "Kevin Chapman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "The term &quot;battery&quot; to describe an electrical storage device was coined by?",
+      "correct_answer": "Benjamin Franklin",
+      "incorrect_answers": [
+        "Nikola Tesla",
+        "Luigi Galvani",
+        " Alessandro Volta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Who was the author of the 1954 novel, &quot;Lord of the Flies&quot;?",
+      "correct_answer": "William Golding",
+      "incorrect_answers": [
+        "Stephen King",
+        "F. Scott Fitzgerald",
+        "Hunter Fox"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed the free battle royale game Fortnite?",
+      "correct_answer": "Epic Games",
+      "incorrect_answers": [
+        "Valve",
+        "Ubisoft",
+        "Square Enix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Where was Kanye West born?",
+      "correct_answer": "Atlanta, Georgia",
+      "incorrect_answers": [
+        "Chicago, Illinois",
+        "Los Angeles, California",
+        "Detroit, Michigan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the currency of Poland?",
+      "correct_answer": "Złoty",
+      "incorrect_answers": [
+        "Ruble",
+        "Euro",
+        "Krone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In what year did the manga &quot;Ping Pong&quot; begin serialization?",
+      "correct_answer": "1996",
+      "incorrect_answers": [
+        "2014",
+        "2010",
+        "2003"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "When was the iPhone released?",
+      "correct_answer": "2007",
+      "incorrect_answers": [
+        "2005",
+        "2006",
+        "2004"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What two characters from the game Undertale are never in a relationship or not related?",
+      "correct_answer": "Frisk &amp; Chara",
+      "incorrect_answers": [
+        "Sans &amp; Papyrus",
+        "Toriel &amp; Asgore",
+        "Alphys &amp; Undyne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Who painted The Starry Night?",
+      "correct_answer": "Vincent van Gogh",
+      "incorrect_answers": [
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which company did Gabe Newell work at before founding Valve Corporation?",
+      "correct_answer": "Microsoft",
+      "incorrect_answers": [
+        "Apple",
+        "Google",
+        "Yahoo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "According to Japanese folklore, what is the favorite food of the Kappa.",
+      "correct_answer": "Cucumbers",
+      "incorrect_answers": [
+        "Kabocha",
+        "Nasu",
+        "Soba"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What is the fourth book of the Old Testament?",
+      "correct_answer": "Numbers",
+      "incorrect_answers": [
+        "Genesis",
+        "Exodus",
+        "Leviticus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Who was the Roman god of fire?",
+      "correct_answer": "Vulcan",
+      "incorrect_answers": [
+        "Apollo",
+        "Jupiter",
+        "Mercury"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Where is the Gluteus Maximus muscle located?",
+      "correct_answer": "Butt",
+      "incorrect_answers": [
+        "Arm",
+        "Head",
+        "Torso"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these albums is a Wu-Tang Clan album?",
+      "correct_answer": "Iron Flag",
+      "incorrect_answers": [
+        "Perfect Hair",
+        "The Low End Theory",
+        "Licensed to Ill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "&quot;All the Boys&quot; by Panic! At the Disco was released as a bonus track on what album?",
+      "correct_answer": "Too Weird To Live, Too Rare To Die!",
+      "incorrect_answers": [
+        "A Fever You Can&#039;t Sweat Out",
+        "Death Of A Bachelor",
+        "Vices &amp; Virtues"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+      "correct_answer": "Republican",
+      "incorrect_answers": [
+        "Democrat",
+        "Independent",
+        "Whig"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+      "correct_answer": "Ohio State Buckeyes",
+      "incorrect_answers": [
+        "Alabama Crimson Tide",
+        "Clemson Tigers",
+        "Wisconsin Badgers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many numbered power generators are there?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "8",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which part from the JoJo&#039;s Bizarre Adventure manga is about a horse race across America?",
+      "correct_answer": "Part 7: Steel Ball Run",
+      "incorrect_answers": [
+        "Part 6: Stone Ocean",
+        "Part 3: Stardust Crusaders",
+        "Part 5: Golden Wind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "When was Left 4 Dead 2 released?",
+      "correct_answer": "November 17, 2009",
+      "incorrect_answers": [
+        "May 3, 2008",
+        "November 30, 2009",
+        "June 30, 2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is lost in Hawaiian and is also the name of a little girl in a 2002 film which features a alien named &quot;Stitch&quot;?",
+      "correct_answer": "Lilo",
+      "incorrect_answers": [
+        "Lolo",
+        "Lucy",
+        "Lulu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft lore, who organized the creation of the Paladins?",
+      "correct_answer": "Alonsus Faol",
+      "incorrect_answers": [
+        "Uther the Lightbringer",
+        "Alexandros Mograine",
+        "Sargeras, The Daemon Lord"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
+      "correct_answer": "Live and Learn",
+      "incorrect_answers": [
+        "Open Your Heart",
+        "Can You Feel the Sunshine?",
+        "His World"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
+      "correct_answer": "Steve Buscemi",
+      "incorrect_answers": [
+        "Kevin Spacey",
+        "Benicio Del Toro",
+        "Gabriel Byrne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which team won the 2015-16 English Premier League?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Liverpool",
+        "Cheslea",
+        "Manchester United"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who published the 1998 video game Half-Life?",
+      "correct_answer": "Sierra On-Line",
+      "incorrect_answers": [
+        "Valve",
+        "Blizzard",
+        "EA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the release date of &quot;Grand Theft Auto IV&quot;?",
+      "correct_answer": "April 29, 2008",
+      "incorrect_answers": [
+        "May 21, 2009",
+        "June 22, 2010",
+        "July 28, 2008"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Integration is the reverse of what mathematical operation?",
+      "correct_answer": "Derivation",
+      "incorrect_answers": [
+        "Division",
+        "Standard Deviation",
+        "Multiplication"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the chemical makeup of water?",
+      "correct_answer": "H20",
+      "incorrect_answers": [
+        "C12H6O2",
+        "CO2",
+        "H"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the founder and leader of industrial rock band, &#039;Nine Inch Nails&#039;?",
+      "correct_answer": "Trent Reznor",
+      "incorrect_answers": [
+        "Marilyn Manson",
+        "Robin Finck",
+        "Josh Homme"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the name for a male bee that comes from an unfertilized egg?",
+      "correct_answer": "Drone",
+      "incorrect_answers": [
+        "Soldier",
+        "Worker",
+        "Male"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "In a game of snooker, what colour ball is worth 3 points?",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Yellow",
+        "Brown",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is Scooby-Doo&#039;s real name?",
+      "correct_answer": "Scoobert",
+      "incorrect_answers": [
+        "Scooter",
+        "Scrappy",
+        "Shooby"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The following Spanish provinces are located in the northern area of Spain except:",
+      "correct_answer": "Murcia",
+      "incorrect_answers": [
+        "Asturias",
+        "Navarre",
+        "Le&oacute;n"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these Mediterranian islands is under the sovereign rule of France?",
+      "correct_answer": "Corsica",
+      "incorrect_answers": [
+        "Majorca",
+        "Sardinia",
+        "Malta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who wrote the lyrics for Leonard Bernstein&#039;s 1957 Brodway musical West Side Story?",
+      "correct_answer": "Stephen Sondheim",
+      "incorrect_answers": [
+        "Himself",
+        "Oscar Hammerstein",
+        "Richard Rodgers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What country was the Trabant 601 manufactured in?",
+      "correct_answer": "East Germany",
+      "incorrect_answers": [
+        "Soviet Union",
+        "Hungary",
+        "France"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+      "correct_answer": "Spruce Goose",
+      "incorrect_answers": [
+        "Noah&#039;s Ark",
+        "Fat Man",
+        "Trojan Horse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which movie contains the quote, &quot;Say hello to my little friend!&quot;?",
+      "correct_answer": "Scarface",
+      "incorrect_answers": [
+        "Reservoir Dogs",
+        "Heat",
+        "Goodfellas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which type of rock is created by intense heat AND pressure?",
+      "correct_answer": "Metamorphic",
+      "incorrect_answers": [
+        "Sedimentary",
+        "Igneous",
+        "Diamond"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What is former United States President Bill Clinton&#039;s full name?",
+      "correct_answer": "William Jefferson Clinton",
+      "incorrect_answers": [
+        "William Roosevelt Clinton",
+        "William Truman Clinton",
+        "William Lincoln Clinton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "When did Tame Impala release their second album?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2015",
+        "2010",
+        "1967"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "How do you tame a horse in Minecraft?",
+      "correct_answer": "By continually mounting it",
+      "incorrect_answers": [
+        "By feeding it Wheat",
+        "By feeding it Sugar",
+        "By petting it"
+      ]
+    }
+  ]
+}

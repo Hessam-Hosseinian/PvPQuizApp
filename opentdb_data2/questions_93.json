@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "What model was the sports car gifted to Yuri Gagarin by the French government in 1965?",
+      "correct_answer": "Matra Djet",
+      "incorrect_answers": [
+        "Porsche 911",
+        "Alpine A110",
+        "AC Cobra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is NOT in The Beatles&#039; album &quot;Sgt. Pepper&#039;s Lonely Hearts Club Band&quot;?",
+      "correct_answer": "Strawberry Fields Forever",
+      "incorrect_answers": [
+        "Getting Better",
+        "Fixing a Hole",
+        "Lucy in the Sky with Diamonds"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Undertale&quot;, who was Mettaton&#039;s creator?",
+      "correct_answer": "Alphys",
+      "incorrect_answers": [
+        "Undyne",
+        "Sans",
+        "Asgore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the scientific name of the red fox?",
+      "correct_answer": "Vulpes Vulpes",
+      "incorrect_answers": [
+        "Vulpes Redus",
+        "Red Fox",
+        "Vulpes Vulpie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Undertale, what&#039;s the prize for answering correctly?",
+      "correct_answer": "More questions",
+      "incorrect_answers": [
+        "New car",
+        "Mercy",
+        "Money"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+      "correct_answer": "Vespasian",
+      "incorrect_answers": [
+        "Vitellius",
+        "Otho",
+        "Galba"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "In Black Hammer, what city did the heroes save from the Anti-God?",
+      "correct_answer": "Spiral City",
+      "incorrect_answers": [
+        "Mega-City One",
+        "Rockwood",
+        "Star City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What UK Train does NOT go over 125MPH?",
+      "correct_answer": "Sprinter",
+      "incorrect_answers": [
+        "Class 43",
+        "Javelin",
+        "Pendolino"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": " Which chemical element, number 11 in the Periodic table, has the symbol Na?",
+      "correct_answer": "Sodium",
+      "incorrect_answers": [
+        "Carbon",
+        "Lead",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is a dead mall?",
+      "correct_answer": "A mall with high vacancy rates or low consumer foot traffic",
+      "incorrect_answers": [
+        "A mall with no stores",
+        "A mall that has been condemed",
+        "A mall after business hours"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these characters from &quot;SpongeBob SquarePants&quot; is not a squid?",
+      "correct_answer": "Gary",
+      "incorrect_answers": [
+        "Orvillie",
+        "Squidward",
+        "Squidette"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The voice actor for which Portal 2 character was not a TV or film actor prior to the game?",
+      "correct_answer": "GLaDOS",
+      "incorrect_answers": [
+        "Cave Johnson",
+        "Wheatley",
+        "Atlas / P-Body"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Politics",
+      "question": "According to the United States Constitution, how old must a person be to be elected President of the United States?",
+      "correct_answer": "35",
+      "incorrect_answers": [
+        "30",
+        "40",
+        "45"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What organ of the body produces bile?",
+      "correct_answer": "Liver",
+      "incorrect_answers": [
+        "Gallbladder",
+        "Pancreas",
+        "Stomach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+      "correct_answer": "Hexidecimal",
+      "incorrect_answers": [
+        "Binary",
+        "Duodecimal",
+        "Octal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what dialogue did Socrates defend himself to the court of Athens? ",
+      "correct_answer": "The Apology",
+      "incorrect_answers": [
+        "The Euthyphro",
+        "The Laws",
+        "The Republic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Terry Gilliam was an animator that worked with which British comedy group?",
+      "correct_answer": "Monty Python",
+      "incorrect_answers": [
+        "The Goodies&lrm;",
+        "The League of Gentlemen&lrm;",
+        "The Penny Dreadfuls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The Rush song &quot;YYZ&quot; derives its name from the IATA aiport identification code for which city?",
+      "correct_answer": "Toronto",
+      "incorrect_answers": [
+        "Vancouver",
+        "Ottawa",
+        "Calgary"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?",
+      "correct_answer": "Michelangelo",
+      "incorrect_answers": [
+        "Leonardo",
+        "Donatello",
+        "Raphael"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In the cartoon &#039;SpongeBob SquarePants&#039;, what did the acronym E.V.I.L stand for?",
+      "correct_answer": "Every Villain Is Lemons",
+      "incorrect_answers": [
+        "Every Villain Is Lemonade",
+        "Every Villain Is Limes",
+        "Each Villain Is Lemonade"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which famous 90&#039;s rap album is commonly referred to as &quot;The Bible of Hip Hop&quot;?",
+      "correct_answer": "Illmatic",
+      "incorrect_answers": [
+        "The Low End Theory",
+        "The Chronic",
+        "Enter The Wu-Tang (36 Chambers)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the name of Ruby Rose&#039;s weapon from RWBY?",
+      "correct_answer": "Crescent Rose",
+      "incorrect_answers": [
+        "Thorned Rosebud",
+        "Magnhild",
+        "Crooked Scythe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many playable characters are there in Super Smash Bros. for Nintendo 3DS and Wii U?",
+      "correct_answer": "58",
+      "incorrect_answers": [
+        "48",
+        "51",
+        "55"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The creator of the Touhou Project series is:",
+      "correct_answer": "ZUN",
+      "incorrect_answers": [
+        "SUN",
+        "RUN",
+        "PUN"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which of these celebrities was not a member of the Jackson 5?",
+      "correct_answer": "Bo Jackson",
+      "incorrect_answers": [
+        "Tito Jackson",
+        "Jermaine Jackson",
+        "Marlon Jackson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+      "correct_answer": "55",
+      "incorrect_answers": [
+        "50",
+        "60",
+        "54"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the creator of the Super Smash Bros. Series?",
+      "correct_answer": "Masahiro Sakurai",
+      "incorrect_answers": [
+        "Reggie Fils-Aim&eacute;",
+        "Bill Trinen",
+        "Hideo Kojima"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What language does Node.js use?",
+      "correct_answer": "JavaScript",
+      "incorrect_answers": [
+        "Java",
+        "Java Source",
+        "Joomla Source Code"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?",
+      "correct_answer": "The Junkyard Gang",
+      "incorrect_answers": [
+        "The Trash Troupe",
+        "The Scrapyard Seven",
+        "The Rotten Posse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who voices Max Payne in the 2001 game &quot;Max Payne&quot;?",
+      "correct_answer": "James McCaffrey",
+      "incorrect_answers": [
+        "Sam Lake",
+        "Troy Baker",
+        "Hideo Kojima"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+      "correct_answer": "Michael Schumacher",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Fernando Alonso",
+        "Jim Clark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What internet protocol was documented in RFC 1459?",
+      "correct_answer": "IRC",
+      "incorrect_answers": [
+        "HTTP",
+        "HTTPS",
+        "FTP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which U.S. President was famously &#039;attacked&#039; by a swimming rabbit?",
+      "correct_answer": "Jimmy Carter",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "Lydon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 2010 Nightmare on Elm Street reboot, who played Freddy Kruger?",
+      "correct_answer": "Jackie Earle Haley",
+      "incorrect_answers": [
+        "Tyler Mane",
+        "Derek Mears",
+        "Gunnar Hansen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What word represents the letter &#039;T&#039; in the NATO phonetic alphabet?",
+      "correct_answer": "Tango",
+      "incorrect_answers": [
+        "Target",
+        "Taxi",
+        "Turkey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which weapon that was cut from the game &quot;Half Life 2&quot; was going to replace the crowbar?",
+      "correct_answer": "Ice Axe",
+      "incorrect_answers": [
+        "Fire Axe",
+        "Wrench",
+        "Hunting Knife"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Feel Good Inc.&quot; by British band Gorillaz features which hip hop group?",
+      "correct_answer": "De La Soul",
+      "incorrect_answers": [
+        "Public Enemy",
+        "OutKast",
+        "Cypress Hill"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the capital city of Bermuda?",
+      "correct_answer": "Hamilton",
+      "incorrect_answers": [
+        "Santo Dominigo",
+        "San Juan",
+        "Havana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+      "correct_answer": "150",
+      "incorrect_answers": [
+        "200",
+        "100",
+        "155"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was the original Star Wars: Battlefront II released?",
+      "correct_answer": "October 31, 2005",
+      "incorrect_answers": [
+        "December 18, 2004",
+        "November 21, 2006",
+        "September 9, 2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Killing Floor started as a mod for which Unreal Engine 2 game?",
+      "correct_answer": "Unreal Tournament 2004",
+      "incorrect_answers": [
+        "Deus Ex: Invisible War",
+        "Unreal Tournament 3",
+        "Postal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
+      "correct_answer": "Daveed Diggs",
+      "incorrect_answers": [
+        "Lin-Manuel Miranda",
+        "Javier Mu&ntilde;oz",
+        "Wayne Brady"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many steps are there to upgrade a Staff?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "7",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game series &quot;Disgaea&quot;, what word does the character Prinny have to include in all sentences they speak?",
+      "correct_answer": "&quot;Dood&quot;",
+      "incorrect_answers": [
+        "&quot;Master&quot;",
+        "&quot;Plip&quot;",
+        "&quot;Boom&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?",
+      "correct_answer": "Myrtenaster",
+      "incorrect_answers": [
+        "Gambol Shroud",
+        "Crescent Rose",
+        "Ember Celica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "When was the programming language &quot;C#&quot; released?",
+      "correct_answer": "2000",
+      "incorrect_answers": [
+        "1998",
+        "1999",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
+      "correct_answer": "&quot;How disgusting.&quot;",
+      "incorrect_answers": [
+        "&quot;Idiot, I won&#039;t let you kill me!&quot;",
+        "&quot;Nothing.&quot;",
+        "&quot;Goddammit, Shinji.&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What was the name of the hip hop group Kanye West was a member of in the late 90s?",
+      "correct_answer": "The Go-Getters",
+      "incorrect_answers": [
+        "The Jumpers",
+        "The Kickstarters",
+        "The Beat-Busters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who voices the main character Blu in the 2011 animated film &quot;Rio&quot;?",
+      "correct_answer": "Jesse Eisenberg",
+      "incorrect_answers": [
+        "Michael Cera",
+        "Jonah Hill",
+        "Zach Galifianakis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Black Lagoon&quot;, what colour is Rock&#039;s tie?",
+      "correct_answer": "Teal",
+      "incorrect_answers": [
+        "Crimson",
+        "Dark Brown",
+        "Black"
+      ]
+    }
+  ]
+}

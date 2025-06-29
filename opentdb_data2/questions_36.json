@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "In the Hellboy universe, who founded the BPRD?",
+      "correct_answer": "Trevor Bruttenholm",
+      "incorrect_answers": [
+        "Kate Corrigan",
+        "Johann Kraus",
+        "Benjamin Daimio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What CoD &quot;Deathstreak&quot; is only featured in Call of Duty : Modern Warfare 2?",
+      "correct_answer": "Copycat",
+      "incorrect_answers": [
+        " Martrydom",
+        "Final Stand",
+        "Revenge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many zombies need to be killed to get the &quot;Zombie Genocider&quot; achievement in Dead Rising (2006)?",
+      "correct_answer": "53,594",
+      "incorrect_answers": [
+        "53,593",
+        "53,595",
+        "53,596"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the fastest animal?",
+      "correct_answer": "Peregrine Falcon",
+      "incorrect_answers": [
+        "Golden Eagle",
+        "Cheetah",
+        "Horsefly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.",
+      "correct_answer": "Don Cherry",
+      "incorrect_answers": [
+        "Don McKellar",
+        "Don Taylor ",
+        "Donald Sutherland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, which weapon does NOT deal any damage?",
+      "correct_answer": "31-79 JGb215",
+      "incorrect_answers": [
+        "Sliquifier",
+        "V-R11",
+        "Wunderwaffe DG-2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which studio animated Soul Eater?",
+      "correct_answer": "Bones",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "xebec",
+        "Production I.G"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who was Tetris created by?",
+      "correct_answer": "Alexey Pajitnov",
+      "incorrect_answers": [
+        "Toru Iwatani",
+        "Allan Alcorn",
+        "William Higinbotham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is Gatomon&#039;s name in the original Japanese version of Digimon Adventure?",
+      "correct_answer": "Tailmon",
+      "incorrect_answers": [
+        "Pawmon",
+        "Catmon",
+        "Nekomon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who recorded the 1975 album &#039;Captain Fantastic and the Brown Dirt Cowboy&#039;?",
+      "correct_answer": "Elton John",
+      "incorrect_answers": [
+        "John Denver",
+        "Billy Joel",
+        "Joe Cocker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Guy&#039;s Grocery Games is hosted by which presenter?",
+      "correct_answer": "Guy Fieri",
+      "incorrect_answers": [
+        "Guy Martin",
+        "Guy Ritchie",
+        "Ainsley Harriott"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In &quot;It&#039;s Always Sunny in Philadelphia&quot; what was the name of Frank&#039;s wrestling persona?",
+      "correct_answer": "The Trash Man",
+      "incorrect_answers": [
+        "Bird of War",
+        "Day Man",
+        "The Maniac"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What former MOBA, created by Waystone Games and published by EA, was shut down in 2014?",
+      "correct_answer": "Dawngate",
+      "incorrect_answers": [
+        "Strife",
+        "League of Legends",
+        "Heroes of Newerth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Celebrities",
+      "question": "Which actress married Michael Douglas in 2000?",
+      "correct_answer": "Catherine Zeta-Jones",
+      "incorrect_answers": [
+        "Ruth Jones",
+        "Pam Ferris",
+        "Sara Sugarman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which year was the first official Youtube Rewind released?",
+      "correct_answer": "2010",
+      "incorrect_answers": [
+        "2012",
+        "2011",
+        "2013"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Pete Townshend collaborated with which famous guitarist for an event at Brixton Academy in 1985?",
+      "correct_answer": "David Gilmour",
+      "incorrect_answers": [
+        "Jimmy Page",
+        "Mark Knopfler",
+        "Eric Clapton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The word &quot;science&quot; stems from the word &quot;scire&quot; meaning what?",
+      "correct_answer": "To know",
+      "incorrect_answers": [
+        "To measure",
+        "To live",
+        "To count"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+      "correct_answer": "Economics",
+      "incorrect_answers": [
+        "Philosophy",
+        "Politics",
+        "Physics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which country, not including Japan, has the most people of Japanese descent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "South Korea",
+        "United States of America"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who wrote the play &#039;Angels in America&#039;?",
+      "correct_answer": "Tony Kusher",
+      "incorrect_answers": [
+        "Tom Stoppard",
+        "Matthew Lopez",
+        "Anthony Neilson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "correct_answer": "Paul Revere",
+      "incorrect_answers": [
+        "Thomas Paine",
+        "Henry Longfellow",
+        "Nathan Hale"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What is the collective noun for bears?",
+      "correct_answer": "Sloth",
+      "incorrect_answers": [
+        "Drove",
+        "Tribe",
+        "Husk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+      "correct_answer": "RiDGiD STUDiOS",
+      "incorrect_answers": [
+        "Dan Bell",
+        "Billy Familia",
+        "VeganGainz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "In &quot;Battle Cats&quot;, what is Moneko / MISS Moneko&#039;s critical percentage rate?",
+      "correct_answer": "15%",
+      "incorrect_answers": [
+        "20%",
+        "10%",
+        "25%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What was the original name of the search engine &quot;Google&quot;?",
+      "correct_answer": "BackRub",
+      "incorrect_answers": [
+        "CatMassage",
+        "SearchPro",
+        "Netscape Navigator"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the real name of the Scout in &quot;Team Fortress 2&quot;?",
+      "correct_answer": "Jeremy",
+      "incorrect_answers": [
+        "Lance",
+        "Walter",
+        "John"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which one of these action movies are shot entirely in one take?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Ip Man 2",
+        "The Bourne Legacy",
+        "L&eacute;on: The Professional"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the symbol for Displacement?",
+      "correct_answer": "&Delta;r",
+      "incorrect_answers": [
+        "dr",
+        "Dp",
+        "r"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Which classic book opens with the line &quot;Call me Ishmael&quot;?",
+      "correct_answer": "Moby Dick",
+      "incorrect_answers": [
+        "A Tale of Two Cities",
+        "Kidnapped",
+        "Wuthering Heights"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of the antagonist group in Danganronpa Another Episode: Ultra Despair Girls?",
+      "correct_answer": "Warriors of Hope",
+      "incorrect_answers": [
+        "The Monokubs",
+        "Warriors of Despair",
+        "The Ultimate Despair"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Which classic horror character killed Elizabeth Lavenza?",
+      "correct_answer": "Frankenstein&#039;s Monster",
+      "incorrect_answers": [
+        "Count Dracula",
+        "Werewolf",
+        "The Creature from the Black Lagoon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What year was the video game streaming platform TwitchTV founded?",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2012",
+        "2010",
+        "2014"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The file hosting service, &quot;Google Drive&quot; was launched on what day?",
+      "correct_answer": "April 24, 2012",
+      "incorrect_answers": [
+        "January 12, 2014",
+        "November 14, 2008",
+        "January 20, 2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "Which of these games includes the phrase &quot;Do not pass Go, do not collect $200&quot;?",
+      "correct_answer": "Monopoly",
+      "incorrect_answers": [
+        "Pay Day",
+        "Cluedo",
+        "Coppit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which M83 album is the song &quot;Midnight City&quot; featured in?",
+      "correct_answer": "Hurry Up, We&#039;re Dreaming",
+      "incorrect_answers": [
+        "Saturdays = Youth",
+        "Before the Dawn Heals Us",
+        "Junk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of the Brotherhood of Nod in the Command and Conquer series?",
+      "correct_answer": "Kane",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "CABAL",
+        "Yuri"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the Roman numeral for 500?",
+      "correct_answer": "D",
+      "incorrect_answers": [
+        "L",
+        "C",
+        "X"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the stuffed lion in Bleach?",
+      "correct_answer": "Kon",
+      "incorrect_answers": [
+        "Jo",
+        "Urdiu",
+        "Chad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The tuba is a part of which musical family?",
+      "correct_answer": "Brass",
+      "incorrect_answers": [
+        "Percussion",
+        "Strings",
+        "Woodwind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which Japanese company is the world&#039;s largest manufacturer of motorcycles?",
+      "correct_answer": "Honda",
+      "incorrect_answers": [
+        "Yamaha",
+        "Suzuki",
+        "Kawasaki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Which of the following is not true about the life of Tiresias?",
+      "correct_answer": "Sailed with the Argonauts to find the golden fleece",
+      "incorrect_answers": [
+        "Athena turned him into a woman, and then years later back into a man",
+        "Hera blinded him after he agreed with Zeus in an argument",
+        "Revealed to Oedipus that Oedipus had married his own mother"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following games in the Anno series introduced the &quot;Eco Balance&quot; gameplay mechanic?",
+      "correct_answer": "Anno 2070",
+      "incorrect_answers": [
+        "Anno 1404",
+        "Anno 2205",
+        " Anno 1701"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which studio animated Afro Samurai?",
+      "correct_answer": "Gonzo",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "xebec",
+        "Production I.G"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the beginning of the game &quot;Sonic Adventure&quot;, what color Chaos Emerald does Tails own?",
+      "correct_answer": "Purple",
+      "incorrect_answers": [
+        "Red",
+        "Green",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "By how many minutes are you late to work in &quot;Half-Life&quot;?",
+      "correct_answer": "30",
+      "incorrect_answers": [
+        "5",
+        "60",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What was the name of the security vulnerability found in Bash in 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": [
+        "Heartbleed",
+        "Bashbug",
+        "Stagefright"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who was the Author of the manga Monster Hunter Orage?",
+      "correct_answer": "Hiro Mashima",
+      "incorrect_answers": [
+        "Shin Yamamoto",
+        "Keiichi Hikami",
+        "Hirohiko Araki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which company did the animation for Peter Gabriel&#039;s Video Sledgehammer (1986)?",
+      "correct_answer": "Aardman Animations",
+      "incorrect_answers": [
+        "HIT Entertainment",
+        "Illumination Entertainment",
+        "VIZ Media"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+      "correct_answer": "Tilly",
+      "incorrect_answers": [
+        "Tom",
+        "Tiny",
+        "None of the Above"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;Pizza Tower&quot;, what is the protagonist&#039;s name?",
+      "correct_answer": "Peppino",
+      "incorrect_answers": [
+        "Pastachio",
+        "Pepper",
+        "Spinachio"
+      ]
+    }
+  ]
+}

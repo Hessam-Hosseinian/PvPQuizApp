@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which television show has Dan Gheesling been on?",
+      "correct_answer": "Big Brother",
+      "incorrect_answers": [
+        "Jeopardy",
+        "Survivor",
+        "The Bachelor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Toriko&quot;, which of the following foods is knowingly compatible with Toriko?",
+      "correct_answer": "Poison Potato",
+      "incorrect_answers": [
+        "Mors Oil",
+        "Alpacookie",
+        "Parmesansho Fruit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is Hypernatremia?",
+      "correct_answer": "Increase in blood sodium",
+      "incorrect_answers": [
+        "Decrease in blood potassium",
+        "Increase in blood glucose",
+        "Decrease in blood iron"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the main heroine of the anime, Full Metal Panic!",
+      "correct_answer": "Kaname Chidori",
+      "incorrect_answers": [
+        "Teletha Testarossa",
+        "Melissa Mao",
+        "Kyoko Tokiwa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the topscorer for England national football team?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "David Beckham",
+        "Steven Gerrard",
+        "Michael Owen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the name of the second studio album released by American rapper Post Malone in 2018?",
+      "correct_answer": "Beerbongs &amp; Bentleys",
+      "incorrect_answers": [
+        "Takin&#039; Shots",
+        "Rockstar",
+        "Better Now"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Which actor has NOT portrayed Billy Flynn in the musical &quot;Chicago&quot;?",
+      "correct_answer": "Christopher Walken",
+      "incorrect_answers": [
+        "David Hasselhoff",
+        "Jerry Springer",
+        "Patrick Swayze"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these countries is NOT located in Africa?",
+      "correct_answer": "Suriname",
+      "incorrect_answers": [
+        "Burkina Faso",
+        "Mozambique",
+        "Algeria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which operation in &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; introduced the &quot;Skyscraper&quot; map?",
+      "correct_answer": "Red Crow",
+      "incorrect_answers": [
+        "Velvet Shell",
+        "Skull Rain",
+        "Dust Line"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "How many stars are featured on New Zealand&#039;s flag?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "2",
+        "0"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which constellation contains the center of the Milky Way?",
+      "correct_answer": "Sagittarius",
+      "incorrect_answers": [
+        "Scorpius",
+        "Ophiuchus",
+        "Capricornus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In Big Hero 6, what were Baymax&#039;s motions modeled after?",
+      "correct_answer": "Baby penguins",
+      "incorrect_answers": [
+        "Baby monkeys",
+        "Baby ostriches",
+        "Baby bears"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Going by the International Code of Signals, which single flag is interpreted as &quot;I require assistance (not distress)&quot;?",
+      "correct_answer": "Victor",
+      "incorrect_answers": [
+        "Kilo",
+        "Papa",
+        "Delta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which one of these action movies are shot entirely in one take?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Ip Man 2",
+        "The Bourne Legacy",
+        "L&eacute;on: The Professional"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+      "correct_answer": "Billy Loomis and Stu Macher",
+      "incorrect_answers": [
+        "Dewey Riley",
+        "Sidney Prescott",
+        "Archie Prescott and Philip Marv"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer&#039;s Stone?",
+      "correct_answer": "Fluffy",
+      "incorrect_answers": [
+        "Spike",
+        "Poofy",
+        "Spot"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?",
+      "correct_answer": "Ming Tea",
+      "incorrect_answers": [
+        "Cough Fi",
+        "Spear Mint",
+        "Mister E"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+      "correct_answer": "Galois",
+      "incorrect_answers": [
+        "Abel",
+        "Euler",
+        "Gauss"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who played the Waitress in the Spam sketch of &quot;Monty Python&#039;s Flying Circus&quot;?",
+      "correct_answer": "Terry Jones",
+      "incorrect_answers": [
+        "Eric Idle",
+        "Graham Chapman",
+        "John Cleese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+      "correct_answer": "Ulgrotha",
+      "incorrect_answers": [
+        "Bant",
+        "Llanowar",
+        "Tazeem"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Worms&quot; series of video games, which of these weapons is affected by wind?",
+      "correct_answer": "Bazooka",
+      "incorrect_answers": [
+        "Grenade",
+        "Air Strike",
+        "Mortar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What type of Pok&eacute;mon is Charizard?",
+      "correct_answer": "Fire/Flying",
+      "incorrect_answers": [
+        "Fire",
+        "Dragon",
+        "Fire/Dragon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;The Potato Sack&quot; was a collection of indie games released on Steam in 2011 as a promotion for which game?",
+      "correct_answer": "Portal 2",
+      "incorrect_answers": [
+        "Left 4 Dead 2",
+        "Half-Life 3",
+        "Dota 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What date is referenced in the 1971 song &quot;September&quot; by Earth, Wind &amp; Fire?",
+      "correct_answer": "21st of September",
+      "incorrect_answers": [
+        "26th of September",
+        "23rd of September",
+        "24th of September"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Whistler was the codename of this Microsoft Operating System.",
+      "correct_answer": "Windows XP",
+      "incorrect_answers": [
+        "Windows 2000",
+        "Windows 7",
+        "Windows 95"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which movie did NOT feature the late actor John Candy?",
+      "correct_answer": "Ghostbusters",
+      "incorrect_answers": [
+        "Little Shop Of Horrors",
+        "Home Alone",
+        "Planes Trains and Automobiles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Pokemon generation did the fan-named &quot;Masuda Method&quot; first appear in? ",
+      "correct_answer": "Diamond/Pearl",
+      "incorrect_answers": [
+        "Ruby/Sapphire",
+        "Black/White",
+        "X/Y"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What mountain range lines the border between Spain and France?",
+      "correct_answer": "Pyrenees",
+      "incorrect_answers": [
+        "Alps",
+        "Carpathians",
+        "Urals"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first President of the People&#039;s Republic of China?",
+      "correct_answer": "Mao Zedong",
+      "incorrect_answers": [
+        "Liu Shaoqi",
+        "Dong Biwu",
+        "Li Xiannian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On a London Underground map, what colour is the Circle Line?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": [
+        "Red",
+        "Blue",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which rap group released the album &quot;Straight Outta Compton&quot;?",
+      "correct_answer": "N.W.A",
+      "incorrect_answers": [
+        "Wu-Tang Clan",
+        "Run-D.M.C.",
+        "Beastie Boys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch&quot;, what is the name of Mercy&#039;s &quot;ultimate ability&quot;?",
+      "correct_answer": "Valkyrie",
+      "incorrect_answers": [
+        "Earthshatter",
+        "Rocket Barrage",
+        "Molten Core"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The Sun consists of mostly which two elements?",
+      "correct_answer": "Hydrogen &amp; Helium",
+      "incorrect_answers": [
+        "Hydrogen &amp; Nitrogen",
+        "Carbon &amp; Nitrogen",
+        "Carbon &amp; Helium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In which African country was the 2006 film &#039;Blood Diamond&#039; mostly set in?",
+      "correct_answer": "Sierra Leone",
+      "incorrect_answers": [
+        "Liberia",
+        "Burkina Faso",
+        "Central African Republic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What household item make the characters of &quot;Steins; Gate&quot; travel through time?",
+      "correct_answer": "Microwave",
+      "incorrect_answers": [
+        "Computer",
+        "Refrigerator",
+        "Televison"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which RAID array type is associated with data mirroring?",
+      "correct_answer": "RAID 1",
+      "incorrect_answers": [
+        "RAID 0",
+        "RAID 10",
+        "RAID 5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Which of these game-based comics were published in 2011 by DC Comics?",
+      "correct_answer": "Infamous",
+      "incorrect_answers": [
+        "Left 4 Dead: The Sacrifice",
+        "Prototype",
+        "Kane &amp; Lynch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the code name for the &quot;Nintendo Gamecube&quot;?",
+      "correct_answer": "Dolphin",
+      "incorrect_answers": [
+        "Nitro",
+        "Revolution",
+        "Atlantis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In which 1955 film does Frank Sinatra play Nathan Detroit?",
+      "correct_answer": "Guys and Dolls",
+      "incorrect_answers": [
+        "Anchors Aweigh",
+        "From Here to Eternity",
+        "High Society"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Which of the following is NOT a work done by Shakespeare?",
+      "correct_answer": "Trial of Temperance",
+      "incorrect_answers": [
+        "Measure For Measure",
+        "Titus Andronicus",
+        "Cymbeline"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters is NOT a boss in Crash Bash?",
+      "correct_answer": "Ripper Roo",
+      "incorrect_answers": [
+        "Papu Papu",
+        "Komodo brothers",
+        "Nitros Oxide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What does the International System of Quantities refer 1024 bytes as?",
+      "correct_answer": "Kibibyte",
+      "incorrect_answers": [
+        "Kylobyte",
+        "Kilobyte",
+        "Kelobyte"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-III?",
+      "correct_answer": "Ewan McGregor",
+      "incorrect_answers": [
+        "Alec Guinness",
+        "Hayden Christensen",
+        "Liam Neeson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many independent countries are there within the continent of South America?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who is believed to have been the first European to &#039;discover&#039; the land of New Zealand?",
+      "correct_answer": "Abel Tasman",
+      "incorrect_answers": [
+        "Christopher Columbus",
+        "Jeanne Bar&eacute;",
+        "John Cabot "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In the Star Trek universe, what color is Vulcan blood?",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Blue",
+        "Red",
+        "Purple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which variant of the MP5 is depicted in Counter-Strike 1.6?",
+      "correct_answer": "MP5N",
+      "incorrect_answers": [
+        "MP5SD",
+        "MP5K",
+        "MP5RAS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": " Which chemical element, number 11 in the Periodic table, has the symbol Na?",
+      "correct_answer": "Sodium",
+      "incorrect_answers": [
+        "Carbon",
+        "Lead",
+        "Nitrogen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Which former US president used &quot;Let&#039;s Make America Great Again&quot; as his campaign slogan before Donald Trump&#039;s campaign?",
+      "correct_answer": "Ronald Reagan",
+      "incorrect_answers": [
+        "Jimmy Carter",
+        "Gerald Ford",
+        "Richard Nixon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the main healing item in Dark Souls?",
+      "correct_answer": "Estus Flask",
+      "incorrect_answers": [
+        "Health Potion",
+        "Orange Juice",
+        "Ashen Flask"
+      ]
+    }
+  ]
+}

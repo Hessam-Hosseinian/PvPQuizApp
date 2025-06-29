@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "On which computer hardware device is the BIOS chip located?",
+      "correct_answer": "Motherboard",
+      "incorrect_answers": [
+        "Hard Disk Drive",
+        "Central Processing Unit",
+        "Graphics Processing Unit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which of these was an official candidate in the 2017 British General Election?",
+      "correct_answer": "Lord Buckethead",
+      "incorrect_answers": [
+        "James Francis",
+        "Robert Wimbledon",
+        "Sir Crumpetsby"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following language families is the most controversial amongst modern linguists?",
+      "correct_answer": "Altaic",
+      "incorrect_answers": [
+        "Sino-Tibetan",
+        "Dravidian",
+        "Indo-European"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "When did the online streaming service &quot;Mixer&quot; launch?",
+      "correct_answer": "2016",
+      "incorrect_answers": [
+        "2013",
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following landmarks is not located in New York City?",
+      "correct_answer": "Lincoln Memorial",
+      "incorrect_answers": [
+        "Empire State Building",
+        "Times Square",
+        "Central Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The first version of Blockland came out in which year?",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2007",
+        "2008",
+        "2006"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which of the following collision avoidance systems helps airplanes avoid colliding with each other?",
+      "correct_answer": "TCAS",
+      "incorrect_answers": [
+        "GPWS",
+        "OCAS",
+        "TAWS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which type of rock is created by intense heat AND pressure?",
+      "correct_answer": "Metamorphic",
+      "incorrect_answers": [
+        "Sedimentary",
+        "Igneous",
+        "Diamond"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Which of these voices wasn&#039;t a choice for the House AI in &quot;The Simpsons Treehouse of Horror&quot; short, House of Whacks?",
+      "correct_answer": "George Clooney",
+      "incorrect_answers": [
+        "Matthew Perry",
+        "Dennis Miller",
+        "Pierce Brosnan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these actors does NOT appear in the 1998 movie &quot;Saving Private Ryan&quot;?",
+      "correct_answer": "Ralph Fiennes",
+      "incorrect_answers": [
+        "Tom Hanks",
+        "Vin Diesel",
+        "Matt Damon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS7 engine is how many cubic inches?",
+      "correct_answer": "427",
+      "incorrect_answers": [
+        "346",
+        "364",
+        "376"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the main developer of the Suez Canal?",
+      "correct_answer": "Ferdinand de Lesseps",
+      "incorrect_answers": [
+        "Louis-Eug&egrave;ne Cavaignac",
+        "John Milton",
+        "Johann Lukas von Hildebrandt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What&#039;s the second book in George R. R. Martin&#039;s &#039;A Song of Ice and Fire&#039; series?",
+      "correct_answer": "A Clash of Kings",
+      "incorrect_answers": [
+        "A Dance with Dragons",
+        "A Storm of Swords",
+        "A Feast for Crows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Under which name was Rodrigo Borgia made Pope?",
+      "correct_answer": "Alexander VI",
+      "incorrect_answers": [
+        "Rodrigo I",
+        "John Paul II",
+        "Pius VII"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The word &quot;abulia&quot; means which of the following?",
+      "correct_answer": "The inability to make decisions",
+      "incorrect_answers": [
+        "The inability to stand up",
+        "The inability to concentrate on anything",
+        "A feverish desire to rip one&#039;s clothes off"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a possible drink to be made in the game &quot;VA-11 HALL-A: Cyberpunk Bartender Action&quot;?",
+      "correct_answer": "Sour Appletini",
+      "incorrect_answers": [
+        "Fringe Weaver",
+        "Piano Man",
+        "Bad Touch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The &#039;Islets of Langerhans&#039; is found in which human organ?",
+      "correct_answer": "Pancreas",
+      "incorrect_answers": [
+        "Kidney",
+        "Liver",
+        "Brain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these words refers to something made, distributed, or sold illegally?",
+      "correct_answer": "Bootleg",
+      "incorrect_answers": [
+        "Bootblack",
+        "Bootlace",
+        "Bootstrap"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What part of the brain takes its name from the Greek for seahorse?",
+      "correct_answer": "Hippocampus",
+      "incorrect_answers": [
+        "Cerebellum",
+        "Thalamus",
+        "Amygdala"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Blade Runner&quot;, what is the term used for human-like androids ?",
+      "correct_answer": "Replicants",
+      "incorrect_answers": [
+        "Cylons",
+        "Synthetics",
+        "Skinjobs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who created the Cartoon Network series &quot;Adventure Time&quot;?",
+      "correct_answer": "Pendleton Ward",
+      "incorrect_answers": [
+        "J. G. Quintel",
+        "Ben Bocquelet",
+        "Rebecca Sugar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which term best describes the connection of two sections of a musical piece through a transitional passage?",
+      "correct_answer": "Bridge",
+      "incorrect_answers": [
+        "Coda",
+        "Capo",
+        "Binary Form"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?",
+      "correct_answer": "9",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
+      "correct_answer": "Anglesey",
+      "incorrect_answers": [
+        "Barry",
+        "Bardsey",
+        "Caldey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+      "correct_answer": "Hemocyanin",
+      "incorrect_answers": [
+        "Cytochrome",
+        "Iron",
+        "Methionine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the lowest amount of max health you can have in Team Fortress 2?",
+      "correct_answer": "70",
+      "incorrect_answers": [
+        "100",
+        "50",
+        "95"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "When did Tame Impala release their second album?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2015",
+        "2010",
+        "1967"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Fire Emblem: Shadow Dragon&quot;, what is the central protagonist&#039;s name?",
+      "correct_answer": "Marth",
+      "incorrect_answers": [
+        "Roy",
+        "Eliwood",
+        "Robin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "The Hunua Ranges is located in...",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": [
+        "Nepal",
+        "China",
+        "Mexico"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a playable character in the 2016 video game Overwatch?",
+      "correct_answer": "Invoker",
+      "incorrect_answers": [
+        "Mercy",
+        "Winston",
+        "Zenyatta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which Queen song was covered by Brittany Murphy in the 2006 film &quot;Happy Feet&quot;?",
+      "correct_answer": "Somebody to Love",
+      "incorrect_answers": [
+        "Under Pressure",
+        "Flash",
+        "Bohemian Rhapsody"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In what year was the first Transformers movie released?",
+      "correct_answer": "1986",
+      "incorrect_answers": [
+        "2007",
+        "1984",
+        "2009"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the infamous pachinko machine from &quot;Kaiji&quot;?",
+      "correct_answer": "The Bog",
+      "incorrect_answers": [
+        "The Devil",
+        "The Undefeated",
+        "The Dragon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the planet that the Doctor from television series &quot;Doctor Who&quot; comes from?",
+      "correct_answer": "Gallifrey",
+      "incorrect_answers": [
+        "Sontar",
+        "Skaro",
+        "Mondas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?",
+      "correct_answer": "MGMT",
+      "incorrect_answers": [
+        "MSTRKRFT",
+        "STRFKR",
+        "SBTRKT"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which &quot;Call Of Duty: Zombies&quot; map introduced the &quot;Staffs Of The Ancients&quot;?",
+      "correct_answer": "Origins",
+      "incorrect_answers": [
+        "Shangri-La",
+        "Revelations",
+        "Nuketown"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is Tasmania?",
+      "correct_answer": "An Australian State",
+      "incorrect_answers": [
+        "A flavor of Ben and Jerry&#039;s ice-cream",
+        "A Psychological Disorder",
+        "The Name of a Warner Brothers Cartoon Character"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who voices the infamous Citadel Station A.I known as S.H.O.D.A.N, in the System Shock games?",
+      "correct_answer": "Terri Brosius",
+      "incorrect_answers": [
+        " Jennifer Hale",
+        "Jenn Taylor",
+        "Lori Alan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the lore of the PAYDAY series, which criminal was arrested and then latered rescued by the PAYDAY gang?",
+      "correct_answer": "Hoxton",
+      "incorrect_answers": [
+        "Dallas",
+        "Wolf",
+        "Chains"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Etihad Stadium is the home stadium for which team?",
+      "correct_answer": "Manchester City",
+      "incorrect_answers": [
+        "Manchester United",
+        "Arsenal",
+        "Blackpool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 2014 film &quot;Birdman&quot;, what is the primary instrument in the score?",
+      "correct_answer": "Drums",
+      "incorrect_answers": [
+        "Saxophone",
+        "Violin",
+        "Actual Live Birds Singing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who discovered Penicillin?",
+      "correct_answer": "Alexander Flemming",
+      "incorrect_answers": [
+        "Marie Curie",
+        "Alfred Nobel",
+        "Louis Pasteur"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Bridgetown is the capital of which island country in the Carribean?",
+      "correct_answer": "Barbados",
+      "incorrect_answers": [
+        "Cuba",
+        "Jamaica&lrm;",
+        "Dominica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Which of these Nickelodeon game shows aired first?",
+      "correct_answer": "Double Dare",
+      "incorrect_answers": [
+        "Nick Arcade",
+        "Finders Keepers",
+        "Nickelodeon Guts"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What does Bart sell his soul for in The Simpsons episode &#039;Bart Sells His Soul&#039;?",
+      "correct_answer": "$5",
+      "incorrect_answers": [
+        "A Copy of Bonestorm 2",
+        "$100",
+        "A Giant Gobstopper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What is the name of Eragon&#039;s dragon in &quot;Eragon&quot;?",
+      "correct_answer": "Saphira",
+      "incorrect_answers": [
+        "Glaedr",
+        "Thorn",
+        "Arya"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "How many bits make up the significand portion of a single precision floating point number?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "8",
+        "53",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which unlockable character in Super Smash Bros. For Wii U and 3DS does not have to be fought to be unlocked?",
+      "correct_answer": "Mii Fighters",
+      "incorrect_answers": [
+        "Ness",
+        "R.O.B.",
+        "Mewtwo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Politics",
+      "question": "How many people are in the U.S. House of Representatives?",
+      "correct_answer": "435",
+      "incorrect_answers": [
+        "260",
+        "415",
+        "50"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which card is on the cover of the Beta rulebook of &quot;Magic: The Gathering&quot;?",
+      "correct_answer": "Bog Wraith",
+      "incorrect_answers": [
+        "Island",
+        "Rock Hydra",
+        "Elvish Archers"
+      ]
+    }
+  ]
+}

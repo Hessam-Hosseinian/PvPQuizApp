@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "correct_answer": "DING Ning (China)",
+      "incorrect_answers": [
+        "LI Xiaoxia (China)",
+        "Ai FUKUHARA (Japan)",
+        "Song KIM (North Korea)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the default alias that Princess Garnet goes by in Final Fantasy IX?",
+      "correct_answer": "Dagger",
+      "incorrect_answers": [
+        "Dirk",
+        "Garnet",
+        "Quina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was the first American in space?",
+      "correct_answer": "Alan Shephard",
+      "incorrect_answers": [
+        "Neil Armstrong",
+        "John Glenn",
+        "Jim Lovell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Chino Moreno is the lead singer of which alternative metal band?",
+      "correct_answer": "Deftones",
+      "incorrect_answers": [
+        "Tool",
+        "Korn",
+        "Type O Negative"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Volkswagen&#039;s legendary VR6 engine has cylinders positioned at what degree angle?",
+      "correct_answer": "15 Degree",
+      "incorrect_answers": [
+        "30 Degree",
+        "45 Degree",
+        "90 Degree"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which portion of the Marijuana plant produces the psychoactive substance known as THC?",
+      "correct_answer": "Female Flower",
+      "incorrect_answers": [
+        "Leaves",
+        "Male Flower",
+        "Root Ball"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The seed drill was invented by which British inventor?",
+      "correct_answer": "Jethro Tull",
+      "incorrect_answers": [
+        "Charles Babbage",
+        "Isaac Newton",
+        "J.J Thomson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which team was the 2015-2016 NBA Champions?",
+      "correct_answer": "Cleveland Cavaliers",
+      "incorrect_answers": [
+        "Golden State Warriors",
+        "Toronto Raptors",
+        "Oklahoma City Thunders"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the northernmost human settlement with year round inhabitants?",
+      "correct_answer": "Alert, Canada",
+      "incorrect_answers": [
+        "Nagurskoye, Russia",
+        "McMurdo Station, Antarctica ",
+        "Honningsv&aring;g, Norway"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which video game was recalled for containing a hidden, playable South Park episode?",
+      "correct_answer": "Tiger Woods 99 PGA Tour",
+      "incorrect_answers": [
+        "Tony Hawk&#039;s Pro Skater 3",
+        "Sonic Adventure",
+        "Madden 99"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which two teams played in Super Bowl XLII?",
+      "correct_answer": "The New York Giants &amp; The New England Patriots",
+      "incorrect_answers": [
+        "The Green Bay Packers &amp; The Pittsburgh Steelers",
+        "The Philadelphia Eagles &amp; The New England Patriots",
+        "The Seattle Seahawks &amp; The Denver Broncos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Deionized water is water with which of the following removed?",
+      "correct_answer": "Iron",
+      "incorrect_answers": [
+        "Oxygen",
+        "Hydrogen",
+        "Uncharged atoms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of these choices is not one of the phases of mitosis?",
+      "correct_answer": "Diplophase",
+      "incorrect_answers": [
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What city did the Lakers represent before relocating to Los Angeles?",
+      "correct_answer": "Minneapolis",
+      "incorrect_answers": [
+        "Philadelphia",
+        "Chicago",
+        "San Francisco"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What Led Zeppelin album contains &quot;Stairway to Heaven&quot;?",
+      "correct_answer": "Led Zeppelin IV",
+      "incorrect_answers": [
+        "Houses of the Holy",
+        "Physical Graffiti",
+        "Led Zeppelin III"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+      "correct_answer": "Culper Ring",
+      "incorrect_answers": [
+        "New York Spy Ring",
+        "Washington&#039;s Spies",
+        "Unnamed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
+      "correct_answer": "Dave",
+      "incorrect_answers": [
+        "John",
+        "Will",
+        "Carl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Of the following space shooter games, which came out first?",
+      "correct_answer": "Space Invaders",
+      "incorrect_answers": [
+        "Galaxian",
+        "Galaga",
+        "Sinistar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What was the last message of the Dolphins in &quot;The Hitchhiker&#039;s Guide to the Galaxy&quot;?",
+      "correct_answer": "&quot;So long, and thanks for all the fish.&quot;",
+      "incorrect_answers": [
+        "&quot;The answer is 42.&quot;",
+        "&quot;Land of the brave.&quot;",
+        "&quot;Goodbye cruel world!&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "List the following Iranic empires in chronological order:",
+      "correct_answer": "Median, Achaemenid, Parthian, Sassanid",
+      "incorrect_answers": [
+        "Median, Achaemenid, Sassanid, Parthian",
+        "Achaemenid, Median, Parthian, Sassanid",
+        "Achaemenid, Median, Sassanid, Parthian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What is Tiger Woods&#039; all-time best career golf-score?",
+      "correct_answer": "61",
+      "incorrect_answers": [
+        "65",
+        "63",
+        "67"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+      "correct_answer": "Māori",
+      "incorrect_answers": [
+        "Papuans",
+        "Aborigines",
+        "Polynesians"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What was the name of the sea witch in the 1989 Disney film &quot;The Little Mermaid&quot;?",
+      "correct_answer": "Ursula",
+      "incorrect_answers": [
+        "Madam Mim",
+        "Maleficent",
+        "Lady Tremaine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first President of the People&#039;s Republic of China?",
+      "correct_answer": "Mao Zedong",
+      "incorrect_answers": [
+        "Liu Shaoqi",
+        "Dong Biwu",
+        "Li Xiannian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which of the following won the first season of American Idol in 2002?",
+      "correct_answer": "Kelly Clarkson",
+      "incorrect_answers": [
+        "Justin Guarini",
+        "Ruben Studdard",
+        "Chris Daughtry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What year was the Disney film &quot;A Goofy Movie&quot; released?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1999",
+        "2001",
+        "1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What level do you have to be to get a service medal on CS:GO?",
+      "correct_answer": "40",
+      "incorrect_answers": [
+        "50",
+        "30",
+        "20"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not the name of a city in the Grand Theft Auto series?",
+      "correct_answer": "San Andreas",
+      "incorrect_answers": [
+        "San Fierro",
+        "Las Venturas",
+        "Vice City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;DELTARUNE&quot;, what is Ralsei&#039;s special ability?",
+      "correct_answer": "Pacify",
+      "incorrect_answers": [
+        "Persuade",
+        "Eliminate",
+        "Hug"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "How many known living species of hyenas are there?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "8",
+        "2",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "The stop motion comedy show &quot;Robot Chicken&quot; was created by which of the following?",
+      "correct_answer": "Seth Green",
+      "incorrect_answers": [
+        "Seth MacFarlane",
+        "Seth Rogen",
+        "Seth Rollins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the highest number of Michelin stars a restaurant can receive?",
+      "correct_answer": "Three",
+      "incorrect_answers": [
+        "Four",
+        "Five",
+        "Six"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What album did The Lumineers release in 2016?",
+      "correct_answer": "Cleopatra",
+      "incorrect_answers": [
+        "Winter",
+        "The Lumineers",
+        "Tracks From The Attic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+      "correct_answer": "314.15 Inches",
+      "incorrect_answers": [
+        "380.1215 Inches",
+        "3141.5 Inches",
+        "1256.6 Inches"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Where are Terror Fiends more commonly found in the Nintendo game Miitopia?",
+      "correct_answer": "New Lumos",
+      "incorrect_answers": [
+        "Peculia",
+        "The Sky Scraper",
+        "Otherworld"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+      "correct_answer": "1-7",
+      "incorrect_answers": [
+        "1-5",
+        "1-6",
+        "2-6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What numbers are in the 5th row of Pascal&#039;s Triangle?",
+      "correct_answer": "1 4 6 4 1",
+      "incorrect_answers": [
+        "1 3 3 1",
+        "1 5 10 10 5 1",
+        "1 6 15 20 15 6 1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "In The Lies Of Locke Lamora, what does &quot;Lamora&quot; mean in Throne Therin?",
+      "correct_answer": "Shadow",
+      "incorrect_answers": [
+        "Thievery",
+        "Justice",
+        "Chaos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What TV show is about a grandfather dragging his grandson around on adventures?",
+      "correct_answer": "Rick &amp; Morty",
+      "incorrect_answers": [
+        "Family Guy",
+        "South Park",
+        "American Dad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following is NOT a song in BROCKHAMPTON&#039;s SATURATION album series?",
+      "correct_answer": "LAMB",
+      "incorrect_answers": [
+        "HOTTIE",
+        "SWAMP",
+        "BUMP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of Joel&#039;s daughter in the game, &quot;The Last of Us&quot;? ",
+      "correct_answer": "Sarah",
+      "incorrect_answers": [
+        "Ellie",
+        "Tess",
+        "Marlene"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is NOT a passive electrical component?",
+      "correct_answer": "Transistor",
+      "incorrect_answers": [
+        "Resistor",
+        "Capacitor",
+        "Inductor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Tottenham Hotspur",
+        "Watford",
+        "Stoke City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the nickname of the original model for Half-Life&#039;s protagonist Gordon Freeman?",
+      "correct_answer": "Ivan the Space Biker",
+      "incorrect_answers": [
+        "Gordon the Space Biker",
+        "Ivan the Alien Biker",
+        "Gordon the Alien Biker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Who painted The Starry Night?",
+      "correct_answer": "Vincent van Gogh",
+      "incorrect_answers": [
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Michelangelo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Where did the Great Storm of 1987 make landfall at, first?",
+      "correct_answer": "Cornwall",
+      "incorrect_answers": [
+        "Surrey",
+        "Wales",
+        "The Midlands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was the first prime minister of Canada?",
+      "correct_answer": "John Macdonald",
+      "incorrect_answers": [
+        "John Abbott",
+        "Alexander Mackenzie",
+        "Robert Borden"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "This movie contains the quote, &quot;What we&#039;ve got here is a failure to communicate.&quot;",
+      "correct_answer": "Cool Hand Luke",
+      "incorrect_answers": [
+        "Bonnie and Clyde",
+        "The Graduate",
+        "In the Heat of the Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Splatoon 2, who are the members of Off The Hook?",
+      "correct_answer": "Pearl &amp; Marina",
+      "incorrect_answers": [
+        "Callie &amp; Marie",
+        "Diamond &amp; Aquamarina",
+        "DJ Octavio &amp; Crusty Sean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following is not an Ivy League University?",
+      "correct_answer": "Stanford",
+      "incorrect_answers": [
+        "University of Pennsylvania",
+        "Harvard",
+        "Princeton"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is &quot;Stenoma&quot;?",
+      "correct_answer": "A genus of moths",
+      "incorrect_answers": [
+        "A combat stimulant from WW2",
+        "A type of seasoning",
+        "A port city in the carribean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What position does Harry Potter play in Quidditch?",
+      "correct_answer": "Seeker",
+      "incorrect_answers": [
+        "Beater",
+        "Chaser",
+        "Keeper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who was the main antagonist of Max Payne 3 (2012)?",
+      "correct_answer": "Victor Branco",
+      "incorrect_answers": [
+        "&Aacute;lvaro Neves",
+        "Armando Becker",
+        "Milo Rego"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the official national language of Pakistan?",
+      "correct_answer": "Urdu",
+      "incorrect_answers": [
+        "Indian",
+        "Punjabi",
+        "Pashto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "Which company manufactured the iconic TR-808 drum machine?",
+      "correct_answer": "Roland",
+      "incorrect_answers": [
+        "Technics",
+        "Korg",
+        "Casio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Where are the cars of the brand &quot;Ferrari&quot; manufactured?",
+      "correct_answer": "Italy",
+      "incorrect_answers": [
+        "Romania",
+        "Germany",
+        "Russia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the main heroine of the anime, Full Metal Panic!",
+      "correct_answer": "Kaname Chidori",
+      "incorrect_answers": [
+        "Teletha Testarossa",
+        "Melissa Mao",
+        "Kyoko Tokiwa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song &quot;Paper Planes&quot;?",
+      "correct_answer": "M.I.A.",
+      "incorrect_answers": [
+        "K.I.A.",
+        "C.I.A.",
+        "A.I.A."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "In Canadian football, scoring a rouge is worth how many points?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+      "correct_answer": "Transport",
+      "incorrect_answers": [
+        "Session",
+        "Data link",
+        "Network"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+      "correct_answer": "Australia",
+      "incorrect_answers": [
+        "India",
+        "Canada",
+        "Brazil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of the American state of Arizona?",
+      "correct_answer": "Phoenix",
+      "incorrect_answers": [
+        "Montgomery",
+        "Tallahassee",
+        "Raleigh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which famous rapper is featured in Jack &Uuml; (Skrillex and Diplo)&#039;s 2015 single called &quot;Febreze&quot;?",
+      "correct_answer": "2 Chainz",
+      "incorrect_answers": [
+        "Kendrick Lamar",
+        "Future",
+        "Fatman Scoop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is a class in the game &quot;Hearthstone&quot;?",
+      "correct_answer": "Priest",
+      "incorrect_answers": [
+        "Sage",
+        "Cleric",
+        "Monk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In Chess, the Queen has the combined movement of which two pieces?",
+      "correct_answer": "Bishop and Rook",
+      "incorrect_answers": [
+        "Rook and King",
+        "Knight and Bishop",
+        "King and Knight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the protagonist in Dead Rising 3?",
+      "correct_answer": "Nick Ramos",
+      "incorrect_answers": [
+        "Frank West",
+        "Chuck Greene",
+        "Isabela Keyes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the airspeed velocity of an unladen swallow?",
+      "correct_answer": "24 MPH",
+      "incorrect_answers": [
+        "15 MPH",
+        "20 MPH",
+        "200 MPH"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+      "correct_answer": "55",
+      "incorrect_answers": [
+        "50",
+        "60",
+        "54"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+      "correct_answer": "Jason",
+      "incorrect_answers": [
+        "Castor",
+        "Daedalus",
+        "Odysseus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Before &quot;Jurassic Park III&quot; was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+      "correct_answer": "Baryonyx",
+      "incorrect_answers": [
+        "Tyrannosaurus Rex",
+        "Velociraptor",
+        "Suchomimus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is a character in the video game Destiny?",
+      "correct_answer": "Cayde-6",
+      "incorrect_answers": [
+        "Ostrava of Boletaria",
+        "Mordecai the Hunter",
+        "Leon S. Kennedy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "The film Mad Max: Fury Road features the Dies Irae  from which composer&#039;s requiem?",
+      "correct_answer": "Verdi",
+      "incorrect_answers": [
+        "Mozart",
+        "Berlioz",
+        "Brahms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which of these cities is NOT featured in the Pandemic board game?",
+      "correct_answer": "Berlin",
+      "incorrect_answers": [
+        "Ho Chi Minh City",
+        "Lagos",
+        "Karachi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2002 video game &quot;Kingdom Hearts&quot;, how many Keyblades are usable?",
+      "correct_answer": "18",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;To Love-Ru&quot; series, how many Trans-weapons were created?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+      "correct_answer": "center",
+      "incorrect_answers": [
+        "static",
+        "absolute",
+        "relative"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which animation studio animated &quot;Psycho Pass&quot;?",
+      "correct_answer": "Production I.G",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "Shaft",
+        "Trigger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What video game company developed the 2004 racing game &quot;Burnout 3: Takedown&quot;?",
+      "correct_answer": "Criterion Games",
+      "incorrect_answers": [
+        "EA Black Box",
+        "Codemasters",
+        "Rockstar Games"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who wrote the Sinead O`Connor hit &#039;Nothing Compares 2 U&#039;?",
+      "correct_answer": "Prince",
+      "incorrect_answers": [
+        "Michael Jackson",
+        "Cameo",
+        "Rick James"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "The characters of &quot;Log Horizon&quot; are trapped in what game?",
+      "correct_answer": "Elder Tale",
+      "incorrect_answers": [
+        "Sword Art Online",
+        "Tower Unite",
+        "Yggdrasil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the first weapon you acquire in Half-Life?",
+      "correct_answer": "A crowbar",
+      "incorrect_answers": [
+        "A pistol",
+        "The H.E.V suit",
+        "Your fists"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the plane curve proposed by Descartes to challenge Fermat&#039;s extremum-finding techniques called?",
+      "correct_answer": "Folium of Descartes",
+      "incorrect_answers": [
+        "Elliptic Paraboloid of Descartes",
+        "Cartesian Coordinates",
+        "Descarte&#039;s Helicoid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the busiest port in Europe?",
+      "correct_answer": "Port of Rotterdam",
+      "incorrect_answers": [
+        "Port of Antwerp",
+        "Port of Hamburg",
+        "Port of Amsterdam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "How many degrees Fahrenheit is 100 degrees Celsius? ",
+      "correct_answer": "212",
+      "incorrect_answers": [
+        "326",
+        "100",
+        "451"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Call of Duty: Modern Warfare 2, how many consecutive kills does it require to earn the &quot;Tactical Nuke&quot; killstreak?",
+      "correct_answer": "25",
+      "incorrect_answers": [
+        "20",
+        "30",
+        "35"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+      "correct_answer": "Apple",
+      "incorrect_answers": [
+        "Microsoft",
+        "Atari",
+        "Commodore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the same in Celsius and Fahrenheit?",
+      "correct_answer": "-40",
+      "incorrect_answers": [
+        "32",
+        "-39",
+        "-42"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In season one of the US Kitchen Nightmares, Gordan Ramsay tried to save 10 different restaurants. How many ended up closing afterwards?",
+      "correct_answer": "9",
+      "incorrect_answers": [
+        "6",
+        "3",
+        "0"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Marvel vs Capcom 2: New age of Heroes was released in what year?",
+      "correct_answer": "2000",
+      "incorrect_answers": [
+        "2001",
+        "2003",
+        "1998"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the capital of Wisconsin, USA?",
+      "correct_answer": "Madison",
+      "incorrect_answers": [
+        "Milwaukee",
+        "Wisconsin Dells",
+        "Green Bay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "On a standard Monopoly board, which square is diagonally opposite &#039;Go&#039;? ",
+      "correct_answer": "Free Parking",
+      "incorrect_answers": [
+        "Go to Jail",
+        "Jail",
+        "The Electric Company"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What organelle aids in synthesis of DNA in cells?",
+      "correct_answer": "Ribosomes",
+      "incorrect_answers": [
+        "Nuclei",
+        "Lysosomes",
+        "Mitochondria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which character in the &quot;Animal Crossing&quot; series uses the phrase &quot;zip zoom&quot; when talking to the player?",
+      "correct_answer": "Scoot",
+      "incorrect_answers": [
+        "Drake",
+        "Bill",
+        "Mallary"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which was the first M-rated video game developed by Squaresoft/Square Enix?",
+      "correct_answer": "Parasite Eve",
+      "incorrect_answers": [
+        "Final Fantasy VIII",
+        "Front Mission",
+        "Vagrant Story"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In DC comics where does the Green Arrow (Oliver Queen) live?",
+      "correct_answer": "Star City",
+      "incorrect_answers": [
+        "Central City",
+        "Gotham City",
+        "Metropolis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In the TV Show &quot;Donkey Kong Country&quot;, which episode did the song &quot;Eddie, Let Me Go Back To My Home&quot; play in?",
+      "correct_answer": "It&#039;s a Wonderful Life",
+      "incorrect_answers": [
+        "Message In A Bottle Show",
+        "To The Moon Baboon",
+        "Ape-Nesia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Night In The Woods, where does Gregg work?",
+      "correct_answer": "Snack Falcon",
+      "incorrect_answers": [
+        "Ol&#039; Pickaxe",
+        "Video Outpost &quot;Too&quot;",
+        "Food Donkey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How old is Chloe Price in Life is Strange: Before the Storm?",
+      "correct_answer": "16",
+      "incorrect_answers": [
+        "24",
+        "19",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+      "correct_answer": "Hannibal",
+      "incorrect_answers": [
+        "Garmanicus",
+        "Alexander the Great",
+        "Tiberius"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these aliases has NOT been used by electronic musician Aphex Twin?",
+      "correct_answer": "Burial",
+      "incorrect_answers": [
+        "Caustic Window",
+        "Bradley Strider",
+        "GAK"
+      ]
+    }
+  ]
+}

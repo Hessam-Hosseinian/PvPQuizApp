@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Johnny Cash did a cover of this song written by lead singer of Nine Inch Nails, Trent Reznor.",
+      "correct_answer": "Hurt",
+      "incorrect_answers": [
+        "Closer",
+        "A Warm Place",
+        "Big Man with a Gun"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Alice in Wonderland, what is the name of Alice&#039;s kitten?",
+      "correct_answer": "Dinah",
+      "incorrect_answers": [
+        "Oscar",
+        "Heath",
+        "Smokey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+      "correct_answer": "Coffee Lake",
+      "incorrect_answers": [
+        "Sandy Bridge",
+        "Skylake",
+        "Broadwell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these game franchises were made by Namco?",
+      "correct_answer": "Tekken",
+      "incorrect_answers": [
+        "Street Fighter",
+        "Mortal Kombat",
+        "Dragon Quest"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Sgt. Gordon Elias in &#039;Platoon&#039; (1986)?",
+      "correct_answer": "Willem Dafoe",
+      "incorrect_answers": [
+        "Charlie Sheen",
+        "Matt Damon",
+        "Johnny Depp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+      "correct_answer": "Jacob&#039;s Syndrome",
+      "incorrect_answers": [
+        "Klinefelter&#039;s Syndrome",
+        "Turner&#039;s Syndrome",
+        "Down Syndrome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the name for the auditory illusion of a note that seems to be rising infinitely?",
+      "correct_answer": "Shepard Tone",
+      "incorrect_answers": [
+        "Glissandro Illusion",
+        "Fransen Effect",
+        "McGurck Effect"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which country was Josef Stalin born in?",
+      "correct_answer": "Georgia",
+      "incorrect_answers": [
+        "Russia",
+        "Germany",
+        "Poland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of these island countries is located in the Caribbean?",
+      "correct_answer": "Barbados",
+      "incorrect_answers": [
+        "Fiji",
+        "Maldives",
+        "Seychelles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The Japanese district Akihabara is also known by what nickname?",
+      "correct_answer": "Electric Town",
+      "incorrect_answers": [
+        "Moon Walk River",
+        "Otaku Central ",
+        "Big Eyes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the only female &quot;Original Four&quot; Kerbal in Kerbal Space Program?",
+      "correct_answer": "Valentina Kerman",
+      "incorrect_answers": [
+        "Emiko Kerman",
+        "Samantha Kerman",
+        "Catmund Kerman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the foley artist who designed the famous sounds of Star Wars, including Chewbacca&#039;s roar and R2-D2&#039;s beeps and whistles?",
+      "correct_answer": "Ben Burtt",
+      "incorrect_answers": [
+        "Ken Burns",
+        "Ralph McQuarrie",
+        "Miranda Keyes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the largest lake in the African continent?",
+      "correct_answer": "Lake Victoria",
+      "incorrect_answers": [
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Turkana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the Friday The 13th series, what is Jason&#039;s mother&#039;s first name?",
+      "correct_answer": "Pamela",
+      "incorrect_answers": [
+        "Mary",
+        "Christine",
+        "Angeline"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+      "correct_answer": "Ernest Rutherford",
+      "incorrect_answers": [
+        "Joseph John Thomson",
+        "Archimedes",
+        "Niels Henrik David Bohr"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What national museum will you find in Cooperstown, New York?",
+      "correct_answer": "National Baseball Hall of Fame",
+      "incorrect_answers": [
+        "Metropolitan Museum of Art",
+        "National Toy Hall of Fame",
+        "Museum of Modern Art"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many stars are there to collect in Super Mario 64?",
+      "correct_answer": "120",
+      "incorrect_answers": [
+        "60",
+        "80",
+        "100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the make and model of the tour vehicles in &quot;Jurassic Park&quot; (1993)?",
+      "correct_answer": "1992 Ford Explorer XLT",
+      "incorrect_answers": [
+        "1992 Toyota Land Cruiser",
+        "1992 Jeep Wrangler YJ Sahar",
+        "Mercedes M-Class"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:",
+      "correct_answer": "Haplogroup U",
+      "incorrect_answers": [
+        "Haplogroup L",
+        "Haplogroup T",
+        "Haplogroup J"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?",
+      "correct_answer": "7 Meters",
+      "incorrect_answers": [
+        "10 Meters",
+        "2 Meters",
+        "5 Meters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What are Sans and Papyrus named after in &quot;Undertale&quot;?",
+      "correct_answer": "Fonts",
+      "incorrect_answers": [
+        "Plants",
+        "Companies",
+        "Ancient writing paper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these symbols can be seen on the shirt of the 1993 video game character, Bubsy T. Bobcat?",
+      "correct_answer": "An exclamation point",
+      "incorrect_answers": [
+        "A question mark",
+        "The letter B",
+        "Nothing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters wasn&#039;t a villian in Club Penguin?",
+      "correct_answer": "The Director",
+      "incorrect_answers": [
+        "Herbert P. Bear",
+        "Tusk",
+        "Ultimate Proto-Bot 10000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In My Little Pony, what is the name of Applejack&#039;s younger sister?",
+      "correct_answer": "Apple Bloom",
+      "incorrect_answers": [
+        "Red Delicious",
+        "Apple Sweets",
+        "Apple Fritter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Ace Attorney&quot; series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?",
+      "correct_answer": "Bansai Ichiyanagi",
+      "incorrect_answers": [
+        "Manfred Von Karma",
+        "Gregory Edgeworth",
+        "Tateyuki Shigaraki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "How many plays is Shakespeare generally considered to have written?",
+      "correct_answer": "37",
+      "incorrect_answers": [
+        "18",
+        "54",
+        "25"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What are Panama hats made out of?",
+      "correct_answer": "Straw",
+      "incorrect_answers": [
+        "Silk",
+        "Hemp",
+        "Flax"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the name of the cancelled sequel of Team Fortress?",
+      "correct_answer": "Team Fortress 2: Brotherhood of Arms",
+      "incorrect_answers": [
+        "Team Fortress 2: Desert Mercenaries",
+        "Team Fortress 2: Operation Gear Grinder",
+        "Team Fortress 2: Return to Classic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which two teams played in Super Bowl XLII?",
+      "correct_answer": "The New York Giants &amp; The New England Patriots",
+      "incorrect_answers": [
+        "The Green Bay Packers &amp; The Pittsburgh Steelers",
+        "The Philadelphia Eagles &amp; The New England Patriots",
+        "The Seattle Seahawks &amp; The Denver Broncos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Pok&eacute;mon series, which type is Sudowoodo, the Imitation Pok&eacute;mon?",
+      "correct_answer": "Rock",
+      "incorrect_answers": [
+        "Grass",
+        "Bug",
+        "Ground"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What are the chances of being dealt a Royal Flush within Poker/Video Poker?",
+      "correct_answer": "1 in 649,740",
+      "incorrect_answers": [
+        "1 in 763,302",
+        "1 in 499,304",
+        "1 in 311,875,200"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what term for blocking was established in the Portal set?",
+      "correct_answer": "Intercepting",
+      "incorrect_answers": [
+        "Blocking",
+        "Resisting",
+        "Shielding"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The human right lung has how many lobes?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "4",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What age was King Henry V when he died?",
+      "correct_answer": "35",
+      "incorrect_answers": [
+        "62",
+        "87",
+        "73"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the Kill Bill movies?",
+      "correct_answer": "Quentin Tarantino",
+      "incorrect_answers": [
+        "Arnold Schwarzenegger",
+        "David Lean",
+        "Stanley Kubrick"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the canonical name of the Persona 4 protagonist?",
+      "correct_answer": "Yu Narukami",
+      "incorrect_answers": [
+        "Minato Arisato",
+        "Soji Seta",
+        "Nagito Komaeda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Undertale, what&#039;s the prize for answering correctly?",
+      "correct_answer": "More questions",
+      "incorrect_answers": [
+        "New car",
+        "Mercy",
+        "Money"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which director directed the movie &quot;Pan&#039;s Labyrinth&quot;?",
+      "correct_answer": "Guillermo Del Toro",
+      "incorrect_answers": [
+        "Alfonso Cuar&oacute;n",
+        "Alejandro Gonz&aacute;lez I&ntilde;&aacute;rritu",
+        " Alejandro Jodorowsky"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which country, not including Japan, has the most people of Japanese descent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "South Korea",
+        "United States of America"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Zelda games did not feature Ganon as a final boss?",
+      "correct_answer": "Majora&#039;s Mask",
+      "incorrect_answers": [
+        "Ocarina of Time",
+        "Skyward Sword",
+        "Breath of the Wild"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "All of the following are towns/villages in the Pacific Island nation of Kiribati EXCEPT:",
+      "correct_answer": "Urutora",
+      "incorrect_answers": [
+        "Rungata",
+        "London",
+        "Washington"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the virus that infected New York in Tom Clancy&#039;s The Division?",
+      "correct_answer": "Dollar Flu",
+      "incorrect_answers": [
+        "Ebola",
+        "Red Poison",
+        "Smallpox"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Whose albums included &quot;Back in Black&quot; and &quot;Ballbreaker&quot;?",
+      "correct_answer": "AC/DC",
+      "incorrect_answers": [
+        "Iron Maiden",
+        "Black Sabbath",
+        "Metallica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is not on the &quot;untitled&quot; album by Led Zeppelin?",
+      "correct_answer": "Celebration Day",
+      "incorrect_answers": [
+        "Stairway to Heaven",
+        "Black Dog",
+        "Rock and Roll"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the name of the hero in the 80s animated video game &#039;Dragon&#039;s Lair&#039;?",
+      "correct_answer": "Dirk the Daring",
+      "incorrect_answers": [
+        "Arthur",
+        "Sir Toby Belch",
+        "Guy of Gisbourne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was &quot;Metal Gear Solid&quot; released in North America?",
+      "correct_answer": "1998",
+      "incorrect_answers": [
+        "1987",
+        "2001",
+        "2004"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which member of &quot;The Beatles&quot; narrated episodes of &quot;Thomas the Tank Engine&quot;?",
+      "correct_answer": "Ringo Starr",
+      "incorrect_answers": [
+        "George Harrison",
+        "John Lennon",
+        "Paul McCartney"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the thin, outermost layer of the Earth?",
+      "correct_answer": "Crust",
+      "incorrect_answers": [
+        "Exosphere",
+        "Mantle",
+        "Outer Core"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What country hosted the 2014 Winter Olympics?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Canada",
+        "United States",
+        "Germany"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who plays &quot;Bruce Wayne&quot; in the 2008 movie &quot;The Dark Knight&quot;?",
+      "correct_answer": "Christian Bale",
+      "incorrect_answers": [
+        "Michael Caine",
+        "Ron Dean",
+        "Heath Ledger"
+      ]
+    }
+  ]
+}

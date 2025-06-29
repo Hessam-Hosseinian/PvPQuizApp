@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What are human nails made of?",
+      "correct_answer": "Keratin",
+      "incorrect_answers": [
+        "Bone",
+        "Chitin",
+        "Calcium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mass Effect trilogy, who is the main protagonist?",
+      "correct_answer": "Shepard",
+      "incorrect_answers": [
+        "Mordin",
+        "Garrus",
+        "Thane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What animated internet character is known to answer emails with his boxing gloves?",
+      "correct_answer": "Strong Bad",
+      "incorrect_answers": [
+        "Strong Sad",
+        "Strong Mad",
+        "Strong Glad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Ellen McLain, the voice of GLaDOS in the Portal game series, is married to the voice actor for which Team Fortress 2 character?",
+      "correct_answer": "Sniper",
+      "incorrect_answers": [
+        "Heavy",
+        "Soldier",
+        "Scout"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Toriko&quot;, which of the following Heavenly Kings has an enhanced sense of Hearing?",
+      "correct_answer": "Zebra",
+      "incorrect_answers": [
+        "Coco",
+        "Sunny",
+        "Toriko"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The word &quot;science&quot; stems from the word &quot;scire&quot; meaning what?",
+      "correct_answer": "To know",
+      "incorrect_answers": [
+        "To measure",
+        "To live",
+        "To count"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which Game Development company made No Man&#039;s Sky?",
+      "correct_answer": "Hello Games",
+      "incorrect_answers": [
+        "Dovetail Games",
+        "Valve",
+        "Blizzard Entertainment"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "What country is the Hussarya supercar, made by the car manufacturer &quot;Arrinera&quot;, assembled in?",
+      "correct_answer": "Poland",
+      "incorrect_answers": [
+        "China",
+        "Sweden",
+        "Italy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "When Batman trolls the online chat rooms, what alias does he use?",
+      "correct_answer": "JonDoe297",
+      "incorrect_answers": [
+        "iAmBatman",
+        "BWayne13",
+        "BW1129"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+      "correct_answer": "Mike Tyson",
+      "incorrect_answers": [
+        "Roy Jones Jr.",
+        "Evander Holyfield",
+        "Lennox Lewis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "This trope refers to minor characters that are killed off to show how a monster works.",
+      "correct_answer": "Red Shirt",
+      "incorrect_answers": [
+        "Minions",
+        "Expendables",
+        "Cannon Fodder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "&quot;Yes, America Can!&quot; was this United States politician&#039;s de facto campaign slogan in 2004.",
+      "correct_answer": "George W. Bush",
+      "incorrect_answers": [
+        "John Kerry",
+        "Barack Obama",
+        "Al Gore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the title of the game &quot;Luigi&#039;s Mansion&quot;, what is the only letter to not appear with a pair of eyes in it?",
+      "correct_answer": "s",
+      "incorrect_answers": [
+        "n",
+        "i",
+        "m"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is not a character in the Street Fighter series?",
+      "correct_answer": "Mai Shiranui",
+      "incorrect_answers": [
+        "Laura Matsuda",
+        "Sakura Kasugano",
+        "Ibuki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In Yu-Gi-Oh, how does a player perform an Xyz Summon?",
+      "correct_answer": "Overlay at least 2 Monsters of the Same Level",
+      "incorrect_answers": [
+        "Activate a Spell and Send Monsters to the Graveyard",
+        "Add the Monsters&#039; Levels Together to Match the Xyz Monster",
+        "Banish A Number of Monsters From Your Hand And Deck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The tuba is a part of which musical family?",
+      "correct_answer": "Brass",
+      "incorrect_answers": [
+        "Percussion",
+        "Strings",
+        "Woodwind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In the English language, what is the name of the &quot;&amp;&quot; character?",
+      "correct_answer": "Ampersand",
+      "incorrect_answers": [
+        "Eightslash",
+        "And Sign",
+        "Obelus "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What was Bank of America originally established as?",
+      "correct_answer": "Bank of Italy",
+      "incorrect_answers": [
+        "Bank of Long Island",
+        "Bank of Pennsylvania",
+        "Bank of Charlotte"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the main protagonist in &quot;Xenoblade Chronicles&quot;?",
+      "correct_answer": "Shulk",
+      "incorrect_answers": [
+        "Reyn",
+        "Fiora",
+        "Dunban"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which character does the player play as in the video game &quot;Bastion&quot;?",
+      "correct_answer": "The Kid",
+      "incorrect_answers": [
+        "Rucks",
+        "Zulf",
+        "Zia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Minecraft: Java Edition, which of the following feature/block was added to Survival mode in Beta 1.3?",
+      "correct_answer": "Beds",
+      "incorrect_answers": [
+        "Hunger",
+        "The Nether",
+        "Grass"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "How many &quot;JoJos&quot; that are protagonists are there in the series &quot;Jojo&#039;s Bizarre Adventure&quot;?",
+      "correct_answer": "8+",
+      "incorrect_answers": [
+        "6+",
+        "4+",
+        "5+"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What song is played during the ending credits of Guitar Hero: World Tour?",
+      "correct_answer": "Dream Theater - Pull Me Under",
+      "incorrect_answers": [
+        "King Crimson - 21st Century Schizoid Man",
+        "Dragonforce - Through The Fire &amp; The Flames",
+        "Lynyrd Skynyrd - Free Bird"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is Homestuck character Gamzee&#039;s last name?",
+      "correct_answer": "Makara",
+      "incorrect_answers": [
+        "Makera",
+        "Makare",
+        "Makrea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "When was WhatsApp founded?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2007",
+        "2012",
+        "2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "The greek god Poseidon was the god of what?",
+      "correct_answer": "The Sea",
+      "incorrect_answers": [
+        "War",
+        "Sun",
+        "Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What medication was once commonly used as rat poison?",
+      "correct_answer": "Coumadin",
+      "incorrect_answers": [
+        "Aspirin",
+        "Eliquis",
+        "Tylenol"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "A positron is an antiparticle of a what?",
+      "correct_answer": "Electron",
+      "incorrect_answers": [
+        "Neutron",
+        "Proton",
+        "Photon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What was the name given to Android 4.3?",
+      "correct_answer": "Jelly Bean",
+      "incorrect_answers": [
+        "Lollipop",
+        "Nutella",
+        "Froyo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The formerly East-Prussian city of K&ouml;nigsberg is known as which Russian City today?",
+      "correct_answer": "Kaliningrad",
+      "incorrect_answers": [
+        "Kazan",
+        "Kursk",
+        "Krasnodar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Dee from &quot;It&#039;s Always Sunny in Philadelphia&quot; has dated all of the following guys EXCEPT",
+      "correct_answer": "Matthew &quot;Rickety Cricket&quot; Mara",
+      "incorrect_answers": [
+        "Colin the Thief",
+        "Ben the Soldier",
+        "Kevin Gallagher aka Lil&#039; Kevin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What historical time period was the center of the Assassin&rsquo;s Creed movie (2016)?",
+      "correct_answer": "Spanish Inquisition",
+      "incorrect_answers": [
+        "Victorian England",
+        "French Revolution",
+        "Colonial America"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which of the following car manufacturers had a war named after it?",
+      "correct_answer": "Toyota",
+      "incorrect_answers": [
+        "Honda",
+        "Ford",
+        "Volkswagen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which franchise does the creature &quot;Slowpoke&quot; originate from?",
+      "correct_answer": "Pokemon",
+      "incorrect_answers": [
+        "Dragon Ball",
+        "Sonic The Hedgehog",
+        "Yugioh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Typically, how many keys are on a piano?",
+      "correct_answer": "88",
+      "incorrect_answers": [
+        "24",
+        "12",
+        "96"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which US state has the highest population?",
+      "correct_answer": "California",
+      "incorrect_answers": [
+        "New York",
+        "Texas",
+        "Florida"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Killing Floor started as a mod for which Unreal Engine 2 game?",
+      "correct_answer": "Unreal Tournament 2004",
+      "incorrect_answers": [
+        "Deus Ex: Invisible War",
+        "Unreal Tournament 3",
+        "Postal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+      "correct_answer": "low, all",
+      "incorrect_answers": [
+        "low, some",
+        "high, all",
+        "high, some"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these songs does NOT play during the Ruins segments of the 2015 game &quot;Undertale&quot;?",
+      "correct_answer": "Another Medium",
+      "incorrect_answers": [
+        "Anticipation",
+        "Unnecessary Tension",
+        "Ruins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+      "correct_answer": "Great Pyramid of Giza",
+      "incorrect_answers": [
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria",
+        "Statue of Zeus at Olympia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In Big Hero 6, what were Baymax&#039;s motions modeled after?",
+      "correct_answer": "Baby penguins",
+      "incorrect_answers": [
+        "Baby monkeys",
+        "Baby ostriches",
+        "Baby bears"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the scientific term for &#039;taste&#039;?",
+      "correct_answer": "Gustatory Perception",
+      "incorrect_answers": [
+        "Olfaction",
+        "Somatosensation",
+        "Auditory Perception"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Battle of the Somme in World War I took place in which country?",
+      "correct_answer": "France",
+      "incorrect_answers": [
+        "Germany",
+        "Italy",
+        "Austria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "correct_answer": "Demolition",
+      "incorrect_answers": [
+        "The Dream Team",
+        "The Bushwhackers",
+        "The British Bulldogs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
+      "correct_answer": "Dark Elves",
+      "incorrect_answers": [
+        "Frost Giants",
+        "Kronans",
+        "Skrulls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the creator of the manga series &quot;One Piece&quot;?",
+      "correct_answer": "Eiichiro Oda",
+      "incorrect_answers": [
+        "Yoshihiro Togashi",
+        "Hayao Miyazaki",
+        "Masashi Kishimoto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?",
+      "correct_answer": "Dr. Mario",
+      "incorrect_answers": [
+        "Mewtwo",
+        "Lucas",
+        "Roy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The four strings on a violin are the G string, D string, A string, and...",
+      "correct_answer": "E string",
+      "incorrect_answers": [
+        "C string",
+        "B string",
+        "F string"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Overwatch&quot;, what is the name of the company that made D.Va&#039;s mech?",
+      "correct_answer": "MEKA",
+      "incorrect_answers": [
+        "MI8",
+        "KPAMC",
+        "JSAMB"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige"
+      ]
+    }
+  ]
+}

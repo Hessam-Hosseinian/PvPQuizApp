@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What year was Queen Elizabeth II born?",
+      "correct_answer": "1926",
+      "incorrect_answers": [
+        "1923",
+        "1929",
+        "1930"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which former boy-band star released hit solo single &quot;Angels&quot; in 1997?",
+      "correct_answer": "Robbie Williams",
+      "incorrect_answers": [
+        "Justin Timberlake",
+        "Harry Styles",
+        "Gary Barlow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which franchise was NOT featured in the 2015 video game &quot;Lego Dimensions&quot;?",
+      "correct_answer": "Breaking Bad",
+      "incorrect_answers": [
+        "Portal",
+        "Doctor Who",
+        "Back to the Future"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of the following is NOT a real song from the band Thousand Foot Krutch?",
+      "correct_answer": "Limitless Fury",
+      "incorrect_answers": [
+        "Let The Sparks Fly",
+        "Down",
+        "Give Up The Ghost"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many protons are in an oxygen atom?",
+      "correct_answer": "Eight",
+      "incorrect_answers": [
+        "Four",
+        "Two",
+        "Six"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+      "correct_answer": "Wessex",
+      "incorrect_answers": [
+        "Barsetshire",
+        "Fulchester",
+        "Ambridge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is NOT one of the main characters in Grand Theft Auto V&rsquo;s story mode?",
+      "correct_answer": "Tommy Vercetti",
+      "incorrect_answers": [
+        "Michael de Santa",
+        "Franklin Clinton",
+        "Trevor Phillips"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of these stars is the largest?",
+      "correct_answer": "UY Scuti",
+      "incorrect_answers": [
+        "VY Canis Majoris",
+        "Betelgeuse",
+        "RW Cephei"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "The 2014 movie &quot;The Raid 2: Berandal&quot; was mainly filmed in which Asian country?",
+      "correct_answer": "Indonesia",
+      "incorrect_answers": [
+        "Thailand",
+        "Brunei",
+        "Malaysia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "How many pieces are there on the board at the start of a game of chess?",
+      "correct_answer": "32",
+      "incorrect_answers": [
+        "16",
+        "20",
+        "36"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which major extinction event was caused by an asteroid collision and eliminated the majority of non-avian dinosaurs?",
+      "correct_answer": "Cretaceous-Paleogene",
+      "incorrect_answers": [
+        "Triassic&ndash;Jurassic",
+        "Permian&ndash;Triassic",
+        "Ordovician&ndash;Silurian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of the band Coldplay?",
+      "correct_answer": "Chris Martin",
+      "incorrect_answers": [
+        "Chris Isaak",
+        "Chris Wallace",
+        "Chris Connelly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which song in rapper Kanye West&#039;s album &quot;The Life of Pablo&quot; features Rihanna?",
+      "correct_answer": "Famous",
+      "incorrect_answers": [
+        "Wolves",
+        "Ultralight Beam",
+        "Highlights"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+      "correct_answer": "1.58 x 10^20",
+      "incorrect_answers": [
+        "1.58 x 10^22",
+        "1.58 x  10^18",
+        "1.58 x 10^24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the pirate that sings the intro to &quot;Spongebob Squarepants&quot;?",
+      "correct_answer": "Painty",
+      "incorrect_answers": [
+        "Patchy",
+        "Lloyd",
+        "Larry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What actor portrays Hogan &quot;Wash&quot; Washburne in the TV Show Firefly?",
+      "correct_answer": "Alan Tudyk",
+      "incorrect_answers": [
+        "Adam Baldwin",
+        "Nathan Fillion",
+        "Sean Maher"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In &quot;The Lord of the Rings,&quot; who is the owner of Asfaloth, the horse which brings Frodo to Rivendell?",
+      "correct_answer": "Glorfindel",
+      "incorrect_answers": [
+        "Arwen",
+        "Aragorn",
+        "Haldir"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which location does Dark Sun Gwyndolin reside in &quot;Dark Souls&quot;?",
+      "correct_answer": "Anor Londo",
+      "incorrect_answers": [
+        "Firelink Shrine",
+        "Blighttown",
+        "Kiln of the first flame"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is Sonic&#039;s sidekick?",
+      "correct_answer": "Tails",
+      "incorrect_answers": [
+        "Shadow",
+        "Amy",
+        "Knuckles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "Who is the main character in the VHS tape included in the board game Nightmare?",
+      "correct_answer": "The Gatekeeper",
+      "incorrect_answers": [
+        "The Kryptkeeper",
+        "The Monster",
+        "The Nightmare"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft the default UI color that signifies Druid is what?",
+      "correct_answer": "Orange",
+      "incorrect_answers": [
+        "Brown",
+        "Green",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "What year was the first San Diego Comic-Con?",
+      "correct_answer": "1970",
+      "incorrect_answers": [
+        "2000",
+        "1990",
+        "1985"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs from American Idiot: The Musical was a previously unreleased Green Day song?",
+      "correct_answer": "When It&#039;s Time",
+      "incorrect_answers": [
+        "Are We The Waiting",
+        "Before The Lobotomy",
+        "Favorite Son"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the name of rocky region that spans most of eastern Canada?",
+      "correct_answer": "Canadian Shield",
+      "incorrect_answers": [
+        "Rocky Mountains",
+        "Appalachian Mountains",
+        "Himalayas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who sings the rap song &quot;Secret Wars Part 1&quot;?",
+      "correct_answer": "The Last Emperor",
+      "incorrect_answers": [
+        "MC Frontalot",
+        "Busdriver",
+        "Masta Killa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many stars are there to collect in Super Mario 64?",
+      "correct_answer": "120",
+      "incorrect_answers": [
+        "60",
+        "80",
+        "100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "In what year did &quot;Bob Ross&quot; die?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "1986",
+        "1989",
+        "1997"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Who is a co-founder of music streaming service Spotify?",
+      "correct_answer": "Daniel Ek",
+      "incorrect_answers": [
+        "Sean Parker",
+        "Felix Miller",
+        "Michael Breidenbruecker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?",
+      "correct_answer": "Testarossa",
+      "incorrect_answers": [
+        "Enzo Ferrari",
+        "F40",
+        "288 GTO"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which Beatle wrote and sang the song &quot;Why Don&#039;t We Do It in the Road&quot; after being inspired by seeing two monkeys copulating in the street?",
+      "correct_answer": "Paul",
+      "incorrect_answers": [
+        "John",
+        "George",
+        "Ringo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which puzzle game was designed by a Russian programmer, featuring Russian buildings and music?",
+      "correct_answer": "Tetris",
+      "incorrect_answers": [
+        "Jenga",
+        "Boulder Dash",
+        "Puzzled"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Finish these lyrics from the 2016 song &quot;Panda&quot; by Desiigner: &quot;I got broads in _______&quot;.",
+      "correct_answer": "Atlanta",
+      "incorrect_answers": [
+        "Savannah",
+        "Augusta",
+        "Marietta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many provinces are in the Netherlands?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "14",
+        "10",
+        "13"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT a song featured on the Lockjaw EP released in 2013 by Flume &amp; Chet Faker?",
+      "correct_answer": "Left Alone",
+      "incorrect_answers": [
+        "What About Us",
+        "This Song Is Not About A Girl",
+        "Drop The Game"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "What is the alter-ego of the DC comics character &quot;Superman&quot;?",
+      "correct_answer": "Clark Kent",
+      "incorrect_answers": [
+        "Bruce Wayne",
+        "Arthur Curry",
+        "John Jones"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What was Rage Against the Machine&#039;s debut album?",
+      "correct_answer": "Rage Against the Machine",
+      "incorrect_answers": [
+        "Evil Empire",
+        "Bombtrack",
+        "The Battle Of Los Angeles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the romanized Chinese word for &quot;airplane&quot;?",
+      "correct_answer": "Feiji",
+      "incorrect_answers": [
+        "Qiche",
+        "Zongxian",
+        "Huojian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the leader of the Brotherhood of Nod in the Command and Conquer series?",
+      "correct_answer": "Kane",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "CABAL",
+        "Yuri"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following colors does the Zombie eyes glow in the &quot;Nuketown&quot; map in &quot;Call of Duty: Black Ops II&quot; Zombies mode?",
+      "correct_answer": "Yellow and Blue",
+      "incorrect_answers": [
+        "Yellow and Red",
+        "Red and Blue",
+        "Blue and White"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "On which Beatles album would you find the song &#039;Eleanor Rigby&#039;?",
+      "correct_answer": "Revolver",
+      "incorrect_answers": [
+        "Help!",
+        "Rubber Soul",
+        "Abbey Road"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who won the 1998 Daytona 500?",
+      "correct_answer": "Dale Earnhardt",
+      "incorrect_answers": [
+        "John Anderson",
+        "Jeff Gordon",
+        "Michael Walltrip"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital city of Slovenia?",
+      "correct_answer": "Ljubljana",
+      "incorrect_answers": [
+        "Maribor",
+        "Velenje",
+        "Trbovlje"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the 2011 TV anime series, &quot;THE iDOLM@STER&quot;, what was the name of Iori&#039;s stuffed toy bunny?",
+      "correct_answer": "Charles",
+      "incorrect_answers": [
+        "Bubsy",
+        "Kero",
+        "Usagi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Mario &amp; Sonic at the Olympic Games&quot;, characters are split into how many types?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "6",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?",
+      "correct_answer": "Bullfighting",
+      "incorrect_answers": [
+        "Fiestas",
+        "Flamenco",
+        "Mariachi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+      "correct_answer": "John Calvin",
+      "incorrect_answers": [
+        "Calvin Klein",
+        "Calvin Coolidge",
+        "Phillip Calvin McGraw"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+      "correct_answer": "Alan Shearer",
+      "incorrect_answers": [
+        "Wayne Rooney",
+        "Robbie Fowler",
+        "Thierry Henry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is not one of the groups on the periodic table?",
+      "correct_answer": "Fluorines",
+      "incorrect_answers": [
+        "Alkali Metals",
+        "Halogens",
+        "Noble Gases"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
+      "correct_answer": "Merano",
+      "incorrect_answers": [
+        "Venice",
+        "Milan",
+        "Rome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When Halo 3: ODST was unveiled in 2008, it had a different title. What was the game formally called?",
+      "correct_answer": "Halo 3: Recon",
+      "incorrect_answers": [
+        "Halo 3: Helljumpers",
+        "Halo 3: Phantom",
+        "Halo 3: Guerilla"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Who assassinated President James A. Garfield?",
+      "correct_answer": "Charles Guiteau",
+      "incorrect_answers": [
+        "Sirhan Sirhan",
+        "Leon Czolgosz",
+        "John Wilkes Booth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed the MMO Spiral Knights (2011)?",
+      "correct_answer": "Three Rings Design",
+      "incorrect_answers": [
+        "Sega",
+        "Electronic Arts",
+        "Double Fine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+      "correct_answer": "South Park",
+      "incorrect_answers": [
+        "The Simpsons",
+        "Family Guy",
+        "Bob&#039;s Burgers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which TV chef wrote an autobiography titled &quot;Humble Pie&quot;?",
+      "correct_answer": "Gordon Ramsay",
+      "incorrect_answers": [
+        "Jamie Oliver",
+        "Ainsley Harriott",
+        "Antony Worrall Thompson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "Who is Batman?",
+      "correct_answer": "Bruce Wayne",
+      "incorrect_answers": [
+        "Clark Kent",
+        "Barry Allen",
+        "Tony Stark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "At what temperature does water boil?",
+      "correct_answer": "212&deg;F",
+      "incorrect_answers": [
+        "200&deg;F",
+        "181&deg;F",
+        "178&deg;F"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these features was added in the 1994 game &quot;Heretic&quot; that the original &quot;DOOM&quot; could not add due to limitations?",
+      "correct_answer": "Looking up and down",
+      "incorrect_answers": [
+        "Increased room sizes",
+        "Unlimited weapons",
+        "Highly-detailed textures"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a faction included in the game Counter-Strike: Global Offensive?",
+      "correct_answer": "BOPE",
+      "incorrect_answers": [
+        "GSG-9",
+        "Elite Crew",
+        "Phoenix Connexion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The Bracken from Lethal Company is also known as:",
+      "correct_answer": "The Flower Man",
+      "incorrect_answers": [
+        "The Phantom",
+        "The Shadow Demon",
+        "Larry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "When was &quot;YouTube&quot; founded?",
+      "correct_answer": "February 14, 2005",
+      "incorrect_answers": [
+        "May 22, 2004",
+        "September 12, 2005",
+        "July 19, 2009"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What are the names of the Ice Climbers in the video game Ice Climber?",
+      "correct_answer": "Popo and Nana",
+      "incorrect_answers": [
+        "Popo and Nina",
+        "Papi and Nana",
+        "Papi and Nina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Valve Corporation is an American video game developer located in which city?",
+      "correct_answer": "Bellevue, Washington",
+      "incorrect_answers": [
+        "Austin, Texas",
+        "Seattle, Washington",
+        "San Francisco, California"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?",
+      "correct_answer": "Helicopter",
+      "incorrect_answers": [
+        "Stealth Blimp",
+        "Jet",
+        "Space Capsule"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the 8th installment in the Fire Emblem series?",
+      "correct_answer": "The Sacred Stones",
+      "incorrect_answers": [
+        "Blazing Sword",
+        "Awakening",
+        "Path of Radiance"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The early part of which decade, did the Goth Subculture begin?",
+      "correct_answer": "1980s",
+      "incorrect_answers": [
+        "1990s",
+        "2000s",
+        "1970s"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which musical artist was NOT featured as playable avatars in the game &quot;DJ Hero&quot;?",
+      "correct_answer": "Dr. Dre",
+      "incorrect_answers": [
+        "DJ Shadow",
+        "Daft Punk",
+        "Grandmaster Flash"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the show &quot;The Office&quot; who does Michael Scott eventually end up with?",
+      "correct_answer": "Holly Flax",
+      "incorrect_answers": [
+        "Angela Martin",
+        "Jan Levinson",
+        "Pam Beesly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In most FPS video games such as Counter-Strike, shooting which part of the body does the highest damage?",
+      "correct_answer": "Head",
+      "incorrect_answers": [
+        "Arm",
+        "Leg",
+        "Chest"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "In the words of his 1973 song, Bob Dylan is &quot;knock, knock, knockin&quot; on which door?",
+      "correct_answer": "Heaven&#039;s",
+      "incorrect_answers": [
+        "Opportunity&#039;s",
+        "Angie&#039;s",
+        "Eileen&#039;s"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the official national language of Pakistan?",
+      "correct_answer": "Urdu",
+      "incorrect_answers": [
+        "Indian",
+        "Punjabi",
+        "Pashto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What was the first monster to appear alongside Godzilla?",
+      "correct_answer": "Anguirus",
+      "incorrect_answers": [
+        "King Kong",
+        "Mothra",
+        "King Ghidora"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Hel was the daughter of which Norse Mythological figure?",
+      "correct_answer": "Loki",
+      "incorrect_answers": [
+        "Thor",
+        "Odin",
+        "Balder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these Queen songs were sampled for the baseline in Vanilla &quot;Ice&#039;s Ice Ice Baby?&quot;",
+      "correct_answer": "Under Pressure",
+      "incorrect_answers": [
+        "Don&#039;t Stop Me Now",
+        "Brighton Rock",
+        "Lazing On A Sunday Afternoon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "This weapon in Counter-Strike: Global Offensive does not exist in real life.",
+      "correct_answer": "M4A4",
+      "incorrect_answers": [
+        "AWP",
+        "M4A1",
+        "MP9"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The creator of the Touhou Project series is:",
+      "correct_answer": "ZUN",
+      "incorrect_answers": [
+        "SUN",
+        "RUN",
+        "PUN"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;The Sims&quot;, how many Simoleons does each family start with?",
+      "correct_answer": "20,000",
+      "incorrect_answers": [
+        "10,000",
+        "15,000",
+        "25,000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+      "correct_answer": "Jonathan Demme",
+      "incorrect_answers": [
+        "Stanley Kubrick",
+        "Frank Darabont",
+        "Michael Bay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The band Muse released their first album, Showbiz, in what year?",
+      "correct_answer": "1999",
+      "incorrect_answers": [
+        "1998",
+        "2000",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which country drives on the left side of the road?",
+      "correct_answer": "Japan",
+      "incorrect_answers": [
+        "Germany",
+        "Russia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1994 movie &quot;Speed&quot;, what is the minimum speed the bus must go to prevent to bomb from exploding?",
+      "correct_answer": "50 mph",
+      "incorrect_answers": [
+        "60 mph",
+        "40 mph",
+        "70 mph"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Stardew Valley, what is the reward for completing all of the Bulletin Board bundles?",
+      "correct_answer": "Additional Friendship points",
+      "incorrect_answers": [
+        "Glittering Boulder removed",
+        "Bus is repaired",
+        "Greenhouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+      "correct_answer": "Set",
+      "incorrect_answers": [
+        "Horus",
+        "Ra",
+        "Anhur"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which stand-up comedian voiced the talking parrot &quot;Iago&quot; in Disney&#039;s 1992 adaptation of Aladdin?",
+      "correct_answer": "Gilbert Gottfried",
+      "incorrect_answers": [
+        "Robin Williams",
+        "Pauly Shore",
+        "Jonathan Freeman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the first &quot;Mass Effect&quot; game released?",
+      "correct_answer": "2007",
+      "incorrect_answers": [
+        "2008",
+        "2009",
+        "2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "The F1 season of 1994 is remembered for what tragic event?",
+      "correct_answer": "Death of Ayrton Senna (San Marino)",
+      "incorrect_answers": [
+        "The Showdown (Australia)",
+        "Verstappen on Fire (Germany)",
+        "Schumacher&#039;s Ban (Britain)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which television show has Dan Gheesling been on?",
+      "correct_answer": "Big Brother",
+      "incorrect_answers": [
+        "Jeopardy",
+        "Survivor",
+        "The Bachelor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is lost in Hawaiian and is also the name of a little girl in a 2002 film which features a alien named &quot;Stitch&quot;?",
+      "correct_answer": "Lilo",
+      "incorrect_answers": [
+        "Lolo",
+        "Lucy",
+        "Lulu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which Death Grips album is the only one to feature a band member?",
+      "correct_answer": "No Love Deep Web",
+      "incorrect_answers": [
+        "Bottomless Pit",
+        "The Money Store",
+        "The Powers That B"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which Canadian reggae musician had a 1993 hit with the song &#039;Informer&#039;?",
+      "correct_answer": "Snow",
+      "incorrect_answers": [
+        "Rain",
+        "Hail",
+        "Sleet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a player class in Team Fortress 2?",
+      "correct_answer": "Healer",
+      "incorrect_answers": [
+        "Demoman",
+        "Pyro",
+        "Spy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which German sportswear company&#039;s logo is the &#039;Formstripe&#039;?",
+      "correct_answer": "Puma",
+      "incorrect_answers": [
+        "Nike",
+        "Adidas",
+        "Reebok"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Who created Ultron of Earth-616?",
+      "correct_answer": "Henry Pym",
+      "incorrect_answers": [
+        "Amadeus Cho",
+        "Tony Stark",
+        "Reed Richards"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Approximately what percentage of Earth&#039;s atmosphere is Oxygen?",
+      "correct_answer": "21%",
+      "incorrect_answers": [
+        "54%",
+        "78%",
+        "7%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "What is the name of a simple machine that is made up of a stiff arm that can move freely around a fixed point?",
+      "correct_answer": "Lever",
+      "incorrect_answers": [
+        "Wedge",
+        "Screw",
+        "Pulley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Overwatch,&quot; what are the names of the two Australian criminals from the Junkers faction?",
+      "correct_answer": "Junkrat and Roadhog",
+      "incorrect_answers": [
+        "Roadrat and Junkhog",
+        "Ana and Pharah",
+        "McCree and Deadeye"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which nation hosted the FIFA World Cup in 2006?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "United Kingdom",
+        "Brazil",
+        "South Africa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Fallout: New Vegas, which one of these casinos can you not play in?",
+      "correct_answer": "Lucky 38",
+      "incorrect_answers": [
+        "The Tops",
+        "Gammorah",
+        "Ultra-Luxe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who played Stan&#039;s dog in the South Park episode &quot;Big Gay Al&#039;s Big Gay Boat Ride&quot;?",
+      "correct_answer": "George Clooney",
+      "incorrect_answers": [
+        "Jay Leno",
+        "Matt Stone",
+        "Robert Smith"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following spacecraft never touched the moon?",
+      "correct_answer": "Mariner 4",
+      "incorrect_answers": [
+        "Apollo 11",
+        "Luna 2",
+        "SMART-1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "On what street did the 1666 Great Fire of London start?",
+      "correct_answer": "Pudding Lane",
+      "incorrect_answers": [
+        "Baker Street",
+        "Houses of Parliament",
+        "St Paul&#039;s Cathedral"
+      ]
+    }
+  ]
+}

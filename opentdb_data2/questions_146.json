@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Spitfire L.F. Mk IX had what engine?",
+      "correct_answer": "Merlin 66",
+      "incorrect_answers": [
+        "Griffon 65",
+        "Merlin 50",
+        "Merlin X"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Artis Leon Ivey Jr. is better known as which rap artist?",
+      "correct_answer": "Coolio",
+      "incorrect_answers": [
+        "Dr Dre",
+        "Snoop Dogg",
+        "Ice T"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these is NOT considered to be a colour that makes up the rainbow?",
+      "correct_answer": "Pink",
+      "incorrect_answers": [
+        "Blue",
+        "Violet",
+        "Orange"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the busiest port in Europe?",
+      "correct_answer": "Port of Rotterdam",
+      "incorrect_answers": [
+        "Port of Antwerp",
+        "Port of Hamburg",
+        "Port of Amsterdam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which of the following is NOT one of Aesop&#039;s fables?",
+      "correct_answer": "The Fox and the Hound",
+      "incorrect_answers": [
+        "The Fox and the Grapes",
+        "The Tortoise and the Hare",
+        "The Frog and the Ox"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who famously coined the phrase &quot;I think, therefore I am&quot;?",
+      "correct_answer": "Descartes",
+      "incorrect_answers": [
+        "Plato",
+        "Aristotle",
+        "Shakespeare"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+      "correct_answer": "Reactivity",
+      "incorrect_answers": [
+        "Health",
+        "Flammability",
+        "Radioactivity"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who played the female lead in the 1933 film &quot;King Kong&quot;?",
+      "correct_answer": "Fay Wray",
+      "incorrect_answers": [
+        "Jean Harlow",
+        "Vivien Leigh",
+        "Mae West"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In Game of Thrones what is the name of Jon Snow&#039;s sword?",
+      "correct_answer": "Longclaw",
+      "incorrect_answers": [
+        "Oathkeeper",
+        "Widow&#039;s Wail",
+        "Needle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "What is the fastest  land animal?",
+      "correct_answer": "Cheetah",
+      "incorrect_answers": [
+        "Lion",
+        "Thomson&rsquo;s Gazelle",
+        "Pronghorn Antelope"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "The Harvard architecture for micro-controllers added which additional bus?",
+      "correct_answer": "Instruction",
+      "incorrect_answers": [
+        "Address",
+        "Data",
+        "Control"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a playable character in the 2016 video game Overwatch?",
+      "correct_answer": "Invoker",
+      "incorrect_answers": [
+        "Mercy",
+        "Winston",
+        "Zenyatta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In Star Wars, what&#039;s the name of the new Government created after the defeat of the Galactic Empire?",
+      "correct_answer": "The New Republic",
+      "incorrect_answers": [
+        "The Rebel Alliance",
+        "The Crimson Dawn",
+        "The First Order"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "In which situation was musician John Lennon assassinated?",
+      "correct_answer": "Attempting to enter the Dakota Apartments building",
+      "incorrect_answers": [
+        "During an impromptu walk through Central Park",
+        "Signing an autograph outside the Record Plant studio",
+        "Waiting outside a music venue in Manhattan following a gig"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "J.K. Rowling completed &quot;Harry Potter and the Deathly Hallows&quot; in which hotel in Edinburgh, Scotland?",
+      "correct_answer": "The Balmoral",
+      "incorrect_answers": [
+        "The Dunstane Hotel",
+        "Hotel Novotel",
+        "Sheraton Grand Hotel &amp; Spa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following is not a megadiverse country - one that harbors a high number of the earth&#039;s endemic species?",
+      "correct_answer": "Thailand",
+      "incorrect_answers": [
+        "Peru",
+        "Mexico",
+        "South Africa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Tomb Raider&quot; icon Lara Croft was originally called...",
+      "correct_answer": "Laura Cruz",
+      "incorrect_answers": [
+        "Laura Craft",
+        "Laura Croft",
+        "Lara Craft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which car brand does NOT belong to General Motors?",
+      "correct_answer": "Ford",
+      "incorrect_answers": [
+        "Buick",
+        "Cadillac",
+        "Chevrolet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What position does Harry Potter play in Quidditch?",
+      "correct_answer": "Seeker",
+      "incorrect_answers": [
+        "Beater",
+        "Chaser",
+        "Keeper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "In the metal band Slipknot, there are 9 members, which member labelled themselves number 6? ",
+      "correct_answer": "Shawn Crahan (Clown)",
+      "incorrect_answers": [
+        "Sid Wilson",
+        "Cory Taylor",
+        "Mick Thomson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What was the first movie to ever use a Wilhelm Scream?",
+      "correct_answer": "Distant Drums",
+      "incorrect_answers": [
+        "Treasure of the Sierra Madre",
+        "The Charge at Feather River",
+        "Indiana Jones"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;The Potato Sack&quot; was a collection of indie games released on Steam in 2011 as a promotion for which game?",
+      "correct_answer": "Portal 2",
+      "incorrect_answers": [
+        "Left 4 Dead 2",
+        "Half-Life 3",
+        "Dota 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "When was the game &#039;Portal 2&#039; released?",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2014",
+        "2009",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the world strategy game &#039;Sid Meier&#039;s Civilization&#039;, a programming bug caused the AI depiction of Gandhi to do which of the following?",
+      "correct_answer": "Become aggressive and launch nuclear strikes",
+      "incorrect_answers": [
+        "Begin speaking in German ",
+        "Become friendly and trade his entire wealth",
+        "Launch attacks on his own cities and assets"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which one of these Rammstein songs has two official music videos?",
+      "correct_answer": "Du Riechst So Gut",
+      "incorrect_answers": [
+        "Du Hast",
+        "Benzin",
+        "Mein Teil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Where are the Nazca Lines located?",
+      "correct_answer": "Peru",
+      "incorrect_answers": [
+        "Brazil",
+        "Colombia",
+        "Ecuador"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was Pokemon GO released in North America?",
+      "correct_answer": "July 6th, 2016",
+      "incorrect_answers": [
+        "June 5th, 2016",
+        "May 24th, 2016",
+        "January 2nd, 2017"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting &quot;Eureka&quot; after discovering the principle of displacement?",
+      "correct_answer": "Archimedes",
+      "incorrect_answers": [
+        "Euclid",
+        "Homer",
+        "Eratosthenes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
+      "correct_answer": "Trance",
+      "incorrect_answers": [
+        "House",
+        "Drum and Bass",
+        "Dubstep"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+      "correct_answer": "Mike Tyson",
+      "incorrect_answers": [
+        "Roy Jones Jr.",
+        "Evander Holyfield",
+        "Lennox Lewis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What is the best selling album of all time from 1976 to 2018?",
+      "correct_answer": "Thriller",
+      "incorrect_answers": [
+        "Back in Black",
+        "Abbey Road",
+        "The Dark Side of the Moon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the robot in the 1951 science fiction film classic &#039;The Day the Earth Stood Still&#039;?",
+      "correct_answer": "Gort",
+      "incorrect_answers": [
+        "Robby",
+        "Colossus",
+        "Box"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In My Little Pony, what is the name of Applejack&#039;s younger sister?",
+      "correct_answer": "Apple Bloom",
+      "incorrect_answers": [
+        "Red Delicious",
+        "Apple Sweets",
+        "Apple Fritter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?",
+      "correct_answer": "Fiat",
+      "incorrect_answers": [
+        "Maserati",
+        "Alfa Romeo",
+        "Ferrari"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+      "correct_answer": "1990",
+      "incorrect_answers": [
+        "1992",
+        "1988",
+        "1986"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In World of Warcraft the default UI color that signifies Druid is what?",
+      "correct_answer": "Orange",
+      "incorrect_answers": [
+        "Brown",
+        "Green",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of the Jewish New Year?",
+      "correct_answer": "Rosh Hashanah",
+      "incorrect_answers": [
+        "Elul",
+        "New Year",
+        "Succoss"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following are cells of the adaptive immune system?",
+      "correct_answer": "Cytotoxic T cells",
+      "incorrect_answers": [
+        "Dendritic cells",
+        "Natural killer cells",
+        "White blood cells"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+      "correct_answer": "Rose Marene",
+      "incorrect_answers": [
+        "Pinkie Pie",
+        "Maud Pie",
+        "Rainbow Dash"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which director directed the movie &quot;Pan&#039;s Labyrinth&quot;?",
+      "correct_answer": "Guillermo Del Toro",
+      "incorrect_answers": [
+        "Alfonso Cuar&oacute;n",
+        "Alejandro Gonz&aacute;lez I&ntilde;&aacute;rritu",
+        " Alejandro Jodorowsky"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;Postal 2&quot;, what is the name of Postal Dude&#039;s dog?",
+      "correct_answer": "Champ",
+      "incorrect_answers": [
+        "Snoopy",
+        "Krotchy",
+        "Duke"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+      "correct_answer": "DD-445",
+      "incorrect_answers": [
+        "DD-992",
+        "DD-444",
+        "DD-446"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who was walking like an Egyptian in 1981?",
+      "correct_answer": "The Bangles",
+      "incorrect_answers": [
+        "R.E.M.",
+        "The Ocean Blue",
+        "The Connells"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these Mediterranian islands is under the sovereign rule of France?",
+      "correct_answer": "Corsica",
+      "incorrect_answers": [
+        "Majorca",
+        "Sardinia",
+        "Malta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Who was not in the band &quot;The Smiths&quot;?",
+      "correct_answer": "Martin Chambers",
+      "incorrect_answers": [
+        "Morrissey",
+        "Andy Rourke",
+        "Mike Joyce"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the race horse that Tony Soprano becomes attached to?",
+      "correct_answer": "Pie-O-My",
+      "incorrect_answers": [
+        "Man o&#039; war",
+        "Bada Bing",
+        "Honest Earnings"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which singer was featured in Swedish producer Avicii&#039;s song &quot;Wake Me Up&quot;?",
+      "correct_answer": "Aloe Blacc",
+      "incorrect_answers": [
+        "John Legend",
+        "CeeLo Green",
+        "Pharrell Williams"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "The medical term for the belly button is which of the following?",
+      "correct_answer": "Umbilicus",
+      "incorrect_answers": [
+        "Nevus",
+        "Nares",
+        "Paxillus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What year was Huun Huur Tu&#039;s album Altai Sayan Tandy-Uula released? ",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "1993",
+        "2006",
+        "2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which psychopath(s) in Dead Rising 1 gave you the small chainsaw?",
+      "correct_answer": "Adam the Clown",
+      "incorrect_answers": [
+        "Cliff Hudson",
+        "The convicts",
+        "Larry the butcher"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the most potent toxin known?",
+      "correct_answer": "Botulinum toxin",
+      "incorrect_answers": [
+        "Ricin",
+        "Cyanide",
+        "Asbestos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Under which name was Rodrigo Borgia made Pope?",
+      "correct_answer": "Alexander VI",
+      "incorrect_answers": [
+        "Rodrigo I",
+        "John Paul II",
+        "Pius VII"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which artist collaborated with American DJ Dillon Francis to release the song 2016 &quot;Need You&quot;?",
+      "correct_answer": "NGHTMRE",
+      "incorrect_answers": [
+        "LOUDPVCK",
+        "KRNE",
+        "DVBBS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Assassin&#039;s Creed series,what was the name of Desmond Miles given by Abstergo?",
+      "correct_answer": "Subject 17",
+      "incorrect_answers": [
+        "Subject 16",
+        "Subject 18",
+        "Alta&iuml;r Ibn-La&#039;Ahad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
+      "correct_answer": "Dave Navarro",
+      "incorrect_answers": [
+        "Tom Morello ",
+        "Billy Corgan",
+        "Ed O&#039;Brien"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did Kentucky become the 15th state to join the union?",
+      "correct_answer": "1792",
+      "incorrect_answers": [
+        "1782",
+        "1798",
+        "1788"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Who co-founded the YouTube Let&#039;s Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?",
+      "correct_answer": "JonTron",
+      "incorrect_answers": [
+        "Pewdiepie",
+        "Tobuscus",
+        "Markiplier"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Minecraft, which two items must be combined to craft a torch?",
+      "correct_answer": "Stick and Coal",
+      "incorrect_answers": [
+        "Stick and Fire",
+        "Wood and Coal",
+        "Wood and Fire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Rollercoaster Tycoon&quot; was programmed mostly entirely in...",
+      "correct_answer": "x86 Assembly",
+      "incorrect_answers": [
+        "C++",
+        "C",
+        "ALGOL"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many zombies need to be killed to get the &quot;Zombie Genocider&quot; achievement in Dead Rising (2006)?",
+      "correct_answer": "53,594",
+      "incorrect_answers": [
+        "53,593",
+        "53,595",
+        "53,596"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": [
+        "South Africa",
+        "Australia",
+        "Madagascar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?",
+      "correct_answer": "Animalympics",
+      "incorrect_answers": [
+        "The Fox and the Hound",
+        "The Black Cauldron",
+        "The Great Mouse Detecive"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "When was the top-down online RPG &quot;Space Station 13&quot; released?",
+      "correct_answer": "2003",
+      "incorrect_answers": [
+        "2000",
+        "2010",
+        "2006"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What color is Ryūko Matoi&#039;s half of the Scissor Blade in the anime Kill la KIll?",
+      "correct_answer": "Red",
+      "incorrect_answers": [
+        "Green",
+        "Blue",
+        "Purple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a playable character race in the video game &quot;Starbound&quot;?",
+      "correct_answer": "Fenerox",
+      "incorrect_answers": [
+        "Floran",
+        "Novakid",
+        "Hylotl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What town was &quot;Springfield&quot; from &quot;The Simpsons&quot; originally named after?",
+      "correct_answer": "Springfield, Oregon",
+      "incorrect_answers": [
+        "Springfield, Missouri",
+        "Springfield, Illinois",
+        "Springfield, Massachusetts"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first &quot;Call Of Duty: Zombies&quot; map to be directed by Jason Blundell?",
+      "correct_answer": "Mob Of The Dead",
+      "incorrect_answers": [
+        "Buried",
+        "Origins",
+        "Moon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Overwatch, which hero out of the following 4 is from Brazil?",
+      "correct_answer": "L&uacute;cio",
+      "incorrect_answers": [
+        "Sombra",
+        "McCree",
+        "Symmetra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How much did the indie game &quot;Cave Story&quot; cost when it was first released in 2004?",
+      "correct_answer": "$0 USD",
+      "incorrect_answers": [
+        "$5 USD",
+        "$10 USD",
+        "$15 USD"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+      "correct_answer": "Oscar",
+      "incorrect_answers": [
+        "Emmy",
+        "Tony",
+        "Grammy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In what year was Taylor Swift born?",
+      "correct_answer": "1989",
+      "incorrect_answers": [
+        "1988",
+        "1987",
+        "1990"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What were the first states to break away from Yugoslavia?",
+      "correct_answer": "Slovenia, Croatia",
+      "incorrect_answers": [
+        "Macedonia, Montenegro",
+        "Slovenia, Macedonia",
+        "Montenegro, Slovenia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The Pyrenees mountains are located on the border of which two countries?",
+      "correct_answer": "France and Spain",
+      "incorrect_answers": [
+        "Italy and Switzerland",
+        "Norway and Sweden",
+        "Russia and Ukraine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Portal, what color is the Morality Core?",
+      "correct_answer": "Purple",
+      "incorrect_answers": [
+        "Red",
+        "Yellow",
+        "Blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The original mascot of the popular Nintendo game, &quot;Splatoon&quot; was going to be...",
+      "correct_answer": "Mario",
+      "incorrect_answers": [
+        "Inklings",
+        "Octolings",
+        "Zelda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name the location-based augmented reality game developed by Niantic before Pok&eacute;mon GO?",
+      "correct_answer": "Ingress",
+      "incorrect_answers": [
+        "Aggress",
+        "Regress",
+        "Digress"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What was the first movie to ever use a Wilhelm Scream?",
+      "correct_answer": "Distant Drums",
+      "incorrect_answers": [
+        "Treasure of the Sierra Madre",
+        "The Charge at Feather River",
+        "Indiana Jones"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What is the name of the protagonist of J.D. Salinger&#039;s novel Catcher in the Rye?",
+      "correct_answer": "Holden Caulfield",
+      "incorrect_answers": [
+        "Fletcher Christian",
+        "Jay Gatsby",
+        "Randall Flagg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main villain of Kirby&#039;s Return to Dreamland?",
+      "correct_answer": "Magolor",
+      "incorrect_answers": [
+        "Landia",
+        "King Dedede",
+        "Queen Sectonia "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;JoJo&#039;s Bizarre Adventure: Stardust Crusaders&quot;, what is the last name of the protagonist Jotaro?",
+      "correct_answer": "Kujo",
+      "incorrect_answers": [
+        "Cujoh",
+        "Joestar",
+        "Higashikata"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+      "correct_answer": "1721",
+      "incorrect_answers": [
+        "1726",
+        "1727",
+        "1724"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "When did Spanish Peninsular War start?",
+      "correct_answer": "1808",
+      "incorrect_answers": [
+        "1806",
+        "1810",
+        "1809"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Battle of the Somme in World War I took place in which country?",
+      "correct_answer": "France",
+      "incorrect_answers": [
+        "Germany",
+        "Italy",
+        "Austria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What zodiac sign is represented by a pair of scales?",
+      "correct_answer": "Libra",
+      "incorrect_answers": [
+        "Aries",
+        "Capricorn",
+        "Sagittarius"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Papua New Guinea",
+        "Ethiopia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Meryl Silverburgh, a video game character from the Metal Gear series, was originally a character in which game?",
+      "correct_answer": "Policenauts",
+      "incorrect_answers": [
+        "Gradius",
+        "Contra",
+        "Castlevania: Symphony of the Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "When did the rapper Eazy-E die?",
+      "correct_answer": "March 26, 1995",
+      "incorrect_answers": [
+        "July 11, 1992",
+        "February 14, 1993",
+        "October 21, 1994"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+      "correct_answer": "Indonesia",
+      "incorrect_answers": [
+        "Chile",
+        "New Zealand",
+        "Fiji"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Fallout series, on which date did The Great War happen?",
+      "correct_answer": "October 23rd, 2077",
+      "incorrect_answers": [
+        "May 15th, 2058",
+        "December 14th, 2069",
+        "November 5th, 2076"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which game is NOT part of the Science Adventure series by 5pb. and Nitroplus?",
+      "correct_answer": "Occultic; Nine",
+      "incorrect_answers": [
+        "Steins; Gate",
+        "Robotics; Notes",
+        "Chaos; Child"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the supercomputer located in the control room in &quot;Jurassic Park&quot; (1993)?",
+      "correct_answer": "Thinking Machines CM-5",
+      "incorrect_answers": [
+        "Cray X-MP",
+        "Cray XK7",
+        "IBM Blue Gene/Q"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The website &quot;Shut Up &amp; Sit Down&quot; reviews which form of media?",
+      "correct_answer": "Board Games",
+      "incorrect_answers": [
+        "Television Shows",
+        "Video Games",
+        "Films"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the surname of one of the male teachers in the BBC series Postman Pat?",
+      "correct_answer": "Pringle",
+      "incorrect_answers": [
+        "Walker",
+        "Dorito",
+        "Lays"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On a London Underground map, what colour is the Circle Line?",
+      "correct_answer": "Yellow",
+      "incorrect_answers": [
+        "Red",
+        "Blue",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these was not a member of the Fiendish Five in the game Sly Cooper and the Thievius Raccoonus?",
+      "correct_answer": "Dimitri Lousteau",
+      "incorrect_answers": [
+        "Mz. Ruby",
+        "Muggshot",
+        "Clockwerk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these bands are NOT from Australia?",
+      "correct_answer": "The Naked and Famous",
+      "incorrect_answers": [
+        "Cut Copy",
+        "Empire of the Sun",
+        "Tame Impala"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Who was the British Prime Minister at the outbreak of the Second World War?",
+      "correct_answer": "Neville Chamberlain",
+      "incorrect_answers": [
+        "Clement Attlee",
+        "Winston Churchill",
+        "Stanley Baldwin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What album did Gorillaz release in 2017?",
+      "correct_answer": "Humanz",
+      "incorrect_answers": [
+        "Plastic Beach",
+        "The Fall",
+        "Demon Days"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which country was NOT part of the Soviet Union?",
+      "correct_answer": "Romania",
+      "incorrect_answers": [
+        "Turkmenistan",
+        "Belarus",
+        "Tajikistan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many steps are there to upgrade a Staff?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "7",
+        "5",
+        "3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Half-Life series, Gordon Freeman&#039;s signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which Aerosmith album featured &quot;Walk This Way&quot;?",
+      "correct_answer": "Toys in the Attic",
+      "incorrect_answers": [
+        "Rocks",
+        "Get Your Wings",
+        "Draw the Line"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?",
+      "correct_answer": "Testarossa",
+      "incorrect_answers": [
+        "Enzo Ferrari",
+        "F40",
+        "288 GTO"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the main currency in Club Penguin?",
+      "correct_answer": "Coins",
+      "incorrect_answers": [
+        "Stamps",
+        "Tickets",
+        "Gems"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which drive form was added into Kingdom Hearts II Final Mix?",
+      "correct_answer": "Limit Form",
+      "incorrect_answers": [
+        "Valor Form",
+        "Wisdom Form",
+        "Anti Form"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which of these cities does NOT have a United States Minting location?",
+      "correct_answer": "St. Louis, MO",
+      "incorrect_answers": [
+        "San Fransisco, CA",
+        "Philidelphia, PA",
+        "West Point, NY"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who directed the 1973 film &quot;American Graffiti&quot;?",
+      "correct_answer": "George Lucas",
+      "incorrect_answers": [
+        "Ron Howard",
+        "Francis Ford Coppola",
+        "Steven Spielberg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The protagonist of the hit game, Half-Life 2 is called:",
+      "correct_answer": "Gordon Freeman",
+      "incorrect_answers": [
+        "Alyx Vance",
+        "Isaac Kleiner",
+        "Wallace Breen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first video game in the Batman &quot;Arkham&quot; series?",
+      "correct_answer": "Arkham Asylum",
+      "incorrect_answers": [
+        "Arkham Knight",
+        "Arkham City",
+        "Arkham Origins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was the first president of the United States?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "James Madison",
+        "Thomas Jefferson",
+        "James K. Polk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+      "correct_answer": "Economics",
+      "incorrect_answers": [
+        "Philosophy",
+        "Politics",
+        "Physics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the game &quot;Fallout&quot; released?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1998",
+        "1999",
+        "1996"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which city features all of their professional sports teams&#039; jersey&#039;s with the same color scheme?",
+      "correct_answer": "Pittsburgh",
+      "incorrect_answers": [
+        "New York",
+        "Seattle",
+        "Tampa Bay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
+      "correct_answer": "Binary",
+      "incorrect_answers": [
+        "JavaScript",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of the following is NOT a real song from the band Thousand Foot Krutch?",
+      "correct_answer": "Limitless Fury",
+      "incorrect_answers": [
+        "Let The Sparks Fly",
+        "Down",
+        "Give Up The Ghost"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which actress portrayed Dr. Grace Augustine in the James Cameron movie &quot;Avatar&quot;?",
+      "correct_answer": "Sigourney Weaver",
+      "incorrect_answers": [
+        "Jessica Chastain",
+        "Melissa Beckett",
+        "Alyssa Monroe "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which is the protagonist of Bioshock Infinite?",
+      "correct_answer": "Booker DeWitt",
+      "incorrect_answers": [
+        "Zachary Comstock",
+        "Arthas Menethil",
+        "Herbie Hancock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What is the scientific name of the Budgerigar?",
+      "correct_answer": "Melopsittacus undulatus",
+      "incorrect_answers": [
+        "Nymphicus hollandicus",
+        "Pyrrhura molinae",
+        "Ara macao"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "How many known living species of hyenas are there?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "8",
+        "2",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Frank Lloyd Wright was the architect behind what famous building?",
+      "correct_answer": "The Guggenheim",
+      "incorrect_answers": [
+        "Villa Savoye",
+        "Sydney Opera House",
+        "The Space Needle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the frontman of Muse?",
+      "correct_answer": "Matt Bellamy",
+      "incorrect_answers": [
+        "Dominic Howard",
+        "Thom Yorke",
+        "Jonny Greenwood"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these symbols can be seen on the shirt of the 1993 video game character, Bubsy T. Bobcat?",
+      "correct_answer": "An exclamation point",
+      "incorrect_answers": [
+        "A question mark",
+        "The letter B",
+        "Nothing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which rap group released the album &quot;Straight Outta Compton&quot;?",
+      "correct_answer": "N.W.A",
+      "incorrect_answers": [
+        "Wu-Tang Clan",
+        "Run-D.M.C.",
+        "Beastie Boys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the unit of currency in Laos?",
+      "correct_answer": "Kip",
+      "incorrect_answers": [
+        "Ruble",
+        "Konra",
+        "Dollar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The crown of the Empire State Building was originally built for what purpose?",
+      "correct_answer": "Airship Dock",
+      "incorrect_answers": [
+        "Lightning Rod",
+        "Antennae",
+        "Flag Pole"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What snowy mob was added in Minecraft 1.10?",
+      "correct_answer": "Polar bears",
+      "incorrect_answers": [
+        "Eskimos",
+        "Penguins",
+        "Walking TNT"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of these chemical compounds is NOT found in gastric acid?",
+      "correct_answer": "Sulfuric acid",
+      "incorrect_answers": [
+        "Hydrochloric acid",
+        "Potassium chloride",
+        "Sodium chloride"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Thirty Years War ended with which treaty?",
+      "correct_answer": "Peace of Westphalia",
+      "incorrect_answers": [
+        "Treaty of Versailles",
+        "Treaty of Paris",
+        "Peace of Prague"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many countries does Spain have a land border with?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of the first four titles of the &quot;Grand Theft Auto&quot; franchise started the series of iconic image grid cover arts?",
+      "correct_answer": "Grand Theft Auto III",
+      "incorrect_answers": [
+        "Grand Theft Auto",
+        "Grand Theft Auto II",
+        "Grand Theft Auto Vice City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Without enchantments, which pickaxe in minecraft mines blocks the quickest.",
+      "correct_answer": "Golden ",
+      "incorrect_answers": [
+        "Diamond",
+        "Iron",
+        "Obsidian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who was the director of &quot;Scott Pilgrim vs. the World (2010)&quot;?",
+      "correct_answer": "Edgar Wright",
+      "incorrect_answers": [
+        "Phil Lord",
+        "Chris Miller",
+        "Seth Rogan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who discovered Penicillin?",
+      "correct_answer": "Alexander Flemming",
+      "incorrect_answers": [
+        "Marie Curie",
+        "Alfred Nobel",
+        "Louis Pasteur"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "When did The Beatles release the LP &quot;Please Please Me&quot;?",
+      "correct_answer": "1963",
+      "incorrect_answers": [
+        "1970",
+        "1960",
+        "1969"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the most commonly used noun in the English language?",
+      "correct_answer": "Time",
+      "incorrect_answers": [
+        "Home",
+        "Water",
+        "Man"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which of the following United States Presidents served the shortest term in office?",
+      "correct_answer": "William Henry Harrison",
+      "incorrect_answers": [
+        "Zachary Taylor",
+        "James A. Garfield",
+        "Warren G. Harding"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "For what reason would a spotted hyena &quot;laugh&quot;?",
+      "correct_answer": "Nervousness",
+      "incorrect_answers": [
+        "Excitement",
+        "Aggression",
+        "Exhaustion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What is the name of Rivers Cuomo&#039;s wife?",
+      "correct_answer": "Kyoko Ito",
+      "incorrect_answers": [
+        "Yoko Ono",
+        "Kyary Pamyu Pamyu",
+        "LiSA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Rudyard Kipling&#039;s &quot;The Jungle Book&quot;, what type of snake was Kaa?",
+      "correct_answer": "Python",
+      "incorrect_answers": [
+        "Cobra",
+        "Anaconda",
+        "Viper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On which continent/s is the entire country of Spain specifically located when taking into account all of its territory?",
+      "correct_answer": "Europe and Africa",
+      "incorrect_answers": [
+        "Europe, Africa and Asia",
+        "Europe",
+        "Europe and Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Terran units from the RTS game Starcraft was first introduced in the expansion Brood War?",
+      "correct_answer": "Medic",
+      "incorrect_answers": [
+        "Wraith",
+        "Science Vessel",
+        "SCV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these actors does NOT appear in the 1998 movie &quot;Saving Private Ryan&quot;?",
+      "correct_answer": "Ralph Fiennes",
+      "incorrect_answers": [
+        "Tom Hanks",
+        "Vin Diesel",
+        "Matt Damon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+      "correct_answer": "RiDGiD STUDiOS",
+      "incorrect_answers": [
+        "Dan Bell",
+        "Billy Familia",
+        "VeganGainz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a faction included in the game Counter-Strike: Global Offensive?",
+      "correct_answer": "BOPE",
+      "incorrect_answers": [
+        "GSG-9",
+        "Elite Crew",
+        "Phoenix Connexion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following liquids is least viscous? Assume temperature is 25&deg;C.",
+      "correct_answer": "Acetone",
+      "incorrect_answers": [
+        "Water",
+        "Mercury",
+        "Benzene"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Fallout: New Vegas, upon starting each one of the four campaign DLCs, which one of them does not have a warning screen/recommended level? ",
+      "correct_answer": "Honest Hearts ",
+      "incorrect_answers": [
+        "Old World Blues",
+        "Lonesome Road",
+        "Dead Money"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In Breaking Bad, the initials W.W. refer to which of the following?",
+      "correct_answer": "Walter White",
+      "incorrect_answers": [
+        "William Wolf",
+        "Willy Wonka",
+        "Wally Walrus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which one of these is not an official development name for a Ubuntu release?",
+      "correct_answer": "Mystic Mansion",
+      "incorrect_answers": [
+        "Trusty Tahr",
+        "Utopic Unicorn",
+        "Wily Werewolf"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "When did the Byzantine Empire collapse?",
+      "correct_answer": "1453",
+      "incorrect_answers": [
+        "1299",
+        "1353",
+        "1498"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "What is a fundamental element of the Gothic style of architecture?",
+      "correct_answer": "pointed arch",
+      "incorrect_answers": [
+        "coffered ceilings",
+        "fa&ccedil;ades surmounted by a pediment ",
+        "internal frescoes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "&quot;Drink the Sea&quot; is an album by which electronic music artist?",
+      "correct_answer": "The Glitch Mob",
+      "incorrect_answers": [
+        "Avicii",
+        "XXYYXX",
+        "Flux Pavilion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Sgt. Gordon Elias in &#039;Platoon&#039; (1986)?",
+      "correct_answer": "Willem Dafoe",
+      "incorrect_answers": [
+        "Charlie Sheen",
+        "Matt Damon",
+        "Johnny Depp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these games came out first?",
+      "correct_answer": "Terraria",
+      "incorrect_answers": [
+        "Minecraft",
+        "Starbound",
+        "Factorio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the common, gun-toting enemies of the &quot;Oddworld&quot; video game series?",
+      "correct_answer": "Sligs",
+      "incorrect_answers": [
+        "Scrabs",
+        "Slogs",
+        "Glukkons"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is Pikachu&#039;s National Pok&eacute;Dex Number?",
+      "correct_answer": "#025",
+      "incorrect_answers": [
+        "#001",
+        "#031",
+        "#109"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following games was NOT included in Valve&#039;s Orange Box?",
+      "correct_answer": "Counter-Strike",
+      "incorrect_answers": [
+        "Portal",
+        "Half-Life 2: Episode Two",
+        "Team Fortress 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?",
+      "correct_answer": "Amanda Barrie",
+      "incorrect_answers": [
+        "Sue Nicholls",
+        "Violet Carson",
+        "Jean Alexander"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Call of Duty games was a PS3 launch title?",
+      "correct_answer": "Call of Duty 3",
+      "incorrect_answers": [
+        "Call of Duty 4: Modern Warfare",
+        "Call of Duty: World at War",
+        "Call of Duty: Roads to Victory"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "On which planet does the game Freedom Planet (2014) take place?",
+      "correct_answer": "Avalice",
+      "incorrect_answers": [
+        "Freedom",
+        "Galaxytrail",
+        "Shang Mu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which Elton John hit starts with the line &quot;When are you gonna come down&quot;?",
+      "correct_answer": "Goodbye Yellow Brick Road",
+      "incorrect_answers": [
+        "Rocket Man",
+        "Bennie and the Jets",
+        "Crocodile Rock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What&#039;s the English Dub Name of &quot;Smile Precure&quot;?",
+      "correct_answer": "Glitter Force",
+      "incorrect_answers": [
+        "Sparkle Girls",
+        "Fairy Tale Patrol",
+        "Power Princesses"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which one of these films are shot entirely in one-take?",
+      "correct_answer": "Russian Ark",
+      "incorrect_answers": [
+        "Good Will Hunting",
+        "Birdman",
+        "Schindler&#039;s List"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which eSports team came first place in The International Dota 2 Championship 2016?",
+      "correct_answer": "Wings Gaming",
+      "incorrect_answers": [
+        "Digital Chaos",
+        "Evil Geniuses",
+        "Fnatic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which US state was the first to allow women to vote in 1869?",
+      "correct_answer": "Wyoming",
+      "incorrect_answers": [
+        "California",
+        "Delaware",
+        "Virginia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these video game series have NOT had a promotional item appear in Team Fortress 2?",
+      "correct_answer": "Half-Life",
+      "incorrect_answers": [
+        "Quake",
+        "The Binding of Isaac",
+        "Fallout"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who in Pulp Fiction says &quot;No, they got the metric system there, they wouldn&#039;t know what the f*** a Quarter Pounder is.&quot;",
+      "correct_answer": "Vincent Vega",
+      "incorrect_answers": [
+        "Jules Winnfield",
+        "Jimmie Dimmick",
+        "Butch Coolidge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What element has the chemical symbol Kr?",
+      "correct_answer": "Krypton",
+      "incorrect_answers": [
+        "Kerosine",
+        "Kineticium",
+        "Curium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What power does Max Caulfield from &quot;Life is Strange&quot; have?",
+      "correct_answer": "Rewinding Time",
+      "incorrect_answers": [
+        "Invisibility",
+        "Telepathy",
+        "Super Strength"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What physics principle relates the net electric flux out of a closed surface to the charge enclosed by that surface?",
+      "correct_answer": "Gauss&#039;s Law",
+      "incorrect_answers": [
+        "Faraday&#039;s Law",
+        "Ampere&#039;s Law",
+        "Biot-Savart Law"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What fast food chain has the most locations globally? ",
+      "correct_answer": "Subway",
+      "incorrect_answers": [
+        "Starbucks",
+        "McDonalds",
+        "KFC"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which of these cards from &quot;Magic: The Gathering&quot; has a flavor text that begins with &quot;Oi oi oi&quot;?",
+      "correct_answer": "Uthden Troll",
+      "incorrect_answers": [
+        "Lotleth Troll",
+        "Albino Troll",
+        "Harvester Troll"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these Marvel games was released on the Playstation 2?",
+      "correct_answer": "Spider-Man 2",
+      "incorrect_answers": [
+        "Silver Surfer",
+        "Howard the Duck",
+        "Wolverine: Adamantium Rage"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "How many strings are there on a cello?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
+      "correct_answer": "Mormon",
+      "incorrect_answers": [
+        "Catholic",
+        "Jewish",
+        "Atheist"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which of the following won the first season of American Idol in 2002?",
+      "correct_answer": "Kelly Clarkson",
+      "incorrect_answers": [
+        "Justin Guarini",
+        "Ruben Studdard",
+        "Chris Daughtry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is Sora&#039;s Nobody in Kingdom Hearts?",
+      "correct_answer": "Roxas",
+      "incorrect_answers": [
+        "Riku",
+        "Kairi",
+        "Mickey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What CoD &quot;Deathstreak&quot; is only featured in Call of Duty : Modern Warfare 2?",
+      "correct_answer": "Copycat",
+      "incorrect_answers": [
+        " Martrydom",
+        "Final Stand",
+        "Revenge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What are tiny Thwomps called in Super Mario World?",
+      "correct_answer": "Thwimps",
+      "incorrect_answers": [
+        "Little Thwomp",
+        "Mini Thwomp",
+        "Tiny Tims"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the show &quot;Foster&#039;s Home For Imaginary Friends&quot;, which character had an obsession with basketball?",
+      "correct_answer": "Wilt",
+      "incorrect_answers": [
+        "Coco",
+        "Mac",
+        "Cheese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which country drives on the left side of the road?",
+      "correct_answer": "Japan",
+      "incorrect_answers": [
+        "Germany",
+        "Russia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Automobiles produced by Tesla Motors operate on which form of energy?",
+      "correct_answer": "Electricity",
+      "incorrect_answers": [
+        "Gasoline",
+        "Diesel",
+        "Nuclear"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "The Space Needle is located in which city?",
+      "correct_answer": "Seattle",
+      "incorrect_answers": [
+        "Los Angles",
+        "Toronto",
+        "Vancouver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What 1970&#039;s American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
+      "correct_answer": "American Pie",
+      "incorrect_answers": [
+        "Kentucky Rain",
+        "I Will Always Love You",
+        "Rock &#039;n&#039; Roll Suicide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What song is played during the ending credits of Guitar Hero: World Tour?",
+      "correct_answer": "Dream Theater - Pull Me Under",
+      "incorrect_answers": [
+        "King Crimson - 21st Century Schizoid Man",
+        "Dragonforce - Through The Fire &amp; The Flames",
+        "Lynyrd Skynyrd - Free Bird"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what class is known for having the highest possible defense?",
+      "correct_answer": "The Knight",
+      "incorrect_answers": [
+        "The Wizard",
+        "The Archer",
+        "The Warrior"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which Hanna-Barbera cartoon character travelled with a canine companion named Beegle Beagle?",
+      "correct_answer": "Grape Ape",
+      "incorrect_answers": [
+        "Boss Gator",
+        "Wally Gator",
+        "Yogi Bear"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "Which of these is a semiconductor amplifying device?",
+      "correct_answer": "transistor",
+      "incorrect_answers": [
+        "tube",
+        "diode",
+        "P-N junction"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is a character in the video game Destiny?",
+      "correct_answer": "Cayde-6",
+      "incorrect_answers": [
+        "Ostrava of Boletaria",
+        "Mordecai the Hunter",
+        "Leon S. Kennedy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these films is NOT set in Los Angeles?",
+      "correct_answer": "RoboCop",
+      "incorrect_answers": [
+        "Blade Runner",
+        "The Terminator",
+        "Predator 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who was the first female protagonist in a video game?",
+      "correct_answer": "Samus Aran",
+      "incorrect_answers": [
+        "Lara Croft",
+        "Alis Landale",
+        "Chell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of these is NOT a Disney cartoon character?",
+      "correct_answer": "Daffy Duck",
+      "incorrect_answers": [
+        "Donald Duck",
+        "Daisy Duck",
+        "Scrooge McDuck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Who was the inspiration for Cuthbert Calculus in the Tintin series?",
+      "correct_answer": "Auguste Picard",
+      "incorrect_answers": [
+        "Jacques Piccard",
+        "Will Morris",
+        "J. Cecil Maby"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+      "correct_answer": "Heat Sink",
+      "incorrect_answers": [
+        "CPU Vent",
+        "Temperature Decipator",
+        "Heat Vent"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+      "correct_answer": "Alan Shearer",
+      "incorrect_answers": [
+        "Wayne Rooney",
+        "Robbie Fowler",
+        "Thierry Henry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
+      "correct_answer": "Tom Bombadil",
+      "incorrect_answers": [
+        "Strider",
+        "Barliman Butterbur",
+        "Celeborn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;Dragon Ball&quot; franchise, what is the name of Goku&#039;s brother?",
+      "correct_answer": "Raditz",
+      "incorrect_answers": [
+        "Gohan",
+        "Vegeta",
+        "Bardock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "In bowling, what is the term used for getting three consecutive strikes?",
+      "correct_answer": "Turkey",
+      "incorrect_answers": [
+        "Flamingo",
+        "Birdie",
+        "Eagle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who was given the title &quot;Full Metal&quot; in the anime series &quot;Full Metal Alchemist&quot;?",
+      "correct_answer": "Edward Elric",
+      "incorrect_answers": [
+        "Alphonse Elric",
+        "Van Hohenheim",
+        "Izumi Curtis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Iconic cartoon character Mickey Mouse made his onscreen debut in what year?",
+      "correct_answer": "1928",
+      "incorrect_answers": [
+        "1929",
+        "1922",
+        "1932"
+      ]
+    }
+  ]
+}

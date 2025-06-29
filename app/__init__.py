@@ -10,14 +10,31 @@ login_manager = LoginManager()
 def create_app(config_class=Config):
     app = Flask(__name__)
 
+    # Configure CORS to allow requests from multiple origins
+    from flask_cors import CORS
+
+    # origins = [
+    #     "http://localhost:5173",
+    #     "http://localhost:3000", 
+    #     "http://127.0.0.1:5173",
+    #     "http://127.0.0.1:3000",
+    #     "http://192.168.204.179:5173",
+    #     "http://192.168.204.179:3000",
+    #     "http://192.168.1.110:5173",
+    #     "http://192.168.1.110:3000"
+    # ]
+    origins = ["*"]
+
     CORS(
         app,
+        resources={r"/*": {"origins": origins}},
         supports_credentials=True,
-        resources={
-            # Adjust this pattern if your login endpoint lives under /auth or /users
-            r"/*": {"origins": "http://localhost:5173"}
-        }
+        methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allow_headers=["Content-Type", "Authorization", "X-Requested-With", "Accept"],
+        expose_headers=["Content-Type", "Authorization"],
+        max_age=3600,
     )
+
 
     app.config.from_object(config_class)
     

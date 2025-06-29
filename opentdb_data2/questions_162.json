@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+      "correct_answer": "Recess",
+      "incorrect_answers": [
+        "All is Fair in Love and Brostep",
+        "Rock N Roll (Will Take You to the Mountain)",
+        "Scary Monsters and Nice Sprites"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which town was Seamus &quot;Sledge&quot; Cowden from &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; born in?",
+      "correct_answer": "John O&#039;Groats",
+      "incorrect_answers": [
+        "Brawl",
+        "Kearvaig",
+        "Talmine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which punk rock band released hit songs such as &quot;Californication&quot;, &quot;Can&#039;t Stop&quot; and &quot;Under the Bridge&quot;?",
+      "correct_answer": "Red Hot Chilli Peppers",
+      "incorrect_answers": [
+        "Green Day",
+        "Linkin Park",
+        "Foo Fighters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which franchise was NOT featured in the 2015 video game &quot;Lego Dimensions&quot;?",
+      "correct_answer": "Breaking Bad",
+      "incorrect_answers": [
+        "Portal",
+        "Doctor Who",
+        "Back to the Future"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "When was the FC Schalke 04 founded?",
+      "correct_answer": "1904",
+      "incorrect_answers": [
+        "1909",
+        "2008",
+        "1999"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Which of the following authors was not born in England? ",
+      "correct_answer": "Arthur Conan Doyle",
+      "incorrect_answers": [
+        "Graham Greene",
+        "H G Wells",
+        "Arthur C Clarke"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In what film was the Michael Jackson song &quot;Will You Be There&quot; featured?",
+      "correct_answer": "Free Willy",
+      "incorrect_answers": [
+        "Sleepless in Seattle",
+        "Men in Black",
+        "Bad Boys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of the following Japanese islands is the biggest?",
+      "correct_answer": "Honshu",
+      "incorrect_answers": [
+        "Hokkaido",
+        "Shikoku",
+        "Kyushu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What UK Train does NOT go over 125MPH?",
+      "correct_answer": "Sprinter",
+      "incorrect_answers": [
+        "Class 43",
+        "Javelin",
+        "Pendolino"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What year was Netflix founded?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1999",
+        "2004",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?",
+      "correct_answer": "MGMT",
+      "incorrect_answers": [
+        "MSTRKRFT",
+        "STRFKR",
+        "SBTRKT"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Given that all party members are maxed, who is the fastest party member in Super Mario RPG: Legend of The Seven Stars?",
+      "correct_answer": "Geno",
+      "incorrect_answers": [
+        "Mario",
+        "Bowser",
+        "Peach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What minimum level in the Defence skill is needed to equip Dragon Armour in the MMO RuneScape?",
+      "correct_answer": "60",
+      "incorrect_answers": [
+        "65",
+        "55",
+        "70"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The &#039;64&#039; in the Nintendo-64 console refers to what?",
+      "correct_answer": "The bits in the CPU architecture",
+      "incorrect_answers": [
+        "The number of megabytes of RAM",
+        "Capacity of the ROM Cartridges in megabytes",
+        "Clock speed of the CPU in Hertz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The term &quot;scientist&quot; was coined in which year?",
+      "correct_answer": "1833",
+      "incorrect_answers": [
+        "1933",
+        "1942",
+        "1796"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "In what Harry Potter book was a Horcrux first encountered?",
+      "correct_answer": "The Chamber of Secrets",
+      "incorrect_answers": [
+        "The Half-Blood Prince",
+        "The Goblet of Fire",
+        "The Deathly Hallows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which Louis was known as &#039;The Sun King of France&#039;?",
+      "correct_answer": "Louis XIV",
+      "incorrect_answers": [
+        "Louis XIII",
+        "Louis XV",
+        "Louis XVI"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the 4th boss in the 1997 video game &quot;Crash Bandicoot 2: Cortex Strikes Back&quot;?",
+      "correct_answer": "Dr. N. Gin",
+      "incorrect_answers": [
+        "Dr. Neo Cortex",
+        "Komodo Brothers",
+        "Tiny Tiger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the Overlord Anime who was Cocytus made by?",
+      "correct_answer": "Warrior Takemikazuchi",
+      "incorrect_answers": [
+        "Peroroncino",
+        "Ulbert Alain Odle",
+        "Bukubukuchagama"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Xenoblade Chronicles 2&quot;, Which party member cannot use normal blades?",
+      "correct_answer": "Tora",
+      "incorrect_answers": [
+        "Rex",
+        "Zeke",
+        "Nia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Pok&eacute;mon Sun and Moon&quot;, Team Skull took over which town?",
+      "correct_answer": "Po Town",
+      "incorrect_answers": [
+        "Heahea City",
+        "Tapu Village",
+        "Iki Town"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Which of the following is not true about the life of Tiresias?",
+      "correct_answer": "Sailed with the Argonauts to find the golden fleece",
+      "incorrect_answers": [
+        "Athena turned him into a woman, and then years later back into a man",
+        "Hera blinded him after he agreed with Zeus in an argument",
+        "Revealed to Oedipus that Oedipus had married his own mother"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How many protons are in an oxygen atom?",
+      "correct_answer": "Eight",
+      "incorrect_answers": [
+        "Four",
+        "Two",
+        "Six"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?",
+      "correct_answer": "David Duchovny",
+      "incorrect_answers": [
+        "Gillian Anderson",
+        "Robert Patrick",
+        "Mitch Pileggi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Bohdan Khmelnytsky was which of the following?",
+      "correct_answer": "Leader of the Ukrainian Cossacks",
+      "incorrect_answers": [
+        "General Secretary of the Communist Party of the USSR",
+        "Prince of Wallachia",
+        "Grand Prince of Novgorod"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which Sanrio character was introduced in 1996?",
+      "correct_answer": "Pompompurin",
+      "incorrect_answers": [
+        "My Melody",
+        "Badtz-Maru",
+        "Kerropi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is Lilo&#039;s last name from Lilo and Stitch?",
+      "correct_answer": "Pelekai",
+      "incorrect_answers": [
+        "Anoaʻi",
+        "Kealoha",
+        "Kuʻulei"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+      "correct_answer": "Jonathan Demme",
+      "incorrect_answers": [
+        "Stanley Kubrick",
+        "Frank Darabont",
+        "Michael Bay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is the English title of the vaporwave track &quot;リサフランク420 / 現代のコンピュー&quot; by Macintosh Plus (Vektroid)?",
+      "correct_answer": "Lisa Frank 420 / Modern Computing",
+      "incorrect_answers": [
+        "Smoke Weed 420 / Everyday",
+        "Make Your Move 420 / My Mind",
+        "It&#039;s All In Your Head 420 / Understand"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In which city did American rap producer DJ Khaled originate from?",
+      "correct_answer": "Miami",
+      "incorrect_answers": [
+        "New York",
+        "Detroit",
+        "Atlanta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these games wasn&#039;t released in 2016?",
+      "correct_answer": "Metal Gear Solid V",
+      "incorrect_answers": [
+        "Tom Clancy&#039;s The Division",
+        "Killing Floor 2",
+        "Hitman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the largest planet in Kerbal Space Program?",
+      "correct_answer": "Jool",
+      "incorrect_answers": [
+        "Eeloo",
+        "Kerbol",
+        "Minmus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who had a 1976 hit with the song &#039;You Make Me Feel Like Dancing&#039;?",
+      "correct_answer": "Leo Sayer",
+      "incorrect_answers": [
+        "Elton John",
+        "Billy Joel",
+        "Andy Gibb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was found in 1946 by two young shepards near a cave?",
+      "correct_answer": "Dead Sea Scrolls",
+      "incorrect_answers": [
+        "The Blackbeard Chest",
+        "Sheep",
+        "The First Oaxaca Cave Sleeper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+      "correct_answer": "Carlos Sainz Jr.",
+      "incorrect_answers": [
+        "Daniil Kvyat",
+        "Jolyon Palmer",
+        "Rio Haryanto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was the first Call of Duty title released?",
+      "correct_answer": "October 29, 2003",
+      "incorrect_answers": [
+        "December 1, 2003",
+        "November 14, 2002",
+        "July 18, 2004"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What country has a horizontal bicolor red and white flag?",
+      "correct_answer": "Monaco",
+      "incorrect_answers": [
+        "Bahrain",
+        "Malta",
+        "Liechenstein"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "During what war did the &quot;Cuban Missile Crisis&quot; occur?",
+      "correct_answer": "Cold War",
+      "incorrect_answers": [
+        "World War I",
+        "World War II",
+        "Revolutionary War"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the first Mersenne prime exponent over 1000?",
+      "correct_answer": "1279",
+      "incorrect_answers": [
+        "2203",
+        "1009",
+        "1069"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What are the names of the Ice Climbers in the video game Ice Climber?",
+      "correct_answer": "Popo and Nana",
+      "incorrect_answers": [
+        "Popo and Nina",
+        "Papi and Nana",
+        "Papi and Nina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "Which of the following is not a type of computer mouse?",
+      "correct_answer": "Smoothie mouse",
+      "incorrect_answers": [
+        "Drum mouse",
+        "Trackball mouse",
+        "Optical mouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the average life span of a garden ant?",
+      "correct_answer": "15 years",
+      "incorrect_answers": [
+        "24 hours",
+        "1 week",
+        "3 years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What is the surname of one of the male teachers in the BBC series Postman Pat?",
+      "correct_answer": "Pringle",
+      "incorrect_answers": [
+        "Walker",
+        "Dorito",
+        "Lays"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1979 British film &quot;Quadrophenia&quot; what is the name of the main protagonist?",
+      "correct_answer": "Jimmy Cooper",
+      "incorrect_answers": [
+        "Pete Townshend",
+        "Franc Roddam",
+        "Archie Bunker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In Alice in Wonderland, what is the name of Alice&#039;s kitten?",
+      "correct_answer": "Dinah",
+      "incorrect_answers": [
+        "Oscar",
+        "Heath",
+        "Smokey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many playable characters were there in Street Fighter II: Champion Edition?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "16",
+        "8",
+        "17"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What was the name of the security vulnerability found in Bash in 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": [
+        "Heartbleed",
+        "Bashbug",
+        "Stagefright"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "In the  Rossini opera, what was the name of &#039;The Barber of Seville&#039;?",
+      "correct_answer": "Figaro",
+      "incorrect_answers": [
+        "Angelo",
+        "Fernando",
+        "Dave"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;Metal Gear Solid&quot;, what did Revolver Ocelot consider the greatest handgun ever made?",
+      "correct_answer": "Colt Single Action Army",
+      "incorrect_answers": [
+        "Colt Python",
+        "Colt M1892",
+        "Colt 1851 Navy Revolver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the creator of the free, open-source rhythm game &#039;osu!&#039;?",
+      "correct_answer": "Dean &#039;Peppy&#039; Herbert",
+      "incorrect_answers": [
+        "Daisuke &#039;Pixel&#039; Amaya",
+        "Eric &#039;ConcernedApe&#039; Barone",
+        "Toby &#039;FwugRadiation&#039; Fox"
+      ]
+    }
+  ]
+}

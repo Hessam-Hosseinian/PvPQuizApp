@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "eBay",
+        "Overstock",
+        "Shopify"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many timezones does Russia have?",
+      "correct_answer": "11",
+      "incorrect_answers": [
+        "6",
+        "24",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What type of creature is a Bonobo?",
+      "correct_answer": "Ape",
+      "incorrect_answers": [
+        "Lion",
+        "Parrot",
+        "Wildcat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which of these is the name of a song by Tears for Fears?",
+      "correct_answer": "Shout",
+      "incorrect_answers": [
+        "Scream",
+        "Yell",
+        "Shriek"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the Naruto manga, what is the last name of Tsunade?",
+      "correct_answer": "Senju",
+      "incorrect_answers": [
+        "Haruno",
+        "Uzumaki",
+        "Yamanaka"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What year did &quot;Attack on Titan&quot; first air?",
+      "correct_answer": "2013",
+      "incorrect_answers": [
+        "2014",
+        "2012",
+        "2015"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What city did the monster attack in the film, &quot;Cloverfield&quot;?",
+      "correct_answer": "New York, New York",
+      "incorrect_answers": [
+        "Las Vegas, Nevada",
+        "Chicago, Illinois",
+        "Orlando, Florida"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Earthbound&quot;, how does one enter &quot;Master Belch&#039;s&quot; factory?",
+      "correct_answer": "Wait 3 Minutes",
+      "incorrect_answers": [
+        "Enter the password &quot;Fly Honey&quot;",
+        "Enter the password &quot;Master Belch Rules&quot;",
+        "Enter the password &quot;Mr Saturn Drools&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which of the following movies was not based on a book?",
+      "correct_answer": "Citizen Kane",
+      "incorrect_answers": [
+        "The Godfather",
+        "Forrest Gump",
+        "Jurassic Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In Finding Nemo, what was the name of Nemo&#039;s mom?",
+      "correct_answer": "Coral",
+      "incorrect_answers": [
+        "Sandy",
+        "Pearl",
+        "Shelly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;SpongeBob SquarePants&quot;, what is the name of Sandy Cheek&#039;s place of residence?",
+      "correct_answer": "Sandy&#039;s Treedome",
+      "incorrect_answers": [
+        "&quot;The Dome&quot;",
+        "Sandy&#039;s Bubble",
+        "Auquatic Reseach Centre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+      "correct_answer": "Hinduism",
+      "incorrect_answers": [
+        "Judaism",
+        "Islam",
+        "Buddhism"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The new One World Trade Center in Manhattan, New York City was designed by which architect? ",
+      "correct_answer": "David Childs",
+      "incorrect_answers": [
+        "Bjarke Ingels",
+        "Michael Arad",
+        "Fumihiko Maki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Caramelldansen&quot; is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+      "correct_answer": "Swedish",
+      "incorrect_answers": [
+        "Hungarian",
+        "Finnish",
+        "Chinese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Some of the &quot;Fallen Empires&quot; cards from &quot;Magic: The Gathering&quot; were misprinted on the backs of which other card game?",
+      "correct_answer": "Wyvern",
+      "incorrect_answers": [
+        "Pokemon",
+        "Dominion",
+        "Yu-Gi-Oh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In what year were achivements added to Steam?",
+      "correct_answer": "2007",
+      "incorrect_answers": [
+        "2008",
+        "2009",
+        "2006"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which NBA player won Most Valuable Player for the 1999-2000 season?",
+      "correct_answer": "Shaquille O&#039;Neal",
+      "incorrect_answers": [
+        "Allen Iverson",
+        "Kobe Bryant",
+        "Paul Pierce"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What was studio Trigger&#039;s first original long-form animated series for television?",
+      "correct_answer": "Kill la Kill",
+      "incorrect_answers": [
+        "Kiznaiver",
+        "Inferno Cop",
+        "Gurren Lagann"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;League of Legends&quot; which character is known as &quot;The Sinister Blade&quot;?",
+      "correct_answer": "Katarina",
+      "incorrect_answers": [
+        "Shaco",
+        "Akali",
+        "Zed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
+      "correct_answer": "Merano",
+      "incorrect_answers": [
+        "Venice",
+        "Milan",
+        "Rome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these movies did Jeff Bridges not star in?",
+      "correct_answer": "The Hateful Eight",
+      "incorrect_answers": [
+        "Tron: Legacy",
+        "The Giver",
+        "True Grit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Given that all party members are maxed, who is the fastest party member in Super Mario RPG: Legend of The Seven Stars?",
+      "correct_answer": "Geno",
+      "incorrect_answers": [
+        "Mario",
+        "Bowser",
+        "Peach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What was the cause of death for Freddie Mercury?",
+      "correct_answer": "Pneumonia",
+      "incorrect_answers": [
+        "Stomach Cancer",
+        "HIV",
+        "Brain Hemorrhage"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these weapon classes DO NOT appear in the first Monster Hunter game?",
+      "correct_answer": "Bow ",
+      "incorrect_answers": [
+        "Hammer",
+        "Heavy Bowgun",
+        "Light Bowgun"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Strangereal&quot; is a fictitious Earth-like world for which game series?",
+      "correct_answer": "Ace Combat",
+      "incorrect_answers": [
+        "Jet Set Radio",
+        "Deus Ex",
+        "Crimson Skies"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What type of angle is greater than 90&deg;?",
+      "correct_answer": "Obtuse",
+      "incorrect_answers": [
+        "Acute",
+        "Right",
+        "Straight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+      "correct_answer": "The Onion Router",
+      "incorrect_answers": [
+        "The Only Router",
+        "The Orange Router",
+        "The Ominous Router"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the vocalist and frontman of rock band &quot;Guns N&#039; Roses&quot;?",
+      "correct_answer": "Axl Rose",
+      "incorrect_answers": [
+        "Kurt Cobain",
+        "Slash",
+        "Bono"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Rick and Morty&quot;, from which dimension do Rick and Morty originate from?",
+      "correct_answer": "C-137",
+      "incorrect_answers": [
+        "J1977",
+        "C-136",
+        "C500-a"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which Greek god was the god of the Sun?",
+      "correct_answer": "Helios",
+      "incorrect_answers": [
+        "Zeus",
+        "Hades",
+        "Poseidon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "In the Panic! At the Disco&#039;s song &quot;Nothern Downpour&quot;, which lyric follows &#039;I know the world&#039;s a broken bone&#039;.",
+      "correct_answer": "&quot;So melt your headaches call it home&quot;",
+      "incorrect_answers": [
+        "&quot;So sing your song until you&#039;re home&quot;",
+        "&quot;So let them know they&#039;re on their own&quot;",
+        "&quot;So start a fire in their cold stone&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of the following is not the name of a &quot;Bond Girl&quot;? ",
+      "correct_answer": "Vanessa Kensington",
+      "incorrect_answers": [
+        "Pam Bouvier",
+        "Mary Goodnight",
+        "Wai Lin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+      "correct_answer": "Republican",
+      "incorrect_answers": [
+        "Democrat",
+        "Independent",
+        "Whig"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which letter do you need to have on a European driver license in order to ride any motorbikes?",
+      "correct_answer": "A",
+      "incorrect_answers": [
+        "X",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "What year did the Chevrolet LUV mini truck make its debut?",
+      "correct_answer": "1972",
+      "incorrect_answers": [
+        "1982",
+        "1975",
+        "1973"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What type of animal is a natterjack?",
+      "correct_answer": "Toad",
+      "incorrect_answers": [
+        "Bird",
+        "Fish",
+        "Insect"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;Metal Gear Solid&quot;, what did Revolver Ocelot consider the greatest handgun ever made?",
+      "correct_answer": "Colt Single Action Army",
+      "incorrect_answers": [
+        "Colt Python",
+        "Colt M1892",
+        "Colt 1851 Navy Revolver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What studio animated Fullmetal Alchemist?",
+      "correct_answer": "Bones",
+      "incorrect_answers": [
+        "Trigger",
+        "Pierrot",
+        "xebec"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What&#039;s the most common time signature for rock songs?",
+      "correct_answer": "4/4",
+      "incorrect_answers": [
+        "1/2",
+        "8/12",
+        "2/4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following countries is within the Eurozone but outside of the Schengen Area?",
+      "correct_answer": "Cyprus",
+      "incorrect_answers": [
+        "Malta",
+        "Greece",
+        "Portugal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
+      "correct_answer": "Yomba Shoshone Tribe",
+      "incorrect_answers": [
+        "Standing Rock Sioux Tribe",
+        "Kiowa Tribe of Oklahoma",
+        "Pawnee Nation of Oklahoma"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a wonder weapon in &quot;Call Of Duty: Zombies&quot;?",
+      "correct_answer": "R115 Resonator",
+      "incorrect_answers": [
+        "GKZ-45 Mk3",
+        "Ray Gun",
+        "Scavenger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "When someone is inexperienced they are said to be what color?",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which German field marshal was known as the `Desert Fox`?",
+      "correct_answer": "Erwin Rommel",
+      "incorrect_answers": [
+        "Ernst Busch",
+        "Wolfram Freiherr von Richthofen",
+        "Wilhelm List"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+      "correct_answer": "South Park",
+      "incorrect_answers": [
+        "The Simpsons",
+        "Family Guy",
+        "Bob&#039;s Burgers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the character Nicolas Cage plays in the movie &quot;National Treasure?&quot;",
+      "correct_answer": "Benjamin Franklin Gates",
+      "incorrect_answers": [
+        "Thomas Jefferson Walker",
+        "George Washington Swanson",
+        "John Quincy Beckett"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is not a faction in Tom Clancy&#039;s The Division?",
+      "correct_answer": "CDC",
+      "incorrect_answers": [
+        "Cleaners",
+        "Last Man Batallion",
+        "Rikers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+      "correct_answer": "Hispania ",
+      "incorrect_answers": [
+        "Italia",
+        "Gallia",
+        "Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": [
+        "1932",
+        "1930",
+        "1925"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2002 video game &quot;Kingdom Hearts&quot;, how many playable worlds were there?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "11"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Undertale&quot;, how many main endings are there?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "5",
+        "13"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the common name of the chemical compound &quot;dihydrogen monoxide&quot;?",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Methane",
+        "Ammonia ",
+        "Laughing Gas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In which city did American rap producer DJ Khaled originate from?",
+      "correct_answer": "Miami",
+      "incorrect_answers": [
+        "New York",
+        "Detroit",
+        "Atlanta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+      "correct_answer": "Top Gun",
+      "incorrect_answers": [
+        "Days of Thunder",
+        "The Color of Money",
+        "Cocktail"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Portal series of games, who was the founder of Aperture Science?",
+      "correct_answer": "Cave Johnson",
+      "incorrect_answers": [
+        "GLaDOs",
+        "Wallace Breen",
+        "Gordon Freeman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "&quot;Green Eggs And Ham&quot; is a book by which author?",
+      "correct_answer": "Dr. Seuss",
+      "incorrect_answers": [
+        "Beatrix Potter",
+        "Roald Dahl",
+        "A.A. Milne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which game was the first time Mario was voiced by Charles Martinet?",
+      "correct_answer": "Mario&#039;s Game Gallery",
+      "incorrect_answers": [
+        "Super Mario 64",
+        "Mario Tennis",
+        "Dr. Mario 64"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who directed the 2015 movie &quot;The Revenant&quot;?",
+      "correct_answer": "Alejandro G. I&ntilde;&aacute;rritu",
+      "incorrect_answers": [
+        "Christopher Nolan",
+        "David Fincher",
+        "Wes Anderson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+      "correct_answer": "Highlander",
+      "incorrect_answers": [
+        "Flash Gordon",
+        "Labyrinth",
+        "Howard the Duck"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who created the &quot;Metal Gear&quot; Series?",
+      "correct_answer": "Hideo Kojima",
+      "incorrect_answers": [
+        "Hiroshi Yamauchi",
+        "Shigeru Miyamoto",
+        "Gunpei Yokoi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Which of the following actors portrayed the Ninth Doctor in the British television show &quot;Doctor Who&quot;?",
+      "correct_answer": "Christopher Eccleston",
+      "incorrect_answers": [
+        "David Tennant",
+        "Matt Smith",
+        "Tom Baker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "Which one of these films did David Lynch direct, but not write?",
+      "correct_answer": "The Straight Story",
+      "incorrect_answers": [
+        "Inland Empire",
+        "Lost Highway",
+        "Twin Peaks Fire Walk With Me"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Green Day?",
+      "correct_answer": "Billie Joe Armstrong",
+      "incorrect_answers": [
+        "Mike Dirnt",
+        "Sean Hughes",
+        "Tr&eacute; Cool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many sets of grandmaster witcher gear are in The Witcher 3&#039;s Blood and Wine DLC?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "3",
+        "6",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Need for Speed: Most Wanted (2005), what was the name of the main antagonist?",
+      "correct_answer": "Clarence &quot;Razor&quot; Callahan",
+      "incorrect_answers": [
+        "Hector &quot;Ming&quot; Domingo",
+        "Toru &quot;Bull&quot; Sato",
+        "Karl &quot;Baron&quot; Smit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What was another suggested name for, the 1985 film, Back to the Future?",
+      "correct_answer": "Spaceman From Pluto",
+      "incorrect_answers": [
+        "Hill Valley Time Travelers",
+        "The Time Travelers",
+        "The Lucky Man"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The games Cry of Fear, Natural Selection and Counter-Strike were originally mods for what video game?",
+      "correct_answer": "Half-Life",
+      "incorrect_answers": [
+        "Warcraft III",
+        "Arma 2",
+        "Doom"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The seed drill was invented by which British inventor?",
+      "correct_answer": "Jethro Tull",
+      "incorrect_answers": [
+        "Charles Babbage",
+        "Isaac Newton",
+        "J.J Thomson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In which film does Humphrey Bogart say the famous line, &quot;Here&#039;s looking at you, kid&quot;?",
+      "correct_answer": "Casablanca",
+      "incorrect_answers": [
+        "The Maltese Falcon",
+        "The Treasure of the Sierra Madre",
+        "Citizen Kane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The early part of which decade, did the Goth Subculture begin?",
+      "correct_answer": "1980s",
+      "incorrect_answers": [
+        "1990s",
+        "2000s",
+        "1970s"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2010",
+        "2011",
+        "2013"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?",
+      "correct_answer": "Nikita Khrushchev",
+      "incorrect_answers": [
+        "Leonid Brezhnev",
+        "Mikhail Gorbachev",
+        "Boris Yeltsin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who wrote and directed the animated movie &quot;Spirited Away&quot; (2001)?",
+      "correct_answer": "Hayao Miyazaki",
+      "incorrect_answers": [
+        "Isao Takahata",
+        "Mamoru Hosoda",
+        "Hidetaka Miyazaki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+      "correct_answer": "150",
+      "incorrect_answers": [
+        "200",
+        "100",
+        "155"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+      "correct_answer": "Key",
+      "incorrect_answers": [
+        "Sword",
+        "Pen",
+        "Cellphone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The most graphically violent game to precede the creation of the ESRB (Entertainment Software Rating Board) was...",
+      "correct_answer": "Mortal Kombat",
+      "incorrect_answers": [
+        "Duke Nukem",
+        "Resident Evil",
+        "Doom"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Donkey Kong Country&quot;, why does Donkey Kong want to know the secret of the crystal coconut?",
+      "correct_answer": "He&#039;s the big kahuna.",
+      "incorrect_answers": [
+        "To find out where all the bananas are.",
+        "Because Diddy Kong forced him.",
+        "He wants to punish brutes."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "How many times do you fight Gilgamesh in &quot;Final Fantasy 5&quot;?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "4",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "How many &quot;JoJos&quot; that are protagonists are there in the series &quot;Jojo&#039;s Bizarre Adventure&quot;?",
+      "correct_answer": "8+",
+      "incorrect_answers": [
+        "6+",
+        "4+",
+        "5+"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Back to the Future,&quot; what speed does Doc Brown&#039;s DeLorean need to reach in order to travel through time?",
+      "correct_answer": "88 mph",
+      "incorrect_answers": [
+        "77 mph",
+        "100 mph",
+        "70 mph"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is Homestuck character Gamzee&#039;s last name?",
+      "correct_answer": "Makara",
+      "incorrect_answers": [
+        "Makera",
+        "Makare",
+        "Makrea"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "What type of creature is a Bonobo?",
+      "correct_answer": "Ape",
+      "incorrect_answers": [
+        "Lion",
+        "Parrot",
+        "Wildcat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "How many strings are there on a cello?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+      "correct_answer": "Blood Sugar Sex Magik",
+      "incorrect_answers": [
+        "One Hot Minute",
+        "By the Way",
+        "Stadium Arcadium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In what year was the card game Magic: the Gathering first introduced?",
+      "correct_answer": "1993",
+      "incorrect_answers": [
+        "1987",
+        "1998",
+        "2003"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Pamina and Papageno are characters in what Mozart opera?",
+      "correct_answer": "The Magic Flute",
+      "incorrect_answers": [
+        "The Marriage of Figaro",
+        "The Impresario",
+        "The Goose of Cairo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+      "correct_answer": "Jacob&#039;s Syndrome",
+      "incorrect_answers": [
+        "Klinefelter&#039;s Syndrome",
+        "Turner&#039;s Syndrome",
+        "Down Syndrome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "By how many minutes are you late to work in &quot;Half-Life&quot;?",
+      "correct_answer": "30",
+      "incorrect_answers": [
+        "5",
+        "60",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The Swedish word &quot;Grunka&quot; means what in English?",
+      "correct_answer": "Thing",
+      "incorrect_answers": [
+        "People",
+        "Place",
+        "Pineapple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the capital of South Vietnam before the Vietnam War?",
+      "correct_answer": "Saigon",
+      "incorrect_answers": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Hue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which kind of algorithm is Ron Rivest not famous for creating?",
+      "correct_answer": "Secret sharing scheme",
+      "incorrect_answers": [
+        "Hashing algorithm",
+        "Asymmetric encryption",
+        "Stream cipher"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which board game was first released on February 6th, 1935?",
+      "correct_answer": "Monopoly",
+      "incorrect_answers": [
+        "Risk",
+        "Clue",
+        "Candy Land"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is Sonic&#039;s sidekick?",
+      "correct_answer": "Tails",
+      "incorrect_answers": [
+        "Shadow",
+        "Amy",
+        "Knuckles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a team available in the game Pok&eacute;mon Go?",
+      "correct_answer": "Team Rocket",
+      "incorrect_answers": [
+        "Team Instinct",
+        "Team Valor",
+        "Team Mystic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the &quot;Re:Zero&quot; manga series, which of the following Sin Archbishops eats Rem&#039;s existence?",
+      "correct_answer": "Ley Batenkaitos",
+      "incorrect_answers": [
+        "Roy Alphard",
+        "Petelgeuse Romanee-Conti",
+        "Louis Arneb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of the Pack-A-Punched Crossbow?",
+      "correct_answer": "Awful Lawton",
+      "incorrect_answers": [
+        "Longinus",
+        "V-R11",
+        "Predator"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who voiced the character Draco in the 1996 movie &#039;DragonHeart&#039;?",
+      "correct_answer": "Sean Connery",
+      "incorrect_answers": [
+        "Dennis Quaid",
+        "Pete Postlethwaite",
+        "Brian Thompson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Grand Theft Auto V, what was Michael De Santa&#039;s former surname?",
+      "correct_answer": "Townley",
+      "incorrect_answers": [
+        "De Santos",
+        "Watson",
+        "Simpson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the main character of Metal Gear Solid 2?",
+      "correct_answer": "Raiden",
+      "incorrect_answers": [
+        "Solidus Snake",
+        "Big Boss",
+        "Venom Snake"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many numbered power generators are there?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "8",
+        "5",
+        "3"
+      ]
+    }
+  ]
+}

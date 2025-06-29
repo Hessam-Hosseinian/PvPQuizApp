@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+      "correct_answer": "JavaScript",
+      "incorrect_answers": [
+        "C#",
+        "Python",
+        "PHP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Foo Fighters?",
+      "correct_answer": "Dave Grohl",
+      "incorrect_answers": [
+        "Dave Mustaine",
+        "James Hetfield",
+        "Little Red Riding Hood"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In which fast food chain can you order a Jamocha Shake?",
+      "correct_answer": "Arby&#039;s",
+      "incorrect_answers": [
+        "McDonald&#039;s",
+        "Burger King",
+        "Wendy&#039;s"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "To which biological phylum do all mammals, birds and reptiles belong?",
+      "correct_answer": "Chordata",
+      "incorrect_answers": [
+        "Echinodermata",
+        "Annelida",
+        "Placazoa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Board Games",
+      "question": "How many dots are on a single die?",
+      "correct_answer": "21",
+      "incorrect_answers": [
+        "24",
+        "15",
+        "18"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Which Van Gogh painting depicts the view from his asylum in Saint-R&eacute;my-de-Provence in southern France?",
+      "correct_answer": "The Starry Night",
+      "incorrect_answers": [
+        "Wheatfields with Crows",
+        "The Sower with Setting Sun",
+        "The Church at Auvers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who are the original creators of Rachet &amp; Clank?",
+      "correct_answer": "Insomniac Games",
+      "incorrect_answers": [
+        "PixelTail Games",
+        "Rare",
+        "Bethesda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar&#039;s 2017 album, &quot;DAMN.&quot;?",
+      "correct_answer": "U2",
+      "incorrect_answers": [
+        "Radiohead",
+        "Coldplay",
+        "Bon Jovi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which team won 2014 FIFA World Cup in Brazil?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Argentina",
+        "Brazil",
+        "Netherlands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+      "correct_answer": "Cipher",
+      "incorrect_answers": [
+        "Mobius 1",
+        "Blaze",
+        "Pixy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which novelty band was best known for their UK chart hits &quot;Combine Harvester&quot; and &quot;I Am a Cider Drinker&quot; in 1976?",
+      "correct_answer": "The Wurzels",
+      "incorrect_answers": [
+        "Goldie Lookin Chain",
+        "Bonzo Dog Doo-Dah Band",
+        "The Firm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which was the first M-rated video game developed by Squaresoft/Square Enix?",
+      "correct_answer": "Parasite Eve",
+      "incorrect_answers": [
+        "Final Fantasy VIII",
+        "Front Mission",
+        "Vagrant Story"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In South Park, what is Stan&#039;s surname?",
+      "correct_answer": "Marsh",
+      "incorrect_answers": [
+        "Stotch",
+        "Broflovski",
+        "Tweak"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Of the following space shooter games, which came out first?",
+      "correct_answer": "Space Invaders",
+      "incorrect_answers": [
+        "Galaxian",
+        "Galaga",
+        "Sinistar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "When was the game &#039;Portal 2&#039; released?",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2014",
+        "2009",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Splatoon, what is the age that inklings can freely change between squid and humanoid forms?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "Talos, the mythical giant bronze man, was the protector of which island?",
+      "correct_answer": "Crete",
+      "incorrect_answers": [
+        "Sardinia",
+        "Sicily",
+        "Cyprus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;A Certain Magical Index,&quot; what is Accelerator able to control?",
+      "correct_answer": "Vectors",
+      "incorrect_answers": [
+        "Velocity",
+        "Quantums",
+        "Wormholes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did the First World War end?",
+      "correct_answer": "1918",
+      "incorrect_answers": [
+        "1914",
+        "1916",
+        "1912"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company developed and published Game Dev Tycoon?",
+      "correct_answer": "Greenheart Games",
+      "incorrect_answers": [
+        "Greenland Games",
+        "The Tycoonists",
+        "MomCorp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Half-Life series, Gordon Freeman&#039;s signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+      "correct_answer": "The Velvet Underground and Nico",
+      "incorrect_answers": [
+        "Abbey Road",
+        "Led Zeppelin IV",
+        "Pet Sounds"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of Scotland?",
+      "correct_answer": "Edinburgh",
+      "incorrect_answers": [
+        "Glasgow",
+        "Dundee",
+        "London"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which of the following car manufacturers had a war named after it?",
+      "correct_answer": "Toyota",
+      "incorrect_answers": [
+        "Honda",
+        "Ford",
+        "Volkswagen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "Which company designed the &quot;Betamax&quot; video cassette format?",
+      "correct_answer": "Sony",
+      "incorrect_answers": [
+        "Panasonic",
+        "LG",
+        "Fujitsu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+      "correct_answer": "Blood Sugar Sex Magik",
+      "incorrect_answers": [
+        "One Hot Minute",
+        "By the Way",
+        "Stadium Arcadium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of The Lumineers?",
+      "correct_answer": "Wesley Schultz",
+      "incorrect_answers": [
+        "Jeremiah Fraites",
+        "Jay Van Dyke",
+        "Neyla Pekarek"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is credited with having created the world&#039;s first video game Easter Egg?",
+      "correct_answer": "Warren Robinett",
+      "incorrect_answers": [
+        "Julius Smith",
+        "Will Crowther",
+        "Don Woods"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+      "correct_answer": "Peter Cushing",
+      "incorrect_answers": [
+        "Boris Karloff",
+        "Vincent Price",
+        "Lon Chaney Jr."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
+      "correct_answer": "Trance",
+      "incorrect_answers": [
+        "House",
+        "Drum and Bass",
+        "Dubstep"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 1971 film &quot;Willy Wonka &amp; the Chocolate Factory&quot;, who played Willy Wonka?",
+      "correct_answer": "Gene Wilder",
+      "incorrect_answers": [
+        "Shia LeBouf",
+        "Peter Ostrum",
+        "Johnny Depp"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is known as &quot;the brain&quot; of the Computer?",
+      "correct_answer": "Central Processing Unit",
+      "incorrect_answers": [
+        "Motherboard",
+        "Graphics Processing Unit",
+        "Keyboard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which Beatle wrote and sang the song &quot;Why Don&#039;t We Do It in the Road&quot; after being inspired by seeing two monkeys copulating in the street?",
+      "correct_answer": "Paul",
+      "incorrect_answers": [
+        "John",
+        "George",
+        "Ringo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What does IWHBYD stand for on the skull in the Halo series?",
+      "correct_answer": "I Would Have Been Your Daddy",
+      "incorrect_answers": [
+        "I Wanna Have Babies You Down",
+        "I Would Hate Being Your Driver",
+        "I Would Have Bought Your Dog"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which NFL team plays for New England?",
+      "correct_answer": "Patriots",
+      "incorrect_answers": [
+        "Chiefs",
+        "Dolphins",
+        "49ers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who assassinated Archduke Franz Ferdinand?",
+      "correct_answer": "Gavrilo Princip",
+      "incorrect_answers": [
+        "Nedeljko Čabrinović",
+        "Oskar Potiorek",
+        "Ferdinand Cohen-Blind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "When was the Playstation 3 released?",
+      "correct_answer": "November 11, 2006",
+      "incorrect_answers": [
+        "January 8, 2007",
+        "December 25, 2007",
+        "July 16, 2006"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the name of Sonic the Hedgehog&#039;s original human girlfriend?",
+      "correct_answer": "Madonna",
+      "incorrect_answers": [
+        "Celeste",
+        "Sierra",
+        "Nina"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In what year was Tchaikovsky&#039;s 1812 Overture composed?",
+      "correct_answer": "1880",
+      "incorrect_answers": [
+        "1812",
+        "1790",
+        "1840"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which of these Disney classics was released in 1970?",
+      "correct_answer": "The Aristocats",
+      "incorrect_answers": [
+        "One Hundred and One Dalmatians",
+        "The Fox and the Hound",
+        "The Little Mermaid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the unit of electrical capacitance?",
+      "correct_answer": "Farad",
+      "incorrect_answers": [
+        "Gauss",
+        "Henry",
+        "Watt"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+      "correct_answer": "Shin Splints",
+      "incorrect_answers": [
+        "Tennis Elbow",
+        "Carpal Tunnel",
+        "Housemaid&#039;s Knee"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, &#039;Oliver Twist&#039;?",
+      "correct_answer": "The Artful Dodger",
+      "incorrect_answers": [
+        "Fagin",
+        "Bull&rsquo;s-eye",
+        "Mr. Fang"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;The Amazing World of Gumball&quot;, who is the principal of Elmore Junior High?",
+      "correct_answer": "Principal Brown",
+      "incorrect_answers": [
+        "Principal Small",
+        "Principal Brawn",
+        "Principal Simeon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Night In The Woods, what is Mae Borowski mother&#039;s name?",
+      "correct_answer": "Candy",
+      "incorrect_answers": [
+        "Jenny",
+        "Margaret",
+        "Kate"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What 1970&#039;s American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
+      "correct_answer": "American Pie",
+      "incorrect_answers": [
+        "Kentucky Rain",
+        "I Will Always Love You",
+        "Rock &#039;n&#039; Roll Suicide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What is the best selling album of all time from 1976 to 2018?",
+      "correct_answer": "Thriller",
+      "incorrect_answers": [
+        "Back in Black",
+        "Abbey Road",
+        "The Dark Side of the Moon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a faction included in the game Counter-Strike: Global Offensive?",
+      "correct_answer": "BOPE",
+      "incorrect_answers": [
+        "GSG-9",
+        "Elite Crew",
+        "Phoenix Connexion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Copy Abilities was only featured in &quot;Kirby &amp; The Amazing Mirror&quot;?",
+      "correct_answer": "Mini",
+      "incorrect_answers": [
+        "Magic",
+        "Smash",
+        "Missile"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The formerly East-Prussian city of K&ouml;nigsberg is known as which Russian City today?",
+      "correct_answer": "Kaliningrad",
+      "incorrect_answers": [
+        "Kazan",
+        "Kursk",
+        "Krasnodar"
+      ]
+    }
+  ]
+}

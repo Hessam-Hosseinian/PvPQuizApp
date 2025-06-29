@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-III?",
+      "correct_answer": "Ewan McGregor",
+      "incorrect_answers": [
+        "Alec Guinness",
+        "Hayden Christensen",
+        "Liam Neeson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT the name of a rival gang in the video game Saint&#039;s Row 2?",
+      "correct_answer": "The Zin Empire",
+      "incorrect_answers": [
+        "The Brotherhood",
+        "The Ronin",
+        "The Sons of Samedi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the villain company in &quot;Stardew Valley&quot;?",
+      "correct_answer": "Joja Co ",
+      "incorrect_answers": [
+        "Ronin",
+        "Empire",
+        "Robotnik Industry&#039;s "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the leader of Sweden in the Great Northern War?",
+      "correct_answer": "Charles XII",
+      "incorrect_answers": [
+        "Per Albin Hansson",
+        "Peter the Great",
+        "Gustavus Adolphus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which character is from &quot;Splatoon&quot;?",
+      "correct_answer": "Marie",
+      "incorrect_answers": [
+        "Cyrus",
+        "Palutena",
+        "Shulk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who created the indie adventure game &quot;Night in the Woods&quot;?",
+      "correct_answer": "Alec Holowka",
+      "incorrect_answers": [
+        "Ron Gilbert",
+        "Tim Schafer",
+        " Tommy Refenes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the study of the cells and tissues of plants and animals?",
+      "correct_answer": "Histology",
+      "incorrect_answers": [
+        "Microbiology",
+        "Anatomy",
+        "Biochemistry"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?",
+      "correct_answer": "Chile",
+      "incorrect_answers": [
+        "Ethiopia",
+        "Indonesia",
+        "Nicaragua"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the relationship between the band members of American rock band King of Leon?",
+      "correct_answer": "Brothers &amp; cousins",
+      "incorrect_answers": [
+        "Childhood friends",
+        "Former classmates",
+        "Fraternity house members"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who wrote the play &#039;Angels in America&#039;?",
+      "correct_answer": "Tony Kusher",
+      "incorrect_answers": [
+        "Tom Stoppard",
+        "Matthew Lopez",
+        "Anthony Neilson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What year was Super Mario Bros. released?",
+      "correct_answer": "1985",
+      "incorrect_answers": [
+        "1983",
+        "1987",
+        "1986"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the name of Chris&#039;s brother in &quot;Everybody Hates Chris&quot;?",
+      "correct_answer": "Drew",
+      "incorrect_answers": [
+        "Jerome",
+        "Greg",
+        "Joe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which game does a character say, &quot;Sometimes, I dream about cheese&quot;?",
+      "correct_answer": "Half Life 2",
+      "incorrect_answers": [
+        "Team Fortress 2",
+        "Dark Souls",
+        "Serious Sam: The Second Encounter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Which greek god/goddess tossed a golden apple with the words &quot;for the fairest&quot; into the middle of the feast of the gods?",
+      "correct_answer": "Eris",
+      "incorrect_answers": [
+        "Hades",
+        "Ares",
+        "Artemis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the Sci-Fi television show Doctor Who, who plays the Tenth Doctor?",
+      "correct_answer": "David Tennant",
+      "incorrect_answers": [
+        "William Hartnell",
+        "Peter Capaldi",
+        "Peter Davison"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Albrecht D&uuml;rer&#039;s birthplace and place of death were in...",
+      "correct_answer": "N&uuml;rnberg",
+      "incorrect_answers": [
+        "Augsburg",
+        "Bamberg",
+        "Berlin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Pokemon Diamond, Pearl and Platinum, where can a Munchlax be found?",
+      "correct_answer": "Honey Trees",
+      "incorrect_answers": [
+        "Trading with an NPC",
+        "Grass on Route 209",
+        "Wayward Cave"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the Naruto manga, what is the last name of Tsunade?",
+      "correct_answer": "Senju",
+      "incorrect_answers": [
+        "Haruno",
+        "Uzumaki",
+        "Yamanaka"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "Which element has the chemical symbol &#039;Fe&#039;?",
+      "correct_answer": "Iron",
+      "incorrect_answers": [
+        "Gold",
+        "Silver",
+        "Tin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "Which of these animals is NOT a lizard?",
+      "correct_answer": "Tuatara",
+      "incorrect_answers": [
+        "Komodo Dragon",
+        "Gila Monster",
+        "Green Iguana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many normal endings are there in Cry Of Fear&#039;s campaign mode?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What vault in the video game &quot;Fallout 3&quot; is the home of multiple clones named Gary?",
+      "correct_answer": "Vault 108",
+      "incorrect_answers": [
+        "Vault 101",
+        "Vault 87",
+        "Vault 21"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What are the smallest blood vessels in the human body?",
+      "correct_answer": "Capillaries",
+      "incorrect_answers": [
+        "Arterioles",
+        "Veinules",
+        "Lymphatics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;SpongeBob SquarePants&quot;, what is the name of Sandy Cheek&#039;s place of residence?",
+      "correct_answer": "Sandy&#039;s Treedome",
+      "incorrect_answers": [
+        "&quot;The Dome&quot;",
+        "Sandy&#039;s Bubble",
+        "Auquatic Reseach Centre"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which M83 album is the song &quot;Midnight City&quot; featured in?",
+      "correct_answer": "Hurry Up, We&#039;re Dreaming",
+      "incorrect_answers": [
+        "Saturdays = Youth",
+        "Before the Dawn Heals Us",
+        "Junk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many metal bars does it take to smith a platebody in the MMO &quot;RuneScape&quot;?",
+      "correct_answer": "5 bars",
+      "incorrect_answers": [
+        "3 bars",
+        "2 bars",
+        "10 bars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "On which continent is the country of Angola located?",
+      "correct_answer": "Africa",
+      "incorrect_answers": [
+        "South America",
+        "Europe",
+        "Asia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which musical artist had a prominent role in the 2017 film &quot;Kingsman: The Golden Circle&quot;?",
+      "correct_answer": "Elton John",
+      "incorrect_answers": [
+        "Lady Gaga",
+        "Rihanna",
+        "Justin Bieber"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the name of rocky region that spans most of eastern Canada?",
+      "correct_answer": "Canadian Shield",
+      "incorrect_answers": [
+        "Rocky Mountains",
+        "Appalachian Mountains",
+        "Himalayas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+      "correct_answer": "33.9",
+      "incorrect_answers": [
+        "30.0",
+        "27.4",
+        "10.6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the fourth digit of &pi;?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of the following anime of the mecha genre began airing in 1982?",
+      "correct_answer": "The Super Dimension Fortress Macross",
+      "incorrect_answers": [
+        "Mobile Suit Gundam",
+        "Armored Trooper VOTOMS",
+        "Neon Genesis Evangelion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which genre of Hip Hop does MC Frontalot rap?",
+      "correct_answer": "Nerdcore",
+      "incorrect_answers": [
+        "Horrorcore",
+        "Christian",
+        "Crunk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Mark Wahlberg played the titular character of which 2008 video-game adaptation?",
+      "correct_answer": "Max Payne",
+      "incorrect_answers": [
+        "Alan Wake",
+        "Hitman",
+        "God Of War"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+      "correct_answer": "October 27, 1980",
+      "incorrect_answers": [
+        "November 21, 1969",
+        "October 29, 1969",
+        "December 9, 1991"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "What was the name of Jonny&#039;s pet dog in The Adventures of Jonny Quest?",
+      "correct_answer": "Bandit",
+      "incorrect_answers": [
+        "Lucky",
+        "Rocky",
+        "Max"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the alien species introduced in Shadow the Hedgehog (2005)?",
+      "correct_answer": "Black Arms",
+      "incorrect_answers": [
+        "The Swarm",
+        "Black Hive",
+        "The Eclipse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "What is the name of a rabbit&#039;s abode?",
+      "correct_answer": "Burrow",
+      "incorrect_answers": [
+        "Nest",
+        "Den",
+        "Dray"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "The &quot;Trail of Tears&quot; was a result of which United States President&#039;s Indian Removal Policy?",
+      "correct_answer": "Andrew Jackson",
+      "incorrect_answers": [
+        "Harry S. Truman",
+        "Martin Van Buren",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the lore of the PAYDAY series, which criminal was arrested and then latered rescued by the PAYDAY gang?",
+      "correct_answer": "Hoxton",
+      "incorrect_answers": [
+        "Dallas",
+        "Wolf",
+        "Chains"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What colour is the circle on the Japanese flag?",
+      "correct_answer": "Red",
+      "incorrect_answers": [
+        "White",
+        "Yellow",
+        "Black"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the 1969 Cartoon show &quot;Dastardly and Muttley in Their Flying Machines&quot;, which were NOT one of the lyrics in the opening theme?",
+      "correct_answer": "Stab him",
+      "incorrect_answers": [
+        "Nab him",
+        "Jab him",
+        "Tab him"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which year did the first Monster Hunter game get released?",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2006",
+        "2005",
+        "2002"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "When was the first episode of Soul Eater released?",
+      "correct_answer": "2008",
+      "incorrect_answers": [
+        "2003",
+        "2005",
+        "2011"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which one of these Pink Floyd albums were also a movie?",
+      "correct_answer": "The Wall",
+      "incorrect_answers": [
+        "The Dark Side of the Moon",
+        "Wish You Were Here",
+        "Animals"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+      "correct_answer": "&quot;A rainy Lithuanian / Is dancing as an Indian&quot;",
+      "incorrect_answers": [
+        "&quot;Fly away on, my zephyr / I feel it more than ever&quot;",
+        "&quot;And I liked the dimple in your chin / Your pale blue eyes&quot;",
+        "&quot;You used to be so warm and affectionate...but now you&#039;re quick to get into your regret&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "eBay",
+        "Overstock",
+        "Shopify"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Night in the Woods, which instrument did Casey play?",
+      "correct_answer": "Drums",
+      "incorrect_answers": [
+        "Bass",
+        "Piano",
+        "Sax"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "In the Hellboy universe, what was Abe Sapien&#039;s birth name?",
+      "correct_answer": "Langdon Everett Caul",
+      "incorrect_answers": [
+        "Lord Baltimore",
+        "Sir Edward Grey",
+        "Landis Pope"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Politics",
+      "question": "What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?",
+      "correct_answer": "The Kingfish",
+      "incorrect_answers": [
+        "The Champ",
+        "The Hoot Owl",
+        "The Oracle"
+      ]
+    }
+  ]
+}

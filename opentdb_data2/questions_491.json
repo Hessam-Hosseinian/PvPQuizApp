@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "What caused Jake Lloyd who played Anakin Skywalker in The Phantom Menace to quit acting?",
+      "correct_answer": "Bullying",
+      "incorrect_answers": [
+        "Criminal Record",
+        "Nomination for Worst Actor",
+        "Racism"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which of the following countries was the first to send an object into space?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "USA",
+        "Russia",
+        "China"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+      "correct_answer": "Equatorial Guinea",
+      "incorrect_answers": [
+        "Guinea",
+        "Cameroon",
+        "Angola"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+      "correct_answer": "Goldsboro, North Carolina",
+      "incorrect_answers": [
+        "Hicksville, New York",
+        "Jacksonville, Florida",
+        "Conway, Arkansas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which country does the electronic music duo &quot;The Knife&quot; originate from?",
+      "correct_answer": "Sweden",
+      "incorrect_answers": [
+        "Finland",
+        "Denmark",
+        "Norway"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Which of the following is not true about the life of Tiresias?",
+      "correct_answer": "Sailed with the Argonauts to find the golden fleece",
+      "incorrect_answers": [
+        "Athena turned him into a woman, and then years later back into a man",
+        "Hera blinded him after he agreed with Zeus in an argument",
+        "Revealed to Oedipus that Oedipus had married his own mother"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In Naruto: Shippuden, which of the following elements is a &quot;Kekkei Tōta?&quot;",
+      "correct_answer": "Particle Style",
+      "incorrect_answers": [
+        "Any Doujutsu",
+        "Shadow Style",
+        "Ice Style"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Pok&eacute;mon series, what is Palkia&#039;s hidden ability?",
+      "correct_answer": "Telepathy",
+      "incorrect_answers": [
+        "Pressure",
+        "Water Bubble",
+        "Hydration"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was Chapter 1 of the Source Engine mod &quot;Underhell&quot; released?",
+      "correct_answer": "September 1st, 2013",
+      "incorrect_answers": [
+        "March 3rd, 2011",
+        "September 12th, 2013",
+        "October 2nd, 2012"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the survival horror game, &quot;Cry of Fear,&quot; what was the name of Simon&#039;s close friend/potential love interest?",
+      "correct_answer": "Sophie",
+      "incorrect_answers": [
+        "Olivia",
+        "Jessica",
+        "Alice"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many timezones does Russia have?",
+      "correct_answer": "11",
+      "incorrect_answers": [
+        "6",
+        "24",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What was the title of ABBA`s first UK hit single?",
+      "correct_answer": "Waterloo",
+      "incorrect_answers": [
+        "Mamma Mia",
+        "Fernando",
+        "Dancing Queen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the movie &ldquo;The Iron Giant,&rdquo; this character is the protagonist.",
+      "correct_answer": "Hogarth Hughes",
+      "incorrect_answers": [
+        "Kent Mansley",
+        "Dean McCoppin",
+        "Annie Hughes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?",
+      "correct_answer": "Ira Levin",
+      "incorrect_answers": [
+        "Stephen King",
+        "Robert Bloch",
+        "Mary Shelley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who famously coined the phrase &quot;I think, therefore I am&quot;?",
+      "correct_answer": "Descartes",
+      "incorrect_answers": [
+        "Plato",
+        "Aristotle",
+        "Shakespeare"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these characters is the mascot of the video game company SEGA?",
+      "correct_answer": "Sonic the Hedgehog",
+      "incorrect_answers": [
+        "Dynamite Headdy",
+        "Alex Kidd",
+        "Opa-Opa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of Indonesia?",
+      "correct_answer": "Jakarta",
+      "incorrect_answers": [
+        "Bandung",
+        "Medan",
+        "Palembang"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "How long is a light-year?",
+      "correct_answer": "9.461 Trillion Kilometres",
+      "incorrect_answers": [
+        "1 AU",
+        "105.40 Earth-years",
+        "501.2 Million Miles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;One Piece&quot;, who confirms the existence of the legendary treasure, One Piece?",
+      "correct_answer": "Edward &quot;Whitebeard&quot; Newgate",
+      "incorrect_answers": [
+        "Former Marine Fleet Admiral Sengoku",
+        "Pirate King Gol D Roger",
+        "Silvers Rayleigh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Nintendo Entertainment System support natively?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "4",
+        "6",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which famous rapper is featured in Jack &Uuml; (Skrillex and Diplo)&#039;s 2015 single called &quot;Febreze&quot;?",
+      "correct_answer": "2 Chainz",
+      "incorrect_answers": [
+        "Kendrick Lamar",
+        "Future",
+        "Fatman Scoop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which member of the Velvet Room is not a playable character in Persona 4 Arena Ultimax?",
+      "correct_answer": "Theodore",
+      "incorrect_answers": [
+        "Elizabeth",
+        "Margaret",
+        "Marie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What is the name of Nissan&#039;s most popular electric car?",
+      "correct_answer": "Leaf",
+      "incorrect_answers": [
+        "Tree",
+        "Deer",
+        "Roots"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?",
+      "correct_answer": "Shogun",
+      "incorrect_answers": [
+        "Ninja",
+        "Samurai",
+        "Shinobi"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": ".rs is the top-level domain for what country?",
+      "correct_answer": "Serbia",
+      "incorrect_answers": [
+        "Romania",
+        "Russia",
+        "Rwanda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mario series, which game introduced Mario&#039;s Backflip ability?",
+      "correct_answer": "Donkey Kong (Gameboy)",
+      "incorrect_answers": [
+        "Super Mario 64",
+        "Super Mario 3D Land",
+        "Super Mario Galaxy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the FIRST Valve game to have VR?",
+      "correct_answer": "The Lab",
+      "incorrect_answers": [
+        "Dota 2",
+        "Destinations",
+        "Half-Life 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many rivers are in Saudi Arabia?",
+      "correct_answer": "0",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Ace Attorney&quot; series, what is the relationship between Apollo Justice and Trucy Wright?",
+      "correct_answer": "They&#039;re half-siblings",
+      "incorrect_answers": [
+        "They&#039;re co-workers",
+        "They&#039;re friends",
+        "They&#039;re both attorneys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which famous artist featured on Rowdy Rebel&#039;s 2015 song &quot;Computers&quot;?",
+      "correct_answer": "Bobby Shmurda ",
+      "incorrect_answers": [
+        "Lil Wayne",
+        "Will.I.AM",
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "In the Morse code, which letter is indicated by 3 dots? ",
+      "correct_answer": "S",
+      "incorrect_answers": [
+        "O",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?",
+      "correct_answer": "Steed",
+      "incorrect_answers": [
+        "Mule",
+        "Benson",
+        "Pony"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following car models has been badge-engineered (rebadged) the most?",
+      "correct_answer": "Isuzu Trooper",
+      "incorrect_answers": [
+        "Holden Monaro",
+        "Suzuki Swift",
+        "Chevy Camaro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+      "correct_answer": "The Polish President",
+      "incorrect_answers": [
+        "Pope John Paul II",
+        "Bang-Ding Ow",
+        "Albert Putin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is not a default game mode in Counter-Strike (2000)?",
+      "correct_answer": "Arms Race",
+      "incorrect_answers": [
+        "Hostage Rescue",
+        "Bomb Defusal",
+        "Assassination"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "The mountainous Khyber Pass connects which of the two following countries?",
+      "correct_answer": "Afghanistan and Pakistan",
+      "incorrect_answers": [
+        "India and Nepal",
+        "Pakistan and India",
+        "Tajikistan and Kyrgyzstan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+      "correct_answer": "Origami",
+      "incorrect_answers": [
+        "Sumi-e",
+        "Ukiyo-e",
+        "Haiku"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What polymer is used to make CDs, safety goggles and riot shields?",
+      "correct_answer": "Polycarbonate",
+      "incorrect_answers": [
+        "Rubber",
+        "Nylon",
+        "Bakelite"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "In Canadian football, scoring a rouge is worth how many points?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+      "correct_answer": "New Mexico",
+      "incorrect_answers": [
+        "Washington",
+        "Colorado",
+        "Arizona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which UK country features a dragon on their flag?",
+      "correct_answer": "Wales",
+      "incorrect_answers": [
+        "England",
+        "North Ireland",
+        "Scotland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?",
+      "correct_answer": "Lobster Johnson",
+      "incorrect_answers": [
+        "Roger the Homunculus",
+        "The Spider",
+        "The Wendigo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which rapper had an album that went double platinum with no features?",
+      "correct_answer": "J. Cole",
+      "incorrect_answers": [
+        "Kendrick Lamar",
+        "Drake",
+        "Big Sean"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which of the following manga have the most tankouban volumes?",
+      "correct_answer": "Golgo 13",
+      "incorrect_answers": [
+        "JoJo&#039;s Bizarre Adventure",
+        "Detective Conan",
+        "One Piece"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What was the release date of the They Might Be Giants album, &#039;Mink Car?&#039;",
+      "correct_answer": "September 11th, 2001",
+      "incorrect_answers": [
+        "April 17th, 2003",
+        "November 4th, 1999",
+        "December 20th, 2002"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which genre of Hip Hop does MC Frontalot rap?",
+      "correct_answer": "Nerdcore",
+      "incorrect_answers": [
+        "Horrorcore",
+        "Christian",
+        "Crunk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these country&#039;s capitals starts with the letter B?",
+      "correct_answer": "Lebanon",
+      "incorrect_answers": [
+        "Jordan",
+        "Kuwait",
+        "Qatar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "How many episodes were in season five of Samurai Jack?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "12",
+        "11",
+        "13"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What was Dorothy&#039;s surname in &#039;The Wizard Of Oz&#039;?",
+      "correct_answer": "Gale",
+      "incorrect_answers": [
+        "Perkins",
+        "Day",
+        "Parker"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In &quot;Mean Girls&quot;, who has breasts that tell when it&#039;s raining?",
+      "correct_answer": "Karen Smith",
+      "incorrect_answers": [
+        "Gretchen Weiners",
+        "Janice Ian",
+        "Cady Heron"
+      ]
+    }
+  ]
+}

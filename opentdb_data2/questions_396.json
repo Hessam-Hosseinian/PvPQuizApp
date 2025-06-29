@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+      "correct_answer": "1995",
+      "incorrect_answers": [
+        "2001",
+        "2011",
+        "1991"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Celebrities",
+      "question": "By what name is Carlos Estevez better known? ",
+      "correct_answer": "Charlie Sheen",
+      "incorrect_answers": [
+        "Ricky Martin",
+        "Bruno Mars",
+        "Joaquin Phoenix"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
+      "correct_answer": "Midnight, January 1, 1970",
+      "incorrect_answers": [
+        "Midnight, July 4, 1976",
+        "Midnight on the creator of Unix&#039;s birthday",
+        "Midnight, July 4, 1980"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In Mulan (1998), who is the leader of the Huns?",
+      "correct_answer": "Shan Yu",
+      "incorrect_answers": [
+        "Chien-Po",
+        "Li Shang",
+        "Fa Zhou"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "How long is an IPv6 address?",
+      "correct_answer": "128 bits",
+      "incorrect_answers": [
+        "32 bits",
+        "64 bits",
+        "128 bytes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Sean Bean voices the character of &quot;Martin Septim&quot; in which Elder Scrolls game?",
+      "correct_answer": "The Elder Scrolls IV: Oblivion",
+      "incorrect_answers": [
+        "The Elder Scrolls V: Skyrim",
+        "The Elder Scrolls III: Morrowind ",
+        "The Elder Scrolls Online"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "In which Shakespeare play does the character Marcellus say, &quot;Something is rotten in the state of Denmark&quot;?",
+      "correct_answer": "Hamlet",
+      "incorrect_answers": [
+        "Macbeth",
+        "King Lear",
+        "Twelfth Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "The human heart has how many chambers?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "2",
+        "6",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year was the last natural case of smallpox documented?",
+      "correct_answer": "1977",
+      "incorrect_answers": [
+        "1982",
+        "1980",
+        "1990"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the final villain in the manga series &quot;Bleach&quot;?",
+      "correct_answer": "Yhwach",
+      "incorrect_answers": [
+        "Juha Bach",
+        "Yuhabah",
+        "Juhabach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;S.T.A.L.K.E.R.&quot; series, which of these items can&#039;t be used to lower the player&#039;s accumulated radiation?",
+      "correct_answer": "Radioprotectant",
+      "incorrect_answers": [
+        "Anti-rad",
+        "Medkit",
+        "Vodka"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What element has the chemical symbol Kr?",
+      "correct_answer": "Krypton",
+      "incorrect_answers": [
+        "Kerosine",
+        "Kineticium",
+        "Curium"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Overwatch, which hero out of the following 4 is from Brazil?",
+      "correct_answer": "L&uacute;cio",
+      "incorrect_answers": [
+        "Sombra",
+        "McCree",
+        "Symmetra"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the television show &quot;Lazy Town&quot;, who is the actor of Robbie Rotten?",
+      "correct_answer": "Stef&aacute;n Stef&aacute;nsson",
+      "incorrect_answers": [
+        "Adam Sandler",
+        "Magn&uacute;s Scheving",
+        "Stephen Carl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these actors does NOT appear in the 1998 movie &quot;Saving Private Ryan&quot;?",
+      "correct_answer": "Ralph Fiennes",
+      "incorrect_answers": [
+        "Tom Hanks",
+        "Vin Diesel",
+        "Matt Damon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The voice actor for which Portal 2 character was not a TV or film actor prior to the game?",
+      "correct_answer": "GLaDOS",
+      "incorrect_answers": [
+        "Cave Johnson",
+        "Wheatley",
+        "Atlas / P-Body"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "The Pyrenees mountains are located on the border of which two countries?",
+      "correct_answer": "France and Spain",
+      "incorrect_answers": [
+        "Italy and Switzerland",
+        "Norway and Sweden",
+        "Russia and Ukraine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which country has three capital cities?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": [
+        "Somalia",
+        "China",
+        "United Kingdom"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is Gatomon&#039;s name in the original Japanese version of Digimon Adventure?",
+      "correct_answer": "Tailmon",
+      "incorrect_answers": [
+        "Pawmon",
+        "Catmon",
+        "Nekomon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "This trope refers to minor characters that are killed off to show how a monster works.",
+      "correct_answer": "Red Shirt",
+      "incorrect_answers": [
+        "Minions",
+        "Expendables",
+        "Cannon Fodder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Super Mario Bros. series, what game is the  &quot;Carrot&quot; power-up from?",
+      "correct_answer": "Super Mario Land 2: The 6 Golden Coins",
+      "incorrect_answers": [
+        "Super Mario World",
+        "Super Mario Land",
+        "Super Mario 3D Land"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the Spanish word for &quot;donkey&quot;?",
+      "correct_answer": "Burro",
+      "incorrect_answers": [
+        "Caballo",
+        "Toro",
+        "Perro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first Call of Duty game to include the Zombies gamemode?",
+      "correct_answer": "Call of Duty: World at War",
+      "incorrect_answers": [
+        "Call of Duty: Black Ops",
+        "Call of Duty: Modern Warfare 2",
+        "Call of Duty: Black Ops III"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "What is the alter-ego of the DC comics character &quot;Superman&quot;?",
+      "correct_answer": "Clark Kent",
+      "incorrect_answers": [
+        "Bruce Wayne",
+        "Arthur Curry",
+        "John Jones"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "According to the Star Wars lore, what is Han Solo&#039;s home planet?",
+      "correct_answer": "Corellia",
+      "incorrect_answers": [
+        "Tatooine",
+        "Naboo",
+        "Coruscant"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which Louis was known as &#039;The Sun King of France&#039;?",
+      "correct_answer": "Louis XIV",
+      "incorrect_answers": [
+        "Louis XIII",
+        "Louis XV",
+        "Louis XVI"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the protagonist of Life Is Strange?",
+      "correct_answer": "Max Caulfield",
+      "incorrect_answers": [
+        "Frank Bowers",
+        "Rachel Amber",
+        "Kate Marsh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In 2012, which movie won every category in the 32nd &quot;Golden Raspberry Awards&quot;?",
+      "correct_answer": "Jack and Jill",
+      "incorrect_answers": [
+        "The Girl with the Dragon Tattoo",
+        "Thor",
+        "The King&#039;s Speech"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which English football team is nicknamed &#039;The Tigers&#039;?",
+      "correct_answer": "Hull City",
+      "incorrect_answers": [
+        "Cardiff City",
+        "Bristol City",
+        "Manchester City"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What year did the anime &quot;Himouto! Umaru-chan&quot; air?",
+      "correct_answer": "2015",
+      "incorrect_answers": [
+        "2014",
+        "2012",
+        "2013"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What year was Queen Elizabeth II born?",
+      "correct_answer": "1926",
+      "incorrect_answers": [
+        "1923",
+        "1929",
+        "1930"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Which of these movies did Jeff Bridges not star in?",
+      "correct_answer": "The Hateful Eight",
+      "incorrect_answers": [
+        "Tron: Legacy",
+        "The Giver",
+        "True Grit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+      "correct_answer": "Transport",
+      "incorrect_answers": [
+        "Session",
+        "Data link",
+        "Network"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following countries does NOT recognize Armenia as an independent country?",
+      "correct_answer": "Pakistan",
+      "incorrect_answers": [
+        "Iran",
+        "Turkey",
+        "Azerbaijan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the smallest country in the world?",
+      "correct_answer": "Vatican City",
+      "incorrect_answers": [
+        "Maldives",
+        "Monaco",
+        "Malta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which one of these is not a typical European sword design?",
+      "correct_answer": "Scimitar",
+      "incorrect_answers": [
+        "Falchion",
+        "Ulfberht",
+        "Flamberge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "When was Pokemon GO released in North America?",
+      "correct_answer": "July 6th, 2016",
+      "incorrect_answers": [
+        "June 5th, 2016",
+        "May 24th, 2016",
+        "January 2nd, 2017"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Myopia is the scientific term for which condition?",
+      "correct_answer": "Shortsightedness",
+      "incorrect_answers": [
+        "Farsightedness",
+        "Double Vision",
+        "Clouded Vision"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?",
+      "correct_answer": "Ame &amp; Yuki",
+      "incorrect_answers": [
+        "Hana &amp; Yuki",
+        "Ame &amp; Hana",
+        "Chuck &amp; Anna"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first video game in the Batman &quot;Arkham&quot; series?",
+      "correct_answer": "Arkham Asylum",
+      "incorrect_answers": [
+        "Arkham Knight",
+        "Arkham City",
+        "Arkham Origins"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which of these artists did NOT remix the song &quot;Faded&quot; by Alan Walker?",
+      "correct_answer": "Skrillex",
+      "incorrect_answers": [
+        "Ti&euml;sto",
+        "Slushii",
+        "Dash Berlin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "When was the Declaration of Independence approved by the Second Continental Congress?",
+      "correct_answer": "July 4, 1776",
+      "incorrect_answers": [
+        "May 4, 1776",
+        "June 4, 1776",
+        "July 2, 1776"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?",
+      "correct_answer": "Swiss Air",
+      "incorrect_answers": [
+        "Air France",
+        "British Airways",
+        "TWA"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Which of the following collision avoidance systems helps airplanes avoid colliding with each other?",
+      "correct_answer": "TCAS",
+      "incorrect_answers": [
+        "GPWS",
+        "OCAS",
+        "TAWS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+      "correct_answer": "Smash Mouth",
+      "incorrect_answers": [
+        "Bowling for Soup",
+        "Sum 41",
+        "Linkin Park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How many rivers are in Saudi Arabia?",
+      "correct_answer": "0",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In the 1995 film &quot;Balto&quot;, who are Steele&#039;s accomplices?",
+      "correct_answer": "Kaltag, Nikki, and Star",
+      "incorrect_answers": [
+        "Dusty, Kirby, and Ralph",
+        "Nuk, Yak, and Sumac",
+        "Jenna, Sylvie, and Dixie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which country was Eliza &quot;Ash&quot; Cohen from &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; born in?",
+      "correct_answer": "Israel",
+      "incorrect_answers": [
+        "United States of America",
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What is the elemental symbol for mercury?",
+      "correct_answer": "Hg",
+      "incorrect_answers": [
+        "Me",
+        "Mc",
+        "Hy"
+      ]
+    }
+  ]
+}

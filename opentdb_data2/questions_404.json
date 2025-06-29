@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these stages is not playable in &quot;Super Smash Bros. for Wii U&quot;?",
+      "correct_answer": "Fountain of Dreams",
+      "incorrect_answers": [
+        "Bridge of Eldin",
+        "75m",
+        "Miiverse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "In what Harry Potter book was a Horcrux first encountered?",
+      "correct_answer": "The Chamber of Secrets",
+      "incorrect_answers": [
+        "The Half-Blood Prince",
+        "The Goblet of Fire",
+        "The Deathly Hallows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the romanized Korean word for &quot;heart&quot;?",
+      "correct_answer": "Simjang",
+      "incorrect_answers": [
+        "Aejeong",
+        "Jeongsin",
+        "Segseu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What does the Latin phrase &quot;Veni, vidi, vici&quot; translate into English?",
+      "correct_answer": "I came, I saw, I conquered",
+      "incorrect_answers": [
+        "See no evil, hear no evil, speak no evil",
+        "Life, liberty, and happiness",
+        "Past, present, and future"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is not an Ed Sheeran album?",
+      "correct_answer": "-",
+      "incorrect_answers": [
+        "+",
+        "X",
+        "&divide;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Portal 2, the iconic character GLaDOS is turned into:",
+      "correct_answer": "A potato",
+      "incorrect_answers": [
+        "A tomato",
+        "A lemon",
+        "An apple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Need For Speed Most Wanted (2005), what do you drive at the beginning of the career mode?",
+      "correct_answer": "BMW M3 GTR",
+      "incorrect_answers": [
+        "Porsche 911 Turbo",
+        "Nissan 240SX",
+        "Ford Mustang"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In season one of the US Kitchen Nightmares, Gordan Ramsay tried to save 10 different restaurants. How many ended up closing afterwards?",
+      "correct_answer": "9",
+      "incorrect_answers": [
+        "6",
+        "3",
+        "0"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "What country hosted the 2014 Winter Olympics?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Canada",
+        "United States",
+        "Germany"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What was the last message of the Dolphins in &quot;The Hitchhiker&#039;s Guide to the Galaxy&quot;?",
+      "correct_answer": "&quot;So long, and thanks for all the fish.&quot;",
+      "incorrect_answers": [
+        "&quot;The answer is 42.&quot;",
+        "&quot;Land of the brave.&quot;",
+        "&quot;Goodbye cruel world!&quot;"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "When was Cadillac founded?",
+      "correct_answer": "1902",
+      "incorrect_answers": [
+        "1964",
+        "1898",
+        "1985"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these artists do NOT originate from France?",
+      "correct_answer": "The Chemical Brothers",
+      "incorrect_answers": [
+        "Air",
+        "Justice",
+        "Daft Punk"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these covert groups employs Sam Fisher to work as a Splinter Cell?",
+      "correct_answer": "Third Echelon",
+      "incorrect_answers": [
+        "Voron",
+        "Black Arrow",
+        "The Engineers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which Japanese company is the world&#039;s largest manufacturer of motorcycles?",
+      "correct_answer": "Honda",
+      "incorrect_answers": [
+        "Yamaha",
+        "Suzuki",
+        "Kawasaki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What was the name of the hero in the 80s animated video game &#039;Dragon&#039;s Lair&#039;?",
+      "correct_answer": "Dirk the Daring",
+      "incorrect_answers": [
+        "Arthur",
+        "Sir Toby Belch",
+        "Guy of Gisbourne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Portal series of games, who was the founder of Aperture Science?",
+      "correct_answer": "Cave Johnson",
+      "incorrect_answers": [
+        "GLaDOs",
+        "Wallace Breen",
+        "Gordon Freeman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the first track on Kanye West&#039;s 808s &amp; Heartbreak?",
+      "correct_answer": "Say You Will",
+      "incorrect_answers": [
+        "Welcome to Heartbreak",
+        "Street Lights",
+        "Heartless"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "When did the last episode of &quot;Futurama&quot; air before returning in 2023?",
+      "correct_answer": "September 4, 2013",
+      "incorrect_answers": [
+        "December 25, 2010",
+        "March 28, 1999",
+        "November 4, 2021"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The &#039;D&#039; in the term &quot;D-Mail&quot; from the game &quot;Steins; Gate&quot; is short for what?",
+      "correct_answer": "DeLorean",
+      "incorrect_answers": [
+        "Deep",
+        "Demo",
+        "Dev"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the real name of the Albanian national leader Skanderbeg?",
+      "correct_answer": "Gjergj Kastrioti",
+      "incorrect_answers": [
+        "Diturak Zhulati",
+        "Iskander Bejko",
+        "Mirash Krasniki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is not a playable race in the MMORPG Guild Wars 2? ",
+      "correct_answer": "Tengu",
+      "incorrect_answers": [
+        "Sylvari",
+        "Charr",
+        "Asura "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How much did the indie game &quot;Cave Story&quot; cost when it was first released in 2004?",
+      "correct_answer": "$0 USD",
+      "incorrect_answers": [
+        "$5 USD",
+        "$10 USD",
+        "$15 USD"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "&quot;Lift Your Spirit&quot; is an album by which artist?",
+      "correct_answer": "Aloe Blacc",
+      "incorrect_answers": [
+        "Lena Meyer-Landrut",
+        "Stevie Wonder",
+        "Taylor Swift"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the first Left 4 Dead, you can play as either of these four characters.",
+      "correct_answer": "Francis, Bill, Zoey, and Louis",
+      "incorrect_answers": [
+        "Bender, Andrew, Allison, and Brian",
+        "Coach, Ellis, Nick, and Rochelle",
+        "Harry, Ron, Hermione and Dumbledore"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "Who authored The Adventures of Tintin?",
+      "correct_answer": "Herg&eacute;",
+      "incorrect_answers": [
+        "E.P. Jacobs",
+        "Rin Tin Tin",
+        "Chic Young"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which singer provided the voice of Metroid&#039;s Mother Brain in the animated series &quot;Captain N: The Game Master&quot;?",
+      "correct_answer": "Levi Stubbs",
+      "incorrect_answers": [
+        "Freddie Mercury",
+        "Janet Jackson",
+        "Joan Jett"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Vietnam",
+        "Thailand",
+        "Indonesia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?",
+      "correct_answer": "9",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main protagonist in Danganronpa 2: Goodbye Despair?",
+      "correct_answer": "Hajime Hinata",
+      "incorrect_answers": [
+        "Nagito Komaeda",
+        "Makoto Naegi",
+        "Junko Enoshima"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is Gatomon&#039;s name in the original Japanese version of Digimon Adventure?",
+      "correct_answer": "Tailmon",
+      "incorrect_answers": [
+        "Pawmon",
+        "Catmon",
+        "Nekomon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What company developed the vocaloid Hatsune Miku?",
+      "correct_answer": "Crypton Future Media",
+      "incorrect_answers": [
+        "Sega",
+        "Sony",
+        "Yamaha Corporation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+      "correct_answer": "American Football",
+      "incorrect_answers": [
+        "Wrestling",
+        "Archery",
+        "Horse-Racing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which country is the home of the largest Japanese population outside of Japan?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "Russia",
+        "The United States"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In which year did the orignal Sims game release?",
+      "correct_answer": "2000",
+      "incorrect_answers": [
+        "2001",
+        "1999",
+        "1998"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "What team did England beat to win in the 1966 World Cup final?",
+      "correct_answer": "West Germany",
+      "incorrect_answers": [
+        "Soviet Union",
+        "Portugal",
+        "Brazil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the surname of the character Daryl in AMC&#039;s show The Walking Dead?",
+      "correct_answer": "Dixon",
+      "incorrect_answers": [
+        "Grimes",
+        "Dickinson",
+        "Dicketson"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In which series of games do you collect souls to empower you and buy weaponry and armor with?",
+      "correct_answer": "Souls ",
+      "incorrect_answers": [
+        "Final Fantasy ",
+        "Monster Hunter",
+        "The Legend of Zelda"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?",
+      "correct_answer": "4.48 Psychosis",
+      "incorrect_answers": [
+        "Hamilton",
+        "Much Ado About Nothing",
+        "The Birthday Party"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which operation in &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; introduced the &quot;Skyscraper&quot; map?",
+      "correct_answer": "Red Crow",
+      "incorrect_answers": [
+        "Velvet Shell",
+        "Skull Rain",
+        "Dust Line"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which of these is the name of the largest city in the US state Tennessee?",
+      "correct_answer": "Memphis",
+      "incorrect_answers": [
+        "Thebes",
+        "Alexandria",
+        "Luxor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the main ship used by Commander Shepard in the Mass Effect Franchise called?",
+      "correct_answer": "Normandy",
+      "incorrect_answers": [
+        "Osiris",
+        "Infinity",
+        "Endeavour"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was the original Star Wars: Battlefront II released?",
+      "correct_answer": "October 31, 2005",
+      "incorrect_answers": [
+        "December 18, 2004",
+        "November 21, 2006",
+        "September 9, 2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "In &quot;Star Trek&quot;, what is the Klingon delicacy of &quot;gagh&quot; made from?",
+      "correct_answer": "Serpent worms",
+      "incorrect_answers": [
+        "Earthworms",
+        "Spaghetti noodles",
+        "Klingworms"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the molecular formula of Ozone?",
+      "correct_answer": "O3",
+      "incorrect_answers": [
+        "C6H2O6",
+        "N2O",
+        "SO4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Cryoshell, known for &quot;Creeping in My Soul&quot; did the advertising music for what Lego Theme?",
+      "correct_answer": "Bionicle",
+      "incorrect_answers": [
+        "Hero Factory",
+        "Ben 10 Alien Force",
+        "Star Wars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Who was the Roman god of fire?",
+      "correct_answer": "Vulcan",
+      "incorrect_answers": [
+        "Apollo",
+        "Jupiter",
+        "Mercury"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is NOT a passive electrical component?",
+      "correct_answer": "Transistor",
+      "incorrect_answers": [
+        "Resistor",
+        "Capacitor",
+        "Inductor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which dictator killed the most people?",
+      "correct_answer": "Mao Zedong",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "Adolf Hitler",
+        "Kim Il Sung"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime, Full Metal Panic!, who is Kaname&#039;s best friend?",
+      "correct_answer": "Kyoko Tokiwa",
+      "incorrect_answers": [
+        "Melissa Mao",
+        "Ren Mikihara",
+        "Teletha &quot;Tessa&quot; Testarossa"
+      ]
+    }
+  ]
+}

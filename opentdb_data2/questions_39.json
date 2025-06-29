@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many steps are there to upgrade a Staff?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "7",
+        "5",
+        "3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what card&#039;s flavor text is &quot;Catch!&quot;?",
+      "correct_answer": "Lava Axe",
+      "incorrect_answers": [
+        "Stone-Throwing Devils",
+        "Ember Shot",
+        "Throwing Knife"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "&quot;Make You Feel My Love&quot; was originally written and performed by which singer-songwriter?",
+      "correct_answer": "Bob Dylan",
+      "incorrect_answers": [
+        "Elvis",
+        "Adele",
+        "Billy Joel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In DuckTales, what is the name of the city where all the main characters live?",
+      "correct_answer": "Duckburg",
+      "incorrect_answers": [
+        "Duckwing",
+        "Tailspin",
+        "Wingford"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Hunter x Hunter&quot;, which of the following is NOT a type of Nen aura?",
+      "correct_answer": "Restoration",
+      "incorrect_answers": [
+        "Emission",
+        "Transmutation",
+        "Specialization"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of the following actors did not voice a character in &quot;Saints Row: The Third&quot;?",
+      "correct_answer": "Ron Jeremy",
+      "incorrect_answers": [
+        "Sasha Grey",
+        "Burt Reynolds",
+        "Hulk Hogan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "In the Batman comics, by what other name is the villain Dr. Jonathan Crane known?",
+      "correct_answer": "Scarecrow",
+      "incorrect_answers": [
+        "Bane",
+        "Calendar Man",
+        "Clayface"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the Linnean name of the domestic apple tree?",
+      "correct_answer": "Malus pumila",
+      "incorrect_answers": [
+        "Malus americana",
+        "Pomus domestica",
+        "Appelus delectica"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which studio made Cowboy Bebop?",
+      "correct_answer": "Sunrise",
+      "incorrect_answers": [
+        "Bones",
+        "Madhouse",
+        "Pierriot"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "When was Elvis Presley born?",
+      "correct_answer": "January 8, 1935",
+      "incorrect_answers": [
+        "December 13, 1931",
+        "July 18, 1940",
+        "April 17, 1938"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which sign of the zodiac is represented by the Crab?",
+      "correct_answer": "Cancer",
+      "incorrect_answers": [
+        "Libra",
+        "Virgo",
+        "Sagittarius"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What was Daft Punk&#039;s first studio album?",
+      "correct_answer": "Homework",
+      "incorrect_answers": [
+        "Discovery",
+        "Random Access Memories",
+        "Human After All"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In which manga did the &quot;404 Girl&quot; from 4chan originate from?",
+      "correct_answer": "Yotsuba&amp;!",
+      "incorrect_answers": [
+        "Azumanga Daioh",
+        "Lucky Star",
+        "Clover"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of a popular franchise that includes placing blocks down and surviving in an open world? ",
+      "correct_answer": "Minecraft",
+      "incorrect_answers": [
+        "Unturned",
+        "Roblox",
+        "Grand Theft Auto V"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Approximately how long is a year on Uranus?",
+      "correct_answer": "84 Earth years",
+      "incorrect_answers": [
+        "47 Earth years",
+        "62 Earth years",
+        "109 Earth years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+      "correct_answer": "Oscar",
+      "incorrect_answers": [
+        "Emmy",
+        "Tony",
+        "Grammy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
+      "correct_answer": "Tom Bombadil",
+      "incorrect_answers": [
+        "Strider",
+        "Barliman Butterbur",
+        "Celeborn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+      "correct_answer": "Michael Schumacher",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Fernando Alonso",
+        "Jim Clark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Xenoblade Chronicles 2&quot;, Which party member cannot use normal blades?",
+      "correct_answer": "Tora",
+      "incorrect_answers": [
+        "Rex",
+        "Zeke",
+        "Nia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Where is the train station &quot;Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch&quot;?",
+      "correct_answer": "Wales",
+      "incorrect_answers": [
+        "Moldova",
+        "Czech Republic",
+        "Denmark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which of the following did not feature in the cartoon &#039;Wacky Races&#039;?",
+      "correct_answer": "The Dragon Wagon",
+      "incorrect_answers": [
+        "The Bouldermobile",
+        "The Crimson Haybailer",
+        "The Compact Pussycat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which one of these rappers is NOT a member of the rap group Wu-Tang Clan?",
+      "correct_answer": "Dr.Dre",
+      "incorrect_answers": [
+        "Ol&#039; Dirty Bastard",
+        "GZA",
+        "Method Man"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Kingdom Hearts&quot;, what is the name of Sora&#039;s home world?",
+      "correct_answer": "Destiny Islands",
+      "incorrect_answers": [
+        "Agrabah",
+        "Land of Departure",
+        "Disney Town"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which year was the album &quot;Year of the Snitch&quot; by Death Grips released?",
+      "correct_answer": "2018",
+      "incorrect_answers": [
+        "2013",
+        "2017",
+        "2011"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following games in the Anno series introduced the &quot;Eco Balance&quot; gameplay mechanic?",
+      "correct_answer": "Anno 2070",
+      "incorrect_answers": [
+        "Anno 1404",
+        "Anno 2205",
+        " Anno 1701"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of these is NOT a city in India?",
+      "correct_answer": "Islamabad",
+      "incorrect_answers": [
+        "Hyderabad",
+        "Ahmedabad",
+        "Ghaziabad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did the Berlin Wall fall?",
+      "correct_answer": "1989",
+      "incorrect_answers": [
+        "1987",
+        "1991",
+        "1993"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which infamous European traitor was known as &quot;the last person to enter Parliament with honest intentions&quot;?",
+      "correct_answer": "Guy Fawkes",
+      "incorrect_answers": [
+        "Robert Catesby",
+        "Francis Tresham",
+        "Everard Digby"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which country was Eliza &quot;Ash&quot; Cohen from &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; born in?",
+      "correct_answer": "Israel",
+      "incorrect_answers": [
+        "United States of America",
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
+      "correct_answer": "Gopher",
+      "incorrect_answers": [
+        "Tigger",
+        "Heffalumps",
+        "Rabbit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the PAYDAY series, who is the iconic leader of the PAYDAY gang?",
+      "correct_answer": "Dallas",
+      "incorrect_answers": [
+        "Wolf",
+        "Chains",
+        "Hoxton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What is the airspeed velocity of an unladen swallow?",
+      "correct_answer": "24 MPH",
+      "incorrect_answers": [
+        "15 MPH",
+        "20 MPH",
+        "200 MPH"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these songs is not on the &quot;untitled&quot; album by Led Zeppelin?",
+      "correct_answer": "Celebration Day",
+      "incorrect_answers": [
+        "Stairway to Heaven",
+        "Black Dog",
+        "Rock and Roll"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?",
+      "correct_answer": "London",
+      "incorrect_answers": [
+        "Paris",
+        "Athens",
+        "Rome"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Meryl Silverburgh, a video game character from the Metal Gear series, was originally a character in which game?",
+      "correct_answer": "Policenauts",
+      "incorrect_answers": [
+        "Gradius",
+        "Contra",
+        "Castlevania: Symphony of the Night"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which anime did Seiji Kishi NOT direct?",
+      "correct_answer": "Another",
+      "incorrect_answers": [
+        "Humanity Has Declined",
+        "Assassination Classroom",
+        "Danganronpa: The Animation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which of the following dice is not a platonic solid?",
+      "correct_answer": "10-sided die",
+      "incorrect_answers": [
+        "12-sided die",
+        "20-sided die",
+        "8-sided die"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime, Full Metal Panic!, who is Kaname&#039;s best friend?",
+      "correct_answer": "Kyoko Tokiwa",
+      "incorrect_answers": [
+        "Melissa Mao",
+        "Ren Mikihara",
+        "Teletha &quot;Tessa&quot; Testarossa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "According to the Star Wars lore, what is Han Solo&#039;s home planet?",
+      "correct_answer": "Corellia",
+      "incorrect_answers": [
+        "Tatooine",
+        "Naboo",
+        "Coruscant"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka&#039;s younger brother?",
+      "correct_answer": "Tatsuya",
+      "incorrect_answers": [
+        "Montoya",
+        "Tomohisa",
+        "Minato"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "The characters of &quot;Log Horizon&quot; are trapped in what game?",
+      "correct_answer": "Elder Tale",
+      "incorrect_answers": [
+        "Sword Art Online",
+        "Tower Unite",
+        "Yggdrasil"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s easter egg will reward you with the achievement, &quot;Time Travel Will Tell&quot;?",
+      "correct_answer": "Shangri-La",
+      "incorrect_answers": [
+        "Ascension",
+        "Moon",
+        "Die Rise"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What mainly favored rifle is used by the Terrorists in Counter Strike: Global Offensive?",
+      "correct_answer": "AK-47",
+      "incorrect_answers": [
+        "AK-74",
+        "M4A4",
+        "CZ-75 AUTO"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which artist released the 2012 single &quot;Harlem Shake&quot;, which was used in numerous YouTube videos in 2013?",
+      "correct_answer": "Baauer",
+      "incorrect_answers": [
+        "RL Grime",
+        "NGHTMRE",
+        "Flosstradamus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mythology",
+      "question": "Which Norse God has a horse named Sleipnir?",
+      "correct_answer": "Odin",
+      "incorrect_answers": [
+        "Thor",
+        "Frigg",
+        "Balder"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Dallon Weekes, former touring basist of Panic! At the Disco, created his own band in 2016 called...",
+      "correct_answer": "I Don&#039;t Know How But They Found Me",
+      "incorrect_answers": [
+        "Cheats At Hide And Seek",
+        "Where Did You All Come From?",
+        "Run Away From The People"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+      "correct_answer": "Jason",
+      "incorrect_answers": [
+        "Castor",
+        "Daedalus",
+        "Odysseus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "The word &quot;science&quot; stems from the word &quot;scire&quot; meaning what?",
+      "correct_answer": "To know",
+      "incorrect_answers": [
+        "To measure",
+        "To live",
+        "To count"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the 2014 film &quot;Birdman&quot;, what is the primary instrument in the score?",
+      "correct_answer": "Drums",
+      "incorrect_answers": [
+        "Saxophone",
+        "Violin",
+        "Actual Live Birds Singing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Akatsuki&#039;s subclass in &quot;Log Horizon&quot; is what?",
+      "correct_answer": " Tracker",
+      "incorrect_answers": [
+        "Assassin",
+        "Scribe",
+        "Apprentice"
+      ]
+    }
+  ]
+}

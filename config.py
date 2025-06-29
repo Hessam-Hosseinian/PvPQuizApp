@@ -16,6 +16,9 @@ class Config:
 
     SECRET_KEY = os.getenv("SECRET_KEY", "a-very-secret-key")
 
+    # SESSION_COOKIE_SAMESITE = "None"
+    # SESSION_COOKIE_SECURE = False
+    # SESSION_COOKIE_HTTPONLY = False
 class TestConfig(Config):
     TESTING = True
 

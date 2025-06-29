@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Animals",
+      "question": "Which species of Brown Bear is not extinct?",
+      "correct_answer": "Syrian Brown Bear",
+      "incorrect_answers": [
+        "California Grizzly Bear",
+        "Atlas Bear",
+        "Mexican Grizzly Bear"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+      "correct_answer": "low, all",
+      "incorrect_answers": [
+        "low, some",
+        "high, all",
+        "high, some"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+      "correct_answer": "Richard Branson",
+      "incorrect_answers": [
+        "Alan Sugar",
+        "Donald Trump",
+        "Bill Gates"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "When was the game &#039;Portal 2&#039; released?",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2014",
+        "2009",
+        "2007"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Hockey player Wayne Gretzky was born in what Canadian province?",
+      "correct_answer": "Ontario",
+      "incorrect_answers": [
+        "British Columbia",
+        "Quebec",
+        "Alberta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Which one of the following is NOT a sub-company of the Volkswagen Group?",
+      "correct_answer": "Opel",
+      "incorrect_answers": [
+        "Porsche",
+        "Bugatti",
+        "Bentley"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the real name of the famous spanish humorist, El Risitas?",
+      "correct_answer": "Juan Joya Borga",
+      "incorrect_answers": [
+        "Gabriel Garcia Marquez",
+        "Jesus Quintero",
+        "Ernesto Guevara"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "When was Marvel Comics founded?",
+      "correct_answer": "1939",
+      "incorrect_answers": [
+        "1932",
+        "1951",
+        "1936"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "How many laws of thermodynamics are there?",
+      "correct_answer": "Four",
+      "incorrect_answers": [
+        "Three",
+        "Two",
+        "Five"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of the following is NOT a song in BROCKHAMPTON&#039;s SATURATION album series?",
+      "correct_answer": "LAMB",
+      "incorrect_answers": [
+        "HOTTIE",
+        "SWAMP",
+        "BUMP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many aces can be shot down through the entirety of &quot;Ace Combat Zero: The Belkan War&quot;?",
+      "correct_answer": "169",
+      "incorrect_answers": [
+        "100",
+        "132",
+        "245"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What was studio Trigger&#039;s first original long-form animated series for television?",
+      "correct_answer": "Kill la Kill",
+      "incorrect_answers": [
+        "Kiznaiver",
+        "Inferno Cop",
+        "Gurren Lagann"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "How many zombies need to be killed to get the &quot;Zombie Genocider&quot; achievement in Dead Rising (2006)?",
+      "correct_answer": "53,594",
+      "incorrect_answers": [
+        "53,593",
+        "53,595",
+        "53,596"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is credited with having created the world&#039;s first video game Easter Egg?",
+      "correct_answer": "Warren Robinett",
+      "incorrect_answers": [
+        "Julius Smith",
+        "Will Crowther",
+        "Don Woods"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following created and directed the Katamari Damacy series?",
+      "correct_answer": "Keita Takahashi",
+      "incorrect_answers": [
+        "Hideki Kamiya",
+        "Shu Takumi",
+        "Shinji Mikami"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the default name of the Vampire character in &quot;Shining Soul 2&quot;.",
+      "correct_answer": "Bloodstar",
+      "incorrect_answers": [
+        "Sachs",
+        "Dracuul",
+        "Alucard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the largest living species of penguin?",
+      "correct_answer": "Emperor",
+      "incorrect_answers": [
+        "King",
+        "Gentoo",
+        "Adele"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "How many games in the Crash Bandicoot series were released on the original Playstation?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "4",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "In which situation was musician John Lennon assassinated?",
+      "correct_answer": "Attempting to enter the Dakota Apartments building",
+      "incorrect_answers": [
+        "During an impromptu walk through Central Park",
+        "Signing an autograph outside the Record Plant studio",
+        "Waiting outside a music venue in Manhattan following a gig"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "What is the most significant side venture the popular firearms company, Remington, has pursued?",
+      "correct_answer": "Typewriters",
+      "incorrect_answers": [
+        "Blenders",
+        "Ceiling Fans",
+        "Door Knobs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+      "correct_answer": "John",
+      "incorrect_answers": [
+        "Paul",
+        "George",
+        "Ringo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Gadgets",
+      "question": "Which of the following is the standard THX subwoofer crossover frequency?",
+      "correct_answer": "80 Hz",
+      "incorrect_answers": [
+        "70 Hz",
+        "90 Hz",
+        "100 Hz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "What is the world&#039;s oldest board game?",
+      "correct_answer": "Senet",
+      "incorrect_answers": [
+        "Chess",
+        "Checkers",
+        "Go"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Musicals &amp; Theatres",
+      "question": "Who serves as the speaker of the prologue in Shakespeare&#039;s Romeo and Juliet?",
+      "correct_answer": "Chorus",
+      "incorrect_answers": [
+        "Montague",
+        "Refrain",
+        "Capulet"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is not a character in the Street Fighter series?",
+      "correct_answer": "Mai Shiranui",
+      "incorrect_answers": [
+        "Laura Matsuda",
+        "Sakura Kasugano",
+        "Ibuki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": " Which of these champions from the MOBA &#039;League of Legends&#039; is NOT a Yordle?",
+      "correct_answer": "Annie",
+      "incorrect_answers": [
+        "Veigar",
+        "Tristana",
+        "Lulu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following vehicles featured a full glass roof at base model?",
+      "correct_answer": "Renault Avantime",
+      "incorrect_answers": [
+        "Chevy Volt",
+        "Mercedes-Benz A-Class",
+        "Honda Odyssey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which company made the Japanese RPG &quot;Dragon Quest&quot;?",
+      "correct_answer": "Square Enix",
+      "incorrect_answers": [
+        "Capcom",
+        "Konami",
+        "Blizzard"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?",
+      "correct_answer": "Pope Leo III",
+      "incorrect_answers": [
+        "Pope Urban IV",
+        "Pope Stephen V",
+        "Pope Valentine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who won the 2017 Formula One World Drivers&#039; Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Max Verstappen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The starting pistol of the Terrorist team in a competitive match of Counter Strike: Global Offensive is what?",
+      "correct_answer": "Glock-18",
+      "incorrect_answers": [
+        "Tec-9",
+        "Desert Eagle",
+        "Dual Berretas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "Which classic book opens with the line &quot;Call me Ishmael&quot;?",
+      "correct_answer": "Moby Dick",
+      "incorrect_answers": [
+        "A Tale of Two Cities",
+        "Kidnapped",
+        "Wuthering Heights"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "In the 2016 Global Peace Index poll, out of 163 countries, what was the United States of America ranked?",
+      "correct_answer": "103",
+      "incorrect_answers": [
+        "10",
+        "59",
+        "79"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Typically, how many keys are on a piano?",
+      "correct_answer": "88",
+      "incorrect_answers": [
+        "24",
+        "12",
+        "96"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who performed the guitar solo on Michael Jackson&#039;s hit &quot;Beat It&quot;?",
+      "correct_answer": "Eddie Van Halen",
+      "incorrect_answers": [
+        "Steve Vai",
+        "Kirk Hammett",
+        "Zakk Wylde"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "In which English county is the city of Portsmouth?",
+      "correct_answer": "Hampshire",
+      "incorrect_answers": [
+        "Oxfordshire",
+        "Buckinghamshire",
+        "Surrey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What was the first monster to appear alongside Godzilla?",
+      "correct_answer": "Anguirus",
+      "incorrect_answers": [
+        "King Kong",
+        "Mothra",
+        "King Ghidora"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of the company in Lethal Company?",
+      "correct_answer": "The Company",
+      "incorrect_answers": [
+        "Planet Scrap Co.",
+        "Lethal Robotics",
+        "Gordian Shipping Co."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The original Planetside was released in North America on...",
+      "correct_answer": "May 20, 2003",
+      "incorrect_answers": [
+        "June 17, 2001",
+        "September 29, 2003",
+        "January 14, 2005"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Who played General Aladeen in The Dictator?",
+      "correct_answer": "Sacha Baron Cohen",
+      "incorrect_answers": [
+        "Johnny Depp",
+        "James Franco",
+        "Leonardo Dicaprio"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "Which of the following FIA Rally cars was approved for use in the Group B class first? ",
+      "correct_answer": "Porsche 911 Turbo",
+      "incorrect_answers": [
+        "Audi Quattro A2",
+        "BMW M1",
+        "Lancia Rally 037"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What was the name of Ross&#039; pet monkey on &quot;Friends&quot;?",
+      "correct_answer": "Marcel",
+      "incorrect_answers": [
+        "Jojo",
+        "George",
+        "Champ"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?",
+      "correct_answer": "7 Meters",
+      "incorrect_answers": [
+        "10 Meters",
+        "2 Meters",
+        "5 Meters"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Who wrote and directed the 1986 film &#039;Platoon&#039;?",
+      "correct_answer": "Oliver Stone",
+      "incorrect_answers": [
+        "Francis Ford Coppola",
+        "Stanley Kubrick",
+        "Michael Cimino"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following is the longest river in Europe?",
+      "correct_answer": "Volga",
+      "incorrect_answers": [
+        "Danube",
+        "Ural",
+        "Dnieper"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Satella in &quot;Re:Zero&quot; is the witch of what?",
+      "correct_answer": "Envy",
+      "incorrect_answers": [
+        "Pride",
+        "Sloth",
+        "Wrath"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What color/colour is a polar bear&#039;s skin?",
+      "correct_answer": "Black",
+      "incorrect_answers": [
+        "White",
+        "Pink",
+        "Green"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+      "correct_answer": "Don&#039;t Ever Play Yourself",
+      "incorrect_answers": [
+        "Major Key",
+        "Suffering From Success",
+        "I Changed A Lot"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The phrase &quot;accident waiting to happen&quot; is an example of what type of figure of speech?",
+      "correct_answer": "Idiom",
+      "incorrect_answers": [
+        "Simile",
+        "Metaphor",
+        "Analogy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Korean War started in what year?",
+      "correct_answer": "1950",
+      "incorrect_answers": [
+        "1945",
+        "1960",
+        "1912"
+      ]
+    }
+  ]
+}

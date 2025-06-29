@@ -17,7 +17,7 @@ def get_db():
             cursor_factory=RealDictCursor
         )
         
-        print(g.db.info.dbname)
+        # print(g.db.info.dbname)
     return g.db
 
 def close_db(e=None):

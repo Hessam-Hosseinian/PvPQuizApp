@@ -18,8 +18,9 @@ def error_response(message, code=400, **kwargs):
     return jsonify({"error": message, **kwargs}), code
 
 def login_required(f):
-    @wraps(f)
+    # @wraps(f)
     def wrapper(*args, **kwargs):
+   
         if 'user_id' not in session:
             return error_response("Login required to access this resource", 401)
         return f(*args, **kwargs)
@@ -45,15 +46,41 @@ def create_user():
         return error_response("Invalid email address")
 
     password_hash = generate_password_hash(data['password'])
+    
+    from app.db import get_db
+    db = get_db()
+    cur = db.cursor()
+    
     try:
-        user_id = modify_db("""
+        # Start transaction
+        cur.execute("BEGIN")
+        
+        # Create user and get the user_id
+        cur.execute("""
             INSERT INTO users (username, email, password_hash)
             VALUES (%s, %s, %s)
             RETURNING id
         """, (data['username'], data['email'], password_hash))
+        
+        user_id = cur.fetchone()['id']
+        
+        # Initialize user_stats for the new user
+        cur.execute("""
+            INSERT INTO user_stats (user_id)
+            VALUES (%s)
+        """, (user_id,))
+        
+        # Commit transaction
+        db.commit()
+        cur.close()
+        
         return jsonify({"message": "User created successfully", "user_id": user_id}), 201
 
     except IntegrityError as e:
+        # Rollback transaction
+        db.rollback()
+        cur.close()
+        
         msg = str(e).lower()
         if "users_username_key" in msg:
             return error_response("Username already exists", 409)
@@ -61,7 +88,10 @@ def create_user():
             return error_response("Email already registered", 409)
         return error_response("Database integrity error")
 
-    except Exception:
+    except Exception as e:
+        # Rollback transaction
+        db.rollback()
+        cur.close()
         return error_response("Internal server error", 500)
 
 
@@ -71,6 +101,7 @@ def get_user(user_id):
         SELECT id, username, email, created_at, last_login, is_active, role, current_level, total_xp
         FROM users WHERE id = %s
     """, (user_id,), one=True)
+    
     if not user:
         return error_response("User not found", 404)
     return jsonify(user), 200
@@ -167,7 +198,7 @@ def logout_user():
 @login_required
 def user_profile():
     user = query_db("""
-        SELECT id, username, email, created_at, last_login, current_level, total_xp
+        SELECT id, username, email, created_at, last_login, current_level, total_xp ,role
         FROM users WHERE id = %s
     """, (session['user_id'],), one=True)
 
