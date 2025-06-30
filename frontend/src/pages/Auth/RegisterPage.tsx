@@ -59,7 +59,7 @@ const RegisterPage: React.FC = () => {
           </div>
           <h2 className="mt-6 text-3xl font-bold text-white">Create Account</h2>
           <p className="mt-2 text-sm text-dark-300">
-            Join QuizMaster and start your journey
+            Join PhoenixFlare and start your journey
           </p>
         </div>
 

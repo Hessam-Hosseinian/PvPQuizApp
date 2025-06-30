@@ -36,7 +36,7 @@ const Header: React.FC = () => {
             <div className="w-8 h-8 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">Q</span>
             </div>
-            <span className="font-bold text-xl text-white">QuizMaster</span>
+            <span className="font-bold text-xl text-white">PhoenixFlare</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -230,7 +230,7 @@ const HomePage: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900" role="main" aria-label="QuizMaster Home Page">
+    <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900" role="main" aria-label="PhoenixFlare Home Page">
       {/* Hero Section */}
       <section className="relative overflow-hidden" aria-labelledby="hero-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -244,8 +244,8 @@ const HomePage: React.FC = () => {
             
             <h1 id="hero-heading" className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
               Welcome to{' '}
-              <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent animate-pulse" aria-label="QuizMaster">
-                QuizMaster
+              <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent animate-pulse" aria-label="PhoenixFlare">
+              PhoenixFlare
               </span>
             </h1>
             <p className="text-lg md:text-xl text-dark-300 mb-8 max-w-3xl mx-auto animate-fade-in-up">
@@ -805,7 +805,7 @@ const HomePage: React.FC = () => {
               Ready to Test Your Knowledge?
             </h2>
             <p className="text-lg text-dark-300 mb-8 max-w-2xl mx-auto">
-              Join thousands of players competing in real-time quiz battles. Challenge your friends, climb the leaderboards, and become the ultimate QuizMaster!
+              Join thousands of players competing in real-time quiz battles. Challenge your friends, climb the leaderboards, and become the ultimate PhoenixFlare!
             </p>
             {user ? (
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

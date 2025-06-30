@@ -45,6 +45,7 @@ def list_leaderboards():
                   l.id,
                   l.user_id,
                   u.username,
+                  u.avatar,
                   l.scope,
                   l.category_id,
                   l.rank,
@@ -67,6 +68,7 @@ def list_leaderboards():
                   l.id,
                   l.user_id,
                   u.username,
+                  u.avatar,
                   l.scope,
                   l.category_id,
                   l.rank,
@@ -82,6 +84,7 @@ def list_leaderboards():
             )
 
         rows = cur.fetchall()
+        # print(rows)
         return jsonify(rows), 200
 
     finally:
@@ -120,6 +123,7 @@ def get_user_leaderboards(user_id):
               l.id,
               l.user_id,
               u.username,
+              u.avatar,
               l.scope,
               l.category_id,
               l.rank,
@@ -133,6 +137,8 @@ def get_user_leaderboards(user_id):
             (user_id,),
         )
         rows = cur.fetchall()
+        # print(rows)
+
         return jsonify(rows), 200
 
     finally:

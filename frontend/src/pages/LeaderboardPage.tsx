@@ -107,9 +107,9 @@ const LeaderboardPage: React.FC = () => {
       if (filters.category_id !== null) {
         params.category_id = filters.category_id;
       }
-      console.log('Loading leaderboard with params:', params);
+      // console.log('Loading leaderboard with params:', params);
       const response = await leaderboardsAPI.getLeaderboards(params);
-      console.log('Leaderboard response:', response.data);
+      // console.log('Leaderboard response:', response.data);
       setLeaderboard(response.data);
       setDataSource('real');
       // Clear leaderboard errors
@@ -160,9 +160,9 @@ const LeaderboardPage: React.FC = () => {
 
   const loadCategories = async () => {
     try {
-      console.log('Loading categories...');
+      // console.log('Loading categories...');
       const response = await categoriesAPI.getCategories();
-      console.log('Categories response:', response.data);
+      // console.log('Categories response:', response.data);
       setCategories(response.data);
       setDataSource('real');
       // Clear category errors
@@ -188,10 +188,10 @@ const LeaderboardPage: React.FC = () => {
   const loadUserStats = async () => {
     setStatsLoading(true);
     try {
-      console.log('Loading user stats...');
+      // console.log('Loading user stats...');
       // Load stats for top users
       const response = await statsAPI.getTop10WinRate();
-      console.log('User stats response:', response.data);
+      // console.log('User stats response:', response.data);
       setUserStats(response.data);
       setDataSource('real');
       // Clear stats errors
@@ -365,7 +365,7 @@ const LeaderboardPage: React.FC = () => {
     }
   });
 
-  console.log("userStats : ", userStats);
+  
   
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-dark-900 min-h-screen">
@@ -676,6 +676,7 @@ const LeaderboardPage: React.FC = () => {
               const performanceTrend = getPerformanceTrend(entry);
               const achievementBadges = entry && userStats ? getAchievementBadges(userStats) : [];
               
+              console.log(entry);
               
               return (
                 <div

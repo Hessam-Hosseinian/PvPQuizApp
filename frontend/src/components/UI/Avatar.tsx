@@ -44,7 +44,7 @@ const Avatar: React.FC<AvatarProps> = ({
     if (avatarPath.startsWith('http') || avatarPath.startsWith('blob:')) {
       return avatarPath;
     }
-    return `http://192.168.1.110:5000/users/avatar/${avatarPath}`;
+    return `http://127.0.0.1:5000/users/avatar/${avatarPath}`;
   };
 
   const getFallbackIcon = () => {

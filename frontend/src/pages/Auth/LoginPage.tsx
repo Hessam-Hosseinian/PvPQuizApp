@@ -47,7 +47,7 @@ const LoginPage: React.FC = () => {
           </div>
           <h2 className="mt-6 text-3xl font-bold text-white">Welcome Back</h2>
           <p className="mt-2 text-sm text-dark-300">
-            Sign in to your QuizMaster account
+            Sign in to your PhoenixFlare account
           </p>
         </div>
 

@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+import { useNavigate } from 'react-router-dom';
 import Card from '../components/UI/Card';
 import Button from '../components/UI/Button';
 import Modal from '../components/UI/Modal';
@@ -9,6 +10,7 @@ import { PlayIcon, UsersIcon, SwordIcon, ClockIcon, StarIcon } from 'lucide-reac
 
 const PlayPage: React.FC = () => {
   const { user } = useAuth();
+  const navigate = useNavigate();
   const [gameTypes, setGameTypes] = useState([]);
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -17,10 +19,28 @@ const PlayPage: React.FC = () => {
   const [currentGame, setCurrentGame] = useState<any>(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedGameType, setSelectedGameType] = useState<any>(null);
+  const [queueMessage, setQueueMessage] = useState('');
+  const pollingRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     loadGameData();
   }, []);
+
+  useEffect(() => {
+    if (!user) return;
+    const checkForActiveGame = async () => {
+      try {
+        const res = await gamesAPI.queueStatus(user.id, 1); // 1: duel game type
+        if (res.data.status === 'matched' && res.data.game_id) {
+          navigate(`/game/${res.data.game_id}`);
+        }
+      } catch (e) {
+        // ignore
+      }
+    };
+    const interval = setInterval(checkForActiveGame, 2000);
+    return () => clearInterval(interval);
+  }, [user, navigate]);
 
   const loadGameData = async () => {
     try {
@@ -40,36 +60,67 @@ const PlayPage: React.FC = () => {
 
   const startDuelGame = async () => {
     if (!user) return;
-    
     setQueueing(true);
+    setQueueMessage('Searching for an opponent...');
     try {
       const response = await gamesAPI.enqueueForDuel(user.id, 1); // Assuming game type 1 is duel
-      
       if (response.data.game_id) {
-        // Match found immediately
         setCurrentGame({ id: response.data.game_id });
         setGameStarted(true);
         setModalOpen(true);
+        setQueueing(false);
       } else {
-        // Added to queue, start polling
         pollForMatch();
       }
     } catch (error) {
-      console.error('Failed to start duel:', error);
+      setQueueMessage('Failed to join the queue.');
       setQueueing(false);
     }
   };
 
   const pollForMatch = () => {
-    // In a real app, you'd use WebSocket or polling
-    // For demo, we'll simulate finding a match after 3 seconds
-    setTimeout(() => {
-      setCurrentGame({ id: Math.random() });
-      setGameStarted(true);
-      setQueueing(false);
-      setModalOpen(true);
-    }, 3000);
+    if (!user) return;
+    if (pollingRef.current) clearInterval(pollingRef.current);
+    pollingRef.current = setInterval(async () => {
+      try {
+        const res = await gamesAPI.queueStatus(user.id, 1);
+        if (res.data.status === 'matched') {
+          setCurrentGame({ id: res.data.game_id });
+          setGameStarted(true);
+          setModalOpen(false);
+          setQueueing(false);
+          setQueueMessage('Opponent found!');
+          if (pollingRef.current) clearInterval(pollingRef.current);
+          
+          // Navigate directly to game room (game is already started in backend)
+          navigate(`/game/${res.data.game_id}`);
+        } else if (res.data.status === 'waiting') {
+          setQueueMessage('Searching for an opponent...');
+        } else {
+          setQueueMessage('You are not in the queue.');
+          setQueueing(false);
+          if (pollingRef.current) clearInterval(pollingRef.current);
+        }
+      } catch (e) {
+        setQueueMessage('Error checking queue status.');
+        setQueueing(false);
+        if (pollingRef.current) clearInterval(pollingRef.current);
+      }
+    }, 2000);
   };
+
+  const cancelQueue = () => {
+    setQueueing(false);
+    setQueueMessage('You have left the queue.');
+    if (pollingRef.current) clearInterval(pollingRef.current);
+    // (اختیاری: درخواست به سرور برای حذف از صف)
+  };
+
+  useEffect(() => {
+    return () => {
+      if (pollingRef.current) clearInterval(pollingRef.current);
+    };
+  }, []);
 
   const startGroupGame = () => {
     setSelectedGameType(gameTypes.find((gt: any) => gt.name === 'group'));
@@ -121,13 +172,14 @@ const PlayPage: React.FC = () => {
           </div>
 
           <Button
-            onClick={startDuelGame}
+            onClick={queueing ? cancelQueue : startDuelGame}
             loading={queueing}
             className="w-full"
             size="lg"
           >
-            {queueing ? 'Finding Opponent...' : 'Start Duel'}
+            {queueing ? 'Cancel Search' : 'Start Duel'}
           </Button>
+          {queueing && <div className="mt-2 text-yellow-400">{queueMessage}</div>}
         </Card>
 
         {/* Group Game */}
@@ -208,17 +260,8 @@ const PlayPage: React.FC = () => {
         title={gameStarted ? "Game Started!" : "Game Setup"}
         size="lg"
       >
-        {gameStarted ? (
-          <GameInterface
-            game={currentGame}
-            categories={categories}
-            onGameEnd={() => {
-              setModalOpen(false);
-              setGameStarted(false);
-              setCurrentGame(null);
-            }}
-          />
-        ) : (
+        {/* Only show modal for group games now */}
+        {!gameStarted && (
           <GroupGameSetup
             onStart={(gameData) => {
               setCurrentGame(gameData);
@@ -238,141 +281,140 @@ const GameInterface: React.FC<{
   categories: any[];
   onGameEnd: () => void;
 }> = ({ game, categories, onGameEnd }) => {
-  const [currentRound, setCurrentRound] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState<any>(null);
-  const [question, setQuestion] = useState<any>(null);
-  const [gamePhase, setGamePhase] = useState<'category_selection' | 'question' | 'result' | 'game_end'>('category_selection');
-  const [score, setScore] = useState(0);
-  const [totalRounds] = useState(5);
+  const { user } = useAuth();
+  if (!user) return <LoadingSpinner />;
+  const [gameState, setGameState] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
+  const pollingRef = useRef<any>(null);
 
-  const selectCategory = (category: any) => {
-    setSelectedCategory(category);
-    // Simulate question loading
-    setTimeout(() => {
-      setQuestion({
-        id: 1,
-        text: "What is the capital of France?",
-        choices: [
-          { id: 1, choice_text: "London", is_correct: false, position: 'A' },
-          { id: 2, choice_text: "Berlin", is_correct: false, position: 'B' },
-          { id: 3, choice_text: "Paris", is_correct: true, position: 'C' },
-          { id: 4, choice_text: "Madrid", is_correct: false, position: 'D' },
-        ]
-      });
-      setGamePhase('question');
-    }, 1000);
-  };
-
-  const answerQuestion = (choice: any) => {
-    if (choice.is_correct) {
-      setScore(score + 100);
-    }
-    
-    setGamePhase('result');
-    setTimeout(() => {
-      if (currentRound >= totalRounds) {
-        setGamePhase('game_end');
-      } else {
-        setCurrentRound(currentRound + 1);
-        setGamePhase('category_selection');
-        setSelectedCategory(null);
-        setQuestion(null);
+  // Poll game state every 2s
+  useEffect(() => {
+    if (!game?.id || !user?.id) return;
+    setLoading(true);
+    const fetchState = async () => {
+      try {
+        const res = await gamesAPI.getGameState(game.id, user.id);
+        setGameState(res.data);
+      } catch (e) {
+        // handle error
+      } finally {
+        setLoading(false);
       }
-    }, 2000);
-  };
+    };
+    fetchState();
+    pollingRef.current = setInterval(fetchState, 2000);
+    return () => clearInterval(pollingRef.current);
+  }, [game?.id, user?.id]);
 
-  if (gamePhase === 'category_selection') {
-    return (
-      <div className="text-center">
-        <h3 className="text-lg font-bold mb-4 text-white">Round {currentRound} of {totalRounds}</h3>
-        <p className="text-dark-300 mb-6">Choose a category for this round:</p>
-        <div className="grid grid-cols-1 gap-3">
-          {categories.slice(0, 3).map((category) => (
-            <Button
-              key={category.id}
-              onClick={() => selectCategory(category)}
-              variant="outline"
-              className="p-4 h-auto"
-            >
-              <div className="text-left">
-                <div className="font-medium text-white">{category.name}</div>
-                <div className="text-sm text-dark-300">{category.description}</div>
-              </div>
-            </Button>
-          ))}
-        </div>
-        <div className="mt-4 text-sm text-dark-400">
-          Current Score: {score} points
-        </div>
-      </div>
-    );
-  }
-
-  if (gamePhase === 'question' && question) {
-    return (
-      <div>
-        <div className="mb-4">
-          <div className="flex justify-between items-center mb-2">
-            <span className="text-sm text-dark-300">Round {currentRound} - {selectedCategory?.name}</span>
-            <span className="text-sm font-medium text-white">Score: {score}</span>
-          </div>
-          <div className="w-full bg-dark-700 rounded-full h-2">
-            <div 
-              className="bg-primary-600 h-2 rounded-full transition-all duration-300"
-              style={{ width: `${(currentRound / totalRounds) * 100}%` }}
-            ></div>
-          </div>
-        </div>
-        
-        <h3 className="text-lg font-bold mb-6 text-white">{question.text}</h3>
-        <div className="space-y-3">
-          {question.choices?.map((choice: any) => (
-            <Button
-              key={choice.id}
-              onClick={() => answerQuestion(choice)}
-              variant="outline"
-              className="w-full p-4 h-auto text-left justify-start"
-            >
-              <span className="font-medium mr-3 text-white">{choice.position}.</span>
-              <span className="text-white">{choice.choice_text}</span>
-            </Button>
-          ))}
-        </div>
-      </div>
-    );
-  }
-
-  if (gamePhase === 'result' && question) {
-    const correctChoice = question.choices?.find((c: any) => c.is_correct);
-    return (
-      <div className="text-center">
-        <div className="text-4xl mb-4">
-          {correctChoice ? '✅' : '❌'}
-        </div>
-        <h3 className="text-lg font-bold mb-2 text-white">
-          {correctChoice ? 'Correct!' : 'Wrong!'}
-        </h3>
-        <p className="text-dark-300 mb-4">
-          The correct answer was: <strong className="text-white">{correctChoice?.choice_text}</strong>
-        </p>
-        <div className="text-sm text-dark-400">
-          Current Score: {score} points
-        </div>
-      </div>
-    );
-  }
-
-  if (gamePhase === 'game_end') {
+  if (loading || !gameState) return <LoadingSpinner />;
+  const { current_round, game_status } = gameState;
+  if (!current_round) {
+    // Game finished
     return (
       <div className="text-center">
         <div className="text-4xl mb-4">🏆</div>
         <h3 className="text-2xl font-bold mb-4 text-white">Game Complete!</h3>
-        <p className="text-lg text-dark-300 mb-6">
-          Final Score: <strong className="text-white">{score} points</strong>
-        </p>
         <Button onClick={onGameEnd} className="w-full">
           Play Again
         </Button>
+      </div>
+    );
+  }
+  const isMyTurn = current_round.picker_turn === user.id;
+  const hasPickedCategory = !!current_round.category_id;
+  const myAnswers = current_round.answers || [];
+  const allQuestionsAnswered = hasPickedCategory && myAnswers.length === (current_round.questions?.length || 0);
+
+  // Category selection phase
+  if (!hasPickedCategory) {
+    return (
+      <div className="text-center">
+        <h3 className="text-lg font-bold mb-4 text-white">Round {current_round.round_number}</h3>
+        <p className="text-dark-300 mb-6">
+          {isMyTurn ? 'It\'s your turn to pick a category.' : 'Waiting for opponent to pick a category...'}
+        </p>
+        {isMyTurn ? (
+          <div className="grid grid-cols-1 gap-3">
+            {current_round.category_options.map((category: any) => (
+              <Button
+                key={category.id}
+                onClick={async () => {
+                  setSubmitting(true);
+                  await gamesAPI.pickCategory(game.id, current_round.round_number, user.id, category.id);
+                  setSubmitting(false);
+                }}
+                variant="outline"
+                className="p-4 h-auto"
+                disabled={submitting}
+              >
+                <div className="text-left">
+                  <div className="font-medium text-white">{category.name}</div>
+                  <div className="text-sm text-dark-300">{category.description}</div>
+                </div>
+              </Button>
+            ))}
+          </div>
+        ) : (
+          <div className="mt-6 text-dark-400">Waiting...</div>
+        )}
+      </div>
+    );
+  }
+
+  // Question answering phase
+  if (hasPickedCategory && !allQuestionsAnswered) {
+    const nextQuestion = current_round.questions.find((q: any) => !myAnswers.some((a: any) => a.question_id === q.question_id));
+    if (!nextQuestion) return <LoadingSpinner />;
+    
+    // Get choices for this question
+    const questionChoices = nextQuestion.choices || [];
+    
+    return (
+      <div>
+        <div className="mb-4">
+          <div className="flex justify-between items-center mb-2">
+            <span className="text-sm text-dark-300">Round {current_round.round_number}</span>
+          </div>
+        </div>
+        <h3 className="text-lg font-bold mb-6 text-white">{nextQuestion.text}</h3>
+        <div className="space-y-3">
+          {questionChoices.map((choice: any) => (
+            <Button
+              key={choice.choice_id}
+              onClick={async () => {
+                setSubmitting(true);
+                try {
+                  await gamesAPI.submitAnswer(game.id, current_round.round_number, {
+                    user_id: user.id,
+                    question_id: nextQuestion.question_id,
+                    choice_id: choice.choice_id,
+                    response_time_ms: 5000 // Default response time
+                  });
+                } catch (error) {
+                  console.error('Error submitting answer:', error);
+                } finally {
+                  setSubmitting(false);
+                }
+              }}
+              variant="outline"
+              className="w-full p-4 h-auto text-left"
+              disabled={submitting}
+            >
+              <div className="font-medium text-white">{choice.choice_text}</div>
+            </Button>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Waiting for opponent to answer
+  if (hasPickedCategory && allQuestionsAnswered) {
+    return (
+      <div className="text-center">
+        <div className="text-lg text-dark-300 mb-4">Waiting for opponent to finish this round...</div>
+        <LoadingSpinner />
       </div>
     );
   }

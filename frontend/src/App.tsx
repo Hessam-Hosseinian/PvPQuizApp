@@ -12,6 +12,7 @@ import ProfilePage from './pages/Profile/ProfilePage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import CategoriesPage from './pages/CategoriesPage';
 import PlayPage from './pages/PlayPage';
+import GameRoom from './pages/GameRoom';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user, loading } = useAuth();
@@ -98,6 +99,14 @@ const AppRoutes: React.FC = () => {
         element={
           <ProtectedRoute>
             <CategoriesPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/game/:gameId"
+        element={
+          <ProtectedRoute>
+            <GameRoom />
           </ProtectedRoute>
         }
       />

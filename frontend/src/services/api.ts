@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { User, Category, Question, Game, GameType, LeaderboardEntry, UserStats, Notification } from '../types';
 
-const API_BASE_URL = 'http://192.168.1.110:5000';
+const API_BASE_URL = 'http://127.0.0.1:5000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -110,6 +110,13 @@ export const gamesAPI = {
     creator_id: number;
     participant_ids: number[];
   }) => api.post('/games', data),
+
+  // New: get game state
+  getGameState: (gameId: number, userId: number) =>
+    api.get(`/games/${gameId}/state`, { params: { user_id: userId } }),
+
+  queueStatus: (userId: number, gameTypeId: number) =>
+    api.get('/games/queue/status', { params: { user_id: userId, game_type_id: gameTypeId } }),
 };
 
 // Game Types API
@@ -145,5 +152,82 @@ export const notificationsAPI = {
   createNotification: (data: { user_id: number; type_id: number; data: string }) =>
     api.post('/notifications', data),
 };
+
+// WebSocket service for real-time game updates
+export class GameWebSocket {
+  private ws: WebSocket | null = null;
+  private reconnectAttempts = 0;
+  private maxReconnectAttempts = 5;
+  private reconnectDelay = 1000;
+  private listeners: Map<string, Function[]> = new Map();
+
+  connect(gameId: number, userId: number) {
+    const wsUrl = `ws://localhost:5000/ws/game/${gameId}?user_id=${userId}`;
+    
+    this.ws = new WebSocket(wsUrl);
+    
+    this.ws.onopen = () => {
+      console.log('WebSocket connected');
+      this.reconnectAttempts = 0;
+    };
+    
+    this.ws.onmessage = (event) => {
+      try {
+        const data = JSON.parse(event.data);
+        this.handleMessage(data);
+      } catch (error) {
+        console.error('Error parsing WebSocket message:', error);
+      }
+    };
+    
+    this.ws.onclose = () => {
+      console.log('WebSocket disconnected');
+      this.attemptReconnect();
+    };
+    
+    this.ws.onerror = (error) => {
+      console.error('WebSocket error:', error);
+    };
+  }
+
+  private handleMessage(data: any) {
+    const { type, payload } = data;
+    const listeners = this.listeners.get(type) || [];
+    listeners.forEach(listener => listener(payload));
+  }
+
+  private attemptReconnect() {
+    if (this.reconnectAttempts < this.maxReconnectAttempts) {
+      this.reconnectAttempts++;
+      setTimeout(() => {
+        console.log(`Attempting to reconnect (${this.reconnectAttempts}/${this.maxReconnectAttempts})`);
+        this.connect(parseInt(this.ws?.url.split('/').pop()?.split('?')[0] || '0'), 0);
+      }, this.reconnectDelay * this.reconnectAttempts);
+    }
+  }
+
+  on(event: string, callback: Function) {
+    if (!this.listeners.has(event)) {
+      this.listeners.set(event, []);
+    }
+    this.listeners.get(event)!.push(callback);
+  }
+
+  off(event: string, callback: Function) {
+    const listeners = this.listeners.get(event) || [];
+    const index = listeners.indexOf(callback);
+    if (index > -1) {
+      listeners.splice(index, 1);
+    }
+  }
+
+  disconnect() {
+    if (this.ws) {
+      this.ws.close();
+      this.ws = null;
+    }
+    this.listeners.clear();
+  }
+}
 
 export default api;

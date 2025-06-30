@@ -215,6 +215,7 @@ const ProfilePage: React.FC = () => {
     try {
       const response = await statsAPI.getUserWinLoss(user.id);
       setUserStats(response.data);
+
     } catch (error) {
       console.error('Failed to load user stats:', error);
     } finally {
