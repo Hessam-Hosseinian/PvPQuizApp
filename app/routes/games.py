@@ -93,13 +93,20 @@ def enqueue_for_duel():
             # ساخت راندها و فعال‌سازی بازی
             cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (game_type_id,))
             total_rounds = cur.fetchone()['total_rounds']
+            
+            player_ids = [user_id, other_user_id]
+            picker_id = random.choice(player_ids) # انتخاب تصادفی نفر اول
+
             for r in range(1, total_rounds + 1):
                 cur.execute("""
                     INSERT INTO game_rounds 
                       (game_id, round_number, category_id, category_picker_id, status, time_limit_seconds, points_possible)
                     VALUES 
-                      (%s, %s, NULL, NULL, 'pending', 30, 100)
-                """, (new_game_id, r))
+                      (%s, %s, NULL, %s, 'pending', 30, 100)
+                """, (new_game_id, r, picker_id))
+                # تعویض نوبت برای راند بعدی
+                picker_id = player_ids[0] if picker_id == player_ids[1] else player_ids[1]
+
             # تغییر وضعیت بازی به active و ثبت start_time
             cur.execute("""
                 UPDATE games
@@ -277,13 +284,20 @@ def respond_to_invitation():
         # ساخت راندها و فعال‌سازی بازی
         cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (1,))
         total_rounds = cur.fetchone()['total_rounds']
+        
+        player_ids = [inviter_id_db, invitee_id_db]
+        picker_id = random.choice(player_ids) # انتخاب تصادفی نفر اول
+
         for r in range(1, total_rounds + 1):
             cur.execute("""
                 INSERT INTO game_rounds 
                   (game_id, round_number, category_id, category_picker_id, status, time_limit_seconds, points_possible)
                 VALUES 
-                  (%s, %s, NULL, NULL, 'pending', 30, 100)
-            """, (new_game_id, r))
+                  (%s, %s, NULL, %s, 'pending', 30, 100)
+            """, (new_game_id, r, picker_id))
+            # تعویض نوبت برای راند بعدی
+            picker_id = player_ids[0] if picker_id == player_ids[1] else player_ids[1]
+
         # تغییر وضعیت بازی به active و ثبت start_time
         cur.execute("""
             UPDATE games
@@ -501,8 +515,9 @@ def submit_answer(game_id, round_number):
 
     # 3. بررسی منقضی بودن زمان
     if time_limit_seconds is not None and round_start is not None:
+        grace_period = 5  # 5-second grace period for API calls / client-side lag
         elapsed = (datetime.now() - round_start).total_seconds()
-        if elapsed > time_limit_seconds:
+        if elapsed > (time_limit_seconds + grace_period):
             cur.close()
             return jsonify({"error": "Time limit exceeded"}), 400
 
@@ -552,6 +567,17 @@ def submit_answer(game_id, round_number):
     is_correct = choice_row['is_correct']
     points = points_possible if is_correct else 0
 
+    # 7.1. Get correct choice ID, regardless of the user's answer
+    cur.execute("""
+        SELECT id FROM question_choices
+        WHERE question_id = %s AND is_correct = TRUE
+        LIMIT 1
+    """, (question_id,))
+    correct_choice_row = cur.fetchone()
+    # This should always find a correct answer if the question is well-formed
+    correct_choice_id = correct_choice_row['id'] if correct_choice_row else None
+
+
     # 8. درج در round_answers و به‌روزرسانی امتیاز شرکت‌کننده
     try:
         cur.execute("""
@@ -583,7 +609,8 @@ def submit_answer(game_id, round_number):
     return jsonify({
         "message": "Answer recorded",
         "is_correct": is_correct,
-        "points_earned": points
+        "points_earned": points,
+        "correct_choice_id": correct_choice_id
     }), 200
 
 

@@ -6,6 +6,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: 'sm' | 'md' | 'lg';
   loading?: boolean;
   children: React.ReactNode;
+  bgColor?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -15,6 +16,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   className = '',
   disabled,
+  bgColor,
   ...props
 }) => {
   const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-dark-900';
@@ -35,16 +37,19 @@ const Button: React.FC<ButtonProps> = ({
 
   const isDisabled = disabled || loading;
 
+  const finalVariantClasses = bgColor ? variantClasses[variant].replace(/bg-\S+/g, '') : variantClasses[variant];
+
   return (
     <button
       className={`
         ${baseClasses}
-        ${variantClasses[variant]}
+        ${finalVariantClasses}
         ${sizeClasses[size]}
         ${isDisabled ? 'opacity-50 cursor-not-allowed' : ''}
         ${className}
       `}
       disabled={isDisabled}
+      style={{ backgroundColor: bgColor }}
       {...props}
     >
       {loading && <LoadingSpinner size="sm" className="mr-2" />}
