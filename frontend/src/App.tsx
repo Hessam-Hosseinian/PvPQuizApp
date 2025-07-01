@@ -13,6 +13,8 @@ import LeaderboardPage from './pages/LeaderboardPage';
 import CategoriesPage from './pages/CategoriesPage';
 import PlayPage from './pages/PlayPage';
 import GamePage from './pages/GamePage';
+import ChatPage from './pages/Chat/ChatPage';
+import AdminPanel from './components/Admin/AdminPanel';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user, loading } = useAuth();
@@ -107,6 +109,22 @@ const AppRoutes: React.FC = () => {
         element={
           <ProtectedRoute>
             <GamePage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/chat"
+        element={
+          <ProtectedRoute>
+            <ChatPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/admin"
+        element={
+          <ProtectedRoute>
+            <AdminPanel />
           </ProtectedRoute>
         }
       />

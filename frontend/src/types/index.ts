@@ -147,3 +147,33 @@ export interface GameRound {
   time_limit_seconds?: number;
   points_possible: number;
 }
+
+export interface ChatRoom {
+  id: number;
+  name: string;
+  type: 'public' | 'private' | 'game';
+  created_at: string;
+  game_id?: number;
+}
+
+export interface ChatMessage {
+  id: number;
+  room_id: number;
+  sender_id: number;
+  sender_username: string;
+  sender_avatar?: string;
+  reply_to_id?: number;
+  message: string;
+  is_edited: boolean;
+  is_deleted: boolean;
+  sent_at: string;
+}
+
+export interface Conversation {
+  other_user_id: number;
+  other_user_username: string;
+  other_user_avatar?: string;
+  last_message: string;
+  last_message_at: string;
+  unread_count: number;
+}

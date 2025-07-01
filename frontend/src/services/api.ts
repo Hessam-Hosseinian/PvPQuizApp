@@ -74,7 +74,7 @@ export const questionsAPI = {
   updateQuestion: (id: number, data: Partial<Question>) => api.put(`/questions/${id}`, data),
   deleteQuestion: (id: number) => api.delete(`/questions/${id}`),
   getDifficultyStats: (params?: { category_id?: number; verified?: boolean }) =>
-    api.get('/questions/difficulty-stats', { params }),
+    api.get('/questions/stats/difficulty', { params }),
 };
 
 // Games API
@@ -229,5 +229,17 @@ export class GameWebSocket {
     this.listeners.clear();
   }
 }
+
+export const chatAPI = {
+  getRooms: () => api.get('/chat/rooms'),
+  createRoom: (data: { name: string; type: 'public' | 'private' | 'game'; game_id?: number }) => api.post('/chat/rooms', data),
+  getRoomMessages: (roomId: number) => api.get(`/chat/rooms/${roomId}/messages`),
+  sendMessage: (roomId: number, data: { message: string; reply_to_id?: number }) => api.post(`/chat/rooms/${roomId}/messages`, data),
+  joinRoom: (roomId: number) => api.post(`/chat/rooms/${roomId}/members`),
+  // Direct Messaging
+  getConversations: () => api.get('/chat/direct-messages/conversations'),
+  getDirectMessages: (otherUserId: number) => api.get(`/chat/direct-messages/${otherUserId}`),
+  sendDirectMessage: (data: { recipient_id: number; message: string; reply_to_id?: number }) => api.post('/chat/direct-messages', data),
+};
 
 export default api;
