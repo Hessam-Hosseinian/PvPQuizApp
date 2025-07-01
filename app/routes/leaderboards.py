@@ -18,6 +18,7 @@ def list_leaderboards():
     Response JSON: a list of objects with fields:
       - id
       - user_id
+      - username
       - scope
       - category_id
       - rank
@@ -41,17 +42,20 @@ def list_leaderboards():
             cur.execute(
                 """
                 SELECT
-                  id,
-                  user_id,
-                  scope,
-                  category_id,
-                  rank,
-                  score,
-                  generated_at
-                FROM leaderboards
-                WHERE scope = %s
-                  AND category_id = %s
-                ORDER BY rank ASC
+                  l.id,
+                  l.user_id,
+                  u.username,
+                  u.avatar,
+                  l.scope,
+                  l.category_id,
+                  l.rank,
+                  l.score,
+                  l.generated_at
+                FROM leaderboards l
+                JOIN users u ON l.user_id = u.id
+                WHERE l.scope = %s
+                  AND l.category_id = %s
+                ORDER BY l.rank ASC
                 LIMIT %s;
                 """,
                 (scope, category_id, limit),
@@ -61,22 +65,26 @@ def list_leaderboards():
             cur.execute(
                 """
                 SELECT
-                  id,
-                  user_id,
-                  scope,
-                  category_id,
-                  rank,
-                  score,
-                  generated_at
-                FROM leaderboards
-                WHERE scope = %s
-                ORDER BY rank ASC
+                  l.id,
+                  l.user_id,
+                  u.username,
+                  u.avatar,
+                  l.scope,
+                  l.category_id,
+                  l.rank,
+                  l.score,
+                  l.generated_at
+                FROM leaderboards l
+                JOIN users u ON l.user_id = u.id
+                WHERE l.scope = %s
+                ORDER BY l.rank ASC
                 LIMIT %s;
                 """,
                 (scope, limit),
             )
 
         rows = cur.fetchall()
+        # print(rows)
         return jsonify(rows), 200
 
     finally:
@@ -92,6 +100,7 @@ def get_user_leaderboards(user_id):
     Response JSON: a list of objects with fields:
       - id
       - user_id
+      - username
       - scope
       - category_id
       - rank
@@ -111,20 +120,25 @@ def get_user_leaderboards(user_id):
         cur.execute(
             """
             SELECT
-              id,
-              user_id,
-              scope,
-              category_id,
-              rank,
-              score,
-              generated_at
-            FROM leaderboards
-            WHERE user_id = %s
-            ORDER BY generated_at DESC;
+              l.id,
+              l.user_id,
+              u.username,
+              u.avatar,
+              l.scope,
+              l.category_id,
+              l.rank,
+              l.score,
+              l.generated_at
+            FROM leaderboards l
+            JOIN users u ON l.user_id = u.id
+            WHERE l.user_id = %s
+            ORDER BY l.generated_at DESC;
             """,
             (user_id,),
         )
         rows = cur.fetchall()
+        # print(rows)
+
         return jsonify(rows), 200
 
     finally:
