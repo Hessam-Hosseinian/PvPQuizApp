@@ -3,13 +3,7 @@ from app import create_app
 from config import Config
 from app.db import get_db
 
-
-
-
-
-app = create_app(Config)
-
-
+app, socketio = create_app()
 
 def list_routes():
    
@@ -47,6 +41,6 @@ def health_check():
 
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    socketio.run(app, debug=True, port=5000)
  
 

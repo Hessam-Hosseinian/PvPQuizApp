@@ -419,7 +419,7 @@ def list_conversations():
             ) as rn
         FROM chat_messages
         WHERE
-            sender_id = %s OR recipient_id = %s
+            (sender_id = %s OR recipient_id = %s) AND recipient_id IS NOT NULL
     )
     SELECT
         lm.message as last_message,

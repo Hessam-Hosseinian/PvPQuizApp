@@ -3,9 +3,11 @@ from flask_cors import CORS
 from config import Config
 from . import db
 from flask_login import LoginManager
+from flask_socketio import SocketIO
 # from app.models.user import User
 
 login_manager = LoginManager()
+socketio = SocketIO()
 
 def create_app(config_class=Config):
     app = Flask(__name__)
@@ -38,8 +40,10 @@ def create_app(config_class=Config):
 
     app.config.from_object(config_class)
     
-    # Initialize database
+    # Initialize extensions
     db.init_app(app)
+    login_manager.init_app(app)
+    socketio.init_app(app, cors_allowed_origins="*")
    
     # Always initialize schema on app start
     with app.app_context():
@@ -48,7 +52,6 @@ def create_app(config_class=Config):
         except Exception as e:
             print(f"Schema initialization error: {e}")
 
-    login_manager.init_app(app)
     login_manager.login_view = "users.login_user"
 
     # # Register blueprints
@@ -68,7 +71,7 @@ def create_app(config_class=Config):
     app.register_blueprint(tags.tags_bp)
     app.register_blueprint(categories.categories_bp)
     app.register_blueprint(leaderboards.leaderboards_bp)
-    return app
+    return app, socketio
 
 @login_manager.user_loader
 def load_user(user_id):

@@ -1,13 +1,14 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { chatAPI } from '../../services/api';
-import { ChatRoom, Conversation } from '../../types';
+import { ChatRoom, Conversation, User } from '../../types';
 import Card from '../../components/UI/Card';
 import Button from '../../components/UI/Button';
 import LoadingSpinner from '../../components/UI/LoadingSpinner';
-import { MessageSquare, PlusCircle, Users, Mail } from 'lucide-react';
+import { MessageSquare, PlusCircle, Users, Mail, MessageSquarePlus } from 'lucide-react';
 import ChatRoomModal from '../../components/Chat/ChatRoomModal';
 import Avatar from '../../components/UI/Avatar';
 import DirectMessageThread from '../../components/Chat/DirectMessageThread';
+import NewConversationModal from '../../components/Chat/NewConversationModal';
 
 type ViewMode = 'rooms' | 'dms';
 
@@ -24,6 +25,7 @@ const ChatPage: React.FC = () => {
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [loadingDMs, setLoadingDMs] = useState(true);
   const [selectedConversation, setSelectedConversation] = useState<Conversation | null>(null);
+  const [isNewConversationModalOpen, setIsNewConversationModalOpen] = useState(false);
 
   const [error, setError] = useState<string | null>(null);
 
@@ -76,6 +78,20 @@ const ChatPage: React.FC = () => {
     }
   };
 
+  const handleSelectUser = (user: User) => {
+    // Create a temporary conversation object to open the thread
+    const newConversation: Conversation = {
+      other_user_id: user.id,
+      other_user_username: user.username,
+      other_user_avatar: user.avatar,
+      last_message: `Starting conversation with ${user.username}`,
+      last_message_at: new Date().toISOString(),
+      unread_count: 0,
+    };
+    setSelectedConversation(newConversation);
+    setIsNewConversationModalOpen(false);
+  };
+
   const renderRoomsView = () => (
     <>
       <header className="flex justify-between items-center mb-8">
@@ -114,10 +130,21 @@ const ChatPage: React.FC = () => {
         <h1 className="text-4xl font-bold text-white flex items-center">
           Direct Messages
         </h1>
-        {/* We can add a "New Message" button here later that opens a user search modal */}
+        <Button onClick={() => setIsNewConversationModalOpen(true)} className="flex items-center">
+          <MessageSquarePlus className="mr-2" size={20} />
+          New Message
+        </Button>
       </header>
       {loadingDMs ? (
         <div className="flex justify-center items-center h-64"><LoadingSpinner /></div>
+      ) : conversations.length === 0 ? (
+        <div className="text-center py-16">
+          <p className="text-gray-400 mb-4">You have no conversations yet.</p>
+          <Button onClick={() => setIsNewConversationModalOpen(true)}>
+            <MessageSquarePlus className="mr-2" size={20} />
+            Start a Conversation
+          </Button>
+        </div>
       ) : (
         <div className="bg-dark-800 rounded-lg shadow-lg">
           <ul className="divide-y divide-dark-700">
@@ -181,6 +208,12 @@ const ChatPage: React.FC = () => {
           room={selectedRoom}
         />
       )}
+
+      <NewConversationModal
+        isOpen={isNewConversationModalOpen}
+        onClose={() => setIsNewConversationModalOpen(false)}
+        onSelectUser={handleSelectUser}
+      />
     </div>
   );
 };

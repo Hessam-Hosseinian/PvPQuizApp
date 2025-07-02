@@ -6,8 +6,121 @@ from app.db import get_db, query_db, modify_db
 import psycopg2
 import random
 from datetime import datetime, timedelta
+from app import socketio
+from flask_socketio import join_room, leave_room
 
 games_bp = Blueprint("games_bp", __name__, url_prefix="/games")
+
+# --- Helper Function to get full game state ---
+def get_full_game_state_data(game_id, user_id=None):
+    """
+    A helper function to fetch the complete game state. 
+    Can be called from both HTTP endpoints and SocketIO events.
+    """
+    conn = get_db()
+    cur = conn.cursor()
+
+    cur.execute("""
+        SELECT g.id, g.game_type_id, g.status, gt.total_rounds
+        FROM games g
+        JOIN game_types gt ON g.game_type_id = gt.id
+        WHERE g.id = %s
+    """, (game_id,))
+    game = cur.fetchone()
+    if not game:
+        cur.close()
+        return None
+
+    cur.execute("""
+        SELECT gp.user_id, u.username, u.avatar, gp.score
+        FROM game_participants gp
+        JOIN users u ON gp.user_id = u.id
+        WHERE gp.game_id = %s 
+        ORDER BY gp.join_time ASC
+    """, (game_id,))
+    participants = [dict(row) for row in cur.fetchall()]
+    
+    scores = {p['user_id']: p['score'] for p in participants}
+
+    cur.execute("""
+        SELECT id, round_number, category_id, category_picker_id, status, start_time
+        FROM game_rounds 
+        WHERE game_id = %s 
+        ORDER BY round_number ASC
+    """, (game_id,))
+    rounds = cur.fetchall()
+    
+    current_round_data = None
+    active_round = next((r for r in rounds if r['status'] in ('pending', 'active')), None)
+    
+    if active_round:
+        round_id = active_round['id']
+        category_id = active_round['category_id']
+        
+        category_options = []
+        if not category_id:
+            cur.execute("SELECT id, name, description FROM categories ORDER BY RANDOM() LIMIT 3")
+            category_options = [dict(row) for row in cur.fetchall()]
+
+        questions = []
+        if category_id:
+            cur.execute("""
+                SELECT grq.question_id, q.text, qc.id as choice_id, qc.choice_text
+                FROM game_round_questions grq
+                JOIN questions q ON grq.question_id = q.id
+                JOIN question_choices qc ON q.id = qc.question_id
+                WHERE grq.game_round_id = %s
+                ORDER BY grq.question_id, qc.id
+            """, (round_id,))
+            
+            question_map = {}
+            for row in cur.fetchall():
+                qid = row['question_id']
+                if qid not in question_map:
+                    question_map[qid] = {'question_id': qid, 'text': row['text'], 'choices': []}
+                question_map[qid]['choices'].append({'choice_id': row['choice_id'], 'choice_text': row['choice_text']})
+            questions = list(question_map.values())
+
+        current_round_data = {
+            "round_number": active_round['round_number'],
+            "status": active_round['status'],
+            "category_id": category_id,
+            "category_picker_id": active_round['category_picker_id'],
+            "category_options": category_options,
+            "questions": questions,
+            "time_limit_seconds": 1000
+        }
+
+    cur.close()
+
+    return {
+        "game": dict(game),
+        "participants": participants,
+        "game_status": game['status'],
+        "total_rounds": game['total_rounds'],
+        "scores": scores,
+        "current_round": current_round_data
+    }
+
+
+# --- SocketIO Event Handlers ---
+@socketio.on('join_game')
+def on_join(data):
+    game_id = data['game_id']
+    room = f'game_{game_id}'
+    join_room(room)
+    print(f"Client joined room: {room}")
+    # Optionally, send the current state to the user who just joined
+    # state = get_full_game_state_data(game_id)
+    # if state:
+    #     socketio.emit('game_update', state, to=request.sid)
+
+@socketio.on('leave_game')
+def on_leave(data):
+    game_id = data['game_id']
+    room = f'game_{game_id}'
+    leave_room(room)
+    print(f"Client left room: {room}")
 
 
 @games_bp.route("/queue", methods=["POST"])
@@ -21,26 +134,26 @@ def enqueue_for_duel():
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود کاربر
+    # 1. Check if user exists
     cur.execute("SELECT 1 FROM users WHERE id = %s", (user_id,))
     if not cur.fetchone():
         cur.close()
         return jsonify({"error": f"User {user_id} not found"}), 404
 
-    # 2. بررسی نوع بازی
+    # 2. Check game type
     cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (game_type_id,))
     gt = cur.fetchone()
     if not gt:
         cur.close()
         return jsonify({"error": f"GameType {game_type_id} not found"}), 404
 
-    # 3. بررسی اینکه کاربر در حال حاضر در صف نباشد
+    # 3. Check if user is already in queue
     cur.execute("SELECT 1 FROM match_queue WHERE user_id = %s AND game_type_id = %s", (user_id, game_type_id))
     if cur.fetchone():
         cur.close()
         return jsonify({"error": "User already in queue"}), 400
 
-    # 4. درج در صف انتظار
+    # 4. Insert into match queue
     try:
         cur.execute("""
             INSERT INTO match_queue (user_id, game_type_id)
@@ -55,7 +168,7 @@ def enqueue_for_duel():
         cur.close()
         return jsonify({"error": str(e)}), 400
 
-    # 5. جستجوی هم‌جنس در صف: (یعنی کاربر دیگری با همین game_type_id)
+    # 5. Search for a match in the queue (another user with the same game_type_id)
     cur.execute("""
         SELECT id, user_id 
         FROM match_queue 
@@ -69,7 +182,7 @@ def enqueue_for_duel():
     if match_row:
         other_queue_id, other_user_id = match_row['id'], match_row['user_id']
         try:
-            # ایجاد رکورد جدید در games
+            # Create a new record in the games table
             cur.execute("""
                 INSERT INTO games (game_type_id, status)
                 VALUES (%s, 'pending')
@@ -77,37 +190,37 @@ def enqueue_for_duel():
             """, (game_type_id,))
             new_game_id = cur.fetchone()["id"]
             
-            # حذف دو نفر از صف
+            # Remove both users from the queue
             cur.execute(
                 "DELETE FROM match_queue WHERE id IN (%s, %s)",
                 (queue_entry["id"], other_queue_id)
             )
             
 
-            # درج در game_participants
+            # Insert into game_participants
             cur.execute("""
                 INSERT INTO game_participants (game_id, user_id)
                 VALUES (%s, %s), (%s, %s)
             """, (new_game_id, user_id, new_game_id, other_user_id))
 
-            # ساخت راندها و فعال‌سازی بازی
+            # Create rounds and activate the game
             cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (game_type_id,))
             total_rounds = cur.fetchone()['total_rounds']
             
             player_ids = [user_id, other_user_id]
-            picker_id = random.choice(player_ids) # انتخاب تصادفی نفر اول
+            picker_id = random.choice(player_ids) # Randomly choose the first picker
 
             for r in range(1, total_rounds + 1):
                 cur.execute("""
                     INSERT INTO game_rounds 
                       (game_id, round_number, category_id, category_picker_id, status, time_limit_seconds, points_possible)
                     VALUES 
-                      (%s, %s, NULL, %s, 'pending', 30, 100)
+                      (%s, %s, NULL, %s, 'pending', 1000, 100)
                 """, (new_game_id, r, picker_id))
-                # تعویض نوبت برای راند بعدی
+                # Switch picker for the next round
                 picker_id = player_ids[0] if picker_id == player_ids[1] else player_ids[1]
 
-            # تغییر وضعیت بازی به active و ثبت start_time
+            # Change game status to active and set the start_time
             cur.execute("""
                 UPDATE games
                 SET status = 'active', start_time = NOW()
@@ -148,7 +261,7 @@ def send_invitation():
     conn = get_db()
     cur = conn.cursor()
     
-    # 1. بررسی وجود inviter و invitee
+    # 1. Check if inviter and invitee exist
     cur.execute("SELECT 1 FROM users WHERE id = %s", (inviter_id,))
     if not cur.fetchone():
         cur.close()
@@ -158,7 +271,7 @@ def send_invitation():
         cur.close()
         return jsonify({"error": f"User {invitee_id} not found"}), 404
 
-    # 2. بررسی این‌که invitee در یک بازی فعال یا صف انتظار نباشد
+    # 2. Check if invitee is in an active game or queue
     cur.execute("""
         SELECT 1 
         FROM game_participants gp
@@ -174,7 +287,7 @@ def send_invitation():
         cur.close()
         return jsonify({"error": "Invitee currently in match queue"}), 400
 
-    # 3. بررسی اینکه دعوت‌نامه‌ی درحال انتظار مشابه وجود نداشته باشد
+    # 3. Check for an existing pending invitation
     cur.execute("""
         SELECT 1 
         FROM game_invitations 
@@ -184,7 +297,7 @@ def send_invitation():
         cur.close()
         return jsonify({"error": "Already invited"}), 400
 
-    # 4. درج دعوت‌نامه
+    # 4. Insert the invitation
     try:
         cur.execute("""
             INSERT INTO game_invitations (inviter_id, invitee_id, status)
@@ -219,7 +332,7 @@ def respond_to_invitation():
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود دعوت‌نامه و تطبیق invitee
+    # 1. Check for invitation existence and match invitee
     cur.execute("""
         SELECT inviter_id, invitee_id, status 
         FROM game_invitations
@@ -238,7 +351,7 @@ def respond_to_invitation():
         cur.close()
         return jsonify({"error": f"Invitation already {status_db}"}), 400
 
-    # 2. رد دعوت‌نامه
+    # 2. Reject the invitation
     if action in ("decline", "reject"):
         try:
             cur.execute("DELETE FROM game_invitations WHERE id = %s", (inv_id,))
@@ -253,14 +366,14 @@ def respond_to_invitation():
 
     # action == "accept"
     try:
-        # تغییر وضعیت دعوت‌نامه به 'accepted'
+        # Change invitation status to 'accepted'
         cur.execute("""
             UPDATE game_invitations
             SET status = 'accepted'
             WHERE id = %s
         """, (inv_id,))
 
-        # ایجاد بازی دو نفره (فرض game_type_id = 1 برای duel)
+        # Create a duel game (assuming game_type_id = 1 for duel)
         cur.execute("""
             INSERT INTO games (game_type_id, status)
             VALUES (1, 'pending')
@@ -268,37 +381,37 @@ def respond_to_invitation():
         """)
         new_game_id = cur.fetchone()['id']
 
-        # درج هر دو شرکت‌کننده
+        # Insert both participants
         cur.execute("""
             INSERT INTO game_participants (game_id, user_id)
             VALUES (%s, %s), (%s, %s)
         """, (new_game_id, inviter_id_db, new_game_id, invitee_id_db))
 
-        # بروزرسانی game_id در invitation
+        # Update the game_id in the invitation
         cur.execute("""
             UPDATE game_invitations
             SET game_id = %s
             WHERE id = %s
         """, (new_game_id, inv_id))
 
-        # ساخت راندها و فعال‌سازی بازی
+        # Create rounds and activate the game
         cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (1,))
         total_rounds = cur.fetchone()['total_rounds']
         
         player_ids = [inviter_id_db, invitee_id_db]
-        picker_id = random.choice(player_ids) # انتخاب تصادفی نفر اول
+        picker_id = random.choice(player_ids) # Randomly choose the first picker
 
         for r in range(1, total_rounds + 1):
             cur.execute("""
                 INSERT INTO game_rounds 
                   (game_id, round_number, category_id, category_picker_id, status, time_limit_seconds, points_possible)
                 VALUES 
-                  (%s, %s, NULL, %s, 'pending', 30, 100)
+                  (%s, %s, NULL, %s, 'pending', 1000, 100)
             """, (new_game_id, r, picker_id))
-            # تعویض نوبت برای راند بعدی
+            # Switch picker for the next round
             picker_id = player_ids[0] if picker_id == player_ids[1] else player_ids[1]
 
-        # تغییر وضعیت بازی به active و ثبت start_time
+        # Change game status to active and set start_time
         cur.execute("""
             UPDATE games
             SET status = 'active', start_time = NOW()
@@ -324,7 +437,7 @@ def start_duel_game(game_id):
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود بازی و وضعیت pending
+    # 1. Check for game existence and pending status
     cur.execute("SELECT game_type_id, status FROM games WHERE id = %s", (game_id,))
     row = cur.fetchone()
     if not row:
@@ -335,7 +448,7 @@ def start_duel_game(game_id):
         cur.close()
         return jsonify({"error": f"Cannot start game in status {status_db}"}), 400
 
-    # 2. گرفتن تعداد راندها از game_type
+    # 2. Get number of rounds from game_type
     cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (game_type_id_db,))
     total_rounds_row = cur.fetchone()
     if not total_rounds_row:
@@ -344,20 +457,20 @@ def start_duel_game(game_id):
     total_rounds = total_rounds_row['total_rounds']
 
     try:
-        # 3. تغییر وضعیت به active و ثبت start_time
+        # 3. Change status to active and set start_time
         cur.execute("""
             UPDATE games
             SET status = 'active', start_time = NOW()
             WHERE id = %s
         """, (game_id,))
 
-        # 4. تعداد راندهای خالی با category_id = NULL
+        # 4. Create empty rounds with category_id = NULL
         for r in range(1, total_rounds + 1):
             cur.execute("""
                 INSERT INTO game_rounds 
                   (game_id, round_number, category_id, category_picker_id, status, time_limit_seconds, points_possible)
                 VALUES 
-                  (%s, %s, NULL, NULL, 'pending', 30, 100)
+                  (%s, %s, NULL, NULL, 'pending', 1000, 100)
             """, (game_id, r))
 
         conn.commit()
@@ -385,91 +498,58 @@ def pick_category_for_round(game_id, round_number):
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود بازی و وضعیت active
+    # 1. Check for game existence and active status
     cur.execute("SELECT status FROM games WHERE id = %s", (game_id,))
     row = cur.fetchone()
-    if not row:
-        cur.close()
-        return jsonify({"error": "Game not found"}), 404
-    game_status = row['status']
-    if game_status != 'active':
-        cur.close()
-        return jsonify({"error": f"Cannot pick category in game status {game_status}"}), 400
+    if not row or row['status'] != 'active':
+        cur.close(); return jsonify({"error": "Game not found or not active"}), 404
 
-    # 2. بررسی این‌که user_id شرکت‌کنندهٔ بازی باشد
-    cur.execute("""
-        SELECT 1 FROM game_participants 
-        WHERE game_id = %s AND user_id = %s
-    """, (game_id, user_id))
+    # 2. Check if user_id is a participant of the game
+    cur.execute("SELECT 1 FROM game_participants WHERE game_id = %s AND user_id = %s", (game_id, user_id))
     if not cur.fetchone():
-        cur.close()
-        return jsonify({"error": "User not a participant of this game"}), 403
+        cur.close(); return jsonify({"error": "User not a participant"}), 403
 
-    # 3. بررسی وجود راند و خالی بودن category_id
-    cur.execute("""
-        SELECT id, category_id, status 
-        FROM game_rounds 
-        WHERE game_id = %s AND round_number = %s
-    """, (game_id, round_number))
+    # 3. Check for round existence and empty category_id
+    cur.execute("SELECT id, category_id, status, category_picker_id FROM game_rounds WHERE game_id = %s AND round_number = %s", (game_id, round_number))
     rnd = cur.fetchone()
     if not rnd:
-        cur.close()
-        return jsonify({"error": "Round not found"}), 404
-    round_id_db, category_id_db, round_status_db = rnd['id'], rnd['category_id'], rnd['status']
+        cur.close(); return jsonify({"error": "Round not found"}), 404
+    round_id_db, category_id_db, picker_id_db = rnd['id'], rnd['category_id'], rnd['category_picker_id']
+    
+    # Check if it's the user's turn to pick
+    if picker_id_db != user_id:
+        cur.close(); return jsonify({"error": "Not your turn to pick"}), 403
+        
     if category_id_db is not None:
-        cur.close()
-        return jsonify({"error": "Category already picked"}), 400
-    if round_status_db not in ('pending', 'active'):
-        cur.close()
-        return jsonify({"error": f"Cannot pick category in round status {round_status_db}"}), 400
+        cur.close(); return jsonify({"error": "Category already picked"}), 400
 
-    # 4. بررسی وجود دسته‌بندی معتبر
+    # 4. Check for a valid category
     cur.execute("SELECT 1 FROM categories WHERE id = %s", (category_id,))
     if not cur.fetchone():
-        cur.close()
-        return jsonify({"error": "Category not found"}), 404
+        cur.close(); return jsonify({"error": "Category not found"}), 404
 
     try:
-        # 5. به‌روزرسانی دسته‌بندی و وضعیت راند
-        cur.execute("""
-            UPDATE game_rounds
-            SET category_id = %s, category_picker_id = %s, status = 'active', start_time = NOW()
-            WHERE id = %s
-            RETURNING id
-        """, (category_id, user_id, round_id_db))
-        updated_round_id = cur.fetchone()['id']
-
-        # 6. انتخاب ۳ سؤال تصادفی از آن دسته‌بندی
-        cur.execute("""
-            SELECT id 
-            FROM questions 
-            WHERE category_id = %s AND is_verified = TRUE
-            ORDER BY RANDOM()
-            LIMIT 3
-        """, (category_id,))
+        # 5. Update the category and round status
+        cur.execute("UPDATE game_rounds SET category_id = %s, status = 'active', start_time = NOW() WHERE id = %s", (category_id, round_id_db))
+        
+        cur.execute("SELECT id FROM questions WHERE category_id = %s AND is_verified = TRUE ORDER BY RANDOM() LIMIT 3", (category_id,))
         questions_sample = cur.fetchall()
-       
         question_ids = [q['id'] for q in questions_sample]
 
-        # 7. درج در game_round_questions
         for qid in question_ids:
-            cur.execute("""
-                INSERT INTO game_round_questions (game_round_id, question_id)
-                VALUES (%s, %s)
-            """, (updated_round_id, qid))
+            cur.execute("INSERT INTO game_round_questions (game_round_id, question_id) VALUES (%s, %s)", (round_id_db, qid))
 
         conn.commit()
+
+        # Emit update to all clients in the game room
+        game_state = get_full_game_state_data(game_id)
+        socketio.emit('game_update', game_state, room=f'game_{game_id}')
+
     except psycopg2.Error as e:
-        conn.rollback()
-        cur.close()
-        return jsonify({"error": str(e)}), 500
+        conn.rollback(); cur.close(); return jsonify({"error": str(e)}), 500
 
     cur.close()
-    return jsonify({
-        "message": "Category picked and questions assigned",
-        "round_id": updated_round_id,
-        "question_ids": question_ids
-    }), 200
+    return jsonify({"message": "Category picked"}), 200
 
 
 @games_bp.route("/<int:game_id>/rounds/<int:round_number>/answer", methods=["POST"])
@@ -484,7 +564,7 @@ def submit_answer(game_id, round_number):
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وضعیت بازی
+    # 1. Check game status
     cur.execute("SELECT status FROM games WHERE id = %s", (game_id,))
     row_game = cur.fetchone()
     if not row_game:
@@ -494,7 +574,7 @@ def submit_answer(game_id, round_number):
         cur.close()
         return jsonify({"error": "Game is not active"}), 400
 
-    # 2. بررسی وضعیت راند و گرفتن points_possible و time_limit
+    # 2. Check round status and get points_possible and time_limit
     cur.execute("""
         SELECT id, points_possible, start_time, time_limit_seconds 
         FROM game_rounds 
@@ -506,14 +586,14 @@ def submit_answer(game_id, round_number):
         return jsonify({"error": "Round not found"}), 404
     round_id_db, points_possible, round_start, time_limit_seconds = row_rnd['id'], row_rnd['points_possible'], row_rnd['start_time'], row_rnd['time_limit_seconds']
 
-    # بررسی اینکه راند فعال باشد
+    # Check if the round is active
     cur.execute("SELECT status FROM game_rounds WHERE id = %s", (round_id_db,))
     if cur.fetchone()['status'] != 'active':
         cur.close()
         return jsonify({"error": "Round is not active"}), 400
 
 
-    # 3. بررسی منقضی بودن زمان
+    # 3. Check for time expiration
     if time_limit_seconds is not None and round_start is not None:
         grace_period = 5  # 5-second grace period for API calls / client-side lag
         elapsed = (datetime.now() - round_start).total_seconds()
@@ -521,7 +601,7 @@ def submit_answer(game_id, round_number):
             cur.close()
             return jsonify({"error": "Time limit exceeded"}), 400
 
-    # 4. بررسی شرکت‌کننده بودن user_id
+    # 4. Check if user_id is an active participant
     cur.execute("""
         SELECT 1 
         FROM game_participants 
@@ -531,7 +611,7 @@ def submit_answer(game_id, round_number):
         cur.close()
         return jsonify({"error": "User not active participant"}), 403
 
-    # 5. یافتن game_round_question_id
+    # 5. Find game_round_question_id
     cur.execute("""
         SELECT grq.id 
         FROM game_round_questions grq
@@ -544,7 +624,7 @@ def submit_answer(game_id, round_number):
         return jsonify({"error": "Question not found in this round"}), 400
     game_round_question_id = grq_row['id']
 
-    # 6. بررسی ارسال دوبارهٔ پاسخ
+    # 6. Check for duplicate answer submission
     cur.execute("""
         SELECT 1 
         FROM round_answers 
@@ -554,7 +634,7 @@ def submit_answer(game_id, round_number):
         cur.close()
         return jsonify({"error": "Already answered"}), 400
 
-    # 7. اعتبارسنجی choice_id و تعیین is_correct
+    # 7. Validate choice_id and determine is_correct
     cur.execute("""
         SELECT is_correct 
         FROM question_choices 
@@ -578,7 +658,7 @@ def submit_answer(game_id, round_number):
     correct_choice_id = correct_choice_row['id'] if correct_choice_row else None
 
 
-    # 8. درج در round_answers و به‌روزرسانی امتیاز شرکت‌کننده
+    # 8. Insert into round_answers and update participant's score
     try:
         cur.execute("""
             INSERT INTO round_answers 
@@ -620,7 +700,7 @@ def complete_round(game_id, round_number):
     cur = conn.cursor()
 
     try:
-        # 1. یافتن id راند و بررسی وضعیت
+        # 1. Find round ID and check status
         cur.execute("""
             SELECT id, status, category_id
             FROM game_rounds 
@@ -635,12 +715,12 @@ def complete_round(game_id, round_number):
         round_status = row['status']
         category_id = row['category_id']
         
-        # اگر راند قبلاً complete شده باشد، پیام موفقیت برگردان
+        # If the round is already completed, return a success message
         if round_status == 'completed':
             cur.close()
             return jsonify({"message": f"Round {round_number} already completed"}), 200
         
-        # بررسی اینکه راند فعال باشد و کتگوری انتخاب شده باشد
+        # Check that the round is active and a category has been selected
         if round_status != 'active':
             cur.close()
             return jsonify({"error": f"Cannot complete round in status {round_status}"}), 400
@@ -649,7 +729,7 @@ def complete_round(game_id, round_number):
             cur.close()
             return jsonify({"error": "Category not selected for this round"}), 400
         
-        # 2. شمارش تعداد شرکت‌کننده‌ها و سوالات این راند
+        # 2. Count the number of participants and questions in this round
         cur.execute("SELECT COUNT(*) FROM game_participants WHERE game_id = %s", (game_id,))
         num_players = cur.fetchone()['count']
 
@@ -658,7 +738,7 @@ def complete_round(game_id, round_number):
 
         expected_answers = num_players * num_questions
 
-        # 3. شمارش پاسخ‌ها
+        # 3. Count the answers
         cur.execute("""
             SELECT COUNT(*) 
             FROM round_answers 
@@ -674,14 +754,14 @@ def complete_round(game_id, round_number):
             cur.close()
             return jsonify({"error": f"Not all answers submitted yet. Expected: {expected_answers}, Submitted: {answer_count}"}), 400
              
-        # 4. بروزرسانی وضعیت راند
+        # 4. Update the round status
         cur.execute("""
             UPDATE game_rounds
             SET status = 'completed', end_time = NOW()
             WHERE id = %s
         """, (round_id_db,))
         
-        # 5. فعال‌سازی راند بعدی اگر وجود داشته باشد
+        # 5. Activate the next round if it exists
         cur.execute("""
             SELECT id, round_number 
             FROM game_rounds 
@@ -691,7 +771,7 @@ def complete_round(game_id, round_number):
         
         if next_round:
             print(f"Activating next round: {next_round['round_number']}")
-            # فعال‌سازی راند بعدی با وضعیت pending برای انتخاب کتگوری
+            # Activate the next round with 'pending' status for category selection
             cur.execute("""
                 UPDATE game_rounds
                 SET status = 'pending', start_time = NOW()
@@ -703,10 +783,14 @@ def complete_round(game_id, round_number):
             # Check what rounds exist
             cur.execute("SELECT round_number, status FROM game_rounds WHERE game_id = %s ORDER BY round_number", (game_id,))
             all_rounds = cur.fetchall()
-            print(f"All rounds in game: {[(r['round_number'], r['status']) for r in all_rounds]}")
+            print(f"All rounds in game: {[(r['round_number'], r['status'], r['category_id']) for r in all_rounds]}")
         
         conn.commit()
         print(f"Round {round_number} completed successfully")
+        
+        # Emit update to all clients in the game room
+        game_state = get_full_game_state_data(game_id)
+        socketio.emit('game_update', game_state, room=f'game_{game_id}')
         
     except psycopg2.Error as e:
         conn.rollback()
@@ -728,7 +812,7 @@ def complete_duel_game(game_id):
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود بازی و وضعیت active
+    # 1. Check for game existence and active status
     cur.execute("SELECT status FROM games WHERE id = %s", (game_id,))
     row = cur.fetchone()
     if not row:
@@ -738,7 +822,7 @@ def complete_duel_game(game_id):
         cur.close()
         return jsonify({"error": f"Cannot complete game in status {row['status']}"}), 400
 
-    # 2. بررسی اینکه همهٔ راندها به پایان رسیده باشند
+    # 2. Check if all rounds have been completed
     cur.execute("""
         SELECT COUNT(*) 
         FROM game_rounds 
@@ -749,7 +833,7 @@ def complete_duel_game(game_id):
         cur.close()
         return jsonify({"error": "Pending rounds remain"}), 400
 
-    # 3. یافتن کاربر با بیشترین امتیاز
+    # 3. Find the user with the highest score
     cur.execute("""
         SELECT user_id, score 
         FROM game_participants 
@@ -763,7 +847,7 @@ def complete_duel_game(game_id):
         return jsonify({"error": "No participants found"}), 400
     winner_id, winner_score = winner_row['user_id'], winner_row['score']
     
-    # 4. بروزرسانی جدول games
+    # 4. Update the games table
     try:
         cur.execute("""
             UPDATE games
@@ -774,7 +858,10 @@ def complete_duel_game(game_id):
         result = cur.fetchone()
         
         conn.commit()
-     
+        
+        # Emit final update
+        game_state = get_full_game_state_data(game_id)
+        socketio.emit('game_update', game_state, room=f'game_{game_id}')
 
     except psycopg2.Error as e:
         conn.rollback()
@@ -803,7 +890,7 @@ def create_group_game():
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود creator_id و هر participant_id
+    # 1. Check for existence of creator_id and each participant_id
     cur.execute("SELECT 1 FROM users WHERE id = %s", (creator_id,))
     if not cur.fetchone():
         cur.close()
@@ -815,7 +902,7 @@ def create_group_game():
             cur.close()
             return jsonify({"error": f"User {pid} not found"}), 404
 
-    # 2. ساخت بازی گروهی
+    # 2. Create the group game
     try:
         cur.execute("""
             INSERT INTO games (game_type_id, status)
@@ -824,26 +911,26 @@ def create_group_game():
         """, (game_type_id,))
         new_game_id = cur.fetchone()['id']
 
-        # 3. درج شرکت‌کننده‌ها
+        # 3. Insert participants
         for pid in participant_ids:
             cur.execute("""
                 INSERT INTO game_participants (game_id, user_id)
                 VALUES (%s, %s)
             """, (new_game_id, pid))
 
-        # 4. گرفتن تعداد راندها از game_types
+        # 4. Get number of rounds from game_types
         cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (game_type_id,))
         total_rounds = cur.fetchone()['total_rounds']
 
-        # 5. ایجاد هر راند با category_id = NULL
+        # 5. Create each round with category_id = NULL
         for r in range(1, total_rounds + 1):
             cur.execute("""
                 INSERT INTO game_rounds 
                   (game_id, round_number, category_id, category_picker_id, status, time_limit_seconds, points_possible)
-                VALUES (%s, %s, NULL, NULL, 'pending', 30, 100)
+                VALUES (%s, %s, NULL, NULL, 'pending', 1000, 100)
             """, (new_game_id, r))
 
-        # 6. تغییر وضعیت بازی به active و درج start_time
+        # 6. Change game status to active and set start_time
         cur.execute("""
             UPDATE games
             SET status = 'active', start_time = NOW()
@@ -870,7 +957,7 @@ def assign_categories_group(game_id):
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود بازی و وضعیت active
+    # 1. Check for game existence and active status
     cur.execute("SELECT status, game_type_id FROM games WHERE id = %s", (game_id,))
     row = cur.fetchone()
     if not row:
@@ -881,11 +968,11 @@ def assign_categories_group(game_id):
         cur.close()
         return jsonify({"error": "Game is not active"}), 400
 
-    # 2. تعداد راندها
+    # 2. Number of rounds
     cur.execute("SELECT total_rounds FROM game_types WHERE id = %s", (game_type_id_db,))
     total_rounds = cur.fetchone()['total_rounds']
 
-    # 3. فهرست دسته‌بندی‌ها
+    # 3. List of categories
     cur.execute("SELECT id FROM categories")
     cat_rows = cur.fetchall()
     category_ids = [c['id'] for c in cat_rows]
@@ -898,7 +985,7 @@ def assign_categories_group(game_id):
         for r in range(1, total_rounds + 1):
             chosen_cat = random.choice(category_ids)
 
-            # 4. به‌روزرسانی game_rounds
+            # 4. Update game_rounds
             cur.execute("""
                 UPDATE game_rounds
                 SET category_id = %s, category_picker_id = NULL, status = 'active', start_time = NOW()
@@ -907,7 +994,7 @@ def assign_categories_group(game_id):
             """, (chosen_cat, game_id, r))
             round_id_db = cur.fetchone()['id']
 
-            # 5. انتخاب یک سؤال تصادفی از آن دسته
+            # 5. Select one random question from that category
             cur.execute("""
                 SELECT id 
                 FROM questions 
@@ -920,7 +1007,7 @@ def assign_categories_group(game_id):
                 raise Exception(f"No verified questions in category {chosen_cat}")
             question_id = q_row['id']
 
-            # درج در game_round_questions
+            # Insert into game_round_questions
             cur.execute("""
                 INSERT INTO game_round_questions (game_round_id, question_id)
                 VALUES (%s, %s)
@@ -951,7 +1038,7 @@ def complete_group_game(game_id):
     conn = get_db()
     cur = conn.cursor()
 
-    # 1. بررسی وجود بازی و وضعیت active
+    # 1. Check for game existence and active status
     cur.execute("SELECT status FROM games WHERE id = %s", (game_id,))
     row = cur.fetchone()
     if not row:
@@ -961,7 +1048,7 @@ def complete_group_game(game_id):
         cur.close()
         return jsonify({"error": f"Cannot complete game in status {row['status']}"}), 400
 
-    # 2. بررسی اینکه همهٔ راندها completed شده باشند
+    # 2. Check if all rounds are completed
     cur.execute("""
         SELECT COUNT(*) 
         FROM game_rounds 
@@ -972,7 +1059,7 @@ def complete_group_game(game_id):
         cur.close()
         return jsonify({"error": "Not all rounds completed"}), 400
 
-    # 3. یافتن شرکت‌کننده با بیشترین امتیاز
+    # 3. Find the participant with the highest score
     cur.execute("""
         SELECT user_id, score 
         FROM game_participants 
@@ -986,7 +1073,7 @@ def complete_group_game(game_id):
         return jsonify({"error": "No participants found"}), 400
     winner_id, winner_score = winner_row['user_id'], winner_row['score']
 
-    # 4. بروزرسانی در جدول games
+    # 4. Update the games table
     try:
         cur.execute("""
             UPDATE games
@@ -1013,147 +1100,10 @@ def complete_group_game(game_id):
 @games_bp.route("/<int:game_id>/state", methods=["GET"])
 def get_game_state(game_id):
     user_id = request.args.get("user_id", type=int)
-    conn = get_db()
-    cur = conn.cursor()
-
-    # Get game info with single optimized query
-    cur.execute("""
-        SELECT g.id, g.game_type_id, g.status, gt.total_rounds
-        FROM games g
-        JOIN game_types gt ON g.game_type_id = gt.id
-        WHERE g.id = %s
-    """, (game_id,))
-    game = cur.fetchone()
-    if not game:
-        cur.close()
+    state = get_full_game_state_data(game_id, user_id)
+    if not state:
         return jsonify({"error": "Game not found"}), 404
-
-    # Get participants with user details in single query
-    cur.execute("""
-        SELECT gp.user_id, u.username, u.avatar, gp.score
-        FROM game_participants gp
-        JOIN users u ON gp.user_id = u.id
-        WHERE gp.game_id = %s 
-        ORDER BY gp.join_time ASC
-    """, (game_id,))
-    participants = [dict(row) for row in cur.fetchall()]
-    
-    # Create scores dict from participants
-    scores = {p['user_id']: p['score'] for p in participants}
-
-    # Get all rounds with optimized query
-    cur.execute("""
-        SELECT id, round_number, category_id, category_picker_id, status, start_time
-        FROM game_rounds 
-        WHERE game_id = %s 
-        ORDER BY round_number ASC
-    """, (game_id,))
-    rounds = cur.fetchall()
-    
-    # Find current round: first round that is pending or active
-    current_round = None
-    for r in rounds:
-        if r['status'] in ('pending', 'active'):
-            current_round = r
-            break
-    
-    print(f"Current round detection: Found round {current_round['round_number'] if current_round else 'None'} with status {current_round['status'] if current_round else 'None'}")
-    print(f"All rounds status: {[(r['round_number'], r['status'], r['category_id']) for r in rounds]}")
-    
-    if not current_round:
-        # All rounds completed
-        cur.close()
-        return jsonify({
-            "game": dict(game),
-            "participants": participants,
-            "rounds": [dict(r) for r in rounds],
-            "game_status": game['status'],
-            "current_round": None,
-            "total_rounds": game['total_rounds'],
-            "scores": scores
-        })
-
-    round_number = current_round['round_number']
-    round_id = current_round['id']
-    category_id = current_round['category_id']
-    picker_id = current_round['category_picker_id']
-    round_status = current_round['status']
-
-    # If category not picked, suggest 3 random categories
-    category_options = []
-    if not category_id:
-        cur.execute("SELECT id, name, description FROM categories ORDER BY RANDOM() LIMIT 3")
-        category_options = [dict(row) for row in cur.fetchall()]
-
-    # If category picked, get questions for this round with optimized query
-    questions = []
-    if category_id:
-        cur.execute("""
-            SELECT grq.question_id, q.text, qc.id as choice_id, qc.choice_text, qc.is_correct
-            FROM game_round_questions grq
-            JOIN questions q ON grq.question_id = q.id
-            JOIN question_choices qc ON q.id = qc.question_id
-            WHERE grq.game_round_id = %s
-            ORDER BY grq.question_id, qc.id
-        """, (round_id,))
-        
-        # Group choices by question
-        question_map = {}
-        for row in cur.fetchall():
-            qid = row['question_id']
-            if qid not in question_map:
-                question_map[qid] = {
-                    'question_id': qid,
-                    'text': row['text'],
-                    'choices': []
-                }
-            question_map[qid]['choices'].append({
-                'choice_id': row['choice_id'],
-                'choice_text': row['choice_text'],
-                'is_correct': row['is_correct']
-            })
-        questions = list(question_map.values())
-
-    # Get answers for this user (if user_id provided) with optimized query
-    answers = []
-    if user_id and category_id:
-        cur.execute("""
-            SELECT grq.question_id, ra.choice_id, ra.user_id, ra.is_correct
-            FROM round_answers ra
-            JOIN game_round_questions grq ON ra.game_round_question_id = grq.id
-            WHERE grq.game_round_id = %s
-        """, (round_id,))
-        answers = [dict(row) for row in cur.fetchall()]
-
-    # Determine whose turn it is to pick category
-    picker_turn = None
-    if not category_id:
-        # Alternate between participants by round number
-        picker_turn = participants[(round_number-1) % len(participants)]['user_id']
-        print(f"Category picker calculation: round_number={round_number}, participants={len(participants)}, picker_turn={picker_turn}")
-
-    print(f"Returning game state: round_number={round_number}, category_id={category_id}, picker_turn={picker_turn}, category_options_count={len(category_options)}")
-    
-    cur.close()
-    return jsonify({
-        "game": dict(game),
-        "participants": participants,
-        "rounds": [dict(r) for r in rounds],
-        "game_status": game['status'],
-        "total_rounds": game['total_rounds'],
-        "scores": scores,
-        "current_round": {
-            "round_number": round_number,
-            "status": round_status,
-            "category_id": category_id,
-            "category_picker_id": picker_id,
-            "category_options": category_options,
-            "questions": questions,
-            "answers": answers,
-            "picker_turn": picker_turn,
-            "time_limit_seconds": 30  # Default time limit for questions
-        }
-    })
+    return jsonify(state)
 
 
 @games_bp.route("/queue/status", methods=["GET"])

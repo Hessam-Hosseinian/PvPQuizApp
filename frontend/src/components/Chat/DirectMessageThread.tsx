@@ -74,7 +74,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
         <Button variant="ghost" size="icon" className="mr-2 lg:hidden" onClick={onClose}>
           <ArrowLeft size={20} />
         </Button>
-        <Avatar src={conversation.other_user_avatar} username={conversation.other_user_username} size="md" />
+        <Avatar src={conversation.other_user_avatar} alt={conversation.other_user_username} size="md" />
         <h2 className="text-xl font-bold text-white ml-3">{conversation.other_user_username}</h2>
       </header>
 
@@ -94,7 +94,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
               >
                 <Avatar
                   src={msg.sender_avatar}
-                  username={msg.sender_username}
+                  alt={msg.sender_username}
                   size="md"
                 />
                 <div

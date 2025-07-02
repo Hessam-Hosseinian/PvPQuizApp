@@ -1,13 +1,27 @@
 #!/usr/bin/env python3
 import psycopg2
 import os
+import sys  # Import the sys module
 from config import Config
 
-def run_migration():
-    """Run the avatar migration"""
+def run_migration(sql_file_path):
+    """Run a given SQL migration file"""
     conn = None
     cur = None
     try:
+        # Check if the file exists
+        if not os.path.exists(sql_file_path):
+            print(f"Error: Migration file not found at '{sql_file_path}'")
+            return
+
+        # Read the SQL from the file
+        with open(sql_file_path, 'r') as f:
+            sql_script = f.read()
+        
+        if not sql_script.strip():
+            print("Warning: Migration file is empty. No action taken.")
+            return
+
         # Get database configuration
         config = Config()
         
@@ -18,26 +32,12 @@ def run_migration():
         conn = psycopg2.connect(DATABASE_URL)
         cur = conn.cursor()
         
-        # Check if avatar column already exists
-        cur.execute("""
-            SELECT column_name 
-            FROM information_schema.columns 
-            WHERE table_name = 'users' AND column_name = 'avatar'
-        """)
-        
-        if cur.fetchone():
-            print("Avatar column already exists!")
-            return
-        
-        # Add avatar column
-        cur.execute("ALTER TABLE users ADD COLUMN avatar VARCHAR(255)")
-        
-        # Create index for avatar lookups
-        cur.execute("CREATE INDEX IF NOT EXISTS idx_users_avatar ON users(avatar) WHERE avatar IS NOT NULL")
+        # Execute the SQL script
+        cur.execute(sql_script)
         
         # Commit changes
         conn.commit()
-        print("Migration completed successfully! Avatar column added to users table.")
+        print(f"Migration from '{sql_file_path}' completed successfully!")
         
     except Exception as e:
         print(f"Migration failed: {e}")
@@ -50,4 +50,9 @@ def run_migration():
             conn.close()
 
 if __name__ == "__main__":
-    run_migration() 
+    if len(sys.argv) < 2:
+        print("Usage: python run_migration.py <path_to_sql_file>")
+        sys.exit(1)
+        
+    sql_file = sys.argv[1]
+    run_migration(sql_file) 

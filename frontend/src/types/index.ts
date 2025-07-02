@@ -177,3 +177,45 @@ export interface Conversation {
   last_message_at: string;
   unread_count: number;
 }
+
+// --- Game Page Specific Types ---
+
+export interface GamePlayer {
+  user_id: number;
+  username: string;
+  avatar: string;
+  score: number;
+}
+
+export interface GameQuestionChoice {
+  choice_id: number;
+  choice_text: string;
+}
+
+export interface GameQuestion {
+  question_id: number;
+  text: string;
+  choices: GameQuestionChoice[];
+}
+
+export interface LiveGameState {
+  game_id: number;
+  game_status: string;
+  total_rounds: number;
+  current_round: {
+    round_number: number;
+    status: string;
+    category_id: number | null;
+    category_name?: string;
+    category_picker_id: number | null;
+    category_options: { id: number; name: string }[];
+    questions: GameQuestion[];
+    answers: any[];
+  };
+  participants: GamePlayer[];
+}
+
+export interface RevealedAnswer {
+  question_id: number;
+  correct_choice_id: number;
+}

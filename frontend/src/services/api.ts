@@ -162,7 +162,7 @@ export class GameWebSocket {
   private listeners: Map<string, Function[]> = new Map();
 
   connect(gameId: number, userId: number) {
-    const wsUrl = `ws://localhost:5000/ws/game/${gameId}?user_id=${userId}`;
+    const wsUrl = `ws://127.0.0.1:5000/ws/game/${gameId}?user_id=${userId}`;
     
     this.ws = new WebSocket(wsUrl);
     
