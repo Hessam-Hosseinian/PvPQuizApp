@@ -186,9 +186,13 @@ def list_messages(room_id):
     cur.execute(
         """
         SELECT m.id, m.room_id, m.sender_id, u.username as sender_username, u.avatar as sender_avatar, 
-               m.reply_to_id, m.message, m.is_edited, m.is_deleted, m.sent_at
+               m.reply_to_id, m.message, m.is_edited, m.is_deleted, m.sent_at,
+               replied_msg.message as replied_message_text,
+               replied_user.username as replied_message_sender
         FROM chat_messages m
         JOIN users u ON m.sender_id = u.id
+        LEFT JOIN chat_messages replied_msg ON m.reply_to_id = replied_msg.id
+        LEFT JOIN users replied_user ON replied_msg.sender_id = replied_user.id
         WHERE m.room_id = %s
         ORDER BY m.sent_at ASC;
         """,
@@ -458,9 +462,13 @@ def get_direct_message_history(other_user_id):
 
     query = """
     SELECT m.id, m.room_id, m.sender_id, u.username as sender_username, u.avatar as sender_avatar, 
-           m.reply_to_id, m.message, m.is_edited, m.is_deleted, m.sent_at
+           m.reply_to_id, m.message, m.is_edited, m.is_deleted, m.sent_at,
+           replied_msg.message as replied_message_text,
+           replied_user.username as replied_message_sender
     FROM chat_messages m
     JOIN users u ON m.sender_id = u.id
+    LEFT JOIN chat_messages replied_msg ON m.reply_to_id = replied_msg.id
+    LEFT JOIN users replied_user ON replied_msg.sender_id = replied_user.id
     WHERE (m.sender_id = %s AND m.recipient_id = %s) OR (m.sender_id = %s AND m.recipient_id = %s)
     ORDER BY m.sent_at ASC;
     """
