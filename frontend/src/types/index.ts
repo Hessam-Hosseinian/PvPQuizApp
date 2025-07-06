@@ -167,6 +167,8 @@ export interface ChatMessage {
   is_edited: boolean;
   is_deleted: boolean;
   sent_at: string;
+  replied_message_text?: string;
+  replied_message_sender?: string;
 }
 
 export interface Conversation {

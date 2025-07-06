@@ -5,7 +5,7 @@ import Modal from '../UI/Modal';
 import Button from '../UI/Button';
 import LoadingSpinner from '../UI/LoadingSpinner';
 import Avatar from '../UI/Avatar';
-import { Send, X } from 'lucide-react';
+import { Send, X, MessageSquare } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
 interface ChatRoomModalProps {
@@ -20,6 +20,7 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [newMessage, setNewMessage] = useState('');
+  const [replyToMessage, setReplyToMessage] = useState<ChatMessage | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -69,8 +70,16 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
     if (newMessage.trim() === '') return;
 
     try {
+      const messageToSend = newMessage;
+      const replyToId = replyToMessage?.id;
+
       setNewMessage('');
-      await chatAPI.sendMessage(room.id, { message: newMessage });
+      setReplyToMessage(null);
+
+      await chatAPI.sendMessage(room.id, { 
+        message: messageToSend,
+        reply_to_id: replyToId
+      });
       fetchMessages(); // Refresh messages immediately after sending
     } catch (err) {
       console.error('Failed to send message:', err);
@@ -81,7 +90,7 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
   };
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} size="2xl">
+    <Modal isOpen={isOpen} onClose={onClose} size="xl">
       <div className="bg-dark-800 rounded-lg shadow-xl p-0 flex flex-col h-[70vh]">
         <header className="flex justify-between items-center p-4 border-b border-dark-700">
           <h2 className="text-2xl font-bold text-white">{room.name}</h2>
@@ -102,26 +111,45 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
               {messages.map((msg) => (
                 <div
                   key={msg.id}
-                  className={`flex items-start gap-3 ${
+                  className={`flex items-start gap-3 group ${
                     msg.sender_id === user?.id ? 'flex-row-reverse' : ''
                   }`}
                 >
                   <Avatar
                     src={msg.sender_avatar}
-                    username={msg.sender_username}
+                    alt={msg.sender_username}
                     size="md"
                   />
                   <div
-                    className={`max-w-xs md:max-w-md p-3 rounded-lg ${
+                    className={`relative max-w-xs md:max-w-md p-3 rounded-lg ${
                       msg.sender_id === user?.id
                         ? 'bg-primary-600 text-white rounded-br-none'
                         : 'bg-dark-700 text-gray-200 rounded-bl-none'
                     }`}
                   >
+                    <div className="absolute top-1 right-1 flex items-center">
+                      <Button 
+                          variant="ghost" 
+                          size="icon" 
+                          className="opacity-0 group-hover:opacity-100 transition-opacity w-6 h-6"
+                          onClick={() => setReplyToMessage(msg)}
+                      >
+                          <MessageSquare size={14} />
+                      </Button>
+                    </div>
+
                     <p className="font-semibold text-sm mb-1">{msg.sender_username}</p>
-                    <p>{msg.message}</p>
+
+                    {msg.replied_message_text && (
+                      <div className="border-l-2 border-primary-400 pl-2 mb-2 text-sm opacity-80 bg-black/10 p-2 rounded-md">
+                          <p className="font-bold">{msg.replied_message_sender === user?.username ? "You" : msg.replied_message_sender}</p>
+                          <p className="truncate">{msg.replied_message_text}</p>
+                      </div>
+                    )}
+                    
+                    <p className="pr-6">{msg.message}</p>
                     <p className="text-xs text-gray-400 mt-1 text-right">
-                      {new Date(msg.sent_at).toLocaleTimeString()}
+                      {new Date(msg.sent_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                     </p>
                   </div>
                 </div>
@@ -132,6 +160,17 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
         </div>
 
         <footer className="p-4 border-t border-dark-700">
+          {replyToMessage && (
+              <div className="bg-dark-700 p-2 rounded-t-lg flex justify-between items-center text-sm mb-2">
+                  <div className='border-l-2 border-primary-500 pl-2'>
+                      <p className="font-bold text-primary-400">Replying to {replyToMessage.sender_username}</p>
+                      <p className="text-gray-300 truncate">{replyToMessage.message}</p>
+                  </div>
+                  <Button variant="ghost" size="icon" onClick={() => setReplyToMessage(null)} className="w-8 h-8">
+                      <X size={16} />
+                  </Button>
+              </div>
+          )}
           <form onSubmit={handleSendMessage} className="flex items-center gap-3">
             <input
               type="text"

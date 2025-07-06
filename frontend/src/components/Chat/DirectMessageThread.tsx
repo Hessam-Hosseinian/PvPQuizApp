@@ -4,7 +4,7 @@ import { ChatMessage, Conversation } from '../../types';
 import LoadingSpinner from '../UI/LoadingSpinner';
 import Avatar from '../UI/Avatar';
 import Button from '../UI/Button';
-import { Send, ArrowLeft } from 'lucide-react';
+import { Send, ArrowLeft, MessageSquare, X } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
 interface DirectMessageThreadProps {
@@ -18,6 +18,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [newMessage, setNewMessage] = useState('');
+  const [replyToMessage, setReplyToMessage] = useState<ChatMessage | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -55,12 +56,17 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
 
     try {
       const messageToSend = newMessage;
+      const replyToId = replyToMessage?.id;
+      
       setNewMessage('');
+      setReplyToMessage(null);
+
       await chatAPI.sendDirectMessage({
         recipient_id: conversation.other_user_id,
         message: messageToSend,
+        reply_to_id: replyToId,
       });
-      fetchMessages();
+      await fetchMessages();
     } catch (err) {
       console.error('Failed to send message:', err);
       setNewMessage(newMessage); // Re-add message to input
@@ -88,7 +94,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
             {messages.map((msg) => (
               <div
                 key={msg.id}
-                className={`flex items-start gap-3 ${
+                className={`flex items-start gap-3 group ${
                   msg.sender_id === user?.id ? 'flex-row-reverse' : ''
                 }`}
               >
@@ -98,15 +104,33 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
                   size="md"
                 />
                 <div
-                  className={`max-w-xs md:max-w-md p-3 rounded-lg ${
+                  className={`relative max-w-xs md:max-w-md p-3 rounded-lg ${
                     msg.sender_id === user?.id
                       ? 'bg-primary-600 text-white rounded-br-none'
                       : 'bg-dark-700 text-gray-200 rounded-bl-none'
                   }`}
                 >
-                  <p>{msg.message}</p>
+                  <div className="absolute top-1 right-1 flex items-center">
+                    <Button 
+                        variant="ghost" 
+                        size="icon" 
+                        className="opacity-0 group-hover:opacity-100 transition-opacity w-6 h-6"
+                        onClick={() => setReplyToMessage(msg)}
+                    >
+                        <MessageSquare size={14} />
+                    </Button>
+                  </div>
+                  
+                  {msg.replied_message_text && (
+                    <div className="border-l-2 border-primary-400 pl-2 mb-2 text-sm opacity-80 bg-black/10 p-2 rounded-md">
+                        <p className="font-bold">{msg.replied_message_sender === user?.username ? "You" : msg.replied_message_sender}</p>
+                        <p className="truncate">{msg.replied_message_text}</p>
+                    </div>
+                   )}
+
+                  <p className="pr-6">{msg.message}</p>
                   <p className="text-xs text-gray-400 mt-1 text-right">
-                    {new Date(msg.sent_at).toLocaleTimeString()}
+                    {new Date(msg.sent_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                   </p>
                 </div>
               </div>
@@ -117,6 +141,17 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
       </div>
 
       <footer className="p-4 border-t border-dark-700 mt-auto">
+        {replyToMessage && (
+            <div className="bg-dark-700 p-2 rounded-t-lg flex justify-between items-center text-sm mb-2">
+                <div className='border-l-2 border-primary-500 pl-2'>
+                    <p className="font-bold text-primary-400">Replying to {replyToMessage.sender_username}</p>
+                    <p className="text-gray-300 truncate">{replyToMessage.message}</p>
+                </div>
+                <Button variant="ghost" size="icon" onClick={() => setReplyToMessage(null)} className="w-8 h-8">
+                    <X size={16} />
+                </Button>
+            </div>
+        )}
         <form onSubmit={handleSendMessage} className="flex items-center gap-3">
           <input
             type="text"
