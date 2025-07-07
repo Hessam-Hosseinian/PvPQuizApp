@@ -158,15 +158,17 @@ export interface ChatRoom {
 
 export interface ChatMessage {
   id: number;
-  room_id: number;
+  room_id: number | null;
   sender_id: number;
+  recipient_id?: number | null;
   sender_username: string;
-  sender_avatar?: string;
-  reply_to_id?: number;
+  sender_avatar: string;
   message: string;
+  sent_at: string;
   is_edited: boolean;
   is_deleted: boolean;
-  sent_at: string;
+  is_read: boolean;
+  reply_to_id?: number | null;
   replied_message_text?: string;
   replied_message_sender?: string;
 }

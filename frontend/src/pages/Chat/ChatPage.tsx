@@ -9,6 +9,7 @@ import ChatRoomModal from '../../components/Chat/ChatRoomModal';
 import Avatar from '../../components/UI/Avatar';
 import DirectMessageThread from '../../components/Chat/DirectMessageThread';
 import NewConversationModal from '../../components/Chat/NewConversationModal';
+import { socket } from '../../services/socket';
 
 type ViewMode = 'rooms' | 'dms';
 
@@ -63,6 +64,19 @@ const ChatPage: React.FC = () => {
     } else {
       fetchConversations();
     }
+
+    // Listen for updates to the conversation list for DMs
+    const handleConversationUpdate = () => {
+      if (viewMode === 'dms') {
+        fetchConversations();
+      }
+    };
+
+    socket.on('conversation_update', handleConversationUpdate);
+
+    return () => {
+      socket.off('conversation_update', handleConversationUpdate);
+    };
   }, [viewMode, fetchRooms, fetchConversations]);
 
   const handleCreateRoom = async () => {
@@ -105,10 +119,18 @@ const ChatPage: React.FC = () => {
       </header>
       {loadingRooms ? (
         <div className="flex justify-center items-center h-64"><LoadingSpinner /></div>
+      ) : rooms.filter(room => room.type === 'public').length === 0 ? (
+        <div className="text-center py-16 bg-dark-800 rounded-lg">
+          <p className="text-gray-400 mb-4">No public rooms available yet.</p>
+          <Button onClick={handleCreateRoom}>
+            <PlusCircle className="mr-2" size={20} />
+            Create the First Room
+          </Button>
+        </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {rooms.filter(room => room.type === 'public').map((room) => (
-            <Card key={room.id} className="hover:shadow-primary-500/30 transition-shadow duration-300 cursor-pointer" onClick={() => { setSelectedRoom(room); setIsRoomModalOpen(true); }}>
+            <Card key={room.id} className="hover:shadow-primary-500/30 transition-shadow duration-300 cursor-pointer bg-dark-800" onClick={() => { setSelectedRoom(room); setIsRoomModalOpen(true); }}>
               <div className="p-6">
                 <h2 className="text-2xl font-semibold text-white mb-2">{room.name}</h2>
                 <p className="text-gray-400 mb-4">Public discussion room.</p>
@@ -126,19 +148,16 @@ const ChatPage: React.FC = () => {
   
   const renderDMsView = () => (
     <>
-      <header className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-white flex items-center">
-          Direct Messages
-        </h1>
-        <Button onClick={() => setIsNewConversationModalOpen(true)} className="flex items-center">
-          <MessageSquarePlus className="mr-2" size={20} />
-          New Message
+      <header className="flex justify-between items-center mb-4 flex-shrink-0">
+        <h1 className="text-3xl font-bold text-white">Messages</h1>
+        <Button onClick={() => setIsNewConversationModalOpen(true)} variant="ghost" size="icon">
+          <MessageSquarePlus size={22} />
         </Button>
       </header>
       {loadingDMs ? (
-        <div className="flex justify-center items-center h-64"><LoadingSpinner /></div>
+        <div className="flex justify-center items-center h-full"><LoadingSpinner /></div>
       ) : conversations.length === 0 ? (
-        <div className="text-center py-16">
+        <div className="text-center py-16 bg-dark-800 rounded-lg">
           <p className="text-gray-400 mb-4">You have no conversations yet.</p>
           <Button onClick={() => setIsNewConversationModalOpen(true)}>
             <MessageSquarePlus className="mr-2" size={20} />
@@ -146,24 +165,28 @@ const ChatPage: React.FC = () => {
           </Button>
         </div>
       ) : (
-        <div className="bg-dark-800 rounded-lg shadow-lg">
+        <div className="bg-dark-800 rounded-lg shadow-lg flex-1 overflow-y-auto">
           <ul className="divide-y divide-dark-700">
             {conversations.map((convo) => (
-              <li key={convo.other_user_id} className="p-4 hover:bg-dark-700/50 transition-colors duration-200 cursor-pointer flex items-center space-x-4" onClick={() => setSelectedConversation(convo)}>
+              <li 
+                key={convo.other_user_id} 
+                className={`p-3 hover:bg-dark-700/50 transition-colors duration-200 cursor-pointer flex items-center space-x-4 ${selectedConversation?.other_user_id === convo.other_user_id ? 'bg-primary-900/40' : ''}`} 
+                onClick={() => setSelectedConversation(convo)}
+              >
                 <div className="relative">
                   <Avatar src={convo.other_user_avatar} username={convo.other_user_username} size="lg" />
                   {convo.unread_count > 0 && (
-                    <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                    <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-dark-800">
                       {convo.unread_count}
                     </span>
                   )}
                 </div>
-                <div className="flex-1">
-                  <div className="flex justify-between">
-                    <h3 className="font-semibold text-white">{convo.other_user_username}</h3>
-                    <p className="text-xs text-gray-500">{new Date(convo.last_message_at).toLocaleDateString()}</p>
+                <div className="flex-1 overflow-hidden">
+                  <div className="flex justify-between items-center">
+                    <h3 className={`font-semibold text-white truncate ${convo.unread_count > 0 ? 'font-bold' : ''}`}>{convo.other_user_username}</h3>
+                    <p className="text-xs text-gray-500 flex-shrink-0 ml-2">{new Date(convo.last_message_at).toLocaleDateString()}</p>
                   </div>
-                  <p className="text-sm text-gray-400 truncate">{convo.last_message}</p>
+                  <p className={`text-sm text-gray-400 truncate ${convo.unread_count > 0 ? 'text-white' : ''}`}>{convo.last_message}</p>
                 </div>
               </li>
             ))}
@@ -174,29 +197,36 @@ const ChatPage: React.FC = () => {
   );
 
   return (
-    <div className="container mx-auto p-4 md:p-8">
-      <div className="flex items-center justify-center mb-8 border-b border-dark-700">
-        <TabButton icon={MessageSquare} label="Rooms" isActive={viewMode === 'rooms'} onClick={() => { setViewMode('rooms'); setSelectedConversation(null); }} />
-        <TabButton icon={Mail} label="Direct Messages" isActive={viewMode === 'dms'} onClick={() => { setViewMode('dms'); }} />
+    <div className="container mx-auto p-4 md:p-8 flex flex-col h-[calc(100vh-4rem)]">
+      <div className="flex-shrink-0">
+        <div className="flex items-center justify-center mb-8 border-b border-dark-700">
+          <TabButton icon={MessageSquare} label="Rooms" isActive={viewMode === 'rooms'} onClick={() => { setViewMode('rooms'); setSelectedConversation(null); }} />
+          <TabButton icon={Mail} label="Direct Messages" isActive={viewMode === 'dms'} onClick={() => { setViewMode('dms'); }} />
+        </div>
+        {error && <div className="text-center text-red-500 mb-4">{error}</div>}
       </div>
 
-      {error && <div className="text-center text-red-500 mb-4">{error}</div>}
-
-      <div className="transition-opacity duration-300">
+      <div className="transition-opacity duration-300 flex-grow overflow-hidden">
         {viewMode === 'rooms' && renderRoomsView()}
         {viewMode === 'dms' && (
-          <div className="flex gap-6">
-            <div className={`w-full lg:w-1/3 transition-all duration-300 ${selectedConversation ? 'hidden lg:block' : ''}`}>
+          <div className="flex gap-6 h-full">
+            <div className={`w-full lg:w-1/3 transition-all duration-300 flex flex-col ${selectedConversation ? 'hidden lg:block' : ''}`}>
               {renderDMsView()}
             </div>
-            {selectedConversation && (
-              <div className="w-full lg:w-2/3">
-                <DirectMessageThread 
-                  conversation={selectedConversation}
-                  onClose={() => setSelectedConversation(null)}
-                />
-              </div>
-            )}
+            <div className={`w-full lg:w-2/3 transition-all duration-300 ${!selectedConversation ? 'hidden lg:block' : ''}`}>
+              {selectedConversation ? (
+                  <DirectMessageThread 
+                    conversation={selectedConversation}
+                    onClose={() => setSelectedConversation(null)}
+                  />
+              ) : (
+                <div className="h-full flex flex-col justify-center items-center bg-dark-800 rounded-lg">
+                    <Mail size={64} className="text-dark-600" />
+                    <h2 className="mt-4 text-2xl font-bold text-gray-400">Select a conversation</h2>
+                    <p className="mt-2 text-gray-500">Choose from your existing conversations on the left, or start a new one.</p>
+                </div>
+              )}
+            </div>
           </div>
         )}
       </div>

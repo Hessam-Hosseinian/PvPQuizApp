@@ -5,8 +5,9 @@ import Modal from '../UI/Modal';
 import Button from '../UI/Button';
 import LoadingSpinner from '../UI/LoadingSpinner';
 import Avatar from '../UI/Avatar';
-import { Send, X, MessageSquare } from 'lucide-react';
+import { Send, X, MessageSquare, Pencil, Check } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
+import { socket } from '../../services/socket';
 
 interface ChatRoomModalProps {
   isOpen: boolean;
@@ -21,6 +22,7 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
   const [error, setError] = useState<string | null>(null);
   const [newMessage, setNewMessage] = useState('');
   const [replyToMessage, setReplyToMessage] = useState<ChatMessage | null>(null);
+  const [editingMessage, setEditingMessage] = useState<{ id: number; text: string } | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -29,15 +31,16 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
 
   const fetchMessages = useCallback(async () => {
     try {
+      setLoading(true);
       const response = await chatAPI.getRoomMessages(room.id);
       setMessages(response.data);
     } catch (err) {
       setError('Failed to load messages. You might not be a member of this room.');
       console.error(err);
-      // Attempt to join the room automatically if fetching fails
+      // Auto-join logic can be simplified or removed if join is handled elsewhere
       try {
         await chatAPI.joinRoom(room.id);
-        setError(null); // Clear previous error
+        setError(null);
         const response = await chatAPI.getRoomMessages(room.id);
         setMessages(response.data);
       } catch (joinErr) {
@@ -51,40 +54,99 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
 
   useEffect(() => {
     if (isOpen) {
-      setLoading(true);
       fetchMessages();
+
+      // Connect to socket events
+      socket.emit('join_room', { room_id: room.id });
+
+      const handleNewMessage = (newMessage: ChatMessage) => {
+        console.log('[Socket Room] Received "new_room_message" with data:', newMessage);
+        // Ensure message is for this room before adding
+        if (newMessage.room_id === room.id) {
+            console.log('[Socket Room] Message belongs to this room. Updating state.');
+            setMessages((prevMessages) => [...prevMessages, newMessage]);
+        } else {
+            console.log(`[Socket Room] Message for room ${newMessage.room_id} does not match current room ${room.id}. Ignoring.`);
+        }
+      };
       
-      // Poll for new messages every 3 seconds
-      const interval = setInterval(fetchMessages, 3000);
+      const handleJoinedSuccess = (data: { room_id: string }) => {
+        console.log(`[Socket Room] Successfully joined room: ${data.room_id}`);
+      };
       
-      return () => clearInterval(interval);
+      const handleMessageUpdate = (updatedMessage: ChatMessage) => {
+        console.log('[Socket Room] Received "message_updated" with data:', updatedMessage);
+        if (updatedMessage.room_id === room.id) {
+            console.log('[Socket Room] Updated message belongs to this room. Updating state.');
+            setMessages((prevMessages) =>
+              prevMessages.map((msg) =>
+                msg.id === updatedMessage.id ? { ...msg, message: updatedMessage.message, is_edited: true } : msg
+              )
+            );
+        }
+      };
+
+      const handleError = (error: { error: string }) => {
+        console.error('Socket error:', error);
+        setError(`A server error occurred: ${error.error}`);
+      };
+
+      socket.on('joined_room_success', handleJoinedSuccess);
+      socket.on('new_room_message', handleNewMessage);
+      socket.on('message_updated', handleMessageUpdate);
+      socket.on('error', handleError);
+
+      // Cleanup on close
+      return () => {
+        socket.emit('leave_room', { room_id: room.id });
+        socket.off('joined_room_success', handleJoinedSuccess);
+        socket.off('new_room_message', handleNewMessage);
+        socket.off('message_updated', handleMessageUpdate);
+        socket.off('error', handleError);
+      };
     }
-  }, [isOpen, fetchMessages]);
+  }, [isOpen, room.id, fetchMessages]);
 
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
 
+  const handleStartEdit = (message: ChatMessage) => {
+    setEditingMessage({ id: message.id, text: message.message });
+  };
+
+  const handleCancelEdit = () => {
+    setEditingMessage(null);
+  };
+
+  const handleSaveEdit = () => {
+    if (!editingMessage || editingMessage.text.trim() === '') return;
+    
+    socket.emit('edit_message', {
+      message_id: editingMessage.id,
+      new_text: editingMessage.text,
+    });
+
+    setEditingMessage(null);
+  };
+
   const handleSendMessage = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (newMessage.trim() === '') return;
+    if (newMessage.trim() === '' || !user) return;
 
     try {
-      const messageToSend = newMessage;
-      const replyToId = replyToMessage?.id;
+      // Message is sent via WebSocket, not HTTP POST
+      socket.emit('send_room_message', {
+        room_id: room.id,
+        message: newMessage,
+        reply_to_id: replyToMessage?.id,
+      });
 
       setNewMessage('');
       setReplyToMessage(null);
-
-      await chatAPI.sendMessage(room.id, { 
-        message: messageToSend,
-        reply_to_id: replyToId
-      });
-      fetchMessages(); // Refresh messages immediately after sending
+      // No need to call fetchMessages, the socket listener will update the state
     } catch (err) {
-      console.error('Failed to send message:', err);
-      // Optionally, re-add the message to the input for the user to try again
-      setNewMessage(newMessage);
+      console.error('Failed to send message via socket:', err);
       setError('Failed to send message.');
     }
   };
@@ -127,7 +189,17 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
                         : 'bg-dark-700 text-gray-200 rounded-bl-none'
                     }`}
                   >
-                    <div className="absolute top-1 right-1 flex items-center">
+                    <div className="absolute top-1 right-1 flex items-center gap-1">
+                      {msg.sender_id === user?.id && !editingMessage && (
+                        <Button 
+                            variant="ghost" 
+                            size="icon" 
+                            className="opacity-0 group-hover:opacity-100 transition-opacity w-6 h-6"
+                            onClick={() => handleStartEdit(msg)}
+                        >
+                            <Pencil size={14} />
+                        </Button>
+                      )}
                       <Button 
                           variant="ghost" 
                           size="icon" 
@@ -147,10 +219,32 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
                       </div>
                     )}
                     
-                    <p className="pr-6">{msg.message}</p>
-                    <p className="text-xs text-gray-400 mt-1 text-right">
-                      {new Date(msg.sent_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                    </p>
+                    {editingMessage?.id === msg.id ? (
+                      <div className="mt-2">
+                        <textarea
+                          value={editingMessage.text}
+                          onChange={(e) => setEditingMessage({ ...editingMessage, text: e.target.value })}
+                          className="w-full bg-dark-600 border border-dark-500 rounded-md p-2 text-white text-sm focus:outline-none focus:ring-1 focus:ring-primary-500"
+                          rows={3}
+                        />
+                        <div className="flex justify-end gap-2 mt-2">
+                          <Button variant="secondary" size="sm" onClick={handleCancelEdit}>
+                            <X size={14} className="mr-1" /> Cancel
+                          </Button>
+                          <Button variant="primary" size="sm" onClick={handleSaveEdit}>
+                            <Check size={14} className="mr-1" /> Save
+                          </Button>
+                        </div>
+                      </div>
+                    ) : (
+                      <>
+                        <p className="pr-6">{msg.message}</p>
+                        <p className="text-xs text-gray-400 mt-1 text-right">
+                          {msg.is_edited && <span className="italic">edited </span>}
+                          {new Date(msg.sent_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                        </p>
+                      </>
+                    )}
                   </div>
                 </div>
               ))}
