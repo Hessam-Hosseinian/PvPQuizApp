@@ -6,7 +6,6 @@ import LoadingSpinner from '../../components/UI/LoadingSpinner';
 import AdminPanel from '../../components/Admin/AdminPanel';
 import { statsAPI, authAPI } from '../../services/api';
 import { 
-  UserIcon, 
   TrophyIcon, 
   TargetIcon, 
   CalendarIcon, 
@@ -24,11 +23,6 @@ import {
   BrainIcon,
   BarChart3Icon,
   ActivityIcon,
-  EyeIcon,
-  EyeOffIcon,
-  DownloadIcon,
-  ShareIcon,
-  RefreshCwIcon,
   UploadIcon,
   TrashIcon
 } from 'lucide-react';
@@ -160,16 +154,12 @@ const ProfilePage: React.FC = () => {
   const [userStats, setUserStats] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState(false);
-  const [saveLoading, setSaveLoading] = useState(false);
-  const [profileVisible, setProfileVisible] = useState(true);
   const [recentGames, setRecentGames] = useState<any[]>([]);
   const [showGameHistory, setShowGameHistory] = useState(false);
-  const [refreshing, setRefreshing] = useState(false);
   const [currentStreak, setCurrentStreak] = useState<number | null>(null);
   const [bestScore, setBestScore] = useState<{ score: string; accuracy: number } | null>(null);
   const [activeDays, setActiveDays] = useState<number | null>(null);
   const [comparisonStats, setComparisonStats] = useState<any>(null);
-  const [showPasswordModal, setShowPasswordModal] = useState(false);
   const [passwordForm, setPasswordForm] = useState({
     currentPassword: '',
     newPassword: '',
@@ -241,89 +231,7 @@ const ProfilePage: React.FC = () => {
     }
   };
 
-  const refreshStats = async () => {
-    setRefreshing(true);
-    await loadUserStats();
-    await loadRecentGames();
-    setRefreshing(false);
-  };
 
-  const toggleProfileVisibility = () => {
-    setProfileVisible(!profileVisible);
-  };
-
-  const exportUserData = () => {
-    if (!user) return;
-    
-    const data = {
-      user: {
-        ...user,
-        password: undefined // Don't include password
-      },
-      stats: userStats,
-      achievements: getAchievements(userStats),
-      recentGames: recentGames,
-      preferences: {
-        notifications: user?.preferences?.notifications ?? true,
-        soundEffects: user?.preferences?.soundEffects ?? false,
-        darkMode: user?.preferences?.darkMode ?? true,
-        publicProfile: user?.preferences?.publicProfile ?? true,
-        emailUpdates: user?.preferences?.emailUpdates ?? true,
-        gameReminders: user?.preferences?.gameReminders ?? true
-      },
-      exportDate: new Date().toISOString(),
-      exportType: 'full'
-    };
-    
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `${user.username}_full_data_${new Date().toISOString().split('T')[0]}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
-
-  const exportStatsOnly = () => {
-    if (!user) return;
-    
-    const data = {
-      username: user.username,
-      stats: userStats,
-      achievements: getAchievements(userStats),
-      recentGames: recentGames,
-      exportDate: new Date().toISOString(),
-      exportType: 'stats_only'
-    };
-    
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `${user.username}_stats_${new Date().toISOString().split('T')[0]}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
-
-  const shareProfile = () => {
-    if (!user) return;
-    
-    if (navigator.share) {
-      navigator.share({
-        title: `${user.username}'s Profile`,
-        text: `Check out ${user.username}'s quiz stats! Level ${user.current_level} with ${userStats?.games_won || 0} wins.`,
-        url: window.location.href
-      });
-    } else {
-      // Fallback: copy to clipboard
-      navigator.clipboard.writeText(window.location.href);
-      alert('Profile link copied to clipboard!');
-    }
-  };
 
   const validateForm = () => {
     const errors: {[key: string]: string} = {};
@@ -357,10 +265,10 @@ const ProfilePage: React.FC = () => {
         currentPassword: passwordForm.currentPassword,
         newPassword: passwordForm.newPassword
       });
-      setShowPasswordModal(false);
+      setEditing(false);
       setPasswordForm({ currentPassword: '', newPassword: '', confirmPassword: '' });
       setPasswordErrors({});
-      alert('Password changed successfully!');
+      showSnackbar('Password changed successfully!', 'success');
     } catch (error) {
       console.error('Failed to change password:', error);
       setPasswordErrors({ currentPassword: 'Current password is incorrect' });
@@ -1270,92 +1178,7 @@ const ProfilePage: React.FC = () => {
         </div>
       )}
 
-      {/* Password Change Modal */}
-      {showPasswordModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-dark-800 rounded-lg p-6 w-full max-w-md mx-4">
-            <h3 className="text-lg font-semibold text-white mb-4">Change Password</h3>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-dark-200 mb-1">
-                  Current Password
-                </label>
-                <input
-                  type="password"
-                  value={passwordForm.currentPassword}
-                  onChange={(e) => setPasswordForm({...passwordForm, currentPassword: e.target.value})}
-                  className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
-                    passwordErrors.currentPassword 
-                      ? 'border-red-500 bg-dark-700 text-white' 
-                      : 'border-dark-600 bg-dark-700 text-white'
-                  }`}
-                />
-                {passwordErrors.currentPassword && (
-                  <p className="text-red-400 text-xs mt-1">{passwordErrors.currentPassword}</p>
-                )}
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-dark-200 mb-1">
-                  New Password
-                </label>
-                <input
-                  type="password"
-                  value={passwordForm.newPassword}
-                  onChange={(e) => setPasswordForm({...passwordForm, newPassword: e.target.value})}
-                  className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
-                    passwordErrors.newPassword 
-                      ? 'border-red-500 bg-dark-700 text-white' 
-                      : 'border-dark-600 bg-dark-700 text-white'
-                  }`}
-                />
-                {passwordErrors.newPassword && (
-                  <p className="text-red-400 text-xs mt-1">{passwordErrors.newPassword}</p>
-                )}
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-dark-200 mb-1">
-                  Confirm New Password
-                </label>
-                <input
-                  type="password"
-                  value={passwordForm.confirmPassword}
-                  onChange={(e) => setPasswordForm({...passwordForm, confirmPassword: e.target.value})}
-                  className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
-                    passwordErrors.confirmPassword 
-                      ? 'border-red-500 bg-dark-700 text-white' 
-                      : 'border-dark-600 bg-dark-700 text-white'
-                  }`}
-                />
-                {passwordErrors.confirmPassword && (
-                  <p className="text-red-400 text-xs mt-1">{passwordErrors.confirmPassword}</p>
-                )}
-              </div>
-            </div>
-            <div className="flex space-x-2 mt-6">
-              <Button
-                onClick={handlePasswordChange}
-                loading={passwordLoading}
-                size="sm"
-                className="flex-1"
-              >
-                Change Password
-              </Button>
-              <Button
-                onClick={() => {
-                  setShowPasswordModal(false);
-                  setPasswordForm({ currentPassword: '', newPassword: '', confirmPassword: '' });
-                  setPasswordErrors({});
-                }}
-                variant="outline"
-                size="sm"
-                className="flex-1"
-              >
-                Cancel
-              </Button>
-            </div>
-          </div>
-        </div>
-      )}
+
 
       {/* Snackbar for alerts */}
       {snackbar && (

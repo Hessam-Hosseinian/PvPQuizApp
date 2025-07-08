@@ -147,3 +147,79 @@ export interface GameRound {
   time_limit_seconds?: number;
   points_possible: number;
 }
+
+export interface ChatRoom {
+  id: number;
+  name: string;
+  type: 'public' | 'private' | 'game';
+  created_at: string;
+  game_id?: number;
+}
+
+export interface ChatMessage {
+  id: number;
+  room_id: number | null;
+  sender_id: number;
+  recipient_id?: number | null;
+  sender_username: string;
+  sender_avatar: string;
+  message: string;
+  sent_at: string;
+  is_edited: boolean;
+  is_deleted: boolean;
+  is_read: boolean;
+  reply_to_id?: number | null;
+  replied_message_text?: string;
+  replied_message_sender?: string;
+}
+
+export interface Conversation {
+  other_user_id: number;
+  other_user_username: string;
+  other_user_avatar?: string;
+  last_message: string;
+  last_message_at: string;
+  unread_count: number;
+}
+
+// --- Game Page Specific Types ---
+
+export interface GamePlayer {
+  user_id: number;
+  username: string;
+  avatar: string;
+  score: number;
+}
+
+export interface GameQuestionChoice {
+  choice_id: number;
+  choice_text: string;
+}
+
+export interface GameQuestion {
+  question_id: number;
+  text: string;
+  choices: GameQuestionChoice[];
+}
+
+export interface LiveGameState {
+  game_id: number;
+  game_status: string;
+  total_rounds: number;
+  current_round: {
+    round_number: number;
+    status: string;
+    category_id: number | null;
+    category_name?: string;
+    category_picker_id: number | null;
+    category_options: { id: number; name: string }[];
+    questions: GameQuestion[];
+    answers: any[];
+  };
+  participants: GamePlayer[];
+}
+
+export interface RevealedAnswer {
+  question_id: number;
+  correct_choice_id: number;
+}

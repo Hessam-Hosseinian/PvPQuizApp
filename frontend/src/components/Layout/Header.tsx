@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import { UserIcon, TrophyIcon, PlayIcon, TagIcon, LogOutIcon as LogoutIcon, MenuIcon, XIcon, HomeIcon } from 'lucide-react';
+import { UserIcon, TrophyIcon, PlayIcon, TagIcon, LogOutIcon as LogoutIcon, MenuIcon, XIcon, HomeIcon, Home, LogIn, UserPlus, Trophy, MessageSquare, Shield, BookOpen, UserCircle } from 'lucide-react';
 import Avatar from '../UI/Avatar';
 
 const Header: React.FC = () => {
@@ -23,6 +23,7 @@ const Header: React.FC = () => {
     { name: 'Play', href: '/play', icon: PlayIcon },
     { name: 'Leaderboard', href: '/leaderboard', icon: TrophyIcon },
     { name: 'Categories', href: '/categories', icon: TagIcon },
+    { name: 'Chat', href: '/chat', icon: MessageSquare },
   ];
 
   if (!user) return null;

@@ -162,7 +162,7 @@ export class GameWebSocket {
   private listeners: Map<string, Function[]> = new Map();
 
   connect(gameId: number, userId: number) {
-    const wsUrl = `ws://localhost:5000/ws/game/${gameId}?user_id=${userId}`;
+    const wsUrl = `ws://127.0.0.1:5000/ws/game/${gameId}?user_id=${userId}`;
     
     this.ws = new WebSocket(wsUrl);
     
@@ -229,5 +229,17 @@ export class GameWebSocket {
     this.listeners.clear();
   }
 }
+
+export const chatAPI = {
+  getRooms: () => api.get('/chat/rooms'),
+  createRoom: (data: { name: string; type: 'public' | 'private' | 'game'; game_id?: number }) => api.post('/chat/rooms', data),
+  getRoomMessages: (roomId: number) => api.get(`/chat/rooms/${roomId}/messages`),
+  sendMessage: (roomId: number, data: { message: string; reply_to_id?: number }) => api.post(`/chat/rooms/${roomId}/messages`, data),
+  joinRoom: (roomId: number) => api.post(`/chat/rooms/${roomId}/members`),
+  // Direct Messaging
+  getConversations: () => api.get('/chat/direct-messages/conversations'),
+  getDirectMessages: (otherUserId: number) => api.get(`/chat/direct-messages/${otherUserId}`),
+  sendDirectMessage: (data: { recipient_id: number; message: string; reply_to_id?: number }) => api.post('/chat/direct-messages', data),
+};
 
 export default api;

@@ -213,7 +213,6 @@ def get_category_stats(c_id: int) -> Any:
     return jsonify(_convert_decimal(stats)), 200
 
 
-@categories_bp.route('/<int:c_id>/players', methods=['GET'])
 def get_category_players(c_id: int) -> Any:
     """
     Get top players for a category.

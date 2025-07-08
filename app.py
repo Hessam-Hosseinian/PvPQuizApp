@@ -1,15 +1,60 @@
-from flask import request, url_for, jsonify
+from flask import request, url_for, jsonify, session
 from app import create_app
 from config import Config
 from app.db import get_db
+from app import socketio
+from flask_socketio import join_room, leave_room, emit
+app, socketio = create_app()
 
+@socketio.on('connect', namespace='/chat')
+def handle_connect():
+    """Handle new client connection for the chat namespace"""
+    user_id = session.get('user_id')
+    if user_id:
+        join_room(str(user_id))
+        print(f"User {user_id} connected and joined room {user_id} in /chat namespace")
 
+@socketio.on('disconnect', namespace='/chat')
+def handle_disconnect():
+    """Handle client disconnection for the chat namespace"""
+    user_id = session.get('user_id')
+    if user_id:
+        leave_room(str(user_id))
+        print(f"User {user_id} disconnected and left room {user_id} in /chat namespace")
 
+@socketio.on('connect')
+def handle_game_connect():
+    """Handle new client connection for the game namespace (default)"""
+    user_id = session.get('user_id')
+    if user_id:
+        print(f"User {user_id} connected to game namespace")
 
+@socketio.on('disconnect')
+def handle_game_disconnect():
+    """Handle client disconnection for the game namespace (default)"""
+    user_id = session.get('user_id')
+    if user_id:
+        print(f"User {user_id} disconnected from game namespace")
 
-app = create_app(Config)
+# Game socket handlers
+@socketio.on('join_game')
+def on_join_game(data):
+    game_id = data['game_id']
+    room = f'game_{game_id}'
+    join_room(room)
+    print(f"Client joined game room: {room}")
+    # Send current game state to the newly joined client
+    from app.routes.games import get_full_game_state_data
+    game_state = get_full_game_state_data(int(game_id))
+    if game_state:
+        socketio.emit('game_update', game_state, room=room)
 
-
+@socketio.on('leave_game')
+def on_leave_game(data):
+    game_id = data['game_id']
+    room = f'game_{game_id}'
+    leave_room(room)
+    print(f"Client left game room: {room}")
 
 def list_routes():
    
@@ -47,6 +92,6 @@ def health_check():
 
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    socketio.run(app, debug=True, port=5000)
  
 

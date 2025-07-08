@@ -85,7 +85,6 @@ const CategoryModal: React.FC<CategoryModalProps> = ({
         categoriesAPI.getCategoryStats(category.id),
         categoriesAPI.getCategoryPlayers(category.id)
       ]);
-      console.log(statsResponse.data);
       
       setCategoryStats(statsResponse.data);
       setTopPlayers(playersResponse.data);
