@@ -74,7 +74,7 @@ export const questionsAPI = {
   updateQuestion: (id: number, data: Partial<Question>) => api.put(`/questions/${id}`, data),
   deleteQuestion: (id: number) => api.delete(`/questions/${id}`),
   getDifficultyStats: (params?: { category_id?: number; verified?: boolean }) =>
-    api.get('/questions/stats/difficulty', { params }),
+    api.get('/questions/difficulty-stats', { params }),
 };
 
 // Games API

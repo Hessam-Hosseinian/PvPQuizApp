@@ -63,7 +63,7 @@ const CategoriesPage: React.FC = () => {
       setRefreshing(false);
 
       // Load all question counts and difficulty stats in parallel for better performance
-      const statsPromises = categoriesData.map(async (category) => {
+      const statsPromises = categoriesData.map(async (category: Category) => {
         try {
           const [questionsResponse, difficultyResponse] = await Promise.all([
             questionsAPI.getQuestions({ 

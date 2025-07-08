@@ -52,14 +52,20 @@ const GamePage: React.FC = () => {
       setSelectedChoiceId(null);
       setTimeLeft(ROUND_TIMER_DURATION);
     } else {
-      // The 'isWaitingForNextRound' state is now implicitly handled by gameState
+      // The 'isWaitingForOpponentToFinishRound' state is now implicitly handled by gameState
       try {
         await gamesAPI.completeRound(parseInt(gameId), current_round.round_number);
+        
+        // If this was the last round, complete the game
         if (current_round.round_number === total_rounds) {
-          await gamesAPI.completeGame(parseInt(gameId));
+          try {
+            await gamesAPI.completeGame(parseInt(gameId));
+          } catch (gameCompleteErr: any) {
+            console.error('[GamePage] Error completing game:', gameCompleteErr);
+            // Don't throw here, let the socket update handle it
+          }
         }
       } catch (err: any) {
-        console.log("Waiting for opponent..."); // This will be handled by socket updates
       }
     }
   }, [gameId, gameState, currentQuestionIndex]);
@@ -123,18 +129,29 @@ const GamePage: React.FC = () => {
       if(submissionLockRef.current.has(gameState.current_round.round_number)) return;
       submissionLockRef.current.add(gameState.current_round.round_number);
       
+      
       await gamesAPI.pickCategory(
         parseInt(gameId), 
         gameState.current_round.round_number, 
         user.id, 
         categoryId
       );
-      // No need to fetch, update will come via socket
+      
+      // Fallback: if socket doesn't work, fetch game state after a delay
+      setTimeout(async () => {
+        try {
+          const response = await gamesAPI.getGameState(parseInt(gameId), user.id);
+          setGameState(response.data);
+        } catch (err) {
+          console.error('[GamePage] Fallback fetch failed:', err);
+        }
+      }, 2000);
+      
     } catch (err: any) {
       // Error will be handled by the hook
       console.error(err);
     }
-  }, [gameId, user, gameState]);
+  }, [gameId, user, gameState, setGameState]);
 
   // --- Timers ---
   useEffect(() => {
@@ -203,7 +220,10 @@ const GamePage: React.FC = () => {
   const isWaitingForOpponentToFinishRound = 
     !gameState.current_round?.questions[currentQuestionIndex] && 
     gameState.game_status === 'active' &&
-    gameState.current_round?.status === 'active';
+    gameState.current_round?.status === 'active' &&
+    currentQuestionIndex < (gameState.current_round?.questions?.length || 0);
+    
+
 
   if (gameState.game_status === 'completed' || !gameState.current_round) {
     return <GameEndScreen gameState={gameState} />;
@@ -222,6 +242,8 @@ const GamePage: React.FC = () => {
   const picker = participants.find(p => p.user_id === current_round.category_picker_id);
 
   const isCategorySelectionPhase = !current_round.category_id;
+  
+
   
   return (
     <div className="min-h-screen bg-dark-800 text-white p-4 sm:p-6 lg:p-8 flex flex-col items-center">

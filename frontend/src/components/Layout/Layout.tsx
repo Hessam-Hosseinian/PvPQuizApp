@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from './Header';
 import { useAuth } from '../../contexts/AuthContext';
-import { socket } from '../../services/socket';
+import { chatSocket } from '../../services/socket';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,25 +12,25 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   useEffect(() => {
     if (user) {
-      socket.connect();
+      chatSocket.connect();
       
       // Optional: Listen for connection and disconnection events for debugging
-      socket.on('connect', () => {
-        console.log('Socket connected successfully:', socket.id);
+      chatSocket.on('connect', () => {
+        console.log('Chat socket connected successfully:', chatSocket.id);
       });
 
-      socket.on('disconnect', () => {
-        console.log('Socket disconnected.');
+      chatSocket.on('disconnect', () => {
+        console.log('Chat socket disconnected.');
       });
 
     } else {
-        socket.disconnect();
+        chatSocket.disconnect();
     }
 
     return () => {
-      socket.off('connect');
-      socket.off('disconnect');
-      socket.disconnect();
+      chatSocket.off('connect');
+      chatSocket.off('disconnect');
+      chatSocket.disconnect();
     };
   }, [user]);
 

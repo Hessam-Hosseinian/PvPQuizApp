@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
-import { socket } from '../services/socket';
+import { gameSocket } from '../services/socket';
 import { gamesAPI } from '../services/api';
 import { LiveGameState } from '../types';
 import { useAuth } from '../contexts/AuthContext';
@@ -11,7 +11,7 @@ export const useGameState = () => {
     const [gameState, setGameState] = useState<LiveGameState | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
-    const [isConnected, setIsConnected] = useState(socket.connected);
+    const [isConnected, setIsConnected] = useState(gameSocket.connected);
 
     const fetchInitialState = useCallback(async () => {
         if (!gameId || !user) return;
@@ -31,22 +31,40 @@ export const useGameState = () => {
         fetchInitialState();
     }, [fetchInitialState]);
 
+    // Polling fallback for game state updates
+    useEffect(() => {
+        if (!gameId || !user || !isConnected) return;
+        
+        const pollInterval = setInterval(async () => {
+            try {
+                const response = await gamesAPI.getGameState(parseInt(gameId), user.id);
+                setGameState(response.data);
+            } catch (err) {
+                console.error('Polling failed:', err);
+            }
+        }, 5000); // Poll every 5 seconds
+        
+        return () => clearInterval(pollInterval);
+    }, [gameId, user, isConnected, setGameState]);
+
     useEffect(() => {
         if (!gameId) return;
 
         const handleConnect = () => {
-            console.log('Socket connected');
+            console.log('Game socket connected');
             setIsConnected(true);
-            socket.emit('join_game', { game_id: gameId });
+            console.log('Joining game room:', gameId);
+            gameSocket.emit('join_game', { game_id: gameId });
         };
 
         const handleDisconnect = () => {
-            console.log('Socket disconnected');
+            console.log('Game socket disconnected');
             setIsConnected(false);
         };
 
         const handleGameUpdate = (data: LiveGameState) => {
             console.log('Game state updated via socket:', data);
+            console.log('Current round:', data.current_round);
             setGameState(data);
         };
         
@@ -55,20 +73,23 @@ export const useGameState = () => {
             setError(data.error);
         };
 
-        socket.on('connect', handleConnect);
-        socket.on('disconnect', handleDisconnect);
-        socket.on('game_update', handleGameUpdate);
-        socket.on('game_error', handleGameError);
+        gameSocket.on('connect', handleConnect);
+        gameSocket.on('disconnect', handleDisconnect);
+        gameSocket.on('game_update', handleGameUpdate);
+        gameSocket.on('game_error', handleGameError);
         
-        socket.connect();
+        // Connect with a small delay to ensure proper initialization
+        setTimeout(() => {
+            gameSocket.connect();
+        }, 100);
 
         return () => {
-            socket.emit('leave_game', { game_id: gameId });
-            socket.off('connect', handleConnect);
-            socket.off('disconnect', handleDisconnect);
-            socket.off('game_update', handleGameUpdate);
-            socket.off('game_error', handleGameError);
-            socket.disconnect();
+            gameSocket.emit('leave_game', { game_id: gameId });
+            gameSocket.off('connect', handleConnect);
+            gameSocket.off('disconnect', handleDisconnect);
+            gameSocket.off('game_update', handleGameUpdate);
+            gameSocket.off('game_error', handleGameError);
+            gameSocket.disconnect();
         };
     }, [gameId]);
 

@@ -22,6 +22,40 @@ def handle_disconnect():
         leave_room(str(user_id))
         print(f"User {user_id} disconnected and left room {user_id} in /chat namespace")
 
+@socketio.on('connect')
+def handle_game_connect():
+    """Handle new client connection for the game namespace (default)"""
+    user_id = session.get('user_id')
+    if user_id:
+        print(f"User {user_id} connected to game namespace")
+
+@socketio.on('disconnect')
+def handle_game_disconnect():
+    """Handle client disconnection for the game namespace (default)"""
+    user_id = session.get('user_id')
+    if user_id:
+        print(f"User {user_id} disconnected from game namespace")
+
+# Game socket handlers
+@socketio.on('join_game')
+def on_join_game(data):
+    game_id = data['game_id']
+    room = f'game_{game_id}'
+    join_room(room)
+    print(f"Client joined game room: {room}")
+    # Send current game state to the newly joined client
+    from app.routes.games import get_full_game_state_data
+    game_state = get_full_game_state_data(int(game_id))
+    if game_state:
+        socketio.emit('game_update', game_state, room=room)
+
+@socketio.on('leave_game')
+def on_leave_game(data):
+    game_id = data['game_id']
+    room = f'game_{game_id}'
+    leave_room(room)
+    print(f"Client left game room: {room}")
+
 def list_routes():
    
     routes = []

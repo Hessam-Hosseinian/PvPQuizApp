@@ -7,7 +7,6 @@ import psycopg2
 import random
 from datetime import datetime, timedelta
 from app import socketio
-from flask_socketio import join_room, leave_room
 
 games_bp = Blueprint("games_bp", __name__, url_prefix="/games")
 
@@ -53,6 +52,20 @@ def get_full_game_state_data(game_id, user_id=None):
     current_round_data = None
     active_round = next((r for r in rounds if r['status'] in ('pending', 'active')), None)
     
+    # If no active round, check if all rounds are completed
+    if not active_round:
+        completed_rounds = [r for r in rounds if r['status'] == 'completed']
+        if len(completed_rounds) == len(rounds):
+            cur.close()
+            return {
+                "game": dict(game),
+                "participants": participants,
+                "game_status": game['status'],
+                "total_rounds": game['total_rounds'],
+                "scores": scores,
+                "current_round": None
+            }
+    
     if active_round:
         round_id = active_round['id']
         category_id = active_round['category_id']
@@ -90,6 +103,8 @@ def get_full_game_state_data(game_id, user_id=None):
             "questions": questions,
             "time_limit_seconds": 1000
         }
+        
+
 
     cur.close()
 
@@ -104,23 +119,7 @@ def get_full_game_state_data(game_id, user_id=None):
 
 
 # --- SocketIO Event Handlers ---
-@socketio.on('join_game')
-def on_join(data):
-    game_id = data['game_id']
-    room = f'game_{game_id}'
-    join_room(room)
-    print(f"Client joined room: {room}")
-    # Optionally, send the current state to the user who just joined
-    # state = get_full_game_state_data(game_id)
-    # if state:
-    #     socketio.emit('game_update', state, to=request.sid)
-
-@socketio.on('leave_game')
-def on_leave(data):
-    game_id = data['game_id']
-    room = f'game_{game_id}'
-    leave_room(room)
-    print(f"Client left room: {room}")
+# Moved to app.py for better namespace management
 
 
 @games_bp.route("/queue", methods=["POST"])
@@ -543,7 +542,9 @@ def pick_category_for_round(game_id, round_number):
 
         # Emit update to all clients in the game room
         game_state = get_full_game_state_data(game_id)
-        socketio.emit('game_update', game_state, room=f'game_{game_id}')
+        room_name = f'game_{game_id}'
+
+        socketio.emit('game_update', game_state, room=room_name)
 
     except psycopg2.Error as e:
         conn.rollback(); cur.close(); return jsonify({"error": str(e)}), 500
@@ -748,7 +749,6 @@ def complete_round(game_id, round_number):
         """, (round_id_db,))
         answer_count = cur.fetchone()['count']
 
-        print(f"Round completion check: expected={expected_answers}, actual={answer_count}, players={num_players}, questions={num_questions}")
 
         if answer_count < expected_answers:
             cur.close()
@@ -761,46 +761,52 @@ def complete_round(game_id, round_number):
             WHERE id = %s
         """, (round_id_db,))
         
-        # 5. Activate the next round if it exists
+        # 5. Check if this is the last round
         cur.execute("""
-            SELECT id, round_number 
+            SELECT COUNT(*) as total_rounds
             FROM game_rounds 
-            WHERE game_id = %s AND round_number = %s AND status = 'pending'
-        """, (game_id, round_number + 1))
-        next_round = cur.fetchone()
+            WHERE game_id = %s
+        """, (game_id,))
+        total_rounds = cur.fetchone()['total_rounds']
         
-        if next_round:
-            print(f"Activating next round: {next_round['round_number']}")
-            # Activate the next round with 'pending' status for category selection
+        if round_number < total_rounds:
+            # Activate the next round if it exists
             cur.execute("""
-                UPDATE game_rounds
-                SET status = 'pending', start_time = NOW()
-                WHERE id = %s
-            """, (next_round['id'],))
-            print(f"Successfully activated round {next_round['round_number']} with id {next_round['id']} with status 'pending'")
+                SELECT id, round_number 
+                FROM game_rounds 
+                WHERE game_id = %s AND round_number = %s AND status = 'pending'
+            """, (game_id, round_number + 1))
+            next_round = cur.fetchone()
+            
+            if next_round:
+
+                # Activate the next round with 'pending' status for category selection
+                cur.execute("""
+                    UPDATE game_rounds
+                    SET status = 'pending', start_time = NOW()
+                    WHERE id = %s
+                """, (next_round['id'],))
+            else:
+                # Check what rounds exist
+                cur.execute("SELECT round_number, status FROM game_rounds WHERE game_id = %s ORDER BY round_number", (game_id,))
+                all_rounds = cur.fetchall()
         else:
-            print(f"No next round found for round {round_number + 1}")
-            # Check what rounds exist
-            cur.execute("SELECT round_number, status FROM game_rounds WHERE game_id = %s ORDER BY round_number", (game_id,))
-            all_rounds = cur.fetchall()
-            print(f"All rounds in game: {[(r['round_number'], r['status'], r['category_id']) for r in all_rounds]}")
+            print(f"This was the last round ({round_number}/{total_rounds}), game should be completed")
         
         conn.commit()
-        print(f"Round {round_number} completed successfully")
         
         # Emit update to all clients in the game room
         game_state = get_full_game_state_data(game_id)
-        socketio.emit('game_update', game_state, room=f'game_{game_id}')
+        room_name = f'game_{game_id}'
+        socketio.emit('game_update', game_state, room=room_name)
         
     except psycopg2.Error as e:
         conn.rollback()
         cur.close()
-        print(f"Error completing round: {str(e)}")
         return jsonify({"error": str(e)}), 500
     except Exception as e:
         conn.rollback()
         cur.close()
-        print(f"Unexpected error completing round: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
 
     cur.close()
@@ -861,7 +867,9 @@ def complete_duel_game(game_id):
         
         # Emit final update
         game_state = get_full_game_state_data(game_id)
-        socketio.emit('game_update', game_state, room=f'game_{game_id}')
+        room_name = f'game_{game_id}'
+
+        socketio.emit('game_update', game_state, room=room_name)
 
     except psycopg2.Error as e:
         conn.rollback()

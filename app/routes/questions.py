@@ -166,7 +166,7 @@ def delete_question(q_id: int) -> Any:
 
 @questions_bp.route('/difficulty-stats', methods=['GET'])
 def get_difficulty_stats() -> Any:
-    """
+    """s
     Get difficulty statistics for questions.
     Query params:
       - category_id=<int> (optional, filter by category)

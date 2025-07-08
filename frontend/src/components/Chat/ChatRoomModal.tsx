@@ -7,7 +7,7 @@ import LoadingSpinner from '../UI/LoadingSpinner';
 import Avatar from '../UI/Avatar';
 import { Send, X, MessageSquare, Pencil, Check } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
-import { socket } from '../../services/socket';
+import { chatSocket } from '../../services/socket';
 
 interface ChatRoomModalProps {
   isOpen: boolean;
@@ -57,27 +57,21 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
       fetchMessages();
 
       // Connect to socket events
-      socket.emit('join_room', { room_id: room.id });
+      chatSocket.emit('join_room', { room_id: room.id });
 
       const handleNewMessage = (newMessage: ChatMessage) => {
-        console.log('[Socket Room] Received "new_room_message" with data:', newMessage);
         // Ensure message is for this room before adding
         if (newMessage.room_id === room.id) {
-            console.log('[Socket Room] Message belongs to this room. Updating state.');
             setMessages((prevMessages) => [...prevMessages, newMessage]);
         } else {
-            console.log(`[Socket Room] Message for room ${newMessage.room_id} does not match current room ${room.id}. Ignoring.`);
         }
       };
       
       const handleJoinedSuccess = (data: { room_id: string }) => {
-        console.log(`[Socket Room] Successfully joined room: ${data.room_id}`);
       };
       
       const handleMessageUpdate = (updatedMessage: ChatMessage) => {
-        console.log('[Socket Room] Received "message_updated" with data:', updatedMessage);
         if (updatedMessage.room_id === room.id) {
-            console.log('[Socket Room] Updated message belongs to this room. Updating state.');
             setMessages((prevMessages) =>
               prevMessages.map((msg) =>
                 msg.id === updatedMessage.id ? { ...msg, message: updatedMessage.message, is_edited: true } : msg
@@ -91,18 +85,18 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
         setError(`A server error occurred: ${error.error}`);
       };
 
-      socket.on('joined_room_success', handleJoinedSuccess);
-      socket.on('new_room_message', handleNewMessage);
-      socket.on('message_updated', handleMessageUpdate);
-      socket.on('error', handleError);
+      chatSocket.on('joined_room_success', handleJoinedSuccess);
+      chatSocket.on('new_room_message', handleNewMessage);
+      chatSocket.on('message_updated', handleMessageUpdate);
+      chatSocket.on('error', handleError);
 
       // Cleanup on close
       return () => {
-        socket.emit('leave_room', { room_id: room.id });
-        socket.off('joined_room_success', handleJoinedSuccess);
-        socket.off('new_room_message', handleNewMessage);
-        socket.off('message_updated', handleMessageUpdate);
-        socket.off('error', handleError);
+        chatSocket.emit('leave_room', { room_id: room.id });
+        chatSocket.off('joined_room_success', handleJoinedSuccess);
+        chatSocket.off('new_room_message', handleNewMessage);
+        chatSocket.off('message_updated', handleMessageUpdate);
+        chatSocket.off('error', handleError);
       };
     }
   }, [isOpen, room.id, fetchMessages]);
@@ -122,7 +116,7 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
   const handleSaveEdit = () => {
     if (!editingMessage || editingMessage.text.trim() === '') return;
     
-    socket.emit('edit_message', {
+    chatSocket.emit('edit_message', {
       message_id: editingMessage.id,
       new_text: editingMessage.text,
     });
@@ -136,7 +130,7 @@ const ChatRoomModal: React.FC<ChatRoomModalProps> = ({ isOpen, onClose, room }) 
 
     try {
       // Message is sent via WebSocket, not HTTP POST
-      socket.emit('send_room_message', {
+      chatSocket.emit('send_room_message', {
         room_id: room.id,
         message: newMessage,
         reply_to_id: replyToMessage?.id,

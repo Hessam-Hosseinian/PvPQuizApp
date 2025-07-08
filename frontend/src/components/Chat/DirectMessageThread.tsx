@@ -6,7 +6,7 @@ import Avatar from '../UI/Avatar';
 import Button from '../UI/Button';
 import { Send, ArrowLeft, MessageSquare, X, Pencil, Check, CheckCheck } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
-import { socket } from '../../services/socket';
+import { chatSocket } from '../../services/socket';
 
 // ===========================
 // Helper Components
@@ -76,7 +76,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
       setMessages(response.data);
       setError(null);
       // After fetching, mark all messages from the other user as read
-      socket.emit('mark_messages_as_read', { other_user_id: conversation.other_user_id });
+      chatSocket.emit('mark_messages_as_read', { other_user_id: conversation.other_user_id });
     } catch (err) {
       setError('Failed to load messages.');
       console.error(err);
@@ -101,7 +101,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
         setMessages((prevMessages) => [...prevMessages, newMessage]);
         if (isTheirMessage) {
             setIsOtherUserTyping(false); // Stop typing indicator when message arrives
-            socket.emit('mark_messages_as_read', { other_user_id: conversation.other_user_id });
+            chatSocket.emit('mark_messages_as_read', { other_user_id: conversation.other_user_id });
         }
       }
     };
@@ -142,21 +142,21 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
     };
 
     // --- Register Listeners ---
-    socket.on('new_direct_message', handleNewMessage);
-    socket.on('message_updated', handleMessageUpdate);
-    socket.on('messages_read', handleMessagesRead);
-    socket.on('user_typing', handleUserTyping);
-    socket.on('user_stopped_typing', handleUserStoppedTyping);
-    socket.on('error', handleError);
+    chatSocket.on('new_direct_message', handleNewMessage);
+    chatSocket.on('message_updated', handleMessageUpdate);
+    chatSocket.on('messages_read', handleMessagesRead);
+    chatSocket.on('user_typing', handleUserTyping);
+    chatSocket.on('user_stopped_typing', handleUserStoppedTyping);
+    chatSocket.on('error', handleError);
 
     // --- Cleanup ---
     return () => {
-      socket.off('new_direct_message', handleNewMessage);
-      socket.off('message_updated', handleMessageUpdate);
-      socket.off('messages_read', handleMessagesRead);
-      socket.off('user_typing', handleUserTyping);
-      socket.off('user_stopped_typing', handleUserStoppedTyping);
-      socket.off('error', handleError);
+      chatSocket.off('new_direct_message', handleNewMessage);
+      chatSocket.off('message_updated', handleMessageUpdate);
+      chatSocket.off('messages_read', handleMessagesRead);
+      chatSocket.off('user_typing', handleUserTyping);
+      chatSocket.off('user_stopped_typing', handleUserStoppedTyping);
+      chatSocket.off('error', handleError);
     };
   }, [fetchMessages, conversation, user?.id]);
 
@@ -168,7 +168,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
     setNewMessage(e.target.value);
 
     // Emit 'typing' event
-    socket.emit('typing', { recipient_id: conversation.other_user_id });
+    chatSocket.emit('typing', { recipient_id: conversation.other_user_id });
 
     // Clear previous timeout
     if (typingTimeoutRef.current) {
@@ -177,7 +177,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
 
     // Set a new timeout to emit 'stop_typing'
     typingTimeoutRef.current = window.setTimeout(() => {
-      socket.emit('stop_typing', { recipient_id: conversation.other_user_id });
+      chatSocket.emit('stop_typing', { recipient_id: conversation.other_user_id });
     }, 2000); // 2 seconds of inactivity
   };
 
@@ -193,7 +193,7 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
   const handleSaveEdit = () => {
     if (!editingMessage || editingMessage.text.trim() === '') return;
     
-    socket.emit('edit_message', {
+    chatSocket.emit('edit_message', {
       message_id: editingMessage.id,
       new_text: editingMessage.text,
     });
@@ -208,9 +208,9 @@ const DirectMessageThread: React.FC<DirectMessageThreadProps> = ({ conversation,
     if (typingTimeoutRef.current) {
       clearTimeout(typingTimeoutRef.current);
     }
-    socket.emit('stop_typing', { recipient_id: conversation.other_user_id });
+    chatSocket.emit('stop_typing', { recipient_id: conversation.other_user_id });
 
-    socket.emit('send_direct_message', {
+    chatSocket.emit('send_direct_message', {
       recipient_id: conversation.other_user_id,
       message: newMessage,
       reply_to_id: replyToMessage?.id,

@@ -9,7 +9,7 @@ import ChatRoomModal from '../../components/Chat/ChatRoomModal';
 import Avatar from '../../components/UI/Avatar';
 import DirectMessageThread from '../../components/Chat/DirectMessageThread';
 import NewConversationModal from '../../components/Chat/NewConversationModal';
-import { socket } from '../../services/socket';
+import { chatSocket } from '../../services/socket';
 
 type ViewMode = 'rooms' | 'dms';
 
@@ -72,11 +72,11 @@ const ChatPage: React.FC = () => {
       }
     };
 
-    socket.on('conversation_update', handleConversationUpdate);
+          chatSocket.on('conversation_update', handleConversationUpdate);
 
-    return () => {
-      socket.off('conversation_update', handleConversationUpdate);
-    };
+      return () => {
+        chatSocket.off('conversation_update', handleConversationUpdate);
+      };
   }, [viewMode, fetchRooms, fetchConversations]);
 
   const handleCreateRoom = async () => {
