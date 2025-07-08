@@ -49,6 +49,23 @@ const ProfilePage: React.FC = () => {
     if (diffInSeconds < 31536000) return `${Math.floor(diffInSeconds / 2592000)} months ago`;
     return `${Math.floor(diffInSeconds / 31536000)} years ago`;
   };
+    
+  const getRelativeTime2 = (date: Date): string => {
+    const now = new Date();
+    const nowUTC = new Date(now);
+
+    const dateUTC = date.getTime() ;
+    const dateUTC2 = new Date(dateUTC).toUTCString();
+    const dateUTCtime = new Date(dateUTC2)
+    const diffInSeconds = Math.floor((nowUTC.getTime() - dateUTCtime.getTime()) / 1000);
+    
+    if (diffInSeconds < 60) return 'Just now';
+    if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)} minutes ago`;
+    if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)} hours ago`;
+    if (diffInSeconds < 2592000) return `${Math.floor(diffInSeconds / 86400)} days ago`;
+    if (diffInSeconds < 31536000) return `${Math.floor(diffInSeconds / 2592000)} months ago`;
+    return `${Math.floor(diffInSeconds / 31536000)} years ago`;
+  };
 
   // Calculate XP needed for next level
   const calculateXPForNextLevel = (currentLevel: number) => {
@@ -156,9 +173,6 @@ const ProfilePage: React.FC = () => {
   const [editing, setEditing] = useState(false);
   const [recentGames, setRecentGames] = useState<any[]>([]);
   const [showGameHistory, setShowGameHistory] = useState(false);
-  const [currentStreak, setCurrentStreak] = useState<number | null>(null);
-  const [bestScore, setBestScore] = useState<{ score: string; accuracy: number } | null>(null);
-  const [activeDays, setActiveDays] = useState<number | null>(null);
   const [comparisonStats, setComparisonStats] = useState<any>(null);
   const [passwordForm, setPasswordForm] = useState({
     currentPassword: '',
@@ -189,15 +203,6 @@ const ProfilePage: React.FC = () => {
     };
   }, [avatarPreview]);
 
-  // Calculate real data when stats or recent games change
-  useEffect(() => {
-    if (userStats || recentGames.length > 0) {
-      setCurrentStreak(calculateCurrentStreak(recentGames));
-      setBestScore(calculateBestScore(recentGames));
-      setActiveDays(calculateActiveDays(recentGames));
-      setComparisonStats(calculateComparisonStats(userStats));
-    }
-  }, [userStats, recentGames]);
 
   const loadUserStats = async () => {
     if (!user) return;
@@ -205,6 +210,8 @@ const ProfilePage: React.FC = () => {
     try {
       const response = await statsAPI.getUserWinLoss(user.id);
       setUserStats(response.data);
+      
+      
 
     } catch (error) {
       console.error('Failed to load user stats:', error);
@@ -221,6 +228,8 @@ const ProfilePage: React.FC = () => {
       const response = await statsAPI.getRecentGames?.();
       if (response?.data) {
         setRecentGames(response.data);
+        // console.log(response.data);
+        
       } else {
         // If API doesn't exist or returns no data, set empty array
         setRecentGames([]);
@@ -374,80 +383,6 @@ const ProfilePage: React.FC = () => {
         setAvatarFile(file);
       }
     }
-  };
-
-  // Calculate current streak from recent games
-  const calculateCurrentStreak = (games: any[]) => {
-    if (!games || games.length === 0) return 0;
-    
-    let streak = 0;
-    for (const game of games) {
-      if (game.result === 'Won') {
-        streak++;
-      } else {
-        break;
-      }
-    }
-    return streak;
-  };
-
-  // Calculate best score from recent games
-  const calculateBestScore = (games: any[]) => {
-    if (!games || games.length === 0) return null;
-    
-    let bestScore: { score: string; accuracy: number } | null = null;
-    for (const game of games) {
-      if (game.score) {
-        const [correct, total] = game.score.split('-').map(Number);
-        const accuracy = (correct / total) * 100;
-        
-        if (!bestScore || accuracy > bestScore.accuracy) {
-          bestScore = {
-            score: game.score,
-            accuracy: accuracy
-          };
-        }
-      }
-    }
-    return bestScore;
-  };
-
-  // Calculate active days (this week)
-  const calculateActiveDays = (games: any[]) => {
-    if (!games || games.length === 0) return 0;
-    
-    const oneWeekAgo = new Date();
-    oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-    
-    const activeDays = new Set();
-    for (const game of games) {
-      const gameDate = new Date(game.date);
-      if (gameDate >= oneWeekAgo) {
-        activeDays.add(gameDate.toDateString());
-      }
-    }
-    return activeDays.size;
-  };
-
-  // Calculate comparison stats based on available data
-  const calculateComparisonStats = (stats: any) => {
-    if (!stats) return null;
-    
-    // These would ideally come from backend API
-    // For now, we'll use reasonable estimates based on common gaming statistics
-    const winRate = stats.win_rate_percentage || 0;
-    const level = user?.current_level || 1;
-    const totalGames = (stats.games_won || 0) + (stats.games_lost || 0);
-    const accuracy = stats.total_answers > 0 
-      ? Math.round((stats.correct_answers / stats.total_answers) * 100) 
-      : 0;
-    
-    return {
-      winRateRank: winRate >= 80 ? 'Top 10%' : winRate >= 70 ? 'Top 25%' : winRate >= 60 ? 'Top 40%' : 'Top 60%',
-      levelRank: level >= 20 ? 'Top 10%' : level >= 15 ? 'Top 15%' : level >= 10 ? 'Top 25%' : 'Top 40%',
-      gamesRank: totalGames >= 100 ? 'Top 15%' : totalGames >= 50 ? 'Top 30%' : totalGames >= 20 ? 'Top 50%' : 'Top 70%',
-      accuracyRank: accuracy >= 90 ? 'Top 10%' : accuracy >= 80 ? 'Top 20%' : accuracy >= 70 ? 'Top 35%' : 'Top 55%'
-    };
   };
 
   if (!user) return null;
@@ -982,7 +917,7 @@ const ProfilePage: React.FC = () => {
                     <ClockIcon className="w-5 h-5 mr-2" />
                     Recent Games
                   </h3>
-                  {recentGames.length > 0 && (
+                  {/* {recentGames.length > 0 && (
                     <Button
                       onClick={() => setShowGameHistory(!showGameHistory)}
                       variant="outline"
@@ -990,20 +925,22 @@ const ProfilePage: React.FC = () => {
                     >
                       {showGameHistory ? 'Hide Details' : 'Show Details'}
                     </Button>
-                  )}
+                  )} */}
                 </div>
-                
+                {/* {console.log(recentGames)} */}
                 {recentGames.length > 0 ? (
                   <div className="space-y-3">
-                    {recentGames.slice(0, showGameHistory ? recentGames.length : 3).map((game, index) => (
+                    {recentGames.slice(0, showGameHistory ? recentGames.length : 3).map((game :any, index) => (
+                      
+                      
                       <div key={game.id || index} className="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
                         <div className="flex items-center">
                           <div className={`w-3 h-3 rounded-full mr-3 ${
-                            game.result === 'Won' ? 'bg-green-500' : game.result === 'Lost' ? 'bg-red-500' : 'bg-gray-500'
+                            game.winner === user.username ? 'bg-green-500' : game.winner !== user.username ? 'bg-red-500' : 'bg-gray-500'
                           }`} />
                           <div>
                             <p className="font-semibold text-white">
-                              vs {game.opponent || game.opponent_name || 'Unknown Player'}
+                              vs {game.player1 === user.username ? game.player2 : game.player1 || 'Unknown Player'}
                             </p>
                             {showGameHistory && game.score && (
                               <p className="text-sm text-dark-300">Score: {game.score}</p>
@@ -1012,18 +949,19 @@ const ProfilePage: React.FC = () => {
                         </div>
                         <div className="text-right">
                           <p className={`font-semibold ${
-                            game.result === 'Won' ? 'text-green-400' : 
-                            game.result === 'Lost' ? 'text-red-400' : 'text-gray-400'
+                            game.winner === user.username ? 'text-green-400' : 
+                            game.winner !== user.username ? 'text-red-400' : 'text-gray-400'
                           }`}>
-                            {game.result || 'Unknown'}
+                            {game.winner === user.username ? 'Won' : 'Lost'}
                           </p>
                           <p className="text-sm text-dark-300">
-                            {game.date ? getRelativeTime(new Date(game.date)) : 'Unknown date'}
+                            {game.created_at ? getRelativeTime2(new Date(game.created_at )) : 'Unknown date'}
                           </p>
                         </div>
                       </div>
                     ))}
                   </div>
+                  
                 ) : (
                   <div className="text-center py-8">
                     <ClockIcon className="w-12 h-12 text-dark-400 mx-auto mb-3" />
@@ -1080,34 +1018,34 @@ const ProfilePage: React.FC = () => {
                     </div>
                     <p className="text-sm text-dark-300 mb-1">Current Streak</p>
                     <p className="text-2xl font-bold text-white">
-                      {currentStreak !== null ? currentStreak : 'N/A'}
+                      {userStats?.current_streak !== null ? userStats.current_streak : 'N/A'}
                     </p>
                     <p className="text-xs text-green-400 mt-1">
-                      {currentStreak !== null && currentStreak > 0 ? 'Active streak' : 'No active streak'}
+                      {userStats?.current_streak !== null && userStats?.current_streak > 0 ? 'Active streak' : 'No active streak'}
                     </p>
                   </div>
                   <div className="text-center p-4 bg-dark-700 rounded-lg">
                     <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-3">
                       <TargetIcon className="w-8 h-8 text-white" />
                     </div>
-                    <p className="text-sm text-dark-300 mb-1">Best Score</p>
+                    <p className="text-sm text-dark-300 mb-1">Best Streak</p>
                     <p className="text-2xl font-bold text-white">
-                      {bestScore ? bestScore.score : 'N/A'}
+                      {userStats?.best_streak !== null ? userStats.best_streak : 'N/A'}
                     </p>
                     <p className="text-xs text-purple-400 mt-1">
-                      {bestScore ? `${bestScore.accuracy.toFixed(0)}% accuracy` : 'No games played'}
+                      {userStats?.best_streak !== null && userStats?.best_streak > 0 ? 'Best streak' : 'No best streak'}
                     </p>
                   </div>
                   <div className="text-center p-4 bg-dark-700 rounded-lg">
                     <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
                       <CalendarIcon className="w-8 h-8 text-white" />
                     </div>
-                    <p className="text-sm text-dark-300 mb-1">Active Days</p>
+                    <p className="text-sm text-dark-300 mb-1">Total Points</p>
                     <p className="text-2xl font-bold text-white">
-                      {activeDays !== null ? activeDays : 'N/A'}
+                      {userStats?.total_points   !== null ? userStats.total_points : 'N/A'}
                     </p>
                     <p className="text-xs text-orange-400 mt-1">
-                      {activeDays !== null ? 'This week' : 'No recent activity'}
+                      {userStats?.total_points !== null ? 'Total Points' : 'No recent activity'}
                     </p>
                   </div>
                 </div>

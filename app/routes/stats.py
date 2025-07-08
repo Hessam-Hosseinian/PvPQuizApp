@@ -82,13 +82,16 @@ def get_user_winloss(user_id: int) -> Any:
           us.user_id,
           us.games_won,
           us.games_played - us.games_won AS games_lost,
+          us.current_streak,
+          us.best_streak,
           ROUND(
             CASE WHEN us.games_played = 0 THEN 0
                  ELSE (us.games_won::numeric / us.games_played) * 100
             END, 2
           ) AS win_rate_percentage,
           us.correct_answers,
-          us.total_answers
+          us.total_answers,
+          us.total_points
         FROM user_stats us
         WHERE us.user_id = %s;
     """

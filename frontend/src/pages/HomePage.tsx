@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback, Suspense } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import Card from '../components/UI/Card';
@@ -56,6 +56,16 @@ interface DailyStats {
   averageScore?: number;
 }
 
+interface StatsError {
+    userCount?: string;
+    categoriesCount?: string;
+    questionsCount?: string;
+    topPlayers?: string;
+    recentGames?: string;
+    popularCategories?: string;
+    dailyStats?: string;
+}
+
 interface Stats {
   userCount: number;
   categoriesCount: number;
@@ -68,77 +78,125 @@ interface Stats {
 
 // Custom hook for stats management
 const useStats = () => {
-  const [stats, setStats] = useState<Stats>({
-    userCount: 0,
-    categoriesCount: 0,
-    questionsCount: 0,
-    topPlayers: [],
-    recentGames: [],
-    popularCategories: [],
-    dailyStats: {
-      gamesPlayed: 0,
-      newUsers: 0,
-      questionsAnswered: 0
-    }
-  });
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [retryCount, setRetryCount] = useState(0);
-
-  const loadStats = useCallback(async () => {
-    try {
-      setError(null);
-      setLoading(true);
-      
-      const [
-        userCountResponse, 
-        categoriesResponse, 
-        topPlayersResponse, 
-        questionCountResponse,
-        dailyStatsResponse,
-        recentGamesResponse,
-        popularCategoriesResponse
-      ] = await Promise.all([
-        statsAPI.getUserCount(),
-        categoriesAPI.getCategories(),
-        statsAPI.getTop10WinRate(),
-        statsAPI.getQuestionCount(),
-        statsAPI.getDailyStats(),
-        statsAPI.getRecentGames(),
-        statsAPI.getPopularCategories()
-      ]);
-
-      setStats({
-        userCount: userCountResponse.data.total_users,
-        categoriesCount: categoriesResponse.data.length,
-        questionsCount: questionCountResponse.data.total_questions,
-        topPlayers: topPlayersResponse.data.slice(0, 3),
-        recentGames: recentGamesResponse.data.slice(0, 3),
-        popularCategories: popularCategoriesResponse.data.slice(0, 4),
-        dailyStats: {
-          gamesPlayed: dailyStatsResponse.data.games_played_today,
-          newUsers: dailyStatsResponse.data.new_users_today,
-          questionsAnswered: dailyStatsResponse.data.questions_answered_today
-        }
-      });
-      setRetryCount(0);
-    } catch (error) {
-      console.error('Failed to load stats:', error);
-      const errorMessage = retryCount < 3 
-        ? `Failed to load statistics. Retrying... (${retryCount + 1}/3)`
-        : 'Failed to load statistics. Please check your connection and try again.';
-      setError(errorMessage);
-      
-      if (retryCount < 3) {
-        setRetryCount(prev => prev + 1);
-        setTimeout(() => loadStats(), 2000);
+    const [stats, setStats] = useState<Stats>({
+      userCount: 0,
+      categoriesCount: 0,
+      questionsCount: 0,
+      topPlayers: [],
+      recentGames: [],
+      popularCategories: [],
+      dailyStats: {
+        gamesPlayed: 0,
+        newUsers: 0,
+        questionsAnswered: 0
       }
-    } finally {
-      setLoading(false);
-    }
-  }, [retryCount]);
-
-  return { stats, loading, error, retryCount, loadStats };
+    });
+    const [loading, setLoading] = useState(true);
+    const [errors, setErrors] = useState<StatsError>({});
+  
+    const loadStats = useCallback(async (isRefresh = false) => {
+      if (!isRefresh) {
+        setLoading(true);
+      }
+      setErrors({});
+      
+      try {
+        const results = await Promise.allSettled([
+          statsAPI.getUserCount(),
+          categoriesAPI.getCategories(),
+          statsAPI.getTop10WinRate(),
+          statsAPI.getQuestionCount(),
+          statsAPI.getDailyStats(),
+          statsAPI.getRecentGames(),
+          statsAPI.getPopularCategories()
+        ]);
+  
+        const [
+          userCountResult,
+          categoriesResult,
+          topPlayersResult,
+          questionCountResult,
+          dailyStatsResult,
+          recentGamesResult,
+          popularCategoriesResult
+        ] = results;
+  
+        const newStats: Stats = { ...stats };
+        const newErrors: StatsError = {};
+  
+        if (userCountResult.status === 'fulfilled') {
+          newStats.userCount = userCountResult.value.data.total_users;
+        } else {
+          console.error('Failed to load user count:', userCountResult.reason);
+          newErrors.userCount = "Failed to load user count.";
+        }
+  
+        if (categoriesResult.status === 'fulfilled') {
+          newStats.categoriesCount = categoriesResult.value.data.length;
+        } else {
+          console.error('Failed to load categories count:', categoriesResult.reason);
+          newErrors.categoriesCount = "Failed to load categories.";
+        }
+  
+        if (topPlayersResult.status === 'fulfilled') {
+          newStats.topPlayers = topPlayersResult.value.data.slice(0, 3);
+        } else {
+          console.error('Failed to load top players:', topPlayersResult.reason);
+          newErrors.topPlayers = "Failed to load top players.";
+        }
+  
+        if (questionCountResult.status === 'fulfilled') {
+          newStats.questionsCount = questionCountResult.value.data.total_questions;
+        } else {
+          console.error('Failed to load question count:', questionCountResult.reason);
+          newErrors.questionsCount = "Failed to load question count.";
+        }
+  
+        if (dailyStatsResult.status === 'fulfilled') {
+          newStats.dailyStats = {
+            gamesPlayed: dailyStatsResult.value.data.games_played_today,
+            newUsers: dailyStatsResult.value.data.new_users_today,
+            questionsAnswered: dailyStatsResult.value.data.questions_answered_today
+          };
+        } else {
+          console.error('Failed to load daily stats:', dailyStatsResult.reason);
+          newErrors.dailyStats = "Failed to load daily stats.";
+        }
+  
+        if (recentGamesResult.status === 'fulfilled') {
+          newStats.recentGames = recentGamesResult.value.data.slice(0, 3);
+        } else {
+          console.error('Failed to load recent games:', recentGamesResult.reason);
+          newErrors.recentGames = "Failed to load recent games.";
+        }
+        
+        if (popularCategoriesResult.status === 'fulfilled') {
+          newStats.popularCategories = popularCategoriesResult.value.data.slice(0, 4);
+        } else {
+          console.error('Failed to load popular categories:', popularCategoriesResult.reason);
+          newErrors.popularCategories = "Failed to load popular categories.";
+        }
+  
+        setStats(newStats);
+        setErrors(newErrors);
+  
+      } catch (error) {
+        console.error('A critical error occurred while loading stats:', error);
+        setErrors({
+          userCount: "An error occurred.",
+          categoriesCount: "An error occurred.",
+          questionsCount: "An error occurred.",
+          topPlayers: "An error occurred.",
+          recentGames: "An error occurred.",
+          popularCategories: "An error occurred.",
+          dailyStats: "An error occurred.",
+        });
+      } finally {
+        setLoading(false);
+      }
+    }, []);
+  
+    return { stats, loading, errors, loadStats };
 };
 
 // Enhanced skeleton components
@@ -182,41 +240,17 @@ const SkeletonGameCard = () => (
   </Card>
 );
 
-// Error component
-const ErrorState = ({ error, retryCount, onRetry }: { error: string; retryCount: number; onRetry: () => void }) => (
-  <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900 flex items-center justify-center p-4">
-    <Card className="p-8 text-center max-w-md w-full">
-      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
-        <AlertCircleIcon className="w-8 h-8 text-white" />
-      </div>
-      <h3 className="text-xl font-semibold text-white mb-3">Error Loading Data</h3>
-      <p className="text-dark-300 mb-6">{error}</p>
-      <div className="flex flex-col sm:flex-row gap-3">
-        <Button 
-          onClick={onRetry} 
-          className="w-full sm:w-auto flex items-center justify-center"
-          disabled={retryCount >= 3}
-        >
-          <RefreshCwIcon className={`w-4 h-4 mr-2 ${retryCount < 3 ? 'animate-spin' : ''}`} />
-          {retryCount < 3 ? 'Retrying...' : 'Try Again'}
-        </Button>
-        {retryCount >= 3 && (
-          <Button 
-            variant="outline" 
-            onClick={() => window.location.reload()} 
-            className="w-full sm:w-auto"
-          >
-            Refresh Page
-          </Button>
-        )}
-      </div>
-    </Card>
-  </div>
+const DataError: React.FC<{ message: string }> = ({ message }) => (
+    <div className="p-4 bg-red-900/20 border border-red-500/30 rounded-lg text-center">
+      <AlertCircleIcon className="w-8 h-8 text-red-500 mx-auto mb-2" />
+      <p className="text-red-400">{message}</p>
+    </div>
 );
+  
 
 const HomePage: React.FC = () => {
   const { user } = useAuth();
-  const { stats, loading, error, retryCount, loadStats } = useStats();
+  const { stats, loading, errors, loadStats } = useStats();
 
   useEffect(() => {
     loadStats();
@@ -225,12 +259,19 @@ const HomePage: React.FC = () => {
   // Memoized stats for better performance
   const memoizedStats = useMemo(() => stats, [stats]);
 
-  if (error) {
-    return <ErrorState error={error} retryCount={retryCount} onRetry={loadStats} />;
-  }
+  const hasErrors = Object.keys(errors).length > 0;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900" role="main" aria-label="PhoenixFlare Home Page">
+      {hasErrors && (
+        <div className="bg-yellow-900/30 text-yellow-300 p-3 text-center text-sm flex items-center justify-center">
+          <AlertCircleIcon className="w-4 h-4 mr-2" />
+          Some sections failed to load.
+          <button onClick={() => loadStats(true)} className="ml-2 font-semibold underline hover:text-yellow-200">
+            Click here to refresh.
+          </button>
+        </div>
+      )}
       {/* Hero Section */}
       <section className="relative overflow-hidden" aria-labelledby="hero-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -287,15 +328,15 @@ const HomePage: React.FC = () => {
             {!loading && (
               <div className="mt-12 grid grid-cols-3 gap-4 max-w-md mx-auto animate-fade-in-up" style={{animationDelay: '0.5s'}}>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-white">{memoizedStats.categoriesCount}+</div>
+                  <div className="text-2xl font-bold text-white">{errors.categoriesCount ? 'N/A' : `${memoizedStats.categoriesCount}+`}</div>
                   <div className="text-sm text-dark-400">Categories</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-white">{memoizedStats.questionsCount.toLocaleString()}+</div>
+                  <div className="text-2xl font-bold text-white">{errors.questionsCount ? 'N/A' : `${memoizedStats.questionsCount.toLocaleString()}+`}</div>
                   <div className="text-sm text-dark-400">Questions</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-white">{memoizedStats.dailyStats.gamesPlayed}</div>
+                  <div className="text-2xl font-bold text-white">{errors.dailyStats ? 'N/A' : memoizedStats.dailyStats.gamesPlayed}</div>
                   <div className="text-sm text-dark-400">Games Today</div>
                 </div>
               </div>
@@ -321,6 +362,11 @@ const HomePage: React.FC = () => {
             </>
           ) : (
             <>
+            {errors.userCount || errors.dailyStats ? (
+                <div className="md:col-span-1">
+                  <DataError message={errors.userCount || errors.dailyStats || 'Failed to load player stats'} />
+                </div>
+              ) : (
               <div role="article" aria-labelledby="active-players">
                 <Card className="p-6 text-center animate-fade-in-up animate-stagger-1 group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl" hover>
                   <div className="w-12 h-12 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300" aria-hidden="true">
@@ -335,7 +381,12 @@ const HomePage: React.FC = () => {
                   </div>
                 </Card>
               </div>
-
+            )}
+            {errors.categoriesCount ? (
+                <div className="md:col-span-1">
+                    <DataError message={errors.categoriesCount} />
+                </div>
+            ) : (
               <div role="article" aria-labelledby="quiz-categories">
                 <Card className="p-6 text-center animate-fade-in-up animate-stagger-2 group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl" hover>
                   <div className="w-12 h-12 bg-gradient-to-r from-secondary-500 to-secondary-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300" aria-hidden="true">
@@ -350,7 +401,12 @@ const HomePage: React.FC = () => {
                   </div>
                 </Card>
               </div>
-
+            )}
+            {errors.questionsCount || errors.dailyStats ? (
+                <div className="md:col-span-1">
+                 <DataError message={errors.questionsCount || errors.dailyStats || 'Failed to load question stats'} />
+               </div>
+             ) : (
               <div role="article" aria-labelledby="quiz-questions">
                 <Card className="p-6 text-center animate-fade-in-up animate-stagger-3 group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl" hover>
                   <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300" aria-hidden="true">
@@ -365,6 +421,7 @@ const HomePage: React.FC = () => {
                   </div>
                 </Card>
               </div>
+             )}
             </>
           )}
         </div>
@@ -375,6 +432,9 @@ const HomePage: React.FC = () => {
             <ActivityIcon className="w-6 h-6 mr-3 text-primary-400" />
             Today's Activity
           </h2>
+          {errors.dailyStats ? (
+            <DataError message={errors.dailyStats} />
+          ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {loading ? (
               <>
@@ -435,6 +495,7 @@ const HomePage: React.FC = () => {
               </>
             )}
           </div>
+          )}
         </section>
 
         {/* Features Section */}
@@ -553,7 +614,9 @@ const HomePage: React.FC = () => {
               <SkeletonGameCard />
               <SkeletonGameCard />
             </div>
-          ) : memoizedStats.recentGames.length > 0 ? (
+            ) : errors.recentGames ? (
+                <DataError message={errors.recentGames} />
+            ) : memoizedStats.recentGames.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {memoizedStats.recentGames.map((game, index) => (
                 <div key={game.id} className="group" role="article" aria-labelledby={`game-${game.id}`}>
@@ -634,7 +697,9 @@ const HomePage: React.FC = () => {
               <SkeletonCard className="text-center" />
               <SkeletonCard className="text-center" />
             </div>
-          ) : memoizedStats.popularCategories.length > 0 ? (
+            ) : errors.popularCategories ? (
+                <DataError message={errors.popularCategories} />
+            ) : memoizedStats.popularCategories.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {memoizedStats.popularCategories.map((category, index) => (
                 <div key={category.name} className="group" role="article" aria-labelledby={`category-${category.name}`}>
@@ -728,6 +793,14 @@ const HomePage: React.FC = () => {
               <SkeletonCard className="text-center" />
             </div>
           </section>
+        ) : errors.topPlayers ? (
+            <section className="text-center mb-16" aria-labelledby="top-players-heading">
+                <h2 id="top-players-heading" className="text-3xl font-bold text-white mb-8 flex items-center justify-center">
+                <TrophyIcon className="w-6 h-6 mr-3 text-yellow-400" />
+                Top Players
+                </h2>
+                <DataError message={errors.topPlayers} />
+            </section>
         ) : memoizedStats.topPlayers.length > 0 ? (
           <section className="text-center mb-16" aria-labelledby="top-players-heading">
             <h2 id="top-players-heading" className="text-3xl font-bold text-white mb-8 flex items-center justify-center">
