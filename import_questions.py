@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Script to import questions from opentdb_data2 folder into the database.
 This script will:

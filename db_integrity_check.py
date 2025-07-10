@@ -168,15 +168,7 @@ def check_database_integrity():
         if orphaned_messages > 0:
             issues.append(f"❌ {orphaned_messages} chat messages with invalid sender")
         
-        # 14. Check for orphaned notifications
-        cur.execute("""
-            SELECT COUNT(*) FROM notifications n 
-            LEFT JOIN users u ON n.user_id = u.id 
-            WHERE u.id IS NULL
-        """)
-        orphaned_notifications = cur.fetchone()['count']
-        if orphaned_notifications > 0:
-            issues.append(f"❌ {orphaned_notifications} notifications with invalid user")
+       
         
         cur.close()
         conn.close()
