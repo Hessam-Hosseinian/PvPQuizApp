@@ -51,25 +51,71 @@ A full-stack, real-time, multiplayer quiz application where users can challenge 
 - Integrity checks and migrations
 
 ---
-
 ## Screenshots
 
-> _Add screenshots of your app’s main features below. Replace the placeholders with actual images._
-
 ### 1. Home Page
-![Home Page](docs/screenshots/homepage.png)
+<div align="center" style="display: flex; gap: 16px;">
+  <img src="docs/screenshots/mainpage1.png" alt="Home Page - Welcome" width="340" style="vertical-align: top;"/>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <img src="docs/screenshots/mainpage2.png" alt="Home Page - Features" width="160"/>
+    <img src="docs/screenshots/mainpage3.png" alt="Home Page - User Panel" width="160"/>
+  </div>
+</div>
+
+---
 
 ### 2. Game Lobby
-![Game Lobby](docs/screenshots/game_lobby.png)
+<div align="center">
+  <img src="docs/screenshots/play.png" alt="Game Lobby" width="400"/>
+</div>
 
-### 3. Quiz Match
-![Quiz Match](docs/screenshots/quiz_match.png)
+---
 
-### 4. Chat System
-![Chat System](docs/screenshots/chat.png)
+### 3. Categories Page
+<div align="center">
+  <img src="docs/screenshots/cat.png" alt="Categories Page" width="400"/>
+</div>
 
-### 5. Admin Panel
-![Admin Panel](docs/screenshots/admin_panel.png)
+---
+
+### 4. Quiz Match
+<div align="center" style="display: flex; gap: 16px;">
+  <img src="docs/screenshots/q.png" alt="Quiz Match - Question" width="340" style="vertical-align: top;"/>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <img src="docs/screenshots/cat2.png" alt="Quiz Match - Category" width="160"/>
+    <img src="docs/screenshots/win.png" alt="Quiz Match - Win Screen" width="160"/>
+  </div>
+</div>
+
+---
+
+### 5. Chat System
+<div align="center">
+  <img src="docs/screenshots/chat.png" alt="Chat System" width="400"/>
+</div>
+
+---
+
+### 6. Leaderboard System
+<div align="center">
+  <img src="docs/screenshots/lid1.png" alt="Leaderboard - Top Players" width="220"/>
+  <img src="docs/screenshots/lid2.png" alt="Leaderboard - Details" width="220"/>
+</div>
+
+---
+
+### 7. Profile Page
+<div align="center">
+  <img src="docs/screenshots/prof1.png" alt="Profile Page - Overview" width="220"/>
+  <img src="docs/screenshots/prof2.png" alt="Profile Page - Stats" width="220"/>
+</div>
+
+---
+
+### 8. Admin Panel
+<div align="center">
+  <img src="docs/screenshots/admin.png" alt="Admin Panel" width="400"/>
+</div>
 
 ---
 
@@ -77,7 +123,7 @@ A full-stack, real-time, multiplayer quiz application where users can challenge 
 
 - **Frontend:** React, TypeScript, Tailwind CSS, Vite
 - **Backend:** Python, Flask (or FastAPI), WebSockets
-- **Database:** SQLite (or PostgreSQL/MySQL, configurable)
+- **Database:** PostgreSQL
 - **Other:** Socket.IO, REST API, JWT Authentication
 
 ---

@@ -42,7 +42,7 @@ const PlayerHeader: React.FC<PlayerHeaderProps> = ({ player1, player2, isMyTurnT
                 </div>
                 {isMyTurnToPick && isCategorySelectionPhase && (
                     <span className="absolute top-2 left-2 bg-primary-500 text-white text-xs px-3 py-1 rounded-full shadow animate-bounce-in font-bold">
-                        نوبت شما
+                     Your Turn
                     </span>
                 )}
             </Card>
