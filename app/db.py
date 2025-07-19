@@ -75,3 +75,5 @@ def modify_db(query, args=()):
         db.commit()
         cur.close()
         return affected_rows  
+
+        
