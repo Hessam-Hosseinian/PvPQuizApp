@@ -165,7 +165,7 @@ const ChatPage: React.FC = () => {
                 onClick={() => setSelectedConversation(convo)}
               >
                 <div className="relative">
-                  <Avatar src={convo.other_user_avatar} username={convo.other_user_username} size="lg" />
+                <Avatar src={convo.other_user_avatar} size="lg" />
                   {convo.unread_count > 0 && (
                     <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-dark-800">
                       {convo.unread_count}
