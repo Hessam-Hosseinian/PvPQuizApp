@@ -14,13 +14,14 @@ import { chatSocket } from '../../services/socket';
 type ViewMode = 'rooms' | 'dms';
 
 const ChatPage: React.FC = () => {
-  const [viewMode, setViewMode] = useState<ViewMode>('rooms');
+  // const [viewMode, setViewMode] = useState<ViewMode>('rooms');
+  const [viewMode, setViewMode] = useState<ViewMode>('dms'); // Only DMs
   
   // State for Rooms
-  const [rooms, setRooms] = useState<ChatRoom[]>([]);
-  const [loadingRooms, setLoadingRooms] = useState(true);
-  const [selectedRoom, setSelectedRoom] = useState<ChatRoom | null>(null);
-  const [isRoomModalOpen, setIsRoomModalOpen] = useState(false);
+  // const [rooms, setRooms] = useState<ChatRoom[]>([]);
+  // const [loadingRooms, setLoadingRooms] = useState(true);
+  // const [selectedRoom, setSelectedRoom] = useState<ChatRoom | null>(null);
+  // const [isRoomModalOpen, setIsRoomModalOpen] = useState(false);
   
   // State for DMs
   const [conversations, setConversations] = useState<Conversation[]>([]);
@@ -30,19 +31,19 @@ const ChatPage: React.FC = () => {
 
   const [error, setError] = useState<string | null>(null);
 
-  const fetchRooms = useCallback(async () => {
-    try {
-      setLoadingRooms(true);
-      setError(null);
-      const response = await chatAPI.getRooms();
-      setRooms(response.data);
-    } catch (err) {
-      setError('Failed to fetch chat rooms.');
-      console.error(err);
-    } finally {
-      setLoadingRooms(false);
-    }
-  }, []);
+  // const fetchRooms = useCallback(async () => {
+  //   try {
+  //     setLoadingRooms(true);
+  //     setError(null);
+  //     const response = await chatAPI.getRooms();
+  //     setRooms(response.data);
+  //   } catch (err) {
+  //     setError('Failed to fetch chat rooms.');
+  //     console.error(err);
+  //   } finally {
+  //     setLoadingRooms(false);
+  //   }
+  // }, []);
 
   const fetchConversations = useCallback(async () => {
     try {
@@ -59,38 +60,28 @@ const ChatPage: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    if (viewMode === 'rooms') {
-      fetchRooms();
-    } else {
-      fetchConversations();
-    }
-
-    // Listen for updates to the conversation list for DMs
+    fetchConversations();
     const handleConversationUpdate = () => {
-      if (viewMode === 'dms') {
-        fetchConversations();
-      }
+      fetchConversations();
     };
+    chatSocket.on('conversation_update', handleConversationUpdate);
+    return () => {
+      chatSocket.off('conversation_update', handleConversationUpdate);
+    };
+  }, [fetchConversations]);
 
-          chatSocket.on('conversation_update', handleConversationUpdate);
-
-      return () => {
-        chatSocket.off('conversation_update', handleConversationUpdate);
-      };
-  }, [viewMode, fetchRooms, fetchConversations]);
-
-  const handleCreateRoom = async () => {
-    const roomName = prompt('Enter a name for the new public room:');
-    if (roomName && roomName.trim() !== '') {
-      try {
-        await chatAPI.createRoom({ name: roomName, type: 'public' });
-        fetchRooms();
-      } catch (err) {
-        setError('Failed to create room. You may need to be logged in.');
-        console.error(err);
-      }
-    }
-  };
+  // const handleCreateRoom = async () => {
+  //   const roomName = prompt('Enter a name for the new public room:');
+  //   if (roomName && roomName.trim() !== '') {
+  //     try {
+  //       await chatAPI.createRoom({ name: roomName, type: 'public' });
+  //       fetchRooms();
+  //     } catch (err) {
+  //       setError('Failed to create room. You may need to be logged in.');
+  //       console.error(err);
+  //     }
+  //   }
+  // };
 
   const handleSelectUser = (user: User) => {
     // Create a temporary conversation object to open the thread
@@ -106,45 +97,45 @@ const ChatPage: React.FC = () => {
     setIsNewConversationModalOpen(false);
   };
 
-  const renderRoomsView = () => (
-    <>
-      <header className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-white flex items-center">
-          Chat Rooms
-        </h1>
-        <Button onClick={handleCreateRoom} className="flex items-center">
-          <PlusCircle className="mr-2" size={20} />
-          Create Room
-        </Button>
-      </header>
-      {loadingRooms ? (
-        <div className="flex justify-center items-center h-64"><LoadingSpinner /></div>
-      ) : rooms.filter(room => room.type === 'public').length === 0 ? (
-        <div className="text-center py-16 bg-dark-800 rounded-lg">
-          <p className="text-gray-400 mb-4">No public rooms available yet.</p>
-          <Button onClick={handleCreateRoom}>
-            <PlusCircle className="mr-2" size={20} />
-            Create the First Room
-          </Button>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {rooms.filter(room => room.type === 'public').map((room) => (
-            <Card key={room.id} className="hover:shadow-primary-500/30 transition-shadow duration-300 cursor-pointer bg-dark-800" onClick={() => { setSelectedRoom(room); setIsRoomModalOpen(true); }}>
-              <div className="p-6">
-                <h2 className="text-2xl font-semibold text-white mb-2">{room.name}</h2>
-                <p className="text-gray-400 mb-4">Public discussion room.</p>
-                <div className="text-sm text-gray-500 flex items-center">
-                  <Users className="mr-2" size={16} />
-                  <span>Public</span>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </div>
-      )}
-    </>
-  );
+  // const renderRoomsView = () => (
+  //   <>
+  //     <header className="flex justify-between items-center mb-8">
+  //       <h1 className="text-4xl font-bold text-white flex items-center">
+  //         Chat Rooms
+  //       </h1>
+  //       <Button onClick={handleCreateRoom} className="flex items-center">
+  //         <PlusCircle className="mr-2" size={20} />
+  //         Create Room
+  //       </Button>
+  //     </header>
+  //     {loadingRooms ? (
+  //       <div className="flex justify-center items-center h-64"><LoadingSpinner /></div>
+  //     ) : rooms.filter(room => room.type === 'public').length === 0 ? (
+  //       <div className="text-center py-16 bg-dark-800 rounded-lg">
+  //         <p className="text-gray-400 mb-4">No public rooms available yet.</p>
+  //         <Button onClick={handleCreateRoom}>
+  //           <PlusCircle className="mr-2" size={20} />
+  //           Create the First Room
+  //         </Button>
+  //       </div>
+  //     ) : (
+  //       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  //         {rooms.filter(room => room.type === 'public').map((room) => (
+  //           <Card key={room.id} className="hover:shadow-primary-500/30 transition-shadow duration-300 cursor-pointer bg-dark-800" onClick={() => { setSelectedRoom(room); setIsRoomModalOpen(true); }}>
+  //             <div className="p-6">
+  //               <h2 className="text-2xl font-semibold text-white mb-2">{room.name}</h2>
+  //               <p className="text-gray-400 mb-4">Public discussion room.</p>
+  //               <div className="text-sm text-gray-500 flex items-center">
+  //                 <Users className="mr-2" size={16} />
+  //                 <span>Public</span>
+  //               </div>
+  //             </div>
+  //           </Card>
+  //         ))}
+  //       </div>
+  //     )}
+  //   </>
+  // );
   
   const renderDMsView = () => (
     <>
@@ -200,14 +191,14 @@ const ChatPage: React.FC = () => {
     <div className="container mx-auto p-4 md:p-8 flex flex-col h-[calc(100vh-4rem)]">
       <div className="flex-shrink-0">
         <div className="flex items-center justify-center mb-8 border-b border-dark-700">
-          <TabButton icon={MessageSquare} label="Rooms" isActive={viewMode === 'rooms'} onClick={() => { setViewMode('rooms'); setSelectedConversation(null); }} />
+          {/* <TabButton icon={MessageSquare} label="Rooms" isActive={viewMode === 'rooms'} onClick={() => { setViewMode('rooms'); setSelectedConversation(null); }} /> */}
           <TabButton icon={Mail} label="Direct Messages" isActive={viewMode === 'dms'} onClick={() => { setViewMode('dms'); }} />
         </div>
         {error && <div className="text-center text-red-500 mb-4">{error}</div>}
       </div>
 
       <div className="transition-opacity duration-300 flex-grow overflow-hidden">
-        {viewMode === 'rooms' && renderRoomsView()}
+        {/* {viewMode === 'rooms' && renderRoomsView()} */}
         {viewMode === 'dms' && (
           <div className="flex gap-6 h-full">
             <div className={`w-full lg:w-1/3 transition-all duration-300 flex flex-col ${selectedConversation ? 'hidden lg:block' : ''}`}>
@@ -231,13 +222,13 @@ const ChatPage: React.FC = () => {
         )}
       </div>
 
-      {selectedRoom && (
+      {/* {selectedRoom && (
         <ChatRoomModal
           isOpen={isRoomModalOpen}
           onClose={() => { setIsRoomModalOpen(false); setSelectedRoom(null); }}
           room={selectedRoom}
         />
-      )}
+      )} */}
 
       <NewConversationModal
         isOpen={isNewConversationModalOpen}

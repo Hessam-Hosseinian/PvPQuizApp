@@ -377,7 +377,7 @@ const LeaderboardPage: React.FC = () => {
         <p className="text-dark-300 text-lg">See how you rank against other players</p>
         
         {/* Data Source Indicator */}
-        <div className="mt-4">
+        {/* <div className="mt-4">
           {dataSource === 'fallback' ? (
             <div className="bg-yellow-900/20 border border-yellow-600/30 rounded-lg p-3">
               <div className="flex items-center justify-between">
@@ -409,7 +409,7 @@ const LeaderboardPage: React.FC = () => {
                   <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                   <span className="text-green-400 text-sm font-medium">Live Data</span>
                   {/* <span className="text-green-300 text-sm">Connected to real database</span> */}
-                </div>
+                {/* </div>
                 <Button
                   onClick={() => {
                     loadLeaderboard();
@@ -419,11 +419,11 @@ const LeaderboardPage: React.FC = () => {
                   className="bg-green-600 hover:bg-green-500 text-white text-xs px-3 py-1"
                 >
                   Refresh
-                </Button>
-              </div>
+                </Button> */}
+              {/* </div>
             </div>
           )}
-        </div>
+        </div> */} 
 
         {/* API Errors Display */}
         {apiErrors.length > 0 && (
@@ -1069,7 +1069,7 @@ const LeaderboardPage: React.FC = () => {
 
      
       {/* Footer Stats */}
-      <div className="mt-8 text-center">
+      {/* <div className="mt-8 text-center">
         <div className="text-dark-400 text-sm">
           <p>Last updated: {new Date().toLocaleString()}</p>
           <p className="mt-1">
@@ -1078,7 +1078,7 @@ const LeaderboardPage: React.FC = () => {
             Average score: {calculateAverageScore().toLocaleString()}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

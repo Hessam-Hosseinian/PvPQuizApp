@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { LiveGameState, RevealedAnswer, GameQuestion, GameQuestionChoice } from '../../types';
+import { LiveGameState, RevealedAnswer } from '../../types';
 import Card from '../UI/Card';
 import Button from '../UI/Button';
 import TimerBar from './TimerBar';
@@ -30,9 +30,9 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
 
     if (!current_round?.questions?.length) {
         return (
-            <div className="text-center">
-                <LoadingSpinner />
-                <p className="mt-4 text-dark-300">Loading round...</p>
+            <div className="flex flex-col items-center justify-center min-h-[300px]">
+                <LoadingSpinner size="lg" />
+                <p className="mt-6 text-lg text-dark-200 font-semibold animate-fade-in">Loading...</p>
             </div>
         );
     }
@@ -42,59 +42,86 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
 
     const revealedAnswerInfo = revealedAnswers.find(a => a.question_id === question.question_id);
 
+    // افکت انتخاب گزینه
     const getChoiceStyle = (choiceId: number): {bgColor?: string; className: string} => {
         if (!selectedChoiceId) {
-            return { className: 'bg-dark-700 hover:bg-dark-600' };
+            return { className: 'bg-dark-700 hover:bg-dark-600 shadow-md hover:shadow-xl border-2 border-dark-600' };
         }
-    
         const isCorrect = choiceId === revealedAnswerInfo?.correct_choice_id;
         const isSelected = choiceId === selectedChoiceId;
-    
         if (isCorrect) {
-            return { bgColor: '#22c55e', className: 'scale-105 border-green-400' }; // green-500
+            return { bgColor: '#22c55e', className: 'scale-105 border-green-400 ring-4 ring-green-300 shadow-2xl animate-bounce-in' };
         }
         if (isSelected) {
-            return { bgColor: '#4b5563', className: 'border-gray-500' }; // gray-600
+            return { bgColor: '#ef4444', className: 'border-red-400 ring-2 ring-red-300 scale-105 shadow-xl animate-bounce-in' };
         }
-        
-        return { className: 'bg-dark-700 opacity-50' };
+        return { className: 'bg-dark-700 opacity-50 border-2 border-dark-600' };
     };
 
     return (
         <motion.div 
             key={`question-view-${current_round.round_number}-${currentQuestionIndex}`}
-            className="w-full max-w-4xl flex flex-col items-center"
+            className="w-full max-w-3xl flex flex-col items-center mx-auto px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="w-full flex justify-between items-center mb-2 text-sm text-dark-300">
-                <span>Round {current_round.round_number} / {total_rounds}</span>
-                <span>Question {currentQuestionIndex + 1} of {current_round.questions.length}</span>
+            {/* سربرگ راند و سوال */}
+            <div className="w-full flex flex-col md:flex-row md:justify-between items-center mb-4 gap-2 animate-fade-in">
+                <span className="text-lg md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-400 drop-shadow-lg">
+                    round {current_round.round_number} / {total_rounds}
+                </span>
+                <span className="text-base md:text-lg font-bold text-dark-200 bg-dark-700 px-4 py-1 rounded-full shadow border border-dark-500">
+                    question {currentQuestionIndex + 1} of {current_round.questions.length}
+                </span>
             </div>
-            
-            <TimerBar timeLeft={timeLeft} duration={roundTimerDuration} />
-            
-            <Card className="w-full p-8 text-center bg-dark-900 mb-6 min-h-[150px] flex items-center justify-center">
-                <h1 className="text-2xl md:text-3xl font-bold">{question.text}</h1>
+
+            {/* تایمر */}
+            <div className="w-full flex items-center gap-4 mb-2 animate-fade-in">
+                <div className="flex-1">
+                    <TimerBar timeLeft={timeLeft} duration={roundTimerDuration} />
+                </div>
+                <span className="text-lg font-bold text-primary-400 min-w-[40px] text-center">
+                    {timeLeft}
+                </span>
+            </div>
+
+            {/* سوال */}
+            <Card className="w-full p-8 text-center bg-gradient-to-br from-dark-800 to-dark-900 mb-8 min-h-[120px] flex items-center justify-center shadow-2xl border-2 border-dark-700 animate-slide-up">
+                <h1 className="text-2xl md:text-3xl font-extrabold text-white drop-shadow-lg leading-relaxed">
+                    {question.text}
+                </h1>
             </Card>
-            
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            {/* گزینه‌ها */}
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-in-up">
                 {question.choices.map((choice, index) => {
                     const style = getChoiceStyle(choice.choice_id);
                     return (
-                        <Button 
-                            key={choice.choice_id} 
-                            onClick={() => onAnswerSelect(question.question_id, choice.choice_id)} 
-                            disabled={!!selectedChoiceId}
-                            bgColor={style.bgColor}
-                            className={`text-lg p-6 justify-start h-full transition-all duration-300 transform ${selectedChoiceId ? '' : 'hover:scale-105'} ${style.className}`}
+                        <motion.div
+                            key={choice.choice_id}
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.1 * index, duration: 0.4, type: 'spring' }}
                         >
-                            <span className="font-bold mr-4">{String.fromCharCode(65 + index)}</span>
-                            <span className="text-left flex-1">{choice.choice_text}</span>
-                            {selectedChoiceId && (revealedAnswerInfo?.correct_choice_id === choice.choice_id ? <CheckCircle className="ml-auto w-6 h-6"/> : (selectedChoiceId === choice.choice_id && <XCircle className="ml-auto w-6 h-6"/>))}
-                        </Button>
+                            <Button 
+                                onClick={() => onAnswerSelect(question.question_id, choice.choice_id)} 
+                                disabled={!!selectedChoiceId}
+                                bgColor={style.bgColor}
+                                className={`w-full text-lg md:text-xl font-bold p-6 flex items-center justify-start h-full transition-all duration-300 transform ${selectedChoiceId ? '' : 'hover:scale-105'} ${style.className}`}
+                            >
+                                <span className={`flex items-center justify-center w-10 h-10 rounded-full mr-4 text-white text-lg font-extrabold shadow-md ${selectedChoiceId ? (revealedAnswerInfo?.correct_choice_id === choice.choice_id ? 'bg-green-500' : (selectedChoiceId === choice.choice_id ? 'bg-red-500' : 'bg-dark-600')) : 'bg-primary-500'}`}>
+                                    {String.fromCharCode(65 + index)}
+                                </span>
+                                <span className="text-left flex-1 line-clamp-3">{choice.choice_text}</span>
+                                {selectedChoiceId && (
+                                    revealedAnswerInfo?.correct_choice_id === choice.choice_id 
+                                        ? <CheckCircle className="ml-auto w-7 h-7 text-green-400 animate-bounce-in" /> 
+                                        : (selectedChoiceId === choice.choice_id && <XCircle className="ml-auto w-7 h-7 text-red-400 animate-bounce-in" />)
+                                )}
+                            </Button>
+                        </motion.div>
                     )
                 })}
             </div>

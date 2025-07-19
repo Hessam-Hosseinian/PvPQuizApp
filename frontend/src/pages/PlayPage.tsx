@@ -208,12 +208,12 @@ const PlayPage: React.FC = () => {
           </div>
 
           <Button
-            onClick={startGroupGame}
+            // onClick={startGroupGame}
             variant="secondary"
             className="w-full"
             size="lg"
           >
-            Join Group Game
+            Coming Soon...
           </Button>
         </Card>
       </div>
@@ -248,7 +248,7 @@ const PlayPage: React.FC = () => {
               <UsersIcon className="w-6 h-6 text-white" />
             </div>
             <p className="text-sm text-dark-300">Game Modes</p>
-            <p className="text-lg font-bold text-white">{gameTypes.length}</p>
+            <p className="text-lg font-bold text-white">{gameTypes.length -1}</p>
           </div>
         </div>
       </Card>

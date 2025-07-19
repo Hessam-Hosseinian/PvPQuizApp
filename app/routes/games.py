@@ -863,6 +863,23 @@ def complete_duel_game(game_id):
         """, (winner_id, game_id))
         result = cur.fetchone()
         
+        # --- XP LOGIC: Update XP for all participants ---
+        cur.execute("SELECT user_id, score FROM game_participants WHERE game_id = %s", (game_id,))
+        participants = cur.fetchall()
+        for p in participants:
+            user_id = p['user_id']
+            score = p['score']
+            bonus = 0
+            if user_id == winner_id:
+                bonus = int(score * 0.2)  # 20% XP bonus for winner
+            xp_earned = score + bonus
+            cur.execute("""
+                UPDATE users
+                SET total_xp = COALESCE(total_xp, 0) + %s
+                WHERE id = %s
+            """, (xp_earned, user_id))
+        # --- END XP LOGIC ---
+        
         conn.commit()
         
         # Emit final update
@@ -1090,6 +1107,22 @@ def complete_group_game(game_id):
             RETURNING id, winner_id
         """, (winner_id, game_id))
         result = cur.fetchone()
+        # --- XP LOGIC: Update XP for all participants ---
+        cur.execute("SELECT user_id, score FROM game_participants WHERE game_id = %s", (game_id,))
+        participants = cur.fetchall()
+        for p in participants:
+            user_id = p['user_id']
+            score = p['score']
+            bonus = 0
+            if user_id == winner_id:
+                bonus = int(score * 0.2)  # 20% XP bonus for winner
+            xp_earned = score + bonus
+            cur.execute("""
+                UPDATE users
+                SET total_xp = COALESCE(total_xp, 0) + %s
+                WHERE id = %s
+            """, (xp_earned, user_id))
+        # --- END XP LOGIC ---
         conn.commit()
     except psycopg2.Error as e:
         conn.rollback()
