@@ -134,7 +134,7 @@ A full-stack, real-time, multiplayer quiz application where users can challenge 
 
 ```bash
 # Clone the project
-git clone <your-repo-url>
+git clone <https://github.com/Hessam-Hosseinian/PvPQuizApp.git>
 cd PvPQuizApp
 ```
 
@@ -156,8 +156,15 @@ pip install -r requirements.txt
 - Example `.env` variables:
   ```env
   SECRET_KEY=your_secret_key
-  DATABASE_URL=sqlite:///app.db
-  # Add other variables as needed
+# Database Config
+  DB_NAME=....
+  DB_USER=....
+  DB_PASSWORD=....
+  DB_HOST=....
+  DB_PORT=....
+
+
+
   ```
 
 #### d. Create the Database
@@ -189,7 +196,7 @@ npm install
 npm run dev
 ```
 
-- The frontend will typically run on `http://localhost:5173` (or as specified by Vite).
+- The frontend will typically run on `http://127.0.0.1:5173` (or as specified by Vite).
 - Make sure the backend is running and accessible to the frontend (adjust API URLs if needed).
 
 ### 4. Access and Use
@@ -213,8 +220,6 @@ npm run dev
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Initialize the database
-python app/db.py  # or a custom script
 
 # (Optional) Import questions
 python import_questions.py
