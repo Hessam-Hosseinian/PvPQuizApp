@@ -13,11 +13,14 @@
         "Tree"
       ]
     },
+
+
     {
+
       "type": "multiple",
       "difficulty": "hard",
       "category": "History",
-      "question": "Who was the first man to travel into outer space twice?",
+      "question": "Who was the first man to travel into outer space twice ?",
       "correct_answer": "Gus Grissom",
       "incorrect_answers": [
         "Vladimir Komarov",
