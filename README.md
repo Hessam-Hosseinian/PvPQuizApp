@@ -126,6 +126,7 @@ A full-stack, real-time, multiplayer quiz application where users can challenge 
 - **Database:** PostgreSQL
 - **Other:** Socket.IO, REST API, JWT Authentication
 
+
 ---
 
 ## How to Run and Use
