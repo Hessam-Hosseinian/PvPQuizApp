@@ -82,6 +82,77 @@ A full-stack, real-time, multiplayer quiz application where users can challenge 
 
 ---
 
+## How to Run and Use
+
+### 1. Clone the Repository
+
+```bash
+# Clone the project
+git clone <your-repo-url>
+cd PvPQuizApp
+```
+
+### 2. Backend Setup
+
+#### a. Create a Virtual Environment (Recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+#### b. Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### c. Configure Environment Variables
+- Create a `.env` file in the project root (or configure in `config.py`).
+- Example `.env` variables:
+  ```env
+  SECRET_KEY=your_secret_key
+  DATABASE_URL=sqlite:///app.db
+  # Add other variables as needed
+  ```
+
+#### d. Create the Database
+- The database schema is located at `app/sql/schema.sql`.
+- You can create the database by running:
+  ```bash
+  python app/db.py
+  # Or manually using a tool like sqlite3:
+  # sqlite3 app.db < app/sql/schema.sql
+  ```
+
+#### e. Import Questions (Optional but recommended)
+- To bulk import trivia questions:
+  ```bash
+  python import_questions.py
+  ```
+  This will load questions from the `opentdb_data2/` directory into your database.
+
+#### f. Run the Backend Server
+```bash
+python app.py
+```
+
+### 3. Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+- The frontend will typically run on `http://localhost:5173` (or as specified by Vite).
+- Make sure the backend is running and accessible to the frontend (adjust API URLs if needed).
+
+### 4. Access and Use
+- Open your browser and go to the frontend URL.
+- Register a new user or log in.
+- Start a new game, join a chat, or explore the admin panel (if you have admin rights).
+
+---
+
 ## Getting Started
 
 ### Prerequisites
