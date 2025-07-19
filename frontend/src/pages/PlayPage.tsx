@@ -253,6 +253,8 @@ const PlayPage: React.FC = () => {
         </div>
       </Card>
 
+
+
       {/* Game Modal */}
       <Modal
         isOpen={modalOpen}
