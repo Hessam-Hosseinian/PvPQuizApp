@@ -8,6 +8,7 @@ This script will:
 4. Handle data in chunks
 """
 
+
 import json
 import os
 import sys
